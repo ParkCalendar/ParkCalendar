@@ -27,6 +27,7 @@ do
     fi
 
     END=${R}
+    CLOSE=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M PM' "${END}")
 
     cat <<__STOP
 BEGIN:VEVENT
@@ -34,7 +35,7 @@ UID:${START}@sixflags.com
 DTSTAMP:${START}
 DTSTART:${START}
 DTEND:${END}
-SUMMARY:Magic Mountain
+SUMMARY:to ${CLOSE}
 END:VEVENT
 __STOP
 
