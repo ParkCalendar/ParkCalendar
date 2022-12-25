@@ -27,7 +27,7 @@ do
     fi
 
     END=${R}
-    CLOSE=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M' "${END}")
+    CLOSE=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M%p' "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
 
     cat <<__STOP
 BEGIN:VEVENT
@@ -35,7 +35,7 @@ UID:${START}@sixflags.com
 DTSTAMP:${START}
 DTSTART:${START}
 DTEND:${END}
-SUMMARY:- ${CLOSE}p
+SUMMARY:- ${CLOSE}
 END:VEVENT
 __STOP
 
