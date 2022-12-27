@@ -36,6 +36,11 @@ fi
 
 if [[ "${CHANGES}" != "0" ]]
 then
+    LASTCHANGE=$(date "+%b %d %Y")
+    sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
+    mv data/index.html.new data/index.html
+    git add data/index.html
+
     NOW=$(date +%m-%d-%Y)
     echo "Commit: ${MESSAGE} ${NOW}"
     git commit -m "${MESSAGE} ${NOW}" 
