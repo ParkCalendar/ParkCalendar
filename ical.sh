@@ -5,6 +5,14 @@ then
     exit
 fi
 
+OS=$(uname)
+if [[ "${OS}" == "Darwin" ]]
+then
+    DATECMD=gdate
+else
+    DATECMD=date
+fi
+
 FILE=$1
 
 START=""
@@ -19,7 +27,8 @@ __STOP
 
 for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
 do
-    R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
+    # R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
+    R=${row}
     if [[ "${START}" == "" ]]
     then
         START=${R}
@@ -27,7 +36,9 @@ do
     fi
 
     END=${R}
-    CLOSE=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M%p' "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
+
+    OPEN=$(${DATECMD} +"%I:%M%p" -d "${START}" | sed 's/AM/a/' | sed 's/PM/p/' )
+    CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
 
     cat <<__STOP
 BEGIN:VEVENT
