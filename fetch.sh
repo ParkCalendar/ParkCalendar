@@ -6,19 +6,37 @@
 cd "$(dirname "$0")"
 
 ./api-hours.sh > data/current.json
-
 ./list.sh data/current.json > data/current.txt
-./list.sh data/hours.json > data/hours.txt
+
+CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
+MESSAGE=""
+
+if [[ "$CHANGES" == "1" ]]
+then
+    git add data/current.json
+    MESSAGE="JSON Changed"
+fi
 
 diff data/hours.txt data/current.txt
 
 if [[ "$?" == "0" ]]
 then
+    date
     echo "No changes"
-    exit 0
+else
+    CHANGES=2
+    MESSAGE="New Times"
+    cp data/current.json data/hours.json
+    cp data/current.txt data/hours.txt
+    ./ical.sh data/hours.json > data/hours.ics
+
+    git add data/current.*
+    git add data/hours.*
 fi
 
-cp data/current.json data/hours.json
-cp data/current.txt data/hours.txt
-
-./ical.sh data/hours.json > data/hours.ics
+if [[ "${CHANGES}" != "0" ]]
+then
+    NOW=$(date +%m-%d-%Y)
+    git commit -m "${MESSAGE} ${NOW}" 
+    git push
+fi
