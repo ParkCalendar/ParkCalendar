@@ -1,0 +1,16 @@
+name: Fetch Hours
+
+on:
+  schedule:
+    - cron: '05 13 * * *'
+    
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Fetch Hours
+      run: |
+        ./fetch.sh
