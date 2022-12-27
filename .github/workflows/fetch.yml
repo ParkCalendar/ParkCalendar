@@ -14,7 +14,8 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v3
-      token: ${{ secrets.REPO_TOKEN }}
+      with:
+        token: ${{ secrets.REPO_TOKEN }}
 
     - name: Fetch Hours
       run: |
