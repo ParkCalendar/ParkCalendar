@@ -37,6 +37,7 @@ fi
 if [[ "${CHANGES}" != "0" ]]
 then
     NOW=$(date +%m-%d-%Y)
+    echo "Commit: ${MESSAGE} ${NOW}"
     git commit -m "${MESSAGE} ${NOW}" 
     git push
 fi
