@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
     - name: Fetch Hours
       run: |
         ./fetch.sh
