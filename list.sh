@@ -8,13 +8,22 @@ then
     exit
 fi
 
+OS=$(uname)
+if [[ "${OS}" == "Darwin" ]]
+then
+    DATECMD=gdate
+else
+    DATECMD=date
+fi
+
 FILE=$1
 
-TODAY=$(date +%Y%m%d)
+TODAY=$(${DATECMD} +%Y%m%d)
 
 for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
 do
-    R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
+    # R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
+    R=${row}
     if [[ "${START}" == "" ]]
     then
         START=${R}
@@ -23,15 +32,15 @@ do
 
     END=${R}
 
-    DAY=$(date -jf '%Y%m%dT%H%M%S' +'%Y%m%d' "${START}")
+    DAY=$(${DATECMD} +'%Y%m%d' -d "${START}")
     if [[ "${DAY}" < "${TODAY}" ]]
     then
         START=""
         continue
     fi
 
-    OPEN=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M%p' "${START}" | sed 's/AM/a/' | sed 's/PM/p/' )
-    CLOSE=$(date -jf '%Y%m%dT%H%M%S' +'%I:%M%p' "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
+    OPEN=$(${DATECMD} +"%I:%M%p" -d "${START}" | sed 's/AM/a/' | sed 's/PM/p/' )
+    CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
 
     echo "${DAY} -- ${OPEN} - ${CLOSE}"
 
