@@ -5,7 +5,7 @@
 
 cd "$(dirname "$0")"
 
-./api-hours.sh > data/current.json
+./api-hours.sh | jq > data/current.json
 ./list.sh data/current.json > data/current.txt
 
 CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
@@ -13,10 +13,14 @@ MESSAGE=""
 
 if [[ "$CHANGES" == "1" ]]
 then
+    echo "JSON Changed..."
     git add data/current.json
     MESSAGE="JSON Changed"
 fi
 
+./list.sh data/hours.json > data/hours.txt
+
+echo "Diff times..."
 diff data/hours.txt data/current.txt
 
 if [[ "$?" == "0" ]]
