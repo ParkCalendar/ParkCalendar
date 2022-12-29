@@ -13,7 +13,7 @@ MESSAGE=""
 
 if [[ "$CHANGES" == "1" ]]
 then
-    echo "JSON Changed..."
+    echo "::notice::JSON Changed"
     git add data/current.json
     MESSAGE="JSON Changed"
 fi
@@ -26,8 +26,9 @@ diff data/hours.txt data/current.txt
 if [[ "$?" == "0" ]]
 then
     date
-    echo "No changes"
+    echo "::notice::No Changes"
 else
+    echo "::notice::Times Changed"
     CHANGES=2
     MESSAGE="New Times"
     cp data/current.json data/hours.json
