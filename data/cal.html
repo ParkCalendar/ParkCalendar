@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/ical.js@1.5.0/build/ical.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.2/index.global.min.js" integrity="sha256-6XCj3LkKsl7TSl5Ico36HM7UTtf14UXhwbMRtlNKeo0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.0.2/index.global.min.js" integrity="sha256-XBrQI12e5wCxhPsk7vc3U9QADZlQBorRPa61JmaYEcE=" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var calendarEl = document.getElementById('calendar');
+
+                // var calendar = new FullCalendar.Calendar(calendarEl, {
+                //     timeZone: 'UTC',
+                //     initialView: 'dayGridMonth',
+                //     events: 'https://fullcalendar.io/api/demo-feeds/events.json',
+                //     displayEventEnd: true,
+                //     editable: false,
+                //     selectable: false,
+                //     displayEventTime: true,
+                //     eventDisplay: 'block',
+                //     aspectRatio: 2.5
+                // });
+
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    events: {
+                        url: 'https://jffmrk.github.io/sfmm/hours.ics',
+                        format: 'ics'
+                    },
+                    editable: false,
+                    selectable: false,
+                    displayEventTime: true,
+                    eventDisplay: 'block',
+                    aspectRatio: 2.5
+                });
+
+                calendar.render();
+            });
+        </script>
+    </head>
+    <h1>SixFlags Magic Mountain</h1>
+    <div id="calendar"></div>
+</html>
