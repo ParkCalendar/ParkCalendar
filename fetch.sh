@@ -5,6 +5,17 @@
 
 cd "$(dirname "$0")"
 
+SHOULD_COMMIT=0
+FORCE_UPDATE=0
+if [[ "$1" == "commit" ]]
+then
+    SHOULD_COMMIT=1
+fi
+if [[ "$2" == "force" ]]
+then
+    FORCE_UPDATE=1
+fi
+
 ./api-hours.sh | jq > data/current.json
 ./list.sh data/current.json > data/current.txt
 
@@ -23,7 +34,7 @@ fi
 echo "Diff times..."
 diff data/hours.txt data/current.txt
 
-if [[ "$?" == "0" ]]
+if [[ "$?" == "0" && "${FORCE_UPDATE}" == "0" ]]
 then
     date
     echo "::notice::No Changes"
@@ -33,7 +44,8 @@ else
     MESSAGE="New Times"
     cp data/current.json data/hours.json
     cp data/current.txt data/hours.txt
-    ./ical.sh data/hours.json > data/hours.ics
+    ./ical.sh data/hours.json end > data/hours.end.ics
+    ./ical.sh data/hours.json summary > data/hours.ics
 
     git add data/current.*
     git add data/hours.*
@@ -45,15 +57,16 @@ then
     LASTCHANGE=$(date "+%b %d %Y")
     sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    sed -e "s#title=Park.*\"#title=Park Hours (${LASTCHANGE})\"#g" data/index.html > data/index.html.new
-    mv data/index.html.new data/index.html
-    sed -e "s#title=SixFlags.*\"#title=SixFlags Magic Mountain Hours (${LASTCHANGE})\"#g" data/index.html > data/index.html.new
-    mv data/index.html.new data/index.html
 
     git add data/index.html
 
     NOW=$(date +%m-%d-%Y)
     echo "Commit: ${MESSAGE} ${NOW}"
-    git commit -m "${MESSAGE} ${NOW}" 
-    git push
+    if [[ "${SHOULD_COMMIT}" == "1" ]]
+    then
+        git commit -m "${MESSAGE} ${NOW}" 
+        git push
+    else
+        echo "•• commit skipped ••"
+    fi
 fi

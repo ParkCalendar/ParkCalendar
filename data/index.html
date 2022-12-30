@@ -15,7 +15,7 @@
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
                 events: {
-                    url: 'https://jffmrk.github.io/sfmm/hours.ics',
+                    url: 'https://jffmrk.github.io/sfmm/hours.end.ics',
                     format: 'ics'
                 },
                 editable: false,
@@ -37,15 +37,21 @@
           SixFlags Magic Mountain Park Hours
         </h1>
         <p class="center">
-          <em>Last changed: Dec 28 2022</em>
+          <em>Last changed: Dec 30 2022</em>
         </p>
-        <p>
-          Generated directly from the SixFlags API used by the official SixFlags mobile apps.
-          <ul>
-            <li><a href="webcal://jffmrk.github.io/sfmm/hours.ics">hours.ics</a> - add to your calendar</li>
-          </ul>
-        </p>  
         <div id="calendar"></div>
+        <div class="footer">
+          <p>
+            Generated directly from the SixFlags API used by the official SixFlags mobile apps.
+            The API and website often do not show the same range of operating hours
+            <ul>
+              <li><a href="https://www.sixflags.com/magicmountain/plan-your-visit/park-hours">SixFlags Magic Mountain Park Hours</a> - from their website.</li>
+              <li><a href="webcal://jffmrk.github.io/sfmm/hours.ics">hours.ics</a> - add this to your calendar</li>
+              <li><a href="hours.txt">hours.txt</a> - text file list of upcoming operating times</li>
+              <li><a href="https://github.com/jffmrk/sfmm">GitHub Source</a></li>
+            </ul>
+          </p>  
+        </div>
       </div>
     </div>
   </body>
