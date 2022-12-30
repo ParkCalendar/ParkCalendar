@@ -28,9 +28,9 @@
                     click: function() {
                       var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
                       document.location.assign(calUrl);
+                      navigator.clipboard.writeText(calUrl);
                       setTimeout(function() {
-                        navigator.clipboard.writeText(calUrl);
-                        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.");
+                        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.\n\n" + calUrl);
                       }, 750);
                     }
                   }
