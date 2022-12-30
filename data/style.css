@@ -47,6 +47,12 @@ a.button {
     background-color: rgb(229, 242, 255);
     border-radius: 10px;
 }
+.fc .fc-subscribe-button {
+    border: 2px solid rgb(192, 212, 225);
+    background-color: rgb(229, 242, 255);
+    color: inherit;
+    border-radius: 10px;
+}
 p {
     margin: 1em 10px;
 }

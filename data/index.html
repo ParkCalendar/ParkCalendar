@@ -5,7 +5,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/ical.js@1.5.0/build/ical.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.2/index.global.min.js" integrity="sha256-6XCj3LkKsl7TSl5Ico36HM7UTtf14UXhwbMRtlNKeo0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.0.2/index.global.min.js" integrity="sha256-XBrQI12e5wCxhPsk7vc3U9QADZlQBorRPa61JmaYEcE=" crossorigin="anonymous"></script>
@@ -27,7 +26,7 @@
                   subscribe: {
                     text: 'Subscribe',
                     click: function() {
-                      window.open('webcal://jffmrk.github.io/sfmm/hours.ics')
+                      document.location.href = 'https://jffmrk.github.io/sfmm/hours.ics';
                     }
                   }
                 },
@@ -42,7 +41,8 @@
             calendar.render();
         });
     </script>
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
     <div class="wrapper">
       <div class="content">
