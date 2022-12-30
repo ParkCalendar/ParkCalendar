@@ -36,6 +36,17 @@ h1 {
 .center {
     text-align: center;
 }
+div.center {
+    margin: 20px auto;
+}
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid rgb(192, 212, 225);
+    background-color: rgb(229, 242, 255);
+    border-radius: 10px;
+}
 p {
     margin: 1em 10px;
 }
@@ -46,6 +57,9 @@ p {
     }
     .wrapper {
         padding: 0;
+    }
+    .calendarWrapper {
+        padding-right: 20px;
     }
     .content {
         padding: 0;
