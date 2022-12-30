@@ -26,7 +26,12 @@
                   subscribe: {
                     text: 'Subscribe',
                     click: function() {
-                      document.location.href = 'webcal://jffmrk.github.io/sfmm/hours.ics';
+                      var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
+                      document.location.assign(calUrl);
+                      setTimeout(function() {
+                        navigator.clipboard.writeText(calUrl);
+                        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.");
+                      }, 750);
                     }
                   }
                 },
