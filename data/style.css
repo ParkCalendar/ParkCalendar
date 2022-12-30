@@ -25,10 +25,13 @@ h1 {
     margin: 0;
     text-align: center;
 }
+.calendarWrapper {
+    min-width: 760px;
+    padding: 0 10px;
+}
 #calendar {
     height: 520px;
     width: 100%;
-    min-width: 740px;
 }
 .center {
     text-align: center;
