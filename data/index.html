@@ -43,7 +43,9 @@
                 nextDayThreshold: '07:00:00'
             });
 
-            calendar.render();
+            setTimeout(function() {
+              calendar.render();
+            }, 250);
         });
     </script>
     <link rel="stylesheet" href="style.css">
@@ -66,9 +68,16 @@
             The API and website often do not show the same range of operating hours.
           </p>
           <div class="center">
-            <a class="button" href="https://www.sixflags.com/magicmountain/plan-your-visit/park-hours">SFMM Park Hours</a>
             <a class="button" href="hours.txt">Text List</a>
             <a class="button" href="https://github.com/jffmrk/sfmm">GitHub Source</a>
+          </div>
+          <h2>
+            External Links
+          </h2>
+          <div>
+            <a class="button" href="https://www.sixflags.com/magicmountain/plan-your-visit/park-hours">sixflags.com Park Hours</a> - official website calendar.<br>
+            <a class="button" href="https://twitter.com/SFMagicMountain">Twitter @SFMagicMountain</a> - official twitter account.<br>
+            <a class="button" href="https://www.facebook.com/SixFlagsMagicMountain">Facebook @SixFlagsMagicMountain</a> - official Facebook page.<br>
           </div>
         </div>
       </div>

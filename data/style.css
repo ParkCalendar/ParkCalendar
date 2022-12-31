@@ -27,7 +27,6 @@ h1 {
 }
 .calendarWrapper {
     min-width: 760px;
-    padding: 0 10px;
 }
 #calendar {
     height: 520px;
@@ -46,6 +45,12 @@ a.button {
     border: 2px solid rgb(192, 212, 225);
     background-color: rgb(229, 242, 255);
     border-radius: 10px;
+    text-decoration: none;
+}
+a.button:hover {
+    background-color: var(--fc-button-hover-bg-color);
+    border-color: var(--fc-button-hover-border-color);
+    color: var(--fc-button-text-color);
 }
 .fc .fc-subscribe-button {
     border: 2px solid rgb(192, 212, 225);
