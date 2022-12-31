@@ -38,6 +38,10 @@ CHANGE_FILE=data/changelog.diff.${EXT}.txt
 echo "Diff times..."
 diff data/hours.txt data/current.txt > ${CHANGE_FILE}
 CHANGES_DIFF=$?
+if [[ "${CHANGES_DIFF}" == "0" ]]
+then
+    rm ${CHANGE_FILE}
+fi
 
 if [[ "${CHANGES_DIFF}" == "0" && "${FORCE_UPDATE}" == "0" ]]
 then
