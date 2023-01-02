@@ -81,3 +81,25 @@ p {
         margin: 0.75em 12px;
     }
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fc-today-bg-color: #b1b8c7a1;
+        --fc-button-bg-color: rgb(50 85 121);
+        --fc-button-border-color: rgb(84 134 167);
+    }
+    body {
+        background-color: #222;
+        color: #fff;
+    }
+    .content {
+        border-color: #333;
+        background-color: #444;
+    }
+    .fc .fc-subscribe-button, a.button {
+        border-color: rgb(84 134 167);
+        background-color: rgb(50 85 121);
+    }
+    a.button {
+        color: inherit;
+    }
+}
