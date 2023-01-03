@@ -14,6 +14,11 @@ function loadTheme() {
     if (theme) {
         setTheme(theme);
     }
+
+    var toggleButton = document.querySelector('button.themeToggle');
+    if (toggleButton) {
+        toggleButton.addEventListener('click', toggleTheme);
+    }
 }
 
 function toggleTheme() {
@@ -61,8 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     loadTheme();
-    var toggleButton = document.querySelector('button.themeToggle');
-    toggleButton.addEventListener('click', toggleTheme);
 
     setTimeout(function() {
         calendar.render();
