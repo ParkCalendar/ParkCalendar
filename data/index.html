@@ -9,46 +9,7 @@
     <script src="https://unpkg.com/ical.js@1.5.0/build/ical.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.2/index.global.min.js" integrity="sha256-6XCj3LkKsl7TSl5Ico36HM7UTtf14UXhwbMRtlNKeo0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.0.2/index.global.min.js" integrity="sha256-XBrQI12e5wCxhPsk7vc3U9QADZlQBorRPa61JmaYEcE=" crossorigin="anonymous"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',
-                events: {
-                    url: 'https://jffmrk.github.io/sfmm/hours.end.ics',
-                    format: 'ics'
-                },
-                headerToolbar: {
-                  start: 'title',
-                  center: 'subscribe',
-                  end: 'today prev,next'
-                },
-                customButtons: {
-                  subscribe: {
-                    text: 'Subscribe',
-                    click: function() {
-                      var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
-                      document.location.assign(calUrl);
-                      navigator.clipboard.writeText(calUrl);
-                      setTimeout(function() {
-                        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.\n\n" + calUrl);
-                      }, 750);
-                    }
-                  }
-                },
-                editable: false,
-                selectable: false,
-                displayEventTime: true,
-                eventDisplay: 'block',
-                aspectRatio: 2.5,
-                nextDayThreshold: '07:00:00'
-            });
-
-            setTimeout(function() {
-              calendar.render();
-            }, 250);
-        });
-    </script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
