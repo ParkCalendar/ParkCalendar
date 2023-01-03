@@ -138,6 +138,8 @@ p {
 @media only screen and (max-width: 900px) {
     body {
         padding: 0;
+    }
+    body, .content, button.themeToggle {
         background-color: var(--sf-content-bg-color-sm);
     }
     .wrapper {
@@ -150,7 +152,6 @@ p {
         padding: 0;
         border: 0;
         border-radius: 0;
-        background-color: var(--sf-content-bg-color-sm);
     }
     p {
         margin: 0.75em 12px;
