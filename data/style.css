@@ -4,6 +4,7 @@
     --sf-body-txt-color: #222;
     --sf-content-border-color: #888;
     --sf-content-bg-color: #fff;
+    --sf-content-bg-color-sm: #fff;
     --sf-button-border-color: rgb(192, 212, 225);
     --sf-button-bg-color: rgb(229, 242, 255);
     --sf-button-link-color: #248;
@@ -18,6 +19,7 @@
     --sf-body-txt-color: #fff;
     --sf-content-border-color: #333;
     --sf-content-bg-color: #444;
+    --sf-content-bg-color-sm: #222;
     --sf-button-border-color: rgb(84 134 167);
     --sf-button-bg-color: rgb(50 85 121);
     --sf-button-link-color: #8cf;
@@ -135,7 +137,7 @@ p {
 @media only screen and (max-width: 900px) {
     body {
         padding: 0;
-        background-color: var(--sf-content-bg-color);
+        background-color: var(--sf-content-bg-color-sm);
     }
     .wrapper {
         padding: 0;
@@ -147,6 +149,7 @@ p {
         padding: 0;
         border: 0;
         border-radius: 0;
+        background-color: var(--sf-content-bg-color-sm);
     }
     p {
         margin: 0.75em 12px;
