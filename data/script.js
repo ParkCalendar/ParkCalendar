@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nextDayThreshold: '07:00:00'
     });
 
+    loadTheme();
     var toggleButton = document.querySelector('button.themeToggle');
     toggleButton.addEventListener('click', toggleTheme);
 
