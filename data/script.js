@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         events: {
-            url: 'https://jffmrk.github.io/sfmm/hours.end.ics',
+            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=20230104',
             format: 'ics'
         },
         headerToolbar: {

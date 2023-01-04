@@ -83,6 +83,12 @@ then
     LASTCHANGE=$(date "+%b %d %Y")
     sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
+    sed -e "s#script.js?t=.*\"#script.js?t=${EXT}\"#" data/index.html > data/index.html.new
+    mv data/index.html.new data/index.html
+    sed -e "s#style.css?t=.*\"#style.css?t=${EXT}\"#" data/index.html > data/index.html.new
+    mv data/index.html.new data/index.html
+    sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${EXT}'#" data/script.js > data/script.js.new
+    mv data/script.js.new data/script.js
 
     git add data/index.html
 
