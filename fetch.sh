@@ -32,8 +32,10 @@ fi
 ./list.sh data/hours.json > data/hours.txt
 
 NOW=$(date +%m-%d-%Y)
+YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
-CHANGE_FILE=data/changelog.diff.${EXT}.txt
+CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
+mkdir -p data/changelog/${YEAR}
 
 echo "Diff times..."
 diff data/hours.txt data/current.txt > ${CHANGE_FILE}
