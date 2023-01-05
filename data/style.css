@@ -76,6 +76,7 @@ button.themeToggle {
     padding: 2px;
     margin: 0;
     float: right;
+    cursor: pointer;
 }
 button.themeToggle i {
     display: block;
