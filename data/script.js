@@ -9,7 +9,18 @@ function setTheme(theme) {
     }
 }
 
-function loadTheme() {
+function toggleTheme() {
+    var toggleButton = document.querySelector('button.themeToggle i');
+    if (toggleButton.classList.contains('system')) {
+        setTheme('light');
+    } else if (toggleButton.classList.contains('light')) {
+        setTheme('dark');
+    } else {
+        setTheme('system');
+    }
+}
+
+function setupTheme() {
     var theme = localStorage.getItem('theme');
     if (theme) {
         setTheme(theme);
@@ -21,18 +32,13 @@ function loadTheme() {
     }
 }
 
-function toggleTheme() {
-    var toggleButton = document.querySelector('button.themeToggle i');
-    if (toggleButton.classList.contains('system')) {
-        setTheme('light');
-    } else if (toggleButton.classList.contains('light')) {
-        setTheme('dark');
-    } else {
-        setTheme('system');
-    }
-}
-document.addEventListener('DOMContentLoaded', function() {
+function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
+
+    if (!calendarEl) {
+        return;
+    }
+
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         events: {
@@ -65,9 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
         nextDayThreshold: '07:00:00'
     });
 
-    loadTheme();
-
     setTimeout(function() {
         calendar.render();
     }, 250);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    setupTheme();
+    setupCalendar();
+
 });
