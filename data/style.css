@@ -55,6 +55,14 @@ body {
     color: var(--sf-body-txt-color);
     font-family: 'Lato', sans-serif;
 }
+a {
+    text-decoration: none;
+}
+a.back {
+    float: left;
+    color: var(--sf-body-txt-color);
+    filter: invert(0.4);
+}
 .wrapper {
     padding: 10px;
     margin: 0 12px;

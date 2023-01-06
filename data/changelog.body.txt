@@ -1,4 +1,8 @@
-<div class='changelog-entry' data-change='01-06-2023'><h2>01-06-2023</h2><pre>
+<div class='changelog-entry' data-change='20230105'><h2>Jan 05 2023</h2><pre>
+1c1
+< 20230105 -- 10:30a - 06:00p
+---
+> 20230105 -- 10:30a - 05:00p
 84c84
 < 20230512 -- 10:30a - 12:00a
 ---
@@ -20,11 +24,11 @@
 ---
 > 20230602 -- 10:30a - 08:00p
 </pre></div>
-<div class='changelog-entry' data-change='01-04-2023'><h2>01-04-2023</h2><pre>
+<div class='changelog-entry' data-change='20230104'><h2>Jan 04 2023</h2><pre>
 1d0
 < 20230104 -- 10:30a - 06:00p
 </pre></div>
-<div class='changelog-entry' data-change='12-31-2022'><h2>12-31-2022</h2><pre>
+<div class='changelog-entry' data-change='20221231'><h2>Dec 31 2022</h2><pre>
 1c1
 < 20221231 -- 10:30a - 09:00p
 ---
