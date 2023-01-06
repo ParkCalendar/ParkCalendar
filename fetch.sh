@@ -5,6 +5,8 @@
 
 cd "$(dirname "$0")"
 
+export TZ=America/Los_Angeles
+
 SHOULD_COMMIT=0
 FORCE_UPDATE=0
 if [[ "$1" == "commit" ]]
@@ -34,6 +36,7 @@ fi
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
+CACHE=$(date +%Y%m%d%H%M)
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
 
@@ -84,14 +87,15 @@ then
     LASTCHANGE=$(date "+%b %d %Y")
     sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    sed -e "s#script.js?t=.*\"#script.js?t=${EXT}\"#" data/index.html > data/index.html.new
+    sed -e "s#script.js?t=.*\"#script.js?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    sed -e "s#style.css?t=.*\"#style.css?t=${EXT}\"#" data/index.html > data/index.html.new
+    sed -e "s#style.css?t=.*\"#style.css?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${EXT}'#" data/script.js > data/script.js.new
+    sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${CACHE}'#" data/script.js > data/script.js.new
     mv data/script.js.new data/script.js
 
     git add data/index.html
+    git add data/script.js
 
     echo "Commit: ${MESSAGE} ${NOW}"
     if [[ "${SHOULD_COMMIT}" == "1" ]]

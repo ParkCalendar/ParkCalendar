@@ -8,6 +8,8 @@ then
     exit
 fi
 
+export TZ=America/Los_Angeles
+
 OS=$(uname)
 if [[ "${OS}" == "Darwin" ]]
 then
