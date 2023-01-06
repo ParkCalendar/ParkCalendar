@@ -71,6 +71,7 @@ else
         cat data/changelog.head.html data/changelog.body.txt data/changelog.foot.html > data/changelog.html
         rm data/changelog.xx.*
         git add data/changelog.*
+        git add ${CHANGE_FILE}
     fi
 
     git add data/current.*
