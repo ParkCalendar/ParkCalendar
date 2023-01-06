@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2023-01-05T10:30:00",
-      "close": "2023-01-05T18:00:00",
+      "close": "2023-01-05T17:00:00",
       "operatingDate": "2023-01-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -674,7 +674,7 @@
     },
     {
       "open": "2023-05-12T10:30:00",
-      "close": "2023-05-13T00:00:00",
+      "close": "2023-05-12T20:00:00",
       "operatingDate": "2023-05-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -730,7 +730,7 @@
     },
     {
       "open": "2023-05-19T10:30:00",
-      "close": "2023-05-20T04:00:00",
+      "close": "2023-05-19T20:00:00",
       "operatingDate": "2023-05-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -778,7 +778,7 @@
     },
     {
       "open": "2023-05-25T10:30:00",
-      "close": "2023-05-26T01:00:00",
+      "close": "2023-05-25T18:00:00",
       "operatingDate": "2023-05-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -786,7 +786,7 @@
     },
     {
       "open": "2023-05-26T10:30:00",
-      "close": "2023-05-27T01:00:00",
+      "close": "2023-05-26T20:00:00",
       "operatingDate": "2023-05-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -809,6 +809,14 @@
       "waterParkClose": null
     },
     {
+      "open": "2023-05-29T10:30:00",
+      "close": "2023-05-29T22:00:00",
+      "operatingDate": "2023-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
       "open": "2023-06-01T10:30:00",
       "close": "2023-06-01T18:00:00",
       "operatingDate": "2023-06-01T00:00:00",
@@ -818,7 +826,7 @@
     },
     {
       "open": "2023-06-02T10:30:00",
-      "close": "2023-06-03T03:00:00",
+      "close": "2023-06-02T20:00:00",
       "operatingDate": "2023-06-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -2070,7 +2078,7 @@
   "upcomingHours": [
     {
       "open": "2023-01-05T10:30:00",
-      "close": "2023-01-05T18:00:00",
+      "close": "2023-01-05T17:00:00",
       "operatingDate": "2023-01-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
