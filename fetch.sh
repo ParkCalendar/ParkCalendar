@@ -37,6 +37,7 @@ NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
 CACHE=$(date +%Y%m%d%H%M)
+LASTCHANGE=$(date "+%b %d %Y")
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
 
@@ -67,7 +68,7 @@ else
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
-        echo "<div class='changelog-entry' data-change='${NOW}'><h2>${NOW}</h2><pre>" > data/changelog.xx.1.txt
+        echo "<div class='changelog-entry' data-change='${EXT}'><h2>${LASTCHANGE}</h2><pre>" > data/changelog.xx.1.txt
         echo "</pre></div>" > data/changelog.xx.2.txt
         cat data/changelog.xx.1.txt ${CHANGE_FILE} data/changelog.xx.2.txt data/changelog.body.txt > data/changelog.xx.body.txt
         mv data/changelog.xx.body.txt data/changelog.body.txt
@@ -84,7 +85,6 @@ fi
 if [[ "${CHANGES}" != "0" ]]
 then
 
-    LASTCHANGE=$(date "+%b %d %Y")
     sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
     sed -e "s#script.js?t=.*\"#script.js?t=${CACHE}\"#" data/index.html > data/index.html.new
