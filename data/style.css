@@ -76,6 +76,12 @@ a.back {
     background-color: var(--sf-content-bg-color);
     border-radius: 20px;
 }
+.lastChange {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
 button.themeToggle {
     width: 30px;
     height: 30px;
