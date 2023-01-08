@@ -42,7 +42,7 @@ function setupCalendar() {
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         events: {
-            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=20230104',
+            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301080539',
             format: 'ics'
         },
         headerToolbar: {
