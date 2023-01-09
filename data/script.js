@@ -40,7 +40,13 @@ function setupCalendar() {
     }
 
     var pastEvents = (fetchInfo, success, failure) => {
-        console.log("FETCH: " + fetchInfo.startStr + " to " + fetchInfo.endStr);
+        var start = new Date(fetchInfo.startStr);
+        start.setDate(start.getDate() + 8);
+        var year = start.getFullYear();
+        var mon = ("0" + (start.getMonth() + 1)).slice(-2);
+        var jsonFile = year + "-" + mon + ".json";
+        console.log("FETCH=" + jsonFile + "  range = " + fetchInfo.startStr + ", " + fetchInfo.endStr);
+        console.log(jsonFile);
         success([]);
     };
 
