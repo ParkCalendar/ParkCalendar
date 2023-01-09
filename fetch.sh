@@ -38,6 +38,15 @@ YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
 CACHE=$(date +%Y%m%d%H%M)
 LASTCHANGE=$(date "+%b %d %Y")
+
+PREV_MONTH=$(( ($(date +%m) - 1 + 11) % 12 + 1 ))
+PREV_YEAR=${YEAR}
+if [[ "${PREV_MONTH}" == "12" ]]
+then
+    PREV_YEAR=$(( ${YEAR} - 1 ))
+fi
+echo "Previous --> ${PREV_MONTH}/${PREV_YEAR}"
+
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
 
