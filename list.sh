@@ -28,6 +28,7 @@ FILE=$1
 
 TODAY=$(${DATECMD} +%Y%m%d)
 
+ARCHIVE_DATES=()
 for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
 do
     # R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
@@ -48,6 +49,10 @@ do
             ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
             echo "${START}" >> data/archive/${ARCHIVE_FILE}.txt
             echo "${END}" >> data/archive/${ARCHIVE_FILE}.txt
+            if [[ "${ARCHIVE_FILE}" != "${ARCHIVE_DATES[$#ARCHIVE_DATES]}" ]]
+            then
+                ARCHIVE_DATES+=(${ARCHIVE_FILE})
+            fi
             git add data/archive/${ARCHIVE_FILE}.txt
         fi
         START=""
@@ -61,3 +66,7 @@ do
 
     START=""
 done
+
+if [[ "${ARCHIVE}" == "1" && "$#ARCHIVE_DATES" != "0" ]]
+then
+fi
