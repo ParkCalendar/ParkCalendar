@@ -39,12 +39,24 @@ function setupCalendar() {
         return;
     }
 
+    var pastEvents = (fetchInfo, success, failure) => {
+        console.log("FETCH: " + fetchInfo.startStr + " to " + fetchInfo.endStr);
+        success([]);
+    };
+
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
+        // Upcoming (ICS)
         events: {
             url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301090747',
             format: 'ics'
         },
+        // Past Events
+        eventSources: [
+            {
+                events: pastEvents
+            }
+        ],
         headerToolbar: {
             start: 'title',
             center: 'subscribe',
