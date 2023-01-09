@@ -8,6 +8,12 @@ then
     exit
 fi
 
+ARCHIVE=0
+if [[ "$2" == "archive" ]]
+then
+    ARCHIVE=1
+fi
+
 export TZ=America/Los_Angeles
 
 OS=$(uname)
@@ -38,6 +44,12 @@ do
     if [[ "${DAY}" < "${TODAY}" ]]
     then
         START=""
+        if [[ "${ARCHIVE}" == "1" ]]
+        then
+            echo "${START}" > data/archive/${DAY}.txt
+            echo "${END}" >> data/archive/${DAY}.txt
+            git add data/archive/${DAY}.txt
+        fi
         continue
     fi
 

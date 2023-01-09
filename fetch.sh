@@ -31,7 +31,7 @@ then
     MESSAGE="JSON Changed"
 fi
 
-./list.sh data/hours.json > data/hours.txt
+./list.sh data/hours.json archive > data/hours.txt
 
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
