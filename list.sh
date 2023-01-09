@@ -43,13 +43,13 @@ do
     DAY=$(${DATECMD} +'%Y%m%d' -d "${START}")
     if [[ "${DAY}" < "${TODAY}" ]]
     then
-        START=""
         if [[ "${ARCHIVE}" == "1" ]]
         then
             echo "${START}" > data/archive/${DAY}.txt
             echo "${END}" >> data/archive/${DAY}.txt
             git add data/archive/${DAY}.txt
         fi
+        START=""
         continue
     fi
 
