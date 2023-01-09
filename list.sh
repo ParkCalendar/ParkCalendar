@@ -45,9 +45,10 @@ do
     then
         if [[ "${ARCHIVE}" == "1" ]]
         then
-            echo "${START}" > data/archive/${DAY}.txt
-            echo "${END}" >> data/archive/${DAY}.txt
-            git add data/archive/${DAY}.txt
+            ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
+            echo "${START}" >> data/archive/${ARCHIVE_FILE}.txt
+            echo "${END}" >> data/archive/${ARCHIVE_FILE}.txt
+            git add data/archive/${ARCHIVE_FILE}.txt
         fi
         START=""
         continue
