@@ -71,12 +71,12 @@ CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
     rm ${CHANGE_FILE}
-    echo "::notice::No Changes"
+    echo "::notice::Upcoming Times - No Change"
 else
     cat ${CHANGE_FILE}
     ICS_UPDATE=1
     CHANGES=2
-    echo "::notice::Times Changed"
+    echo "::notice::Upcoming Times - CHANGED!"
     MESSAGE="fetch - New Times"
 fi
 
