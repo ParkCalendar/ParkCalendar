@@ -89,6 +89,7 @@ then
 fi
 
 if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
+then
     CHANGES=3
 
     echo "Generate ics (end) ..."
@@ -102,6 +103,8 @@ if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
 
     # echo "Generate ics (subscribe archive) ..."
     # ./ical.sh data/hours.json summary > data/hours.archive.ics
+
+    git add data/hours*ics
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
