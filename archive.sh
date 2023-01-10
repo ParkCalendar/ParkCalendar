@@ -53,6 +53,10 @@ do
     START=""
 done
 
-## TODO: regenerate .json from .txt file
+if [[ "${HAS_ARCHIVE}" == "1" ]]
+then
+    ./archive-json.sh data/archive/${ARCHIVE_FILE}.txt | jq > data/archive/${ARCHIVE_FILE}.json
+    git add data/archive/${ARCHIVE_FILE}.json
+fi
 
 exit ${HAS_ARCHIVE}
