@@ -32,6 +32,9 @@ function setupTheme() {
     }
 }
 
+var didFetch = [];
+var calendar;
+
 function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
 
@@ -45,12 +48,21 @@ function setupCalendar() {
         var year = start.getFullYear();
         var mon = ("0" + (start.getMonth() + 1)).slice(-2);
         var jsonFile = year + "-" + mon + ".json";
-        console.log("FETCH=" + jsonFile + "  range = " + fetchInfo.startStr + ", " + fetchInfo.endStr);
-        console.log(jsonFile);
+        if (!didFetch.includes(jsonFile)) {
+            didFetch.push(jsonFile);
+            console.log("FETCH=" + jsonFile + "  range = " + fetchInfo.startStr + ", " + fetchInfo.endStr);
+            var jsonUrl = "archive/" + jsonFile;
+            calendar.addEventSource({
+                url: jsonUrl,
+                display: block,
+                backgroundColor: '#777777',
+                borderColor: '#676767'
+            });
+        }
         success([]);
     };
 
-    var calendar = new FullCalendar.Calendar(calendarEl, {
+    calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         // Upcoming (ICS)
         events: {
