@@ -71,6 +71,7 @@ CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
     rm ${CHANGE_FILE}
+    echo "::notice::No Changes"
 else
     cat ${CHANGE_FILE}
     ICS_UPDATE=1
