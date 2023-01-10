@@ -48,7 +48,14 @@ __STOP
 
 TODAY=$(${DATECMD} +%Y%m%d)
 
-for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
+if [[ "${USE_ARCHIVE}" == "0" ]]
+then
+    OUT_TIMES=$(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
+else
+    OUT_TIMES=$(cat ${FILE})
+fi
+
+for row in ${OUT_TIMES}
 do
     R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
     if [[ "${START}" == "" ]]

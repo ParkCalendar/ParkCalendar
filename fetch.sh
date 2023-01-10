@@ -94,8 +94,14 @@ if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
     echo "Generate ics (end) ..."
     ./ical.sh data/hours.json end > data/hours.end.ics
 
+    # echo "Generate ics (archive) ..."
+    # ./ical.sh data/hours.json end archive > data/hours.end.archive.ics
+
     echo "Generate ics (subscribe) ..."
     ./ical.sh data/hours.json summary > data/hours.ics
+
+    # echo "Generate ics (subscribe archive) ..."
+    # ./ical.sh data/hours.json summary > data/hours.archive.ics
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
