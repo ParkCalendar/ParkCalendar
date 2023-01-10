@@ -54,7 +54,7 @@ function setupCalendar() {
         initialView: 'dayGridMonth',
         // Upcoming (ICS)
         events: {
-            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301090747',
+            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
             format: 'ics'
         },
         // Past Events
