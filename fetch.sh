@@ -18,12 +18,18 @@ then
     FORCE_UPDATE=1
 fi
 
+##
+## Fetch current times from the API
+##
 ./api-hours.sh | jq > data/current.json
 ./list.sh data/current.json > data/current.txt
+./upcoming.sh data/current.json > data/current.upcoming.txt
 
+##
+## Detect changes in the JSON
+##
 CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
 MESSAGE=""
-
 if [[ "$CHANGES" == "1" ]]
 then
     echo "::notice::JSON Changed"
@@ -31,21 +37,16 @@ then
     MESSAGE="JSON Changed"
 fi
 
-./list.sh data/hours.json archive > data/hours.txt
+##
+## Regenerate upcoming times from previous API response & check for changes
+##
+./list.sh data/hours.json > data/hours.txt
 
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
 CACHE=$(date +%Y%m%d%H%M)
 LASTCHANGE=$(date "+%b %d %Y")
-
-PREV_MONTH=$(( ($(date +%m) - 1 + 11) % 12 + 1 ))
-PREV_YEAR=${YEAR}
-if [[ "${PREV_MONTH}" == "12" ]]
-then
-    PREV_YEAR=$(( ${YEAR} - 1 ))
-fi
-echo "Previous --> ${PREV_MONTH}/${PREV_YEAR}"
 
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
@@ -56,7 +57,15 @@ CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
     rm ${CHANGE_FILE}
+else
+    cat ${CHANGE_FILE}
 fi
+
+##
+## Archive past times
+##
+./archive.sh data/hours.upcoming.txt
+CHANGES_ARCHIVE=$?
 
 if [[ "${CHANGES_DIFF}" == "0" && "${FORCE_UPDATE}" == "0" ]]
 then
@@ -68,6 +77,7 @@ else
     MESSAGE="New Times"
     cp data/current.json data/hours.json
     cp data/current.txt data/hours.txt
+    cp data/current.upcoming.txt data/hours.upcoming.txt
 
     echo "Generate ics (end) ..."
     ./ical.sh data/hours.json end > data/hours.end.ics
