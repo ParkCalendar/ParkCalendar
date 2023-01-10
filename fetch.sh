@@ -60,7 +60,7 @@ NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
 CACHE=$(date +%Y%m%d%H%M)
-LASTCHANGE=$(date "+%b %d %Y")
+LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
