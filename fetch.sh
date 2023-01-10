@@ -104,7 +104,7 @@ then
     # echo "Generate ics (subscribe archive) ..."
     # ./ical.sh data/hours.json summary > data/hours.archive.ics
 
-    git add data/hours*ics
+    git add data/hours.*
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then

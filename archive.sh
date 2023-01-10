@@ -53,4 +53,6 @@ do
     START=""
 done
 
+## TODO: regenerate .json from .txt file
+
 exit ${HAS_ARCHIVE}
