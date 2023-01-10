@@ -39,12 +39,30 @@ function setupCalendar() {
         return;
     }
 
+    var pastEvents = (fetchInfo, success, failure) => {
+        var start = new Date(fetchInfo.startStr);
+        start.setDate(start.getDate() + 8);
+        var year = start.getFullYear();
+        var mon = ("0" + (start.getMonth() + 1)).slice(-2);
+        var jsonFile = year + "-" + mon + ".json";
+        console.log("FETCH=" + jsonFile + "  range = " + fetchInfo.startStr + ", " + fetchInfo.endStr);
+        console.log(jsonFile);
+        success([]);
+    };
+
     var calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
+        // Upcoming (ICS)
         events: {
             url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
             format: 'ics'
         },
+        // Past Events
+        eventSources: [
+            {
+                events: pastEvents
+            }
+        ],
         headerToolbar: {
             start: 'title',
             center: 'subscribe',

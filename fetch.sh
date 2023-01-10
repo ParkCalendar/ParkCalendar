@@ -9,6 +9,7 @@ export TZ=America/Los_Angeles
 
 SHOULD_COMMIT=0
 FORCE_UPDATE=0
+ICS_UPDATE=0
 if [[ "$1" == "commit" ]]
 then
     SHOULD_COMMIT=1
@@ -18,34 +19,48 @@ then
     FORCE_UPDATE=1
 fi
 
+##
+## Fetch current times from the API
+##
 ./api-hours.sh | jq > data/current.json
 ./list.sh data/current.json > data/current.txt
+./upcoming.sh data/current.json > data/current.upcoming.txt
 
+##
+## Detect changes in the JSON
+##
 CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
-MESSAGE=""
-
-if [[ "$CHANGES" == "1" ]]
+MESSAGE="fetch update"
+if [[ "$CHANGES" != "0" ]]
 then
     echo "::notice::JSON Changed"
     git add data/current.json
-    MESSAGE="JSON Changed"
+    MESSAGE="fetch - JSON Changed"
 fi
 
-./list.sh data/hours.json archive > data/hours.txt
+##
+## Archive past times
+##
+./archive.sh data/hours.upcoming.txt
+CHANGES_ARCHIVE=$?
+if [[ "${CHANGES_ARCHIVE}" != "0" ]]
+then
+    ICS_UPDATE=1
+    CHANGES=3
+    echo "::notice::Archive Changed"
+    MESSAGE="fetch - Archive Changed"
+fi
+
+##
+## Regenerate upcoming times from previous API response & check for changes
+##
+./list.sh data/hours.json > data/hours.txt
 
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d)
 CACHE=$(date +%Y%m%d%H%M)
-LASTCHANGE=$(date "+%b %d %Y")
-
-PREV_MONTH=$(( ($(date +%m) - 1 + 11) % 12 + 1 ))
-PREV_YEAR=${YEAR}
-if [[ "${PREV_MONTH}" == "12" ]]
-then
-    PREV_YEAR=$(( ${YEAR} - 1 ))
-fi
-echo "Previous --> ${PREV_MONTH}/${PREV_YEAR}"
+LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
@@ -56,24 +71,40 @@ CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
     rm ${CHANGE_FILE}
+else
+    cat ${CHANGE_FILE}
+    ICS_UPDATE=1
+    CHANGES=2
+    echo "::notice::Times Changed"
+    MESSAGE="fetch - New Times"
 fi
 
-if [[ "${CHANGES_DIFF}" == "0" && "${FORCE_UPDATE}" == "0" ]]
+if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
 then
-    date
-    echo "::notice::No Changes"
-else
-    echo "::notice::Times Changed"
-    CHANGES=2
-    MESSAGE="New Times"
     cp data/current.json data/hours.json
     cp data/current.txt data/hours.txt
+    cp data/current.upcoming.txt data/hours.upcoming.txt
+    git add data/current.*
+    git add data/hours.*
+fi
+
+if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
+then
+    CHANGES=3
 
     echo "Generate ics (end) ..."
     ./ical.sh data/hours.json end > data/hours.end.ics
 
+    # echo "Generate ics (archive) ..."
+    # ./ical.sh data/hours.json end archive > data/hours.end.archive.ics
+
     echo "Generate ics (subscribe) ..."
     ./ical.sh data/hours.json summary > data/hours.ics
+
+    # echo "Generate ics (subscribe archive) ..."
+    # ./ical.sh data/hours.json summary > data/hours.archive.ics
+
+    git add data/hours.*
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
@@ -86,15 +117,12 @@ else
         git add data/changelog.*
         git add ${CHANGE_FILE}
     fi
-
-    git add data/current.*
-    git add data/hours.*
 fi
 
 if [[ "${CHANGES}" != "0" ]]
 then
 
-    sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
+    sed -e "s#<em>.*</em>#<em>Updated: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
     sed -e "s#script.js?t=.*\"#script.js?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html

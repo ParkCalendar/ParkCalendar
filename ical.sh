@@ -15,27 +15,47 @@ else
     DATECMD=date
 fi
 
+FILE=$1
+
 USE_END_DATE=0
 if [[ "$2" == "end" ]]
 then
     USE_END_DATE=1
 fi
-FILE=$1
+
+USE_ARCHIVE=0
+PRODID="SixFlags Magic Mountain Park Hours"
+CALNAME="SixFlags Magic Mountain - Upcoming"
+if [[ "$3" == "archive" ]]
+then
+    USE_ARCHIVE=1
+    PRODID="SixFlags Magic Mountain Park Hours - Archive"
+    CALNAME="SixFlags Magic Mountain - Archive"
+fi
 
 START=""
 END=""
 
 cat <<__STOP
 BEGIN:VCALENDAR
-PRODID:Six Flags Magic Mountain Hours
-X-WR-CALNAME:Six Flags Magic Mountain Hours
+PRODID:${PRODID}
+X-WR-CALNAME:${CALNAME}
 X-PUBLISHED-TTL:P1D
 X-WR-TIMEZONE:America/Los_Angeles
 VERSION:2.0
 CALSCALE:GREGORIAN
 __STOP
 
-for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
+TODAY=$(${DATECMD} +%Y%m%d)
+
+if [[ "${USE_ARCHIVE}" == "0" ]]
+then
+    OUT_TIMES=$(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
+else
+    OUT_TIMES=$(cat ${FILE})
+fi
+
+for row in ${OUT_TIMES}
 do
     R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
     if [[ "${START}" == "" ]]
@@ -47,6 +67,19 @@ do
 
     END=${row}
     END_VCAL=${R}
+
+    DAY=$(${DATECMD} +'%Y%m%d' -d "${START}")
+    IN_PAST=0
+    if [[ "${DAY}" < "${TODAY}" ]]
+    then
+        IN_PAST=1
+    fi
+    if [[ "${IN_PAST}" != "${USE_ARCHIVE}" ]]
+    then
+        START=""
+        START_VCAL=""
+        continue
+    fi
 
     OPEN=$(${DATECMD} +"%I:%M%p" -d "${START}" | sed 's/AM/a/' | sed 's/PM/p/' )
     CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )

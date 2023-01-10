@@ -1,11 +1,17 @@
 #!/bin/bash
 ##
-## List the current SixFlags Hours
+## Extract upcoming dates
 ##
 
 if [[ "$1" == "" ]]
 then
     exit
+fi
+
+ARCHIVE=0
+if [[ "$2" == "archive" ]]
+then
+    ARCHIVE=1
 fi
 
 export TZ=America/Los_Angeles
@@ -21,6 +27,8 @@ fi
 FILE=$1
 
 TODAY=$(${DATECMD} +%Y%m%d)
+MAX=5
+COUNT=0
 
 for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
 do
@@ -41,10 +49,14 @@ do
         continue
     fi
 
-    OPEN=$(${DATECMD} +"%I:%M%p" -d "${START}" | sed 's/AM/a/' | sed 's/PM/p/' )
-    CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
+    echo ${START}
+    echo ${END}
 
-    echo "${DAY} -- ${OPEN} - ${CLOSE}"
+    COUNT=$(( COUNT + 1 ))
+    if [[ "${COUNT}" == "${MAX}" ]]
+    then
+        break
+    fi
 
     START=""
 done
