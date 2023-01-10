@@ -9,6 +9,7 @@ export TZ=America/Los_Angeles
 
 SHOULD_COMMIT=0
 FORCE_UPDATE=0
+ICS_UPDATE=0
 if [[ "$1" == "commit" ]]
 then
     SHOULD_COMMIT=1
@@ -29,12 +30,25 @@ fi
 ## Detect changes in the JSON
 ##
 CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
-MESSAGE=""
-if [[ "$CHANGES" == "1" ]]
+MESSAGE="fetch update"
+if [[ "$CHANGES" != "0" ]]
 then
     echo "::notice::JSON Changed"
     git add data/current.json
-    MESSAGE="JSON Changed"
+    MESSAGE="fetch - JSON Changed"
+fi
+
+##
+## Archive past times
+##
+./archive.sh data/hours.upcoming.txt
+CHANGES_ARCHIVE=$?
+if [[ "${CHANGES_ARCHIVE}" != "0" ]]
+then
+    ICS_UPDATE=1
+    CHANGES=3
+    echo "::notice::Archive Changed"
+    MESSAGE="fetch - Archive Changed"
 fi
 
 ##
@@ -59,25 +73,23 @@ then
     rm ${CHANGE_FILE}
 else
     cat ${CHANGE_FILE}
+    ICS_UPDATE=1
+    CHANGES=2
+    echo "::notice::Times Changed"
+    MESSAGE="fetch - New Times"
 fi
 
-##
-## Archive past times
-##
-./archive.sh data/hours.upcoming.txt
-CHANGES_ARCHIVE=$?
-
-if [[ "${CHANGES_DIFF}" == "0" && "${FORCE_UPDATE}" == "0" ]]
+if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
 then
-    date
-    echo "::notice::No Changes"
-else
-    echo "::notice::Times Changed"
-    CHANGES=2
-    MESSAGE="New Times"
     cp data/current.json data/hours.json
     cp data/current.txt data/hours.txt
     cp data/current.upcoming.txt data/hours.upcoming.txt
+    git add data/current.*
+    git add data/hours.*
+fi
+
+if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
+    CHANGES=3
 
     echo "Generate ics (end) ..."
     ./ical.sh data/hours.json end > data/hours.end.ics
@@ -96,15 +108,12 @@ else
         git add data/changelog.*
         git add ${CHANGE_FILE}
     fi
-
-    git add data/current.*
-    git add data/hours.*
 fi
 
 if [[ "${CHANGES}" != "0" ]]
 then
 
-    sed -e "s#<em>.*</em>#<em>Last changed: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
+    sed -e "s#<em>.*</em>#<em>Updated: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
     sed -e "s#script.js?t=.*\"#script.js?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html

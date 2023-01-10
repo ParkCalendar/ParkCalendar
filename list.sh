@@ -8,12 +8,6 @@ then
     exit
 fi
 
-ARCHIVE=0
-if [[ "$2" == "archive" ]]
-then
-    ARCHIVE=1
-fi
-
 export TZ=America/Los_Angeles
 
 OS=$(uname)
@@ -28,7 +22,6 @@ FILE=$1
 
 TODAY=$(${DATECMD} +%Y%m%d)
 
-ARCHIVE_DATES=()
 for row in $(cat ${FILE} | jq -r '.operatingHours[] | .open, .close')
 do
     # R=$(echo "${row}" | sed 's/-//g' | sed 's/://g')
@@ -44,17 +37,6 @@ do
     DAY=$(${DATECMD} +'%Y%m%d' -d "${START}")
     if [[ "${DAY}" < "${TODAY}" ]]
     then
-        if [[ "${ARCHIVE}" == "1" ]]
-        then
-            ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
-            echo "${START}" >> data/archive/${ARCHIVE_FILE}.txt
-            echo "${END}" >> data/archive/${ARCHIVE_FILE}.txt
-            if [[ "${ARCHIVE_FILE}" != "${ARCHIVE_DATES[$#ARCHIVE_DATES]}" ]]
-            then
-                ARCHIVE_DATES+=(${ARCHIVE_FILE})
-            fi
-            git add data/archive/${ARCHIVE_FILE}.txt
-        fi
         START=""
         continue
     fi
@@ -66,7 +48,3 @@ do
 
     START=""
 done
-
-if [[ "${ARCHIVE}" == "1" && "$#ARCHIVE_DATES" != "0" ]]
-then
-fi
