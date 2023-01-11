@@ -1,4 +1,5 @@
 :root, :root.light {
+    --fc-neutral-bg-color: rgba(0,0,0,.50)
     --fc-today-bg-color: rgba(255,220,40,.15);
     --fc-today-bg-color-sm: rgba(255,220,40,.15);
     --sf-body-bg-color: #444;

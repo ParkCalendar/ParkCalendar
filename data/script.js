@@ -32,9 +32,6 @@ function setupTheme() {
     }
 }
 
-var didFetch = [];
-var calendar;
-
 function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
 
@@ -42,23 +39,37 @@ function setupCalendar() {
         return;
     }
 
+    var doFetch = (jsonFile, count) => {
+        console.log("Loading: " + jsonFile);
+        var eventSource = calendar.getEventSourceById('pastEvents');
+        if (eventSource == null && count < 3) {
+            setTimeout(function() {
+                doFetch(jsonFile, count + 1);
+            }, 750);
+            return;
+        }
+        var jsonUrl = "archive/" + jsonFile;
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    return [];
+                }
+                return response.json();
+            })
+            .then(data => {
+                data.forEach(e => {
+                    calendar.addEvent(e, eventSource);
+                });
+            });
+    };
+
     var pastEvents = (fetchInfo, success, failure) => {
         var start = new Date(fetchInfo.startStr);
         start.setDate(start.getDate() + 8);
         var year = start.getFullYear();
         var mon = ("0" + (start.getMonth() + 1)).slice(-2);
         var jsonFile = year + "-" + mon + ".json";
-        if (!didFetch.includes(jsonFile)) {
-            didFetch.push(jsonFile);
-            console.log("FETCH=" + jsonFile + "  range = " + fetchInfo.startStr + ", " + fetchInfo.endStr);
-            var jsonUrl = "archive/" + jsonFile;
-            calendar.addEventSource({
-                url: jsonUrl,
-                display: block,
-                backgroundColor: '#777777',
-                borderColor: '#676767'
-            });
-        }
+        doFetch(jsonFile, 0);
         success([]);
     };
 
@@ -69,12 +80,6 @@ function setupCalendar() {
             url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
             format: 'ics'
         },
-        // Past Events
-        eventSources: [
-            {
-                events: pastEvents
-            }
-        ],
         headerToolbar: {
             start: 'title',
             center: 'subscribe',
@@ -98,7 +103,17 @@ function setupCalendar() {
         displayEventTime: true,
         eventDisplay: 'block',
         aspectRatio: 2.5,
-        nextDayThreshold: '07:00:00'
+        nextDayThreshold: '07:00:00',
+        showNonCurrentDates: false,
+        fixedWeekCount: false
+    });
+
+    calendar.addEventSource({
+        id: 'pastEvents',
+        events: pastEvents,
+        display: 'block',
+        backgroundColor: '#777777',
+        borderColor: '#676767'
     });
 
     setTimeout(function() {
