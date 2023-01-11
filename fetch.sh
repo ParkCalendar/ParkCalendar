@@ -22,13 +22,17 @@ fi
 ##
 ## Fetch current times from the API
 ##
+echo "Fetch new json..."
 ./api-hours.sh | jq > data/current.json
+echo "Parse new json (all)..."
 ./list.sh data/current.json > data/current.txt
+echo "Parse new json (upcoming)..."
 ./upcoming.sh data/current.json > data/current.upcoming.txt
 
 ##
 ## Detect changes in the JSON
 ##
+echo "Check for json changes..."
 CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
 MESSAGE="fetch update"
 if [[ "$CHANGES" != "0" ]]
@@ -41,6 +45,7 @@ fi
 ##
 ## Archive past times
 ##
+echo "Archive past upcoming times..."
 ./archive.sh data/hours.upcoming.txt
 CHANGES_ARCHIVE=$?
 if [[ "${CHANGES_ARCHIVE}" != "0" ]]
@@ -54,6 +59,7 @@ fi
 ##
 ## Regenerate upcoming times from previous API response & check for changes
 ##
+echo "Parse previous json (all)..."
 ./list.sh data/hours.json > data/hours.txt
 
 NOW=$(date +%m-%d-%Y)
@@ -65,7 +71,7 @@ LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
 
-echo "Diff times..."
+echo "Diff upcoming times..."
 diff data/hours.txt data/current.txt > ${CHANGE_FILE}
 CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
