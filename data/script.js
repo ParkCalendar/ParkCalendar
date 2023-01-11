@@ -41,9 +41,26 @@ function setupCalendar() {
 
     var didFetch = [];
 
-    var doFetch = (jsonFile) => {
+    var getJsonFile = (date) => {
+        var year = date.getFullYear();
+        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
+        var jsonFile = year + "-" + mon + ".json";
+        return jsonFile;
+    };
+
+    var isInTheFuture = (date) => {
+        const today = new Date();
+        return date > today;
+    };
+
+    var doFetch = (date) => {
+        var jsonFile = getJsonFile(date);
+        if (isInTheFuture(date)) {
+            console.log("Skipping (Future): " + jsonFile);
+            return;
+        }
         if (didFetch.includes(jsonFile)) {
-            console.log("Skipping: " + jsonFile);
+            console.log("Skipping (Fetched): " + jsonFile);
             return;
         }
         didFetch.push(jsonFile);
@@ -52,6 +69,7 @@ function setupCalendar() {
         fetch(jsonUrl)
             .then(response => {
                 if (!response.ok) {
+                    console.log("No Data: " + jsonFile);
                     return [];
                 }
                 return response.json();
@@ -63,22 +81,11 @@ function setupCalendar() {
             });
     };
 
-    var isInTheFuture = (date) => {
-        const today = new Date();
-        return date > today;
-    };
-
     var pastEvents = (fetchInfo, success, failure) => {
         var start = new Date(fetchInfo.startStr);
-        if (isInTheFuture(start)) {
-            success([]);
-            return;
-        }
+        doFetch(start);
         start.setDate(start.getDate() + 8);
-        var year = start.getFullYear();
-        var mon = ("0" + (start.getMonth() + 1)).slice(-2);
-        var jsonFile = year + "-" + mon + ".json";
-        doFetch(jsonFile);
+        doFetch(start);
         success([]);
     };
 
@@ -108,8 +115,8 @@ function setupCalendar() {
         eventDisplay: 'block',
         aspectRatio: 2.5,
         nextDayThreshold: '07:00:00',
-        showNonCurrentDates: false,
-        fixedWeekCount: false
+        showNonCurrentDates: true,
+        fixedWeekCount: true
     });
 
     calendar.addEventSource({
