@@ -39,15 +39,15 @@ function setupCalendar() {
         return;
     }
 
-    var doFetch = (jsonFile, count) => {
-        console.log("Loading: " + jsonFile);
-        var eventSource = calendar.getEventSourceById('pastEvents');
-        if (eventSource == null && count < 3) {
-            setTimeout(function() {
-                doFetch(jsonFile, count + 1);
-            }, 750);
+    var didFetch = [];
+
+    var doFetch = (jsonFile) => {
+        if (didFetch.includes(jsonFile)) {
+            console.log("Skipping: " + jsonFile);
             return;
         }
+        didFetch.push(jsonFile);
+        console.log("Loading: " + jsonFile);
         var jsonUrl = "archive/" + jsonFile;
         fetch(jsonUrl)
             .then(response => {
@@ -58,28 +58,31 @@ function setupCalendar() {
             })
             .then(data => {
                 data.forEach(e => {
-                    calendar.addEvent(e, eventSource);
+                    calendar.addEvent(e);
                 });
             });
     };
 
+    var isInTheFuture = (date) => {
+        const today = new Date();
+        return date > today;
+    };
+
     var pastEvents = (fetchInfo, success, failure) => {
         var start = new Date(fetchInfo.startStr);
+        if (isInTheFuture(start)) {
+            return;
+        }
         start.setDate(start.getDate() + 8);
         var year = start.getFullYear();
         var mon = ("0" + (start.getMonth() + 1)).slice(-2);
         var jsonFile = year + "-" + mon + ".json";
-        doFetch(jsonFile, 0);
+        doFetch(jsonFile);
         success([]);
     };
 
     calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
-        // Upcoming (ICS)
-        events: {
-            url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
-            format: 'ics'
-        },
         headerToolbar: {
             start: 'title',
             center: 'subscribe',
@@ -109,11 +112,14 @@ function setupCalendar() {
     });
 
     calendar.addEventSource({
+        id: 'future',
+        url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
+        format: 'ics'
+    });
+
+    calendar.addEventSource({
         id: 'pastEvents',
-        events: pastEvents,
-        display: 'block',
-        backgroundColor: '#777777',
-        borderColor: '#676767'
+        events: pastEvents
     });
 
     setTimeout(function() {

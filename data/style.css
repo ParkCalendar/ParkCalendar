@@ -1,7 +1,11 @@
 :root, :root.light {
-    --fc-neutral-bg-color: rgba(0,0,0,.50)
+    --fc-neutral-bg-color: rgba(40,40,45,.10);
+    --fc-neutral-bg-color-sm: rgba(40,40,45,.10);
     --fc-today-bg-color: rgba(255,220,40,.15);
     --fc-today-bg-color-sm: rgba(255,220,40,.15);
+    --fc-event-bg-color-past: #eee;
+    --fc-event-border-color-past: #d4d4d8;
+    --fc-event-text-color-past: #5b789d;
     --sf-body-bg-color: #444;
     --sf-body-txt-color: #222;
     --sf-content-border-color: #888;
@@ -14,8 +18,13 @@
 }
 
 :root.dark {
+    --fc-neutral-bg-color: rgba(20,20,20,.20);
+    --fc-neutral-bg-color-sm: #26282A;
     --fc-today-bg-color: rgba(118, 127, 147, 0.7);
     --fc-today-bg-color-sm: rgba(90, 101, 123, 0.7);
+    --fc-event-bg-color-past: rgb(123, 123, 123);
+    --fc-event-border-color-past: rgb(88, 88, 88);
+    --fc-event-text-color-past: #e7e7e7;
     --fc-button-bg-color: rgb(50 85 121);
     --fc-button-border-color: rgb(84 134 167);
     --fc-border-color: rgb(113 117 125);
@@ -32,8 +41,13 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --fc-neutral-bg-color: rgba(20,20,20,.20);
+        --fc-neutral-bg-color-sm: #26282A;
         --fc-today-bg-color: rgba(118, 127, 147, 0.7);
         --fc-today-bg-color-sm: rgba(90, 101, 123, 0.7);
+        --fc-event-bg-color-past: rgb(123, 123, 123);
+        --fc-event-border-color-past: rgb(88, 88, 88);
+        --fc-event-text-color-past: #e7e7e7;
         --fc-button-bg-color: rgb(50 85 121);
         --fc-button-border-color: rgb(84 134 167);
         --fc-border-color: rgb(113 117 125);
@@ -112,6 +126,13 @@ button.themeToggle i.light {
 button.themeToggle i.system {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256z'/%3E%3C/svg%3E");
 }
+.fc-day-past .fc-h-event {
+    background-color: var(--fc-event-bg-color-past);
+    border-color: var(--fc-event-border-color-past);
+}
+.fc-day-past .fc-h-event .fc-event-main {
+    color: var(--fc-event-text-color-past);
+}
 .footer {
     font-size: 0.9em;
     margin-top: 20px;
@@ -167,6 +188,9 @@ p {
     }
     .fc .fc-daygrid-day.fc-day-today {
         background-color: var(--fc-today-bg-color-sm);
+    }
+    .fc .fc-day-disabled {
+        background-color: var(--fc-neutral-bg-color-sm);
     }
     .wrapper {
         padding: 0;
