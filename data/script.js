@@ -71,6 +71,7 @@ function setupCalendar() {
     var pastEvents = (fetchInfo, success, failure) => {
         var start = new Date(fetchInfo.startStr);
         if (isInTheFuture(start)) {
+            success([]);
             return;
         }
         start.setDate(start.getDate() + 8);
