@@ -56,28 +56,39 @@ function setupCalendar() {
     var doFetch = (date) => {
         var jsonFile = getJsonFile(date);
         if (isInTheFuture(date)) {
-            console.log("Skipping (Future): " + jsonFile);
+            console.debug(jsonFile + " • Skip:Future");
             return;
         }
         if (didFetch.includes(jsonFile)) {
-            console.log("Skipping (Fetched): " + jsonFile);
+            console.debug(jsonFile + " • Skip:Fetched");
             return;
         }
         didFetch.push(jsonFile);
-        console.log("Loading: " + jsonFile);
+        console.debug(jsonFile + " • loading");
         var jsonUrl = "archive/" + jsonFile;
         fetch(jsonUrl)
             .then(response => {
                 if (!response.ok) {
-                    console.log("No Data: " + jsonFile);
-                    return [];
+                    console.warn(jsonFile + " • no data");
+                    return Promise.reject("NoData");
                 }
                 return response.json();
             })
             .then(data => {
+                console.info(jsonFile + " • " + data.length);
                 data.forEach(e => {
                     calendar.addEvent(e);
                 });
+            })
+            .catch(error => {
+                if (error == "NoData") {
+                    return;
+                }
+                console.error("ERR • Retry: " + jsonFile);
+                const index = didFetch.indexOf(jsonFile);
+                if (index > -1) {
+                    didFetch.splice(index, 1);
+                }
             });
     };
 
