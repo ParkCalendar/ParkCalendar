@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MONTH=10
-YEAR=2022
+MONTH=$2
+YEAR=$1
 MAXDAY=31
 DAY=0
 while [[ "${DAY}" != "31" ]]
