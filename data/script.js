@@ -93,10 +93,13 @@ function setupCalendar() {
     };
 
     var pastEvents = (fetchInfo, success, failure) => {
+        console.debug("Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
         var start = new Date(fetchInfo.startStr);
         doFetch(start);
         start.setDate(start.getDate() + 8);
         doFetch(start);
+        var end = new Date(fetchInfo.endStr);
+        doFetch(end);
         success([]);
     };
 
