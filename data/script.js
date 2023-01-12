@@ -135,7 +135,7 @@ function setupCalendar() {
 
     calendar.addEventSource({
         id: 'future',
-        url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301091824',
+        url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301120634',
         format: 'ics'
     });
 

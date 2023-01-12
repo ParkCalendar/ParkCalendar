@@ -64,7 +64,7 @@ echo "Parse previous json (all)..."
 
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
-EXT=$(date +%Y%m%d)
+EXT=$(date +%Y%m%d-%H%M%S)
 CACHE=$(date +%Y%m%d%H%M)
 LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 
@@ -149,4 +149,24 @@ then
     else
         echo "•• commit skipped ••"
     fi
+fi
+
+if [[ "${CHANGES_DIFF}" != 0 && "${SLACK_WEBHOOK_URL}" != "" ]]
+then
+    LINK="<https://jffmrk.github.io/sfmm/|SFMM Park Hours>"
+    DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
+    read -r -d '' SLACK_MESSAGE << EOM
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "${LASTCHANGE}\n\n${DIFF}\n\n${LINK}"
+			}
+		}
+	]
+}
+EOM
+    curl -X POST -H 'Content-type: application/json' --data "${SLACK_MESSAGE}" ${SLACK_WEBHOOK_URL}
 fi
