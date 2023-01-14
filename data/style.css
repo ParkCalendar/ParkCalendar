@@ -92,6 +92,7 @@ a.back {
     border-radius: 20px;
 }
 .lastChange {
+    font-size: 0.8em;
     text-align: center;
     margin-top: 4px;
     margin-bottom: 20px;
