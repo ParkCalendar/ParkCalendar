@@ -139,6 +139,9 @@ button.themeToggle i.system {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+.dim {
+    opacity: 0.5;
+}
 h1 {
     margin: 0 40px;
     text-align: center;
@@ -155,6 +158,16 @@ h1 {
 }
 div.center {
     margin: 20px auto;
+}
+.footer a {
+    color: var(--sf-button-link-color);
+    background-color: var(--sf-button-bg-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.footer a:hover {
+    color: var(--sf-button-hover-link-color);
+    background-color: var(--fc-button-hover-bg-color);
 }
 a.button {
     display: inline-block;
