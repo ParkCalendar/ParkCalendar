@@ -24,5 +24,8 @@ Park Hours (Six Flags Website)
 Queue Times
 * https://queue-times.com/parks/32/queue_times
 
-List of APIs used by the SixFlags App:
+FullCalendar.io
+* https://fullcalendar.io
+
+List of APIs used by the SixFlags App
 * https://github.com/ThemeParks/parksapi/blob/main/lib/parks/sixflags/sixflags.js
