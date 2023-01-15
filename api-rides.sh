@@ -9,11 +9,31 @@ curl https://api.sixflags.net/mobileapi/v1/park/6/ride > ${RIDES_JSON}
 ##
 date +'%Y-%m-%d @ %H:%M %p'
 echo ""
-echo "OPEN"
-echo "----"
-cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | {name, waitTime} | join (" - ")'
+echo "OPEN (Thrill)"
+echo "-------------"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select(.rideType[] | contains("Thrill")) | [.name, .waitTime ] | join (" - ")'
+
+echo ""
+echo "OPEN (Other)"
+echo "------------"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select(.rideType[] | contains("Thrill") | not) | [.name, .waitTime ] | join (" - ")'
+
+echo ""
+echo "TEMPORARILY CLOSED"
+echo "------------------"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusTemporarilyClosed") | .name'
 
 echo ""
 echo "CLOSED"
 echo "------"
 cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusClosed") | .name'
+
+echo ""
+echo "CLOSED (for season)"
+echo "-------------------"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusClosedForSeason") | .name'
+
+echo ""
+echo "Other"
+echo "-----"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status != "AttractionStatusTemporarilyClosed" and .status != "AttractionStatusClosed" and .status != "AttractionStatusOpen" and .status != "AttractionStatusClosedForSeason") | [.name, .status] | join (" - ")'
