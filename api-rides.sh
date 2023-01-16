@@ -11,12 +11,12 @@ date +'%Y-%m-%d @ %H:%M %p'
 echo ""
 echo "OPEN (Thrill)"
 echo "-------------"
-cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select(.rideType[] | contains("Thrill")) | [.name, .waitTime ] | join (" - ")'
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select( (.rideType[] | contains("Thrill")) or (.thrillLevel == "ThrillLevelMax") ) | [.name, .waitTime ] | join (" - ")'
 
 echo ""
 echo "OPEN (Other)"
 echo "------------"
-cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select(.rideType[] | contains("Thrill") | not) | [.name, .waitTime ] | join (" - ")'
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusOpen") | select( (.rideType[] | contains("Thrill") | not) and (.thrillLevel != "ThrillLevelMax") ) | [.name, .waitTime ] | join (" - ")'
 
 echo ""
 echo "TEMPORARILY CLOSED"
