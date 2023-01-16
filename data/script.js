@@ -53,6 +53,17 @@ function setupCalendar() {
         return date > today;
     };
 
+    var queryParams = (date) => {
+        const t = new Date();
+        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
+        var params = "?t=" + t.getFullYear() + mon;
+        if (date.getFullYear() != t.getFullYear() || date.getMonth() != t.getMonth()) {
+            return params;
+        }
+        params += t.getDate() + "." + t.getHours() + t.getMinutes();
+        return params;
+    }
+
     var doFetch = (date) => {
         var jsonFile = getJsonFile(date);
         if (isInTheFuture(date)) {
@@ -65,7 +76,7 @@ function setupCalendar() {
         }
         didFetch.push(jsonFile);
         console.debug(jsonFile + " • loading");
-        var jsonUrl = "archive/" + jsonFile;
+        var jsonUrl = "archive/" + jsonFile + queryParams(date);
         fetch(jsonUrl)
             .then(response => {
                 if (!response.ok) {
