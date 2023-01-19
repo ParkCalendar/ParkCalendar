@@ -1,9 +1,9 @@
 {
-  "name": "SixFlags Magic Mountain Park Hours",
+  "name": "SFMM Hours",
   "short_name": "SFMM Hours",
   "theme_color": "#d6362e",
   "background_color": "#f6c544",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "https://jffmrk.github.io/sfmm/",
   "start_url": "https://jffmrk.github.io/sfmm/"
   "icons": [
