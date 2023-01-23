@@ -2053,14 +2053,6 @@
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "upcomingHours": [
     {
-      "open": "2023-01-22T10:30:00",
-      "close": "2023-01-22T18:00:00",
-      "operatingDate": "2023-01-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-01-23T10:30:00",
       "close": "2023-01-23T17:00:00",
       "operatingDate": "2023-01-23T00:00:00",
