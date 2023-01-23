@@ -79,6 +79,11 @@ a.back {
     filter: invert(0.4);
     margin-right: 10px;
 }
+.topHeader {
+    background-color: #f7c445;
+    padding: 10px 0;
+    margin: 0 0 10px 0;
+}
 .wrapper {
     padding: 10px;
     margin: 0 12px;
