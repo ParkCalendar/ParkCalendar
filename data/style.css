@@ -209,13 +209,13 @@ p {
         background-color: #f7c445;
         padding: 10px;
         color: #222;
-        margin: -10px -40px 8px;
+        margin: -10px -10px 8px;
     }
     .lastChange {
         padding-bottom: 0;
     }
     button.themeToggle {
-        margin-right: 40px;
+        margin-right: 10px;
     }
     .wrapper {
         padding: 0;
