@@ -160,9 +160,26 @@ function setupCalendar() {
     }, 250);
 }
 
+function setupFocus() {
+    var lastFocus = new Date().getTime();
+    var focusCacheTime = 900000;
+
+    var onFocus = (event) => {
+        var now = new Date();
+        var diff = now - lastFocus;
+        console.log("focus: diff=" + diff + ", cache=" + focusCacheTime);
+        if (diff > focusCacheTime) {
+            location.reload();
+        }
+    };
+
+    addEventListener('focus', onFocus);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
 
     setupTheme();
     setupCalendar();
+    setupFocus();
 
 });
