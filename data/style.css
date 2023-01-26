@@ -192,6 +192,12 @@ a.button:hover {
 p {
     margin: 1.2em 0;
 }
+.changelog-entry h2 {
+    margin: 1em 0 0 0;
+}
+.changelog-entry pre {
+    margin: 0.5em 0 1em 0;
+}
 @media only screen and (max-width: 900px) {
     body {
         padding: 0;
@@ -230,5 +236,8 @@ p {
     }
     p {
         margin: 0.75em 12px;
+    }
+    .changelog-entry pre {
+        font-size: 0.85em;
     }
 }
