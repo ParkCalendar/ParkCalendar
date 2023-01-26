@@ -256,8 +256,13 @@ p {
     body {
         background-color: white;
     }
+    body, .wrapper {
+        padding: 0;
+    }
     .content {
         background-color: white;
         border: none;
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }
