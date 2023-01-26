@@ -17,29 +17,31 @@
     --sf-button-hover-link-color: #9BF;
 }
 
-:root.dark {
-    --fc-neutral-bg-color: rgba(20,20,20,.20);
-    --fc-neutral-bg-color-sm: #26282A;
-    --fc-today-bg-color: rgba(118, 127, 147, 0.7);
-    --fc-today-bg-color-sm: rgba(90, 101, 123, 0.7);
-    --fc-event-bg-color-past: rgb(123, 123, 123);
-    --fc-event-border-color-past: rgb(88, 88, 88);
-    --fc-event-text-color-past: #e7e7e7;
-    --fc-button-bg-color: rgb(50 85 121);
-    --fc-button-border-color: rgb(84 134 167);
-    --fc-border-color: rgb(113 117 125);
-    --sf-body-bg-color: #222;
-    --sf-body-txt-color: #fff;
-    --sf-content-border-color: #333;
-    --sf-content-bg-color: #444;
-    --sf-content-bg-color-sm: #222;
-    --sf-button-border-color: rgb(84 134 167);
-    --sf-button-bg-color: rgb(50 85 121);
-    --sf-button-link-color: rgb(216 238 255);
-    --sf-button-hover-link-color: #fff;
+@media only screen {
+    :root.dark {
+        --fc-neutral-bg-color: rgba(20,20,20,.20);
+        --fc-neutral-bg-color-sm: #26282A;
+        --fc-today-bg-color: rgba(118, 127, 147, 0.7);
+        --fc-today-bg-color-sm: rgba(90, 101, 123, 0.7);
+        --fc-event-bg-color-past: rgb(123, 123, 123);
+        --fc-event-border-color-past: rgb(88, 88, 88);
+        --fc-event-text-color-past: #e7e7e7;
+        --fc-button-bg-color: rgb(50 85 121);
+        --fc-button-border-color: rgb(84 134 167);
+        --fc-border-color: rgb(113 117 125);
+        --sf-body-bg-color: #222;
+        --sf-body-txt-color: #fff;
+        --sf-content-border-color: #333;
+        --sf-content-bg-color: #444;
+        --sf-content-bg-color-sm: #222;
+        --sf-button-border-color: rgb(84 134 167);
+        --sf-button-bg-color: rgb(50 85 121);
+        --sf-button-link-color: rgb(216 238 255);
+        --sf-button-hover-link-color: #fff;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
+@media only screen (prefers-color-scheme: dark) {
     :root {
         --fc-neutral-bg-color: rgba(20,20,20,.20);
         --fc-neutral-bg-color-sm: #26282A;
