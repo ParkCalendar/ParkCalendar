@@ -244,3 +244,18 @@ p {
         font-size: 0.85em;
     }
 }
+@media only print {
+    .fc .fc-toolbar-chunk .fc-button {
+        display: none;
+    }
+    .themeToggle, .footer {
+        display: none;
+    }
+    body {
+        background-color: white;
+    }
+    .content {
+        background-color: white;
+        border: none;
+    }
+}
