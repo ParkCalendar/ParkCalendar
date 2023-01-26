@@ -237,6 +237,9 @@ p {
     p {
         margin: 0.75em 12px;
     }
+    .footer {
+        padding-bottom: 20px;
+    }
     .changelog-entry pre {
         font-size: 0.85em;
     }
