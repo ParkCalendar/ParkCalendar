@@ -32,6 +32,8 @@ function setupTheme() {
     }
 }
 
+var calendar;
+
 function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
 
@@ -182,4 +184,10 @@ document.addEventListener('DOMContentLoaded', function() {
     setupCalendar();
     setupFocus();
 
+    // Update calendar when printing
+    window.matchMedia('print').addEventListener('change', function(mql) {
+        if (mql.matches) {
+            calendar.render();
+        }
+    });
 });
