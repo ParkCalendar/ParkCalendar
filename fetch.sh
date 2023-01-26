@@ -72,7 +72,7 @@ CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p data/changelog/${YEAR}
 
 echo "Diff upcoming times..."
-diff --side-by-side --width 60 --suppress-common-lines data/hours.txt data/current.txt > ${CHANGE_FILE}
+diff --expand-tabs --side-by-side --width 60 --suppress-common-lines data/hours.txt data/current.txt > ${CHANGE_FILE}
 CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
