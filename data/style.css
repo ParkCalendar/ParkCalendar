@@ -1,8 +1,8 @@
 :root, :root.light {
     --fc-neutral-bg-color: rgba(40,40,45,.10);
     --fc-neutral-bg-color-sm: rgba(40,40,45,.10);
-    --fc-today-bg-color: rgba(255,220,40,.15);
-    --fc-today-bg-color-sm: rgba(255,220,40,.15);
+    --fc-today-bg-color: #d9e5ec;
+    --fc-today-bg-color-sm: #d9e5ec;
     --fc-event-bg-color-past: #eee;
     --fc-event-border-color-past: #d4d4d8;
     --fc-event-text-color-past: #5b789d;
