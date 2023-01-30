@@ -41,81 +41,6 @@ function setupCalendar() {
         return;
     }
 
-    var didFetch = [];
-
-    var getJsonFile = (date) => {
-        var year = date.getFullYear();
-        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
-        var jsonFile = year + "-" + mon + ".json";
-        return jsonFile;
-    };
-
-    var isInTheFuture = (date) => {
-        const today = new Date();
-        return date > today;
-    };
-
-    var queryParams = (date) => {
-        const t = new Date();
-        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
-        var params = "?t=" + t.getFullYear() + mon;
-        if (date.getFullYear() != t.getFullYear() || date.getMonth() != t.getMonth()) {
-            return params;
-        }
-        params += t.getDate() + "." + t.getHours() + t.getMinutes();
-        return params;
-    }
-
-    var doFetch = (date) => {
-        var jsonFile = getJsonFile(date);
-        if (isInTheFuture(date)) {
-            console.debug(jsonFile + " • Skip:Future");
-            return;
-        }
-        if (didFetch.includes(jsonFile)) {
-            console.debug(jsonFile + " • Skip:Fetched");
-            return;
-        }
-        didFetch.push(jsonFile);
-        console.debug(jsonFile + " • loading");
-        var jsonUrl = "archive/" + jsonFile + queryParams(date);
-        fetch(jsonUrl)
-            .then(response => {
-                if (!response.ok) {
-                    console.warn(jsonFile + " • no data");
-                    return Promise.reject("NoData");
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.info(jsonFile + " • " + data.length);
-                data.forEach(e => {
-                    calendar.addEvent(e);
-                });
-            })
-            .catch(error => {
-                if (error == "NoData") {
-                    return;
-                }
-                console.error("ERR • Retry: " + jsonFile);
-                const index = didFetch.indexOf(jsonFile);
-                if (index > -1) {
-                    didFetch.splice(index, 1);
-                }
-            });
-    };
-
-    var pastEvents = (fetchInfo, success, failure) => {
-        console.debug("Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
-        var start = new Date(fetchInfo.startStr);
-        doFetch(start);
-        start.setDate(start.getDate() + 8);
-        doFetch(start);
-        var end = new Date(fetchInfo.endStr);
-        doFetch(end);
-        success([]);
-    };
-
     calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         headerToolbar: {
@@ -146,6 +71,101 @@ function setupCalendar() {
         fixedWeekCount: true
     });
 
+    addCalendarSources();
+}
+
+var pastEvents = {
+
+    didFetch: [],
+
+    getJsonFile: function(date) {
+        var year = date.getFullYear();
+        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
+        var jsonFile = year + "-" + mon + ".json";
+        return jsonFile;
+    },
+
+    isInTheFuture: function(date) {
+        const today = new Date();
+        return date > today;
+    },
+
+    queryParams: function(date) {
+        const t = new Date();
+        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
+        var params = "?t=" + t.getFullYear() + mon;
+        if (date.getFullYear() != t.getFullYear() || date.getMonth() != t.getMonth()) {
+            return params;
+        }
+        params += t.getDate() + "." + t.getHours() + t.getMinutes();
+        return params;
+    },
+
+    doFetch: function(date) {
+        var jsonFile = this.getJsonFile(date);
+        if (this.isInTheFuture(date)) {
+            console.debug(jsonFile + " • Skip:Future");
+            return;
+        }
+        if (this.didFetch.includes(jsonFile)) {
+            console.debug(jsonFile + " • Skip:Fetched");
+            return;
+        }
+        var fetchArray = this.didFetch;
+        fetchArray.push(jsonFile);
+        console.debug(jsonFile + " • loading");
+        var jsonUrl = "archive/" + jsonFile + this.queryParams(date);
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    console.warn(jsonFile + " • no data");
+                    return Promise.reject("NoData");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.info(jsonFile + " • " + data.length);
+                data.forEach(e => {
+                    calendar.addEvent(e);
+                });
+            })
+            .catch(error => {
+                if (error == "NoData") {
+                    return;
+                }
+                console.error("ERR • Retry: " + jsonFile);
+                const index = fetchArray.indexOf(jsonFile);
+                if (index > -1) {
+                    fetchArray.splice(index, 1);
+                }
+            });
+    },
+
+    calendarFetchFn: function(fetchInfo, success, failure) {
+        console.debug("Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
+        var start = new Date(fetchInfo.startStr);
+        this.doFetch(start);
+        start.setDate(start.getDate() + 8);
+        this.doFetch(start);
+        var end = new Date(fetchInfo.endStr);
+        this.doFetch(end);
+        success([]);
+    },
+
+    reset: function() {
+        this.didFetch = [];
+    }
+};
+
+function refresh() {
+    calendar.removeAllEventSources();
+    setTimeout(addCalendarSources, 250);
+}
+
+function addCalendarSources() {
+
+    pastEvents.reset();
+
     calendar.addEventSource({
         id: 'future',
         url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301290351',
@@ -154,7 +174,7 @@ function setupCalendar() {
 
     calendar.addEventSource({
         id: 'pastEvents',
-        events: pastEvents
+        events: pastEvents.calendarFetchFn.bind(pastEvents)
     });
 
     setTimeout(function() {
