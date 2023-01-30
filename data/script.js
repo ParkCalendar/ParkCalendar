@@ -159,6 +159,7 @@ var pastEvents = {
 
 function refresh() {
     calendar.removeAllEventSources();
+    calendar.removeAllEvents();
     setTimeout(addCalendarSources, 250);
 }
 
@@ -179,19 +180,72 @@ function addCalendarSources() {
 
     setTimeout(function() {
         calendar.render();
+        updateLastChangeTime();
     }, 250);
 }
 
+var lastFetch = "";
+
+function updateLastChangeTime() {
+    var changeTimeEl = document.getElementById('lastChangeTime');
+    if (changeTimeEl) {
+        changeTimeEl.innerText = lastFetch;
+    }
+}
+
+function detectChange(onChange, onSuccess) {
+    fetch("lastChange.txt")
+        .then(response => {
+            if (!response.ok) {
+                console.warn("lastChange.txt • no data");
+                return Promise.reject("NoData");
+            }
+            return response.text();
+        })
+        .then(text => {
+            if (lastFetch != text) {
+                lastFetch = text;
+                console.log("• change detected " + text);
+                if (onChange) { 
+                    onChange();
+                }
+            } else {
+                console.log("• no changes");
+                if (onSuccess) {
+                    onSuccess();
+                }
+            }
+        })
+        .catch(error => {
+            if (error == "NoData") {
+                return;
+            }
+            console.error("lastChange.txt • ERR");
+        });
+}
+
 function setupFocus() {
+    detectChange();
+
     var lastFocus = new Date().getTime();
-    var focusCacheTime = 900000;
+    var focusCacheTime = 1800000;
+    var checkTime = 300000;
+    var updateLastFocus = function() {
+        lastFocus = new Date().getTime();
+    }
+    var onChange = function() {
+        updateLastFocus();
+        refresh();
+    };
 
     var onFocus = (event) => {
         var now = new Date();
         var diff = now - lastFocus;
         console.log("focus: diff=" + diff + ", cache=" + focusCacheTime);
         if (diff > focusCacheTime) {
-            location.reload();
+            detectChange(onChange, onChange);
+        } else if (diff > checkTime) {
+            detectChange(onChange, updateLastFocus);
         }
     };
 

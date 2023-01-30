@@ -129,15 +129,13 @@ fi
 if [[ "${CHANGES}" != "0" ]]
 then
 
-    sed -e "s#<em>.*</em>#<em>Updated: ${LASTCHANGE}</em>#g" data/index.html > data/index.html.new
-    mv data/index.html.new data/index.html
     sed -e "s#script.js?t=.*\"#script.js?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
     sed -e "s#style.css?t=.*\"#style.css?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
     sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${CACHE}'#" data/script.js > data/script.js.new
     mv data/script.js.new data/script.js
-    echo "${EXT}" > data/lastChange.txt
+    echo "${LASTCHANGE}" > data/lastChange.txt
 
     git add data/index.html
     git add data/script.js
