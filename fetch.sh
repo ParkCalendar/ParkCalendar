@@ -137,9 +137,11 @@ then
     mv data/index.html.new data/index.html
     sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${CACHE}'#" data/script.js > data/script.js.new
     mv data/script.js.new data/script.js
+    echo "${EXT}" > data/lastChange.txt
 
     git add data/index.html
     git add data/script.js
+    git add data/lastChange.txt
 
     echo "Commit: ${MESSAGE} ${NOW}"
     if [[ "${SHOULD_COMMIT}" == "1" ]]
