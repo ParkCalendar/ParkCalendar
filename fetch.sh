@@ -133,8 +133,6 @@ then
     mv data/index.html.new data/index.html
     sed -e "s#style.css?t=.*\"#style.css?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    sed -e "s#hours.end.ics?t=.*'#hours.end.ics?t=${CACHE}'#" data/script.js > data/script.js.new
-    mv data/script.js.new data/script.js
     echo "${LASTCHANGE}" > data/lastChange.txt
 
     git add data/index.html

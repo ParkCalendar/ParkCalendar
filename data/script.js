@@ -1,3 +1,6 @@
+var calendar;
+var lastFetch = new Date().toJSON();
+
 function setTheme(theme) {
     document.querySelector('button.themeToggle i').classList = [theme];
     if (theme == 'system') {
@@ -31,8 +34,6 @@ function setupTheme() {
         toggleButton.addEventListener('click', toggleTheme);
     }
 }
-
-var calendar;
 
 function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
@@ -71,7 +72,7 @@ function setupCalendar() {
         fixedWeekCount: true
     });
 
-    calendarEl.style.filter = 'opacity(0)';
+    hideCalendar();
 
     addCalendarSources();
 }
@@ -193,22 +194,37 @@ function fade(el, increase, delay) {
     }, delay);
 }
 
-function refresh() {
+function hideCalendar() {
     var calendarEl = document.getElementById('calendar');
     calendarEl.style.filter = 'opacity(0)';
+}
 
-    calendar.removeAllEventSources();
-    calendar.removeAllEvents();
-    setTimeout(addCalendarSources, 250);
+function refresh() {
+    hideCalendar();
+
+    var changeTimeEl = document.getElementById('lastChangeTime');
+    if (changeTimeEl) {
+        changeTimeEl.innerText = "Loading...";
+    }
+
+    setTimeout(function() {
+        calendar.removeAllEvents();
+        setTimeout(function() {
+            calendar.removeAllEventSources();
+            setTimeout(addCalendarSources, 350);
+        }, 200);
+    }, 200);
 }
 
 function addCalendarSources() {
 
     pastEvents.reset();
 
+    var upcomingUrl = "https://jffmrk.github.io/sfmm/hours.end.ics?t=" + btoa(lastFetch);
+
     calendar.addEventSource({
         id: 'future',
-        url: 'https://jffmrk.github.io/sfmm/hours.end.ics?t=202301310351',
+        url: upcomingUrl,
         format: 'ics'
     });
 
@@ -227,8 +243,6 @@ function addCalendarSources() {
     }, 250);
 }
 
-var lastFetch = "";
-
 function updateLastChangeTime() {
     var changeTimeEl = document.getElementById('lastChangeTime');
     if (changeTimeEl) {
@@ -237,7 +251,9 @@ function updateLastChangeTime() {
 }
 
 function detectChange(onChange, onSuccess) {
-    fetch("lastChange.txt")
+    var cache = new Date().getTime();
+    var url = "lastChange.txt?t=" + cache;
+    fetch(url)
         .then(response => {
             if (!response.ok) {
                 console.warn("lastChange.txt • no data");
@@ -273,9 +289,11 @@ function setupFocus() {
     var lastFocus = new Date().getTime();
     var focusCacheTime = 1800000;
     var checkTime = 300000;
+
     var updateLastFocus = function() {
         lastFocus = new Date().getTime();
-    }
+    };
+
     var onChange = function() {
         updateLastFocus();
         refresh();
@@ -296,10 +314,11 @@ function setupFocus() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    hideCalendar();
 
     setupTheme();
-    setupCalendar();
     setupFocus();
+    setupCalendar();
 
     // Update calendar when printing
     window.matchMedia('print').addEventListener('change', function(mql) {
