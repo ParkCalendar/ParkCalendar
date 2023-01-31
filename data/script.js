@@ -71,6 +71,8 @@ function setupCalendar() {
         fixedWeekCount: true
     });
 
+    calendarEl.style.filter = 'opacity(0)';
+
     addCalendarSources();
 }
 
@@ -157,7 +159,44 @@ var pastEvents = {
     }
 };
 
+function fadeIn(el) {
+    fade(el, true, 10);
+}
+
+function fadeOut(el) {
+    fade(el, false, 10);
+}
+
+function fade(el, increase, delay) {
+    // Increase Params
+    var opacity = 0.1;
+    var opacityEnd = 1;
+    var factor = 1.1;
+    var atLimit = val => val >= 1;
+
+    // Decrease
+    if (!increase) {
+        opacity = 1;
+        opacityEnd = 0;
+        factor = 0.9;
+        atLimit = val => val < 0.1;
+    }
+
+    el.style.filter = 'opacity(' + opacity + ')';
+    var timer = setInterval(function() {
+        if (atLimit(opacity)) {
+            clearInterval(timer);
+            opacity = opacityEnd;
+        }
+        el.style.filter = 'opacity(' + opacity + ')';
+        opacity *= factor;
+    }, delay);
+}
+
 function refresh() {
+    var calendarEl = document.getElementById('calendar');
+    calendarEl.style.filter = 'opacity(0)';
+
     calendar.removeAllEventSources();
     calendar.removeAllEvents();
     setTimeout(addCalendarSources, 250);
@@ -180,6 +219,10 @@ function addCalendarSources() {
 
     setTimeout(function() {
         calendar.render();
+
+        var calendarEl = document.getElementById('calendar');
+        fadeIn(calendarEl);
+
         updateLastChangeTime();
     }, 250);
 }
