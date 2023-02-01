@@ -25,13 +25,7 @@ function checkRefreshTap() {
     lastToggle = now;
     if (rapidToggleCount > 2) {
         rapidToggleCount = 0;
-
-        var changeTimeEl = document.getElementById('lastChangeTime');
-        if (changeTimeEl) {
-            changeTimeEl.innerText = "Refreshing...";
-        }
-        hideCalendar();
-        setTimeout(refresh, 750);
+        refresh("Refreshing...");
     }
 }
 
@@ -223,11 +217,11 @@ function hideCalendar() {
     calendarEl.style.filter = 'opacity(0)';
 }
 
-function refresh() {
+function refresh(reason) {
 
     var changeTimeEl = document.getElementById('lastChangeTime');
     if (changeTimeEl) {
-        changeTimeEl.innerText = "Loading...";
+        changeTimeEl.innerText = reason;
     }
 
     // Remove the old calendar
@@ -237,8 +231,8 @@ function refresh() {
     var newCalendar = document.createElement('div');
     newCalendar.id = 'calendar';
     document.getElementsByClassName('calendarWrapper')[0].appendChild(newCalendar);
-    hideCalendar();
-    setupCalendar();
+
+    setTimeout(setupCalendar, 750);
 }
 
 function addCalendarSources() {
@@ -321,7 +315,12 @@ function setupFocus() {
 
     var onChange = function() {
         updateLastFocus();
-        refresh();
+        refresh("Loading changes...");
+    };
+
+    var reloadSuccess = function() {
+        updateLastFocus();
+        refresh("Reloading...");
     };
 
     var onFocus = (event) => {
@@ -329,7 +328,7 @@ function setupFocus() {
         var diff = now - lastFocus;
         console.log("focus: diff=" + diff + ", cache=" + focusCacheTime);
         if (diff > focusCacheTime) {
-            detectChange(onChange, onChange);
+            detectChange(onChange, reloadSuccess);
         } else if (diff > checkTime) {
             detectChange(onChange, updateLastFocus);
         }
