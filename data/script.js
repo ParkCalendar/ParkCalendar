@@ -200,20 +200,21 @@ function hideCalendar() {
 }
 
 function refresh() {
-    hideCalendar();
 
     var changeTimeEl = document.getElementById('lastChangeTime');
     if (changeTimeEl) {
         changeTimeEl.innerText = "Loading...";
     }
 
-    setTimeout(function() {
-        calendar.removeAllEvents();
-        setTimeout(function() {
-            calendar.removeAllEventSources();
-            setTimeout(addCalendarSources, 350);
-        }, 200);
-    }, 200);
+    // Remove the old calendar
+    document.getElementById('calendar').remove();
+
+    // Create and setup the new calendar
+    var newCalendar = document.createElement('div');
+    newCalendar.id = 'calendar';
+    document.getElementsByClassName('calendarWrapper')[0].appendChild(newCalendar);
+    hideCalendar();
+    setupCalendar();
 }
 
 function addCalendarSources() {
