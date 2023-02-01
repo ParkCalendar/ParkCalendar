@@ -1,5 +1,7 @@
 var calendar;
 var lastFetch = new Date().toJSON();
+var lastToggle = new Date().getTime();
+var rapidToggleCount = 0;
 
 function setTheme(theme) {
     document.querySelector('button.themeToggle i').classList = [theme];
@@ -12,7 +14,29 @@ function setTheme(theme) {
     }
 }
 
+function checkRefreshTap() {
+    var now = new Date().getTime();
+    if (now - lastToggle < 750) {
+        rapidToggleCount++;
+        console.log("Refresh: " + rapidToggleCount);
+    } else {
+        rapidToggleCount = 0;
+    }
+    lastToggle = now;
+    if (rapidToggleCount > 2) {
+        rapidToggleCount = 0;
+
+        var changeTimeEl = document.getElementById('lastChangeTime');
+        if (changeTimeEl) {
+            changeTimeEl.innerText = "Refreshing...";
+        }
+        hideCalendar();
+        setTimeout(refresh, 750);
+    }
+}
+
 function toggleTheme() {
+    checkRefreshTap();
     var toggleButton = document.querySelector('button.themeToggle i');
     if (toggleButton.classList.contains('system')) {
         setTheme('light');
