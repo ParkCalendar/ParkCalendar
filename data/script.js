@@ -3,8 +3,39 @@ var lastFetch = new Date().toJSON();
 var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
 
+function log(level, message) {
+    var debug = document.getElementById('log');
+    var el = document.createElement('div');
+    var time = new Date().toUTCString();
+    var prefix = '[DEBUG]';
+    if (level == 'debug') {
+        console.debug(message);
+    } else if (level == 'log') {
+        prefix = '[LOG]';
+        console.log(message);
+    } else if (level == 'warn') {
+        console.warn(message);
+        prefix = '[WARN]';
+    } else if (level == 'err') {
+        console.error(message);
+        prefix = '[ERR]';
+    }
+    el.innerText = time + ' ' + prefix + ' ' + message;
+    debug.insertBefore(el, debug.firstChild);
+}
+
+function toggleDebug() {
+    console.log("DEBUG");
+    var debug = document.getElementById('log');
+    if (debug.style.display == 'none') {
+        debug.style.display = '';
+    } else {
+        debug.style.display = 'none';
+    }
+}
+
 function setTheme(theme) {
-    document.querySelector('button.themeToggle i').classList = [theme];
+    document.querySelector('button#themeToggle i').classList = [theme];
     if (theme == 'system') {
         document.documentElement.classList = [];
         localStorage.removeItem('theme');
@@ -18,20 +49,20 @@ function checkRefreshTap() {
     var now = new Date().getTime();
     if (now - lastToggle < 750) {
         rapidToggleCount++;
-        console.log("Refresh: " + rapidToggleCount);
     } else {
         rapidToggleCount = 0;
     }
     lastToggle = now;
     if (rapidToggleCount > 2) {
         rapidToggleCount = 0;
+        log('debug', "Refreshing");
         refresh("Refreshing...");
     }
 }
 
 function toggleTheme() {
     checkRefreshTap();
-    var toggleButton = document.querySelector('button.themeToggle i');
+    var toggleButton = document.querySelector('button#themeToggle i');
     if (toggleButton.classList.contains('system')) {
         setTheme('light');
     } else if (toggleButton.classList.contains('light')) {
@@ -47,9 +78,14 @@ function setupTheme() {
         setTheme(theme);
     }
 
-    var toggleButton = document.querySelector('button.themeToggle');
+    var toggleButton = document.getElementById('themeToggle');
     if (toggleButton) {
         toggleButton.addEventListener('click', toggleTheme);
+    }
+
+    var debug = document.getElementById('debug');
+    if (debug) {
+        debug.addEventListener('click', toggleDebug);
     }
 }
 
@@ -125,21 +161,21 @@ var pastEvents = {
     doFetch: function(date) {
         var jsonFile = this.getJsonFile(date);
         if (this.isInTheFuture(date)) {
-            console.debug(jsonFile + " • Skip:Future");
+            log('debug', jsonFile + " • Skip:Future");
             return;
         }
         if (this.didFetch.includes(jsonFile)) {
-            console.debug(jsonFile + " • Skip:Fetched");
+            log('debug', jsonFile + " • Skip:Fetched");
             return;
         }
         var fetchArray = this.didFetch;
         fetchArray.push(jsonFile);
-        console.debug(jsonFile + " • loading");
+        log('debug', jsonFile + " • loading");
         var jsonUrl = "archive/" + jsonFile + this.queryParams(date);
         fetch(jsonUrl)
             .then(response => {
                 if (!response.ok) {
-                    console.warn(jsonFile + " • no data");
+                    log('warn', jsonFile + " • no data");
                     return Promise.reject("NoData");
                 }
                 return response.json();
@@ -154,7 +190,7 @@ var pastEvents = {
                 if (error == "NoData") {
                     return;
                 }
-                console.error("ERR • Retry: " + jsonFile);
+                log('err', "ERR • Retry: " + jsonFile);
                 const index = fetchArray.indexOf(jsonFile);
                 if (index > -1) {
                     fetchArray.splice(index, 1);
@@ -163,7 +199,7 @@ var pastEvents = {
     },
 
     calendarFetchFn: function(fetchInfo, success, failure) {
-        console.debug("Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
+        log('debug', "Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
         var start = new Date(fetchInfo.startStr);
         this.doFetch(start);
         start.setDate(start.getDate() + 8);
@@ -275,7 +311,7 @@ function detectChange(onChange, onSuccess) {
     fetch(url)
         .then(response => {
             if (!response.ok) {
-                console.warn("lastChange.txt • no data");
+                log('warn', "lastChange.txt • no data");
                 return Promise.reject("NoData");
             }
             return response.text();
@@ -283,12 +319,12 @@ function detectChange(onChange, onSuccess) {
         .then(text => {
             if (lastFetch != text) {
                 lastFetch = text;
-                console.log("• change detected " + text);
+                log('log', "• change detected " + text);
                 if (onChange) { 
                     onChange();
                 }
             } else {
-                console.log("• no changes");
+                log('log', "• no changes");
                 if (onSuccess) {
                     onSuccess();
                 }
@@ -298,7 +334,7 @@ function detectChange(onChange, onSuccess) {
             if (error == "NoData") {
                 return;
             }
-            console.error("lastChange.txt • ERR");
+            log('err', "lastChange.txt • ERR");
         });
 }
 
@@ -326,7 +362,7 @@ function setupFocus() {
     var onFocus = (event) => {
         var now = new Date();
         var diff = now - lastFocus;
-        console.log("focus: diff=" + diff + ", cache=" + focusCacheTime);
+        log('log', "focus: diff=" + diff + ", cache=" + focusCacheTime);
         if (diff > focusCacheTime) {
             detectChange(onChange, reloadSuccess);
         } else if (diff > checkTime) {
@@ -338,6 +374,8 @@ function setupFocus() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('log').style.display = 'none';
+
     hideCalendar();
 
     setupTheme();

@@ -100,18 +100,25 @@ a.back {
     padding-bottom: 10px;
     opacity: 0.5;
 }
-button.themeToggle {
+button.icon {
     width: 30px;
     height: 30px;
     border-radius: 4px;
     border: 0;
     background-color: transparent;
     padding: 2px;
-    margin-left: 8px;
-    float: right;
     cursor: pointer;
 }
-button.themeToggle i {
+.topHeader button.icon {
+    margin-left: 8px;
+    float: right;
+}
+.footer button.icon {
+    display: block;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+button.icon i {
     display: block;
     width: 100%;
     height: 100%;
@@ -119,14 +126,17 @@ button.themeToggle i {
     background-position: center;
     opacity: 0.3;
 }
-button.themeToggle i.dark {
+button.icon i.dark {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M421.6 379.9c-.6641 0-1.35 .0625-2.049 .1953c-11.24 2.143-22.37 3.17-33.32 3.17c-94.81 0-174.1-77.14-174.1-175.5c0-63.19 33.79-121.3 88.73-152.6c8.467-4.812 6.339-17.66-3.279-19.44c-11.2-2.078-29.53-3.746-40.9-3.746C132.3 31.1 32 132.2 32 256c0 123.6 100.1 224 223.8 224c69.04 0 132.1-31.45 173.8-82.93C435.3 389.1 429.1 379.9 421.6 379.9zM255.8 432C158.9 432 80 353 80 256c0-76.32 48.77-141.4 116.7-165.8C175.2 125 163.2 165.6 163.2 207.8c0 99.44 65.13 183.9 154.9 212.8C298.5 428.1 277.4 432 255.8 432z'/%3E%3C/svg%3E");
 }
-button.themeToggle i.light {
+button.icon i.light {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath d='M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM192 0C90.02 .3203 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.8 289.2 .0039 192 0zM288.4 260.1c-15.66 17.85-35.04 46.3-49.05 75.89h-94.61c-14.01-29.59-33.39-58.04-49.04-75.88C75.24 236.8 64 206.1 64 175.1C64 113.3 112.1 48.25 191.1 48C262.6 48 320 105.4 320 175.1C320 206.1 308.8 236.8 288.4 260.1zM176 80C131.9 80 96 115.9 96 160c0 8.844 7.156 16 16 16S128 168.8 128 160c0-26.47 21.53-48 48-48c8.844 0 16-7.148 16-15.99S184.8 80 176 80z'/%3E%3C/svg%3E");
 }
-button.themeToggle i.system {
+button.icon i.system {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zm64 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256z'/%3E%3C/svg%3E");
+}
+button.icon i.bug {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M256 0c53 0 96 43 96 96v3.6c0 15.7-12.7 28.4-28.4 28.4H188.4c-15.7 0-28.4-12.7-28.4-28.4V96c0-53 43-96 96-96zM41.4 105.4c12.5-12.5 32.8-12.5 45.3 0l64 64c.7 .7 1.3 1.4 1.9 2.1c14.2-7.3 30.4-11.4 47.5-11.4H312c17.1 0 33.2 4.1 47.5 11.4c.6-.7 1.2-1.4 1.9-2.1l64-64c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-64 64c-.7 .7-1.4 1.3-2.1 1.9c6.2 12 10.1 25.3 11.1 39.5H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H416c0 24.6-5.5 47.8-15.4 68.6c2.2 1.3 4.2 2.9 6 4.8l64 64c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-63.1-63.1c-24.5 21.8-55.8 36.2-90.3 39.6V240c0-8.8-7.2-16-16-16s-16 7.2-16 16V479.2c-34.5-3.4-65.8-17.8-90.3-39.6L86.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l64-64c1.9-1.9 3.9-3.4 6-4.8C101.5 367.8 96 344.6 96 320H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96.3c1.1-14.1 5-27.5 11.1-39.5c-.7-.6-1.4-1.2-2.1-1.9l-64-64c-12.5-12.5-12.5-32.8 0-45.3z'/%3E%3C/svg%3E");
 }
 .fc-day-past .fc-h-event {
     background-color: var(--fc-event-bg-color-past);
@@ -139,6 +149,14 @@ button.themeToggle i.system {
     font-size: 0.9em;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+#log {
+    font-family: monospace;
+    padding: 5px;
+    border: 1px solid var(--fc-today-bg-color);
+    border-radius: 8px;
+    font-size: 0.7em;
+    opacity: 0.5;
 }
 .dim {
     opacity: 0.5;
@@ -222,7 +240,7 @@ p {
     .lastChange {
         padding-bottom: 0;
     }
-    button.themeToggle {
+    button.icon {
         margin-right: 10px;
     }
     .wrapper {
@@ -250,7 +268,7 @@ p {
     .fc .fc-toolbar-chunk .fc-button {
         display: none;
     }
-    .themeToggle, .footer {
+    .icon, .footer {
         display: none;
     }
     body {
