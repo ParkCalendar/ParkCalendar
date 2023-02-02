@@ -152,6 +152,7 @@ button.icon i.bug {
 }
 #log {
     font-family: monospace;
+    margin-top: 5px;
     padding: 5px;
     border: 1px solid var(--fc-today-bg-color);
     border-radius: 8px;
