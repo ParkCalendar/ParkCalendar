@@ -10,15 +10,15 @@ function log(level, message) {
     var prefix = '[DEBUG]';
     if (level == 'debug') {
         console.debug(message);
-    } else if (level == 'log') {
-        prefix = '[LOG]';
-        console.log(message);
     } else if (level == 'warn') {
         console.warn(message);
         prefix = '[WARN]';
     } else if (level == 'err') {
         console.error(message);
         prefix = '[ERR]';
+    } else {
+        prefix = '[LOG]';
+        console.log(message);
     }
     el.innerText = time + ' ' + prefix + ' ' + message;
     debug.insertBefore(el, debug.firstChild);
@@ -305,9 +305,17 @@ function updateLastChangeTime() {
     }
 }
 
+var detectChangeWorking = 0;
+
 function detectChange(onChange, onSuccess) {
     var cache = new Date().getTime();
     var url = "lastChange.txt?t=" + cache;
+    var diff = cache - detectChangeWorking;
+    if (diff < 15000) {
+        log('warn', 'skip detectChange, checked ' + diff);
+        return;
+    }
+    detectChangeWorking = cache;
     fetch(url)
         .then(response => {
             if (!response.ok) {
@@ -335,6 +343,9 @@ function detectChange(onChange, onSuccess) {
                 return;
             }
             log('err', "lastChange.txt • ERR");
+        })
+        .finally(() => {
+            detectChangeWorking = 0;
         });
 }
 
