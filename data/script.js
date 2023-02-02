@@ -305,17 +305,12 @@ function updateLastChangeTime() {
     }
 }
 
-var detectChangeWorking = 0;
+var lastFocusCheck = 0;
+var focusCheckTime = 15000;
 
 function detectChange(onChange, onSuccess) {
     var cache = new Date().getTime();
     var url = "lastChange.txt?t=" + cache;
-    var diff = cache - detectChangeWorking;
-    if (diff < 15000) {
-        log('warn', 'skip detectChange, checked ' + diff);
-        return;
-    }
-    detectChangeWorking = cache;
     fetch(url)
         .then(response => {
             if (!response.ok) {
@@ -345,7 +340,7 @@ function detectChange(onChange, onSuccess) {
             log('err', "lastChange.txt • ERR");
         })
         .finally(() => {
-            detectChangeWorking = 0;
+            lastFocusCheck = 0;
         });
 }
 
@@ -353,6 +348,7 @@ function setupFocus() {
     detectChange();
 
     var lastFocus = new Date().getTime();
+    lastFocusCheck = lastFocus;
     var focusCacheTime = 1800000;
     var checkTime = 300000;
 
@@ -371,9 +367,15 @@ function setupFocus() {
     };
 
     var onFocus = (event) => {
-        var now = new Date();
+        var now = new Date().getTime();
+        var checkDiff = now - lastFocusCheck;
+        if (checkDiff < focusCheckTime) {
+            log('warn', "focus: duplicate, skipping");
+            return;
+        }
+        lastFocusCheck = now;
         var diff = now - lastFocus;
-        log('log', "focus: diff=" + diff + ", cache=" + focusCacheTime);
+        log('log', "focus: diff=" + diff);
         if (diff > focusCacheTime) {
             detectChange(onChange, reloadSuccess);
         } else if (diff > checkTime) {
