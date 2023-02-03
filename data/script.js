@@ -3,10 +3,26 @@ var lastFetch = new Date().toJSON();
 var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
 
+function pad(str) {
+    return ("0" + str).slice(-2);
+}
+
+function toDateString(now) {
+    var month = now.getMonth() + 1;
+    var day = now.getDate();
+    var year = now.getFullYear();
+    var hour = now.getHours();
+    var min = pad(now.getMinutes());
+    var sec = pad(now.getSeconds());
+
+    return month + "/" + day + "/" + year + " @ " + hour + ":" + min + ":" + sec;
+}
+
 function log(level, message) {
     var debug = document.getElementById('log');
     var el = document.createElement('div');
-    var time = new Date().toUTCString();
+    var now = new Date();
+    var time = toDateString(now);
     var prefix = '[DEBUG]';
     if (level == 'debug') {
         console.debug(message);
