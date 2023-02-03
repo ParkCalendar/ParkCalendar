@@ -399,7 +399,7 @@ function setupFocus() {
         }
     };
 
-    addEventListener('focus', onFocus);
+    window.addEventListener('focus', onFocus);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
