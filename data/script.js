@@ -219,6 +219,7 @@ var pastEvents = {
         var start = new Date(fetchInfo.startStr);
         this.doFetch(start);
         start.setDate(start.getDate() + 8);
+        start.setDate(1);
         this.doFetch(start);
         var end = new Date(fetchInfo.endStr);
         this.doFetch(end);
