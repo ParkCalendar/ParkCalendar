@@ -37,12 +37,16 @@ function log(level, message) {
         console.log(message);
     }
     el.innerText = time + ' ' + prefix + ' ' + message;
-    debug.insertBefore(el, debug.firstChild);
+    if (debug) {
+        debug.insertBefore(el, debug.firstChild);
+    }
 }
 
 function toggleDebug() {
-    console.log("DEBUG");
     var debug = document.getElementById('log');
+    if (!debug) {
+        return;
+    }
     if (debug.style.display == 'none') {
         debug.style.display = '';
     } else {
@@ -266,7 +270,9 @@ function fade(el, increase, delay) {
 
 function hideCalendar() {
     var calendarEl = document.getElementById('calendar');
-    calendarEl.style.filter = 'opacity(0)';
+    if (calendarEl) {
+        calendarEl.style.filter = 'opacity(0)';
+    }
 }
 
 function refresh(reason) {
@@ -403,7 +409,10 @@ function setupFocus() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('log').style.display = 'none';
+    var logDiv = document.getElementById('log');
+    if (logDiv) {
+        logDiv.style.display = 'none';
+    }
 
     hideCalendar();
 
