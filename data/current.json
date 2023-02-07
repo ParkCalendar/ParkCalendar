@@ -2037,41 +2037,41 @@
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "upcomingHours": [
     {
-      "open": "2023-01-30T10:30:00",
-      "close": "2023-01-30T17:00:00",
-      "operatingDate": "2023-01-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-03T10:30:00",
-      "close": "2023-02-03T18:00:00",
-      "operatingDate": "2023-02-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-04T10:30:00",
-      "close": "2023-02-04T20:00:00",
-      "operatingDate": "2023-02-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-05T10:30:00",
-      "close": "2023-02-05T18:00:00",
-      "operatingDate": "2023-02-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-02-06T10:30:00",
       "close": "2023-02-06T17:00:00",
       "operatingDate": "2023-02-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-10T10:30:00",
+      "close": "2023-02-10T18:00:00",
+      "operatingDate": "2023-02-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-11T10:30:00",
+      "close": "2023-02-11T20:00:00",
+      "operatingDate": "2023-02-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-12T10:30:00",
+      "close": "2023-02-12T18:00:00",
+      "operatingDate": "2023-02-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-13T10:30:00",
+      "close": "2023-02-13T17:00:00",
+      "operatingDate": "2023-02-13T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
