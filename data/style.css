@@ -41,7 +41,7 @@
     }
 }
 
-@media only screen (prefers-color-scheme: dark) {
+@media only screen and (prefers-color-scheme: dark) {
     :root {
         --fc-neutral-bg-color: rgba(20,20,20,.20);
         --fc-neutral-bg-color-sm: #26282A;
