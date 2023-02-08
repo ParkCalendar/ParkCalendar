@@ -118,6 +118,9 @@ function setupCalendar() {
 
     calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
+        validRange: {
+            start: '2021-12-01'
+        },
         headerToolbar: {
             start: 'title',
             center: 'subscribe',
