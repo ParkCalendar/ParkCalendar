@@ -333,11 +333,22 @@ function updateLastChangeTime() {
 
 var lastFocusCheck = 0;
 var focusCheckTime = 15000;
+var abortFetchTime = parseInt(focusCheckTime * 2 / 3);
 
 function detectChange(onChange, onSuccess) {
     var cache = new Date().getTime();
     var url = "lastChange.txt?t=" + cache;
-    fetch(url)
+
+    const controller = new AbortController();
+    const id = setTimeout(function() {
+        log('warn', "• aborting - request timeout");
+        controller.abort();
+    }, abortFetchTime);
+    const fetchOptions = {
+        signal: controller.signal
+    }
+
+    fetch(url, fetchOptions)
         .then(response => {
             if (!response.ok) {
                 log('warn', "lastChange.txt • no data");
@@ -367,6 +378,7 @@ function detectChange(onChange, onSuccess) {
         })
         .finally(() => {
             lastFocusCheck = 0;
+            clearTimeout(id);
         });
 }
 
