@@ -2037,30 +2037,6 @@
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "upcomingHours": [
     {
-      "open": "2023-02-06T10:30:00",
-      "close": "2023-02-06T17:00:00",
-      "operatingDate": "2023-02-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-10T10:30:00",
-      "close": "2023-02-10T18:00:00",
-      "operatingDate": "2023-02-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-11T10:30:00",
-      "close": "2023-02-11T20:00:00",
-      "operatingDate": "2023-02-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-02-12T10:30:00",
       "close": "2023-02-12T18:00:00",
       "operatingDate": "2023-02-12T00:00:00",
@@ -2072,6 +2048,38 @@
       "open": "2023-02-13T10:30:00",
       "close": "2023-02-13T17:00:00",
       "operatingDate": "2023-02-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-17T10:30:00",
+      "close": "2023-02-17T18:00:00",
+      "operatingDate": "2023-02-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-18T10:30:00",
+      "close": "2023-02-18T20:00:00",
+      "operatingDate": "2023-02-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-19T10:30:00",
+      "close": "2023-02-19T20:00:00",
+      "operatingDate": "2023-02-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-20T10:30:00",
+      "close": "2023-02-20T20:00:00",
+      "operatingDate": "2023-02-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
