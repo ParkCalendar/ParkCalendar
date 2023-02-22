@@ -1,4 +1,4 @@
-:root, :root.light {
+:root, :root.light, :root.print {
     --fc-neutral-bg-color: rgba(40,40,45,.10);
     --fc-neutral-bg-color-sm: rgba(40,40,45,.10);
     --fc-today-bg-color: #d9e5ec;
@@ -263,6 +263,26 @@ p {
     }
     .changelog-entry pre {
         font-size: 0.85em;
+    }
+}
+@media only screen {
+    .print .fc .fc-toolbar-chunk .fc-button {
+        display: none;
+    }
+    .print .icon, .print .footer {
+        display: none;
+    }
+    .print body {
+        background-color: white;
+    }
+    .print body, .print .wrapper {
+        padding: 0;
+    }
+    .print .content {
+        background-color: white;
+        border: none;
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }
 @media only print {
