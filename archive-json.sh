@@ -30,7 +30,7 @@ COUNT=0
 
 echo "["
 
-for row in $(cat ${FILE})
+while read -r row
 do
     R=${row}
     if [[ "${START}" == "" ]]
@@ -40,8 +40,16 @@ do
     fi
 
     END=${R}
-
-    CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
+    CLOSURE=0
+    if [[ ${END} == "⛔️"* ]]
+    then
+        TITLE=${END}
+        START=$(${DATECMD} +"%Y-%m-%d" -d "${START}")
+        CLOSURE=1
+    else
+        CLOSE=$(${DATECMD} +"%I:%M%p" -d "${END}" | sed 's/AM/a/' | sed 's/PM/p/' )
+        TITLE="- ${CLOSE}"
+    fi
 
     if [[ "${COUNT}" != "0" ]]
     then
@@ -49,15 +57,31 @@ do
     fi
     COUNT=$(( COUNT + 1 ))
 
-    cat <<__STOP
+    if [[ "${CLOSURE}" == "0" ]]
+    then
+
+        cat <<__STOP
 {
-    "title": "- ${CLOSE}",
+    "title": "${TITLE}",
     "start": "${START}",
     "end": "${END}"
 }
 __STOP
 
+    else
+
+        cat <<__STOP
+{
+    "title": "${TITLE}",
+    "start": "${START}",
+    "allday": "true"
+}
+__STOP
+
+    fi
+
     START=""
-done
+
+done < "${FILE}"
 
 echo "]"
