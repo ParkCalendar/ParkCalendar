@@ -1907,40 +1907,6 @@
   },
   "ecommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
-  "upcomingHours": [
-    {
-      "open": "2023-02-24T10:30:00",
-      "close": "2023-02-24T18:00:00",
-      "operatingDate": "2023-02-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-25T10:30:00",
-      "close": "2023-02-25T20:00:00",
-      "operatingDate": "2023-02-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-26T10:30:00",
-      "close": "2023-02-26T18:00:00",
-      "operatingDate": "2023-02-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-02-27T10:30:00",
-      "close": "2023-02-27T17:00:00",
-      "operatingDate": "2023-02-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    }
-  ],
   "rideHeightUnitOfMeasure": "in",
   "membershipEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "appCarousel": [],
@@ -2070,5 +2036,39 @@
   "parkingUrl_en": "https://www.sixflags.com/magicmountain/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
+  "upcomingHours": [
+    {
+      "open": "2023-02-24T10:30:00",
+      "close": "2023-02-24T18:00:00",
+      "operatingDate": "2023-02-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-25T10:30:00",
+      "close": "2023-02-25T20:00:00",
+      "operatingDate": "2023-02-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-26T10:30:00",
+      "close": "2023-02-26T18:00:00",
+      "operatingDate": "2023-02-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-02-27T10:30:00",
+      "close": "2023-02-27T17:00:00",
+      "operatingDate": "2023-02-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "toastMessages": null
 }
