@@ -12,7 +12,14 @@ else
     DATECMD=date
 fi
 
+SHOULD_COMMIT=0
 REASON=$1
+if [[ "${REASON}" == "commit" ]]
+then
+    SHOULD_COMMIT=1
+    REASON=$2
+fi
+
 if [[ "${REASON}" == "" ]]
 then
     REASON="Rain Closure"
