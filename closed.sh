@@ -30,3 +30,14 @@ echo $START >> $FILE_TXT
 echo $CLOSED >> $FILE_TXT
 
 ./archive-json.sh ${FILE_TXT} | jq > ${FILE_JSON}
+
+if [[ "${SHOULD_COMMIT}" == "1" ]]
+then
+    git add ${FILE_TXT}
+    git add ${FILE_JSON}
+    git commit -m "${CLOSED} -- ${FILE}"
+    git push
+else
+    echo "•• commit skipped ••"
+fi
+
