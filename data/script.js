@@ -279,12 +279,17 @@ function hideCalendar() {
     }
 }
 
-function refresh(reason) {
-
+function setStatus(value) {
     var changeTimeEl = document.getElementById('lastChangeTime');
     if (changeTimeEl) {
-        changeTimeEl.innerText = reason;
+        log('debug', "status: " + value);
+        changeTimeEl.innerText = value;
     }
+}
+
+function refresh(reason) {
+
+    setStatus(reason);
 
     // Remove the old calendar
     document.getElementById('calendar').remove();
@@ -325,10 +330,7 @@ function addCalendarSources() {
 }
 
 function updateLastChangeTime() {
-    var changeTimeEl = document.getElementById('lastChangeTime');
-    if (changeTimeEl) {
-        changeTimeEl.innerText = lastFetch;
-    }
+    setStatus(lastFetch);
 }
 
 var lastFocusCheck = 0;
