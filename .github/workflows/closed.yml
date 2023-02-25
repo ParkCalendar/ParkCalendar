@@ -1,4 +1,4 @@
-name: Fetch Hours
+name: Park Closed Today
 
 on:
   workflow_dispatch:
