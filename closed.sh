@@ -40,9 +40,10 @@ echo $CLOSED >> $FILE_TXT
 
 if [[ "${SHOULD_COMMIT}" == "1" ]]
 then
+    DATE_CLOSED=$(${DATECMD} + '%Y-%m-%d')
     git add ${FILE_TXT}
     git add ${FILE_JSON}
-    git commit -m "${CLOSED} -- ${FILE}"
+    git commit -m "${CLOSED} -- ${DATE_CLOSED}"
     git push
 else
     echo "•• commit skipped ••"
