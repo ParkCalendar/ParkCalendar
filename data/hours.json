@@ -1893,17 +1893,49 @@
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "upcomingHours": [
     {
-      "open": "2023-02-26T10:30:00",
-      "close": "2023-02-26T18:00:00",
-      "operatingDate": "2023-02-26T00:00:00",
+      "open": "2023-02-27T10:30:00",
+      "close": "2023-02-27T17:00:00",
+      "operatingDate": "2023-02-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
     },
     {
-      "open": "2023-02-27T10:30:00",
-      "close": "2023-02-27T17:00:00",
-      "operatingDate": "2023-02-27T00:00:00",
+      "open": "2023-03-02T10:30:00",
+      "close": "2023-03-02T18:00:00",
+      "operatingDate": "2023-03-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-03-03T10:30:00",
+      "close": "2023-03-03T18:00:00",
+      "operatingDate": "2023-03-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-03-04T10:30:00",
+      "close": "2023-03-04T20:00:00",
+      "operatingDate": "2023-03-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-03-05T10:30:00",
+      "close": "2023-03-05T18:00:00",
+      "operatingDate": "2023-03-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-03-06T10:30:00",
+      "close": "2023-03-06T17:00:00",
+      "operatingDate": "2023-03-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
