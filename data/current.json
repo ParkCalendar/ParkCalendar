@@ -1875,6 +1875,13 @@
   },
   "ecommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
   "seasonPassesEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
+  "rideHeightUnitOfMeasure": "in",
+  "membershipEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
+  "appCarousel": [],
+  "virtualQueueEnabled": false,
+  "freeVirtualQueueUri": "https://mm-free.sfflashpass.com/",
+  "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
+  "chatUrl": "https://direct.lc.chat/8585046/68",
   "upcomingHours": [
     {
       "open": "2023-03-02T10:30:00",
@@ -1917,13 +1924,6 @@
       "waterParkClose": null
     }
   ],
-  "rideHeightUnitOfMeasure": "in",
-  "membershipEcommerceUri": "https://sixflags.com/magicmountain/store/tickets?noheaders",
-  "appCarousel": [],
-  "virtualQueueEnabled": false,
-  "freeVirtualQueueUri": "https://mm-free.sfflashpass.com/",
-  "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
-  "chatUrl": "https://direct.lc.chat/8585046/68",
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
