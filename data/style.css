@@ -219,6 +219,16 @@ p {
 .changelog-entry pre {
     margin: 0.5em 0 1em 0;
 }
+.printOnly {
+    display: none;
+}
+.urlHeader {
+    margin: 0 auto;
+    text-align: center;
+    height: 0;
+    position: relative;
+    opacity: 0.6;
+}
 @media only screen and (max-width: 900px) {
     body {
         padding: 0;
@@ -284,8 +294,14 @@ p {
         padding: 0 20px;
         margin: 0 auto;
     }
+    .print .printOnly {
+        display: block;
+    }
 }
 @media only print {
+    .printOnly {
+        display: block;
+    }
     .fc .fc-toolbar-chunk .fc-button {
         display: none;
     }
