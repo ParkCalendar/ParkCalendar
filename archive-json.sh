@@ -41,7 +41,7 @@ do
 
     END=${R}
     CLOSURE=0
-    if [[ ${END} == "⛔️"* ]]
+    if [[ ${END} == "⛔️"* || ${END} == "☔️"* ]]
     then
         TITLE=${END}
         START=$(${DATECMD} +"%Y-%m-%d" -d "${START}")
