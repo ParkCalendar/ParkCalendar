@@ -301,6 +301,10 @@ p {
     .print .printOnly {
         display: block;
     }
+    .print .wrapper {
+        width: 900px;
+        margin: 0 auto;
+    }
 }
 @media only print {
     .printOnly {
