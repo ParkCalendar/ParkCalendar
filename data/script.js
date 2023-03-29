@@ -56,11 +56,19 @@ function toggleDebug() {
 
 function takeScreenshot() {
     document.documentElement.classList = ['print'];
+    var start = calendar.view.currentStart;
     refresh("Take Screenshot");
-    setTimeout(doTakeScreenshot, 1500);
+    setTimeout(function() {
+        log('debug', 'Jumping to ' + start);
+        calendar.gotoDate(start);
+        setTimeout(function() {
+            doTakeScreenshot(start)
+        }, 1000);
+    }, 750);
+
 }
 
-function doTakeScreenshot() {
+function doTakeScreenshot(start) {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var year = calendar.view.currentStart.getFullYear();
@@ -72,6 +80,10 @@ function doTakeScreenshot() {
         document.documentElement.classList = [];
         setupTheme();
         refresh("Reset Page");
+        setTimeout(function() {
+            log('debug', 'Reset to ' + start);
+            calendar.gotoDate(start);
+        }, 750);
     });
 }
 
