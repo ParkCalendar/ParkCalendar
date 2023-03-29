@@ -69,6 +69,8 @@ function takeScreenshot() {
 }
 
 function doTakeScreenshot(start) {
+    var date = new Date();
+    document.getElementById('printDate').innerHTML = "Screenshot taken on<br>" + date;
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var year = calendar.view.currentStart.getFullYear();

@@ -225,13 +225,12 @@ p {
 .urlHeader {
     margin: 0 auto;
     text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 200px;
-    z-index: 999;
-    padding: 8px;
     opacity: 0.6;
+    font-size: 0.8em;
+}
+.urlHeader em {
+    display: block;
+    margin: 4px 0;
 }
 @media only screen and (max-width: 900px) {
     body {
@@ -301,8 +300,8 @@ p {
     .print .printOnly {
         display: block;
     }
-    .print .urlHeader {
-        width: 774px;
+    .print #capture {
+        padding: 4px 10px;
     }
     .print .wrapper {
         width: 900px;
