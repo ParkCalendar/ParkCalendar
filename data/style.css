@@ -227,10 +227,11 @@ p {
     text-align: center;
     opacity: 0.6;
     font-size: 0.8em;
+    padding: 4px;
 }
 .urlHeader em {
     display: block;
-    margin: 4px 0;
+    margin: 6px 0;
 }
 @media only screen and (max-width: 900px) {
     body {
