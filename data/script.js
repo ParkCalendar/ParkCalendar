@@ -54,6 +54,22 @@ function toggleDebug() {
     }
 }
 
+function takeScreenshot() {
+    document.documentElement.classList = ['print'];
+    refresh("Take Screenshot");
+    setTimeout(doTakeScreenshot, 1500);
+}
+
+function doTakeScreenshot() {
+    var capture = document.getElementById('capture');
+    html2canvas(capture).then(function(canvas) {
+        capture.after(canvas);
+        document.documentElement.classList = [];
+        setupTheme();
+        refresh("Reset Page");
+    });
+}
+
 function setTheme(theme) {
     document.querySelector('button#themeToggle i').classList = [theme];
     if (theme == 'system') {
@@ -106,6 +122,11 @@ function setupTheme() {
     var debug = document.getElementById('debug');
     if (debug) {
         debug.addEventListener('click', toggleDebug);
+    }
+
+    var screenshot = document.getElementById('captureButton');
+    if (screenshot) {
+        screenshot.addEventListener('click', takeScreenshot);
     }
 }
 

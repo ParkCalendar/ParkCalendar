@@ -12,12 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.2/index.global.min.js" integrity="sha256-6XCj3LkKsl7TSl5Ico36HM7UTtf14UXhwbMRtlNKeo0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.0.2/index.global.min.js" integrity="sha256-XBrQI12e5wCxhPsk7vc3U9QADZlQBorRPa61JmaYEcE=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js" integrity="sha256-6H5VB5QyLldKH9oMFUmjxw2uWpPZETQXpCkBaDjquMs=" crossorigin="anonymous"></script>
     <script src="script.js?t=202303290450"></script>
     <link rel="stylesheet" href="style.css?t=202303290450">
   </head>
   <body>
     <div class="wrapper">
       <div class="content">
+        <div id="capture">
         <div class="topHeader">
           <button id="themeToggle" class="icon"><i class="system"></i></button>
           <h1>
@@ -32,6 +34,7 @@
         </div>
         <div class="calendarWrapper">
           <div id="calendar"></div>
+        </div>
         </div>
         <div class="footer">
           <p class="center dim">
@@ -77,6 +80,7 @@
           <button id="debug" class="icon"><i class="bug"></i></button>
           <div id="log">
             <div>-- DEBUG LOG --</div>
+            <button id="captureButton" class="icon"><i class="bug"></i></button>
           </div>
         </div>
       </div>
