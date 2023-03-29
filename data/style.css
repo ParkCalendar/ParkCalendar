@@ -301,6 +301,9 @@ p {
     .print .printOnly {
         display: block;
     }
+    .print .urlHeader {
+        width: 774px;
+    }
     .print .wrapper {
         width: 900px;
         margin: 0 auto;
