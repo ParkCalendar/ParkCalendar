@@ -63,7 +63,12 @@ function takeScreenshot() {
 function doTakeScreenshot() {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
-        capture.after(canvas);
+        var year = calendar.view.currentStart.getFullYear();
+        var month = pad(calendar.view.currentStart.getMonth() + 1);
+        var link = document.createElement('a');
+        link.setAttribute('download', year + '-' + month + '-sfmm-times.png');
+        link.setAttribute('href', canvas.toDataURL("image/png"));
+        link.click();
         document.documentElement.classList = [];
         setupTheme();
         refresh("Reset Page");
