@@ -69,7 +69,7 @@ function takeScreenshot() {
 }
 
 function doTakeScreenshot(start) {
-    var date = new Date();
+    var date = new Date().toLocaleString('en-US').replace(', ', ' @ ');
     document.getElementById('printDate').innerHTML = "Screenshot taken on<br>" + date;
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
