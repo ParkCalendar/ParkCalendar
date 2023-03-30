@@ -233,6 +233,9 @@ p {
     display: block;
     margin: 6px 0;
 }
+.urlHeader em.small {
+    font-size: 0.7em;
+}
 @media only screen and (max-width: 900px) {
     body {
         padding: 0;
