@@ -69,9 +69,10 @@ function takeScreenshot() {
 }
 
 function doTakeScreenshot(start) {
-    var date = new Date().toDateString('en-US');
-    var time = new Date().toLocaleString('en-US').split(', ')[1];
-    document.getElementById('printDate').innerHTML = "Screenshot taken on<br>" + date + " @ " + time;
+    var now = new Date();
+    var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+    var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
+    document.getElementById('printDate').innerHTML = "Screenshot taken on<br>" + dateStr + " @ " + timeStr;
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var year = calendar.view.currentStart.getFullYear();
