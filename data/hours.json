@@ -1865,20 +1865,20 @@
       "isff": true,
       "iship": false,
       "parkMapImageURL": {
-        "750": "https://www.sixflags.com/sites/default/files/styles/app_map_image_750/public/img-homescreen-ff-sfmm-1440_0.jpg",
-        "1080": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1080/public/img-homescreen-ff-sfmm-1440_0.jpg",
-        "1242": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1242/public/img-homescreen-ff-sfmm-1440_0.jpg",
-        "1440": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1440/public/img-homescreen-ff-sfmm-1440_0.jpg"
+        "750": "https://www.sixflags.com/sites/default/files/styles/app_map_image_750/public/img-homescreen-sfmm-1440.png?itok=59wq1dY6",
+        "1080": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1080/public/img-homescreen-sfmm-1440.png?itok=PbjAzcXc",
+        "1242": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1242/public/img-homescreen-sfmm-1440.png?itok=bhi4XJPc",
+        "1440": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1440/public/img-homescreen-sfmm-1440.png?itok=wF9iMxFZ"
       },
       "icon": {
         "750": "http://www.placeholderfor21.com/fficonlowres",
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2022-09-10T00:00:00",
-      "publishEnd": "2022-10-31T00:00:00",
-      "eventBegin": "2022-09-10T00:00:00",
-      "eventEnd": "2022-10-31T00:00:00",
+      "publishBegin": "2021-09-09T00:00:00",
+      "publishEnd": "2021-10-31T00:00:00",
+      "eventBegin": "2021-09-09T00:00:00",
+      "eventEnd": "2021-10-31T00:00:00",
       "color": "0x000000",
       "featuredAttraction": null
     },
@@ -1896,10 +1896,10 @@
         "1080": "http://www.placeholderfor21.com/hipiconomedres",
         "1440": "http://www.placeholderfor21.com/hipiconohighres"
       },
-      "publishBegin": "2022-11-24T00:00:00",
-      "publishEnd": "2023-01-01T00:00:00",
-      "eventBegin": "2022-11-24T00:00:00",
-      "eventEnd": "2023-01-01T00:00:00",
+      "publishBegin": "2021-11-17T00:00:00",
+      "publishEnd": "2022-01-03T00:00:00",
+      "eventBegin": "2021-11-17T00:00:00",
+      "eventEnd": "2022-01-03T00:00:00",
       "color": "0x920507",
       "featuredAttraction": null
     }
@@ -1918,5 +1918,7 @@
   "parkingUrl_en": "https://www.sixflags.com/magicmountain/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
+  "parkMapPdf": null,
+  "concept3dMapId": null,
   "toastMessages": null
 }
