@@ -1826,14 +1826,14 @@
     "longitude": -118.595251
   },
   "image": {
-    "1080": "https://www.sixflags.com/sites/default/files/mobile/SFMM_Blur_1080x530.jpg",
-    "1440": "https://www.sixflags.com/sites/default/files/mobile/SFMM_Blur_1440x707.jpg",
-    "750": "https://www.sixflags.com/sites/default/files/mobile/SFMM_Blur_750x368.jpg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg"
   },
   "logo": {
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/sfmm-mobile_home-800px_new.png",
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/sfmm-mobile_home-800px_new.png",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/sfmm-mobile_home-800px_new.png"
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/2020/04/sfmm.png",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/2020/04/sfmm.png",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/2020/04/sfmm.png"
   },
   "couponsEnabled": true,
   "isWaterPark": false,
@@ -1865,20 +1865,20 @@
       "isff": true,
       "iship": false,
       "parkMapImageURL": {
-        "750": "https://www.sixflags.com/sites/default/files/styles/app_map_image_750/public/img-homescreen-sfmm-1440.png?itok=59wq1dY6",
-        "1080": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1080/public/img-homescreen-sfmm-1440.png?itok=PbjAzcXc",
-        "1242": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1242/public/img-homescreen-sfmm-1440.png?itok=bhi4XJPc",
-        "1440": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1440/public/img-homescreen-sfmm-1440.png?itok=wF9iMxFZ"
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg"
       },
       "icon": {
         "750": "http://www.placeholderfor21.com/fficonlowres",
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2021-09-09T00:00:00",
-      "publishEnd": "2021-10-31T00:00:00",
-      "eventBegin": "2021-09-09T00:00:00",
-      "eventEnd": "2021-10-31T00:00:00",
+      "publishBegin": "2022-09-10T00:00:00",
+      "publishEnd": "2022-10-31T00:00:00",
+      "eventBegin": "2022-09-10T00:00:00",
+      "eventEnd": "2022-10-31T00:00:00",
       "color": "0x000000",
       "featuredAttraction": null
     },
@@ -1886,10 +1886,10 @@
       "isff": false,
       "iship": true,
       "parkMapImageURL": {
-        "750": "https://www.sixflags.com/sites/default/files/styles/app_map_image_750/public/img-homescreen-hip-sfmm-1440.jpg?itok=_wSUjb7m",
-        "1080": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1080/public/img-homescreen-hip-sfmm-1440.jpg?itok=GrPRAjEf",
-        "1242": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1242/public/img-homescreen-hip-sfmm-1440.jpg?itok=VL3_2NJb",
-        "1440": "https://www.sixflags.com/sites/default/files/styles/app_map_image_1440/public/img-homescreen-hip-sfmm-1440.jpg?itok=RIlUXm__"
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg"
       },
       "icon": {
         "750": "http://www.placeholderfor21.com/hipiconlowres",
