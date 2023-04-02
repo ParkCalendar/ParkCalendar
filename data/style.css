@@ -118,6 +118,9 @@ button.icon {
     margin: 0 auto;
     opacity: 0.3;
 }
+.footer button#captureButton {
+    opacity: 0.9;
+}
 button.icon i {
     display: block;
     width: 100%;
