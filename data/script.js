@@ -83,11 +83,14 @@ function doTakeScreenshot(start) {
         link.click();
         document.documentElement.classList = [];
         setupTheme();
-        refresh("Reset Page");
+        document.getElementById('calendar').style.display = 'none';
         setTimeout(function() {
-            log('debug', 'Reset to ' + start);
-            calendar.gotoDate(start);
-        }, 750);
+            refresh("Reset Page");
+            setTimeout(function() {
+                log('debug', 'Reset to ' + start);
+                calendar.gotoDate(start);
+            }, 1500);
+        }, 1500);
     });
 }
 
