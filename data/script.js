@@ -167,9 +167,9 @@ function setupCalendar() {
             start: '2021-12-01'
         },
         headerToolbar: {
-            start: 'title',
-            center: 'subscribe',
-            end: 'today prev,next'
+            start: 'prev,next today',
+            center: 'title',
+            end: 'subscribe'
         },
         customButtons: {
             subscribe: {
