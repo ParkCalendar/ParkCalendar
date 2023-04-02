@@ -15,6 +15,7 @@
     --sf-button-bg-color: rgb(229, 242, 255);
     --sf-button-link-color: #248;
     --sf-button-hover-link-color: #9BF;
+    --sf-button-capture-bg-color: transparent;
 }
 
 @media only screen {
@@ -38,6 +39,7 @@
         --sf-button-bg-color: rgb(50 85 121);
         --sf-button-link-color: rgb(216 238 255);
         --sf-button-hover-link-color: #fff;
+        --sf-button-capture-bg-color: #88888880;
     }
 }
 
@@ -62,6 +64,7 @@
         --sf-button-bg-color: rgb(50 85 121);
         --sf-button-link-color: rgb(216 238 255);
         --sf-button-hover-link-color: #fff;
+        --sf-button-capture-bg-color: #88888880;
     }
 }
 
@@ -123,7 +126,7 @@ button.icon {
     width: 50px;
     height: 40px;
     padding: 5px 10px;
-    background-color: #88888888;
+    background-color: var(--sf-button-capture-bg-color);
 }
 button.icon i {
     display: block;
