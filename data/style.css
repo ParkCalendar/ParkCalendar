@@ -120,6 +120,10 @@ button.icon {
 }
 .footer button#captureButton {
     opacity: 0.9;
+    width: 50px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: #88888888;
 }
 button.icon i {
     display: block;
