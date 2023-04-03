@@ -268,6 +268,9 @@ p {
         color: #222;
         margin: -10px -12px 8px;
     }
+    .fc .fc-toolbar {
+        max-width: 95vw;
+    }
     .lastChange {
         padding-bottom: 0;
     }
@@ -296,6 +299,9 @@ p {
     }
 }
 @media only screen {
+    .print .fc .fc-toolbar {
+        max-width: unset;
+    }
     .print .fc .fc-toolbar-chunk .fc-button {
         display: none;
     }
