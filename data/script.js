@@ -54,25 +54,40 @@ function toggleDebug() {
     }
 }
 
+function printCalendar() {
+    handleExport("print");
+}
+
 function takeScreenshot() {
+    handleExport("screenshot");
+}
+
+function handleExport(exportType) {
     document.documentElement.classList = ['print'];
     var start = calendar.view.currentStart;
-    refresh("Take Screenshot");
+    refresh(exportType == "screenshot" ? "Take Screenshot" : "Preparing Print");
     setTimeout(function() {
         log('debug', 'Jumping to ' + start);
         calendar.gotoDate(start);
         setTimeout(function() {
-            doTakeScreenshot(start)
+            doTakeScreenshot(start, exportType);
         }, 1000);
     }, 750);
-
 }
 
-function doTakeScreenshot(start) {
+function doTakeScreenshot(start, exportType) {
     var now = new Date();
     var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
-    document.getElementById('printDate').innerHTML = "Screenshot taken on<br>" + dateStr + " @ " + timeStr;
+    document.getElementById('printDate').innerHTML = "Exported Calendar on<br>" + dateStr + " @ " + timeStr;
+    if (exportType == "screenshot") {
+        exportScreenshot(start);
+    } else {
+        exportPrint(start);
+    }
+}
+
+function exportScreenshot(start) {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var year = calendar.view.currentStart.getFullYear();
@@ -81,17 +96,30 @@ function doTakeScreenshot(start) {
         link.setAttribute('download', year + '-' + month + '-sfmm-times.png');
         link.setAttribute('href', canvas.toDataURL("image/png"));
         link.click();
-        document.documentElement.classList = [];
-        setupTheme();
-        document.getElementById('calendar').style.display = 'none';
-        setTimeout(function() {
-            refresh("Reset Page");
-            setTimeout(function() {
-                log('debug', 'Reset to ' + start);
-                calendar.gotoDate(start);
-            }, 1500);
-        }, 1500);
+        exportReset(start);
     });
+}
+
+function exportPrint(start) {
+    setTimeout(function() {
+        window.print();
+        setTimeout(function() {
+            exportReset(start);
+        }, 1500);
+    }, 500);
+}
+
+function exportReset(start) {
+    document.documentElement.classList = [];
+    setupTheme();
+    document.getElementById('calendar').style.display = 'none';
+    setTimeout(function() {
+        refresh("Reset Page");
+        setTimeout(function() {
+            log('debug', 'Reset to ' + start);
+            calendar.gotoDate(start);
+        }, 1500);
+    }, 1500);
 }
 
 function setTheme(theme) {
@@ -151,6 +179,11 @@ function setupTheme() {
     var screenshot = document.getElementById('captureButton');
     if (screenshot) {
         screenshot.addEventListener('click', takeScreenshot);
+    }
+
+    var print = document.getElementById('printButton');
+    if (print) {
+        print.addEventListener('click', printCalendar);
     }
 }
 
@@ -503,7 +536,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update calendar when printing
     window.matchMedia('print').addEventListener('change', function(mql) {
         if (mql.matches) {
-            calendar.render();
+            if (!document.documentElement.classList.contains('print')) {
+                setTimeout(function() {
+                    alert("Please use Print Icon for better results");
+                }, 500);
+            }
         }
     });
 });

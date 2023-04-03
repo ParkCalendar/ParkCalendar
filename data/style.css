@@ -121,11 +121,13 @@ button.icon {
     margin: 0 auto;
     opacity: 0.3;
 }
-.footer button#captureButton {
+.footer .export-options button.icon {
     opacity: 0.9;
     width: 50px;
     height: 40px;
     padding: 5px 10px;
+    display: inline-block;
+    margin: 0 10px;
     background-color: var(--sf-button-capture-bg-color);
 }
 button.icon i {
@@ -150,6 +152,9 @@ button.icon i.bug {
 }
 button.icon i.camera {
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z'/%3E%3C/svg%3E");
+}
+button.icon i.print {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z'/%3E%3C/svg%3E");
 }
 .fc-day-past .fc-h-event {
     background-color: var(--fc-event-bg-color-past);
@@ -307,7 +312,7 @@ p {
         font-size: 0.85em;
     }
 }
-@media only screen {
+@media all {
     .print .topHeader {
         background-color: #f7c445;
         padding: 10px;
@@ -350,25 +355,8 @@ p {
     }
 }
 @media only print {
-    .printOnly {
-        display: block;
-    }
-    .fc .fc-toolbar-chunk .fc-button {
-        display: none;
-    }
-    .icon, .footer {
-        display: none;
-    }
-    body {
-        background-color: white;
-    }
-    body, .wrapper {
-        padding: 0;
-    }
-    .content {
-        background-color: white;
-        border: none;
-        padding: 0 20px;
-        margin: 0 auto;
+    .print .topHeader {
+        background-color: transparent;
+        color: #222;
     }
 }
