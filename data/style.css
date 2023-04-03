@@ -278,7 +278,7 @@ p {
         display: none;
     }
     .footer .webcal-subscribe {
-        display: initial;
+        display: inline-block;
     }
     .lastChange {
         padding-bottom: 0;

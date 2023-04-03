@@ -170,16 +170,25 @@ function setupCalendar() {
         return;
     }
 
+    var headerToolbarOptions = {
+        start: 'title',
+        center: 'subscribe',
+        end: 'today prev,next'
+    }
+    if (document.documentElement.classList.contains('print')) {
+        headerToolbarOptions = {
+            start: '',
+            center: 'title',
+            end: ''
+        }
+    }
+
     calendar = new FullCalendar.Calendar(calendarEl, {
         initialView: 'dayGridMonth',
         validRange: {
             start: '2021-12-01'
         },
-        headerToolbar: {
-            start: 'title',
-            center: 'subscribe',
-            end: 'today prev,next'
-        },
+        headerToolbar: headerToolbarOptions,
         customButtons: {
             subscribe: {
                 text: 'Subscribe',
