@@ -202,6 +202,9 @@ div.center {
     color: var(--sf-button-hover-link-color);
     background-color: var(--fc-button-hover-bg-color);
 }
+.footer .webcal-subscribe {
+    display: none;
+}
 a.button {
     display: inline-block;
     padding: 10px 20px;
@@ -270,6 +273,12 @@ p {
     }
     .fc .fc-toolbar {
         max-width: 95vw;
+    }
+    .fc .fc-toolbar .fc-subscribe-button {
+        display: none;
+    }
+    .footer .webcal-subscribe {
+        display: initial;
     }
     .lastChange {
         padding-bottom: 0;

@@ -154,6 +154,15 @@ function setupTheme() {
     }
 }
 
+function doSubscribe() {
+    var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
+    document.location.assign(calUrl);
+    navigator.clipboard.writeText(calUrl);
+    setTimeout(function() {
+        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.\n\n" + calUrl);
+    }, 750);
+}
+
 function setupCalendar() {
     var calendarEl = document.getElementById('calendar');
 
@@ -174,14 +183,7 @@ function setupCalendar() {
         customButtons: {
             subscribe: {
                 text: 'Subscribe',
-                click: function() {
-                    var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
-                    document.location.assign(calUrl);
-                    navigator.clipboard.writeText(calUrl);
-                    setTimeout(function() {
-                        alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.\n\n" + calUrl);
-                    }, 750);
-                }
+                click: doSubscribe
             }
         },
         editable: false,
@@ -197,6 +199,12 @@ function setupCalendar() {
     hideCalendar();
 
     addCalendarSources();
+
+    var elements = document.getElementsByClassName('webcal-subscribe');
+    Array.prototype.forEach.call(elements, function(e) {
+        console.log("add event");
+        e.addEventListener('click', doSubscribe);
+    });
 }
 
 var pastEvents = {
