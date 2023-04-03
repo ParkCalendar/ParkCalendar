@@ -308,6 +308,12 @@ p {
     }
 }
 @media only screen {
+    .print .topHeader {
+        background-color: #f7c445;
+        padding: 10px;
+        color: #222;
+        margin: -10px -12px 8px;
+    }
     .print .fc .fc-toolbar {
         max-width: unset;
     }
