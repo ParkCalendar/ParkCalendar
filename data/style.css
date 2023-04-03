@@ -302,6 +302,9 @@ p {
     .print .fc .fc-toolbar {
         max-width: unset;
     }
+    .print .fc .fc-toolbar.fc-header-toolbar {
+        margin-bottom: 4px;
+    }
     .print .fc .fc-toolbar-chunk .fc-button {
         display: none;
     }
