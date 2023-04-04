@@ -243,6 +243,11 @@ p {
 .printOnly {
     display: none;
 }
+.topButtons {
+    display: none;
+    margin: 20px;
+    text-align: center;
+}
 .urlHeader {
     margin: 0 auto;
     text-align: center;
@@ -312,6 +317,11 @@ p {
         font-size: 0.85em;
     }
 }
+@media only screen {
+    .print .topButtons {
+        display: block;
+    }
+}
 @media all {
     .print .topHeader {
         background-color: #f7c445;
@@ -358,5 +368,6 @@ p {
     .print .topHeader {
         background-color: transparent;
         color: #222;
+        padding-bottom: 0;
     }
 }

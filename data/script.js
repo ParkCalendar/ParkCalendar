@@ -101,12 +101,19 @@ function exportScreenshot(start) {
 }
 
 function exportPrint(start) {
-    setTimeout(function() {
+    var topPrintEl = document.getElementById('topPrint');
+    var topPrintHandler = function() {
         window.print();
-        setTimeout(function() {
-            exportReset(start);
-        }, 1500);
-    }, 500);
+    };
+    topPrintEl.addEventListener('click', topPrintHandler);
+
+    var topResetEl = document.getElementById('topReset');
+    var topResetHandler = function() {
+        exportReset(start);
+        topPrintEl.removeEventListener('click', topPrintHandler);
+        topResetEl.removeEventListener('click', topResetHandler);
+    };
+    topResetEl.addEventListener('click', topResetHandler);
 }
 
 function exportReset(start) {
@@ -119,7 +126,7 @@ function exportReset(start) {
             log('debug', 'Reset to ' + start);
             calendar.gotoDate(start);
         }, 1500);
-    }, 1500);
+    }, 500);
 }
 
 function setTheme(theme) {
@@ -534,13 +541,13 @@ document.addEventListener('DOMContentLoaded', function() {
     setupCalendar();
 
     // Update calendar when printing
-    window.matchMedia('print').addEventListener('change', function(mql) {
-        if (mql.matches) {
-            if (!document.documentElement.classList.contains('print')) {
-                setTimeout(function() {
-                    alert("Please use Print Icon for better results");
-                }, 500);
-            }
-        }
-    });
+    // window.matchMedia('print').addEventListener('change', function(mql) {
+    //     if (mql.matches) {
+    //         if (!document.documentElement.classList.contains('print')) {
+    //             setTimeout(function() {
+    //                 alert("Please use Print Icon for better results");
+    //             }, 500);
+    //         }
+    //     }
+    // });
 });
