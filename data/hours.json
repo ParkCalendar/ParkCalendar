@@ -1834,14 +1834,14 @@
     "longitude": -118.595251
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/sfmm_blur_1440x707.jpeg"
   },
   "logo": {
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/2020/04/sfmm-twisted-colosus.jpg"
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/2020/04/sfmm.png",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/2020/04/sfmm.png",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/2020/04/sfmm.png"
   },
   "couponsEnabled": true,
   "isWaterPark": false,
