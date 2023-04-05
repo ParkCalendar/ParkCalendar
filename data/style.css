@@ -358,6 +358,10 @@ p {
     }
     .print #capture {
         padding: 4px 10px;
+        width: 800px;
+    }
+    .print .calendarWrapper {
+        width: 800px;
     }
     .print .wrapper {
         width: 900px;
