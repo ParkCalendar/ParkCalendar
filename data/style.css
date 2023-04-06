@@ -211,7 +211,7 @@ div.center {
     background-color: var(--fc-button-hover-bg-color);
 }
 .footer .webcal-subscribe {
-    display: none;
+    display: inline-block;
 }
 a.button {
     display: inline-block;
@@ -227,12 +227,6 @@ a.button:hover {
     background-color: var(--fc-button-hover-bg-color);
     border-color: var(--fc-button-hover-border-color);
     color: var(--sf-button-hover-link-color);
-}
-.fc .fc-subscribe-button {
-    border: 2px solid var(--sf-button-border-color);
-    background-color: var(--sf-button-bg-color);
-    color: var(--sf-button-link-color);
-    border-radius: 6px;
 }
 p {
     margin: 1.2em 0;
@@ -285,12 +279,6 @@ p {
     }
     .fc .fc-toolbar {
         max-width: 95vw;
-    }
-    .fc .fc-toolbar .fc-subscribe-button {
-        display: none;
-    }
-    .footer .webcal-subscribe {
-        display: inline-block;
     }
     .lastChange {
         padding-bottom: 0;

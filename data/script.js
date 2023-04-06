@@ -212,7 +212,7 @@ function setupCalendar() {
 
     var headerToolbarOptions = {
         start: 'title',
-        center: 'subscribe',
+        center: '',
         end: 'today prev,next'
     }
     if (document.documentElement.classList.contains('print')) {
@@ -229,12 +229,6 @@ function setupCalendar() {
             start: '2021-12-01'
         },
         headerToolbar: headerToolbarOptions,
-        customButtons: {
-            subscribe: {
-                text: 'Subscribe',
-                click: doSubscribe
-            }
-        },
         editable: false,
         selectable: false,
         displayEventTime: true,
