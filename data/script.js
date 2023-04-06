@@ -79,7 +79,7 @@ function doTakeScreenshot(start, exportType) {
     var now = new Date();
     var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
-    document.getElementById('printDate').innerHTML = "Exported Calendar on<br>" + dateStr + " @ " + timeStr;
+    document.getElementById('printDate').innerHTML = "Exported on " + dateStr + " @ " + timeStr;
     if (exportType == "screenshot") {
         exportScreenshot(start);
     } else {

@@ -191,6 +191,9 @@ h1 {
     height: 520px;
     width: 100%;
 }
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0.5em;
+}
 .center {
     text-align: center;
 }
@@ -363,12 +366,15 @@ p {
     .print .calendarWrapper {
         width: 800px;
     }
+    .print #calendar {
+        height: 500px;
+    }
     .print .wrapper {
         width: 900px;
         margin: 0 auto;
     }
     .print .lastChange {
-        padding-bottom: 0;
+        display: none;
     }
 }
 @media only print {
