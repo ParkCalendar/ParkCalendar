@@ -81,7 +81,7 @@ function doTakeScreenshot(start, exportType) {
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
     document.getElementById('printDate').innerHTML = "Exported on " + dateStr + " @ " + timeStr;
     if (exportType == "screenshot") {
-        exportScreenshot(start);
+        exportImage(start);
     } else {
         exportPrint(start);
     }
@@ -97,6 +97,40 @@ function exportScreenshot(start) {
         link.setAttribute('href', canvas.toDataURL("image/png"));
         link.click();
         exportReset(start);
+    });
+}
+
+function exportImage(start) {
+    var capture = document.getElementById('capture');
+    html2canvas(capture).then(function(canvas) {
+        var imgData = canvas.toDataURL("image/png");
+        var year = calendar.view.currentStart.getFullYear();
+        var month = pad(calendar.view.currentStart.getMonth() + 1);
+        var link = document.createElement('a');
+        link.setAttribute('download', year + '-' + month + '-sfmm-times.png');
+        link.setAttribute('href', imgData);
+        var img = document.createElement('img');
+        img.src = imgData;
+        img.style.width = '820px';
+        link.appendChild(img);
+
+        var imgDiv = document.createElement('div');
+        imgDiv.appendChild(link);
+        capture.parentNode.insertBefore(imgDiv, capture);
+        capture.style.display = 'none';
+
+        var topPrintEl = document.getElementById('topPrint');
+        topPrintEl.style.display = 'none';
+
+        var topResetEl = document.getElementById('topReset');
+        var topResetHandler = function() {
+            topPrintEl.style.display = '';
+            capture.style.display = '';
+            imgDiv.remove();
+            exportReset(start);
+            topResetEl.removeEventListener('click', topResetHandler);
+        };
+        topResetEl.addEventListener('click', topResetHandler);
     });
 }
 
