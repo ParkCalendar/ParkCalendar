@@ -63,7 +63,7 @@ function takeScreenshot() {
 }
 
 function handleExport(exportType) {
-    document.documentElement.classList = ['print'];
+    document.documentElement.classList = 'print preparing';
     var start = calendar.view.currentStart;
     refresh(exportType == "screenshot" ? "Take Screenshot" : "Preparing Print");
     setTimeout(function() {
@@ -87,9 +87,14 @@ function doTakeScreenshot(start, exportType) {
     }
 }
 
+function exportReady() {
+    document.documentElement.classList.remove('preparing');
+}
+
 function exportScreenshot(start) {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
+        exportReady();
         var year = calendar.view.currentStart.getFullYear();
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
@@ -135,6 +140,8 @@ function exportImage(start) {
             topResetEl.removeEventListener('click', topResetHandler);
         };
         topResetEl.addEventListener('click', topResetHandler);
+
+        exportReady();
     });
 }
 
@@ -152,6 +159,7 @@ function exportPrint(start) {
         topResetEl.removeEventListener('click', topResetHandler);
     };
     topResetEl.addEventListener('click', topResetHandler);
+    exportReady();
 }
 
 function exportReset(start) {

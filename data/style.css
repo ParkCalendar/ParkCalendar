@@ -311,6 +311,9 @@ p {
     .print .topButtons {
         display: block;
     }
+    .print.preparing .topButtons {
+        display: none;
+    }
 }
 @media all {
     .print .topHeader {
