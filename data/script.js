@@ -114,7 +114,11 @@ function exportImage(start) {
         img.style.width = '820px';
         link.appendChild(img);
 
+        var info = document.createElement('h2');
+        info.textContent = 'Tap or long press to save image ⤵️';
+
         var imgDiv = document.createElement('div');
+        imgDiv.appendChild(info);
         imgDiv.appendChild(link);
         capture.parentNode.insertBefore(imgDiv, capture);
         capture.style.display = 'none';
