@@ -18,6 +18,15 @@ function toDateString(now) {
     return month + "/" + day + "/" + year + " @ " + hour + ":" + min + ":" + sec;
 }
 
+function exportSuffix() {
+    var now = new Date();
+    var month = pad(now.getMonth() + 1);
+    var day = pad(now.getDate());
+    var year = now.getFullYear();
+
+    return "--exported-" + year + "-" + month + "-" + day;
+}
+
 function log(level, message) {
     var debug = document.getElementById('log');
     var el = document.createElement('div');
@@ -98,7 +107,8 @@ function exportScreenshot(start) {
         var year = calendar.view.currentStart.getFullYear();
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
-        link.setAttribute('download', year + '-' + month + '-sfmm-times.png');
+        var suffix = exportSuffix();
+        link.setAttribute('download', year + '-' + month + '-sfmm--parkcalendar' + suffix + '.png');
         link.setAttribute('href', canvas.toDataURL("image/png"));
         link.click();
         exportReset(start);
@@ -112,11 +122,14 @@ function exportImage(start) {
         var year = calendar.view.currentStart.getFullYear();
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
-        link.setAttribute('download', year + '-' + month + '-sfmm-times.png');
+        var suffix = exportSuffix();
+        var filename = year + '-' + month + '-sfmm--parkcalendar' + suffix + '.png';
+        link.setAttribute('download', filename);
         link.setAttribute('href', imgData);
         var img = document.createElement('img');
         img.src = imgData;
         img.style.width = '820px';
+        img.setAttribute('download', filename);
         link.appendChild(img);
 
         var info = document.createElement('h2');
