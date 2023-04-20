@@ -3,6 +3,9 @@
 ## Add a closure
 ##
 
+PARK_ID=6
+DATA_DIR="data/park/${PARK_ID}"
+
 export TZ=America/Los_Angeles
 OS=$(uname)
 if [[ "${OS}" == "Darwin" ]]
@@ -27,8 +30,8 @@ fi
 
 FILE=$(${DATECMD} +'%Y-%m')
 
-FILE_TXT="data/archive/${FILE}.txt"
-FILE_JSON="data/archive/${FILE}.json"
+FILE_TXT="${DATA_DIR}/archive/${FILE}.txt"
+FILE_JSON="${DATA_DIR}/archive/${FILE}.json"
 
 START=$(${DATECMD} +'%Y-%m-%dT10:30:00')
 CLOSED="⛔️ ${REASON}"

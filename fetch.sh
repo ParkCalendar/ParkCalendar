@@ -10,6 +10,7 @@ export TZ=America/Los_Angeles
 SHOULD_COMMIT=0
 FORCE_UPDATE=0
 ICS_UPDATE=0
+PARK_ID=$3
 if [[ "$1" == "commit" ]]
 then
     SHOULD_COMMIT=1
@@ -18,16 +19,21 @@ if [[ "$2" == "force" ]]
 then
     FORCE_UPDATE=1
 fi
+if [[ "$PARK_ID" == "" ]]
+then
+    PARK_ID=6
+fi
+DATA_DIR=data/park/${PARK_ID}
 
 ##
 ## Fetch current times from the API
 ##
 echo "Fetch new json..."
-./api-hours.sh | jq > data/current.json
+./api-hours.sh | jq > ${DATA_DIR}/current.json
 echo "Parse new json (all)..."
-./list.sh data/current.json > data/current.txt
+./list.sh ${DATA_DIR}/current.json > ${DATA_DIR}/current.txt
 echo "Parse new json (upcoming)..."
-./upcoming.sh data/current.json > data/current.upcoming.txt
+./upcoming.sh ${DATA_DIR}/current.json > ${DATA_DIR}/current.upcoming.txt
 
 ##
 ## Detect changes in the JSON
@@ -38,7 +44,7 @@ MESSAGE="fetch update"
 if [[ "$CHANGES" != "0" ]]
 then
     echo "::notice::JSON Changed"
-    git add data/current.json
+    git add ${DATA_DIR}/current.json
     MESSAGE="fetch - JSON Changed"
 fi
 
@@ -46,7 +52,7 @@ fi
 ## Archive past times
 ##
 echo "Archive past upcoming times..."
-./archive.sh data/hours.upcoming.txt
+./archive.sh ${DATA_DIR}/hours.upcoming.txt
 CHANGES_ARCHIVE=$?
 if [[ "${CHANGES_ARCHIVE}" != "0" ]]
 then
@@ -60,7 +66,7 @@ fi
 ## Regenerate upcoming times from previous API response & check for changes
 ##
 echo "Parse previous json (all)..."
-./list.sh data/hours.json > data/hours.txt
+./list.sh ${DATA_DIR}/hours.json > ${DATA_DIR}/hours.txt
 
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
@@ -68,11 +74,11 @@ EXT=$(date +%Y%m%d-%H%M%S)
 CACHE=$(date +%Y%m%d%H%M)
 LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 
-CHANGE_FILE=data/changelog/${YEAR}/diff.${EXT}.txt
-mkdir -p data/changelog/${YEAR}
+CHANGE_FILE=${DATA_DIR}/changelog/${YEAR}/diff.${EXT}.txt
+mkdir -p ${DATA_DIR}/changelog/${YEAR}
 
 echo "Diff upcoming times..."
-diff --expand-tabs --side-by-side --width 60 --suppress-common-lines data/hours.txt data/current.txt > ${CHANGE_FILE}
+diff --expand-tabs --side-by-side --width 60 --suppress-common-lines ${DATA_DIR}/hours.txt ${DATA_DIR}/current.txt > ${CHANGE_FILE}
 CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
@@ -88,11 +94,11 @@ fi
 
 if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
 then
-    cp data/current.json data/hours.json
-    cp data/current.txt data/hours.txt
-    cp data/current.upcoming.txt data/hours.upcoming.txt
-    git add data/current.*
-    git add data/hours.*
+    cp ${DATA_DIR}/current.json ${DATA_DIR}/hours.json
+    cp ${DATA_DIR}/current.txt ${DATA_DIR}/hours.txt
+    cp ${DATA_DIR}/current.upcoming.txt ${DATA_DIR}/hours.upcoming.txt
+    git add ${DATA_DIR}/current.*
+    git add ${DATA_DIR}/hours.*
 fi
 
 if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
@@ -100,28 +106,28 @@ then
     CHANGES=3
 
     echo "Generate ics (end) ..."
-    ./ical.sh data/hours.json end > data/hours.end.ics
+    ./ical.sh ${DATA_DIR}/hours.json end > ${DATA_DIR}/hours.end.ics
 
     # echo "Generate ics (archive) ..."
-    # ./ical.sh data/hours.json end archive > data/hours.end.archive.ics
+    # ./ical.sh ${DATA_DIR}/hours.json end archive > ${DATA_DIR}/hours.end.archive.ics
 
     echo "Generate ics (subscribe) ..."
-    ./ical.sh data/hours.json summary > data/hours.ics
+    ./ical.sh ${DATA_DIR}/hours.json summary > ${DATA_DIR}/hours.ics
 
     # echo "Generate ics (subscribe archive) ..."
-    # ./ical.sh data/hours.json summary > data/hours.archive.ics
+    # ./ical.sh ${DATA_DIR}/hours.json summary > ${DATA_DIR}/hours.archive.ics
 
-    git add data/hours.*
+    git add ${DATA_DIR}/hours.*
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
-        echo "<div class='changelog-entry' data-change='${EXT}'><h2>${LASTCHANGE}</h2><pre>" > data/changelog.xx.1.txt
-        echo "</pre></div>" > data/changelog.xx.2.txt
-        cat data/changelog.xx.1.txt ${CHANGE_FILE} data/changelog.xx.2.txt data/changelog.body.txt > data/changelog.xx.body.txt
-        mv data/changelog.xx.body.txt data/changelog.body.txt
-        cat data/changelog.head.html data/changelog.body.txt data/changelog.foot.html > data/changelog.html
-        rm data/changelog.xx.*
-        git add data/changelog.*
+        echo "<div class='changelog-entry' data-change='${EXT}'><h2>${LASTCHANGE}</h2><pre>" > ${DATA_DIR}/changelog.xx.1.txt
+        echo "</pre></div>" > ${DATA_DIR}/changelog.xx.2.txt
+        cat ${DATA_DIR}/changelog.xx.1.txt ${CHANGE_FILE} ${DATA_DIR}/changelog.xx.2.txt ${DATA_DIR}/changelog.body.txt > ${DATA_DIR}/changelog.xx.body.txt
+        mv ${DATA_DIR}/changelog.xx.body.txt ${DATA_DIR}/changelog.body.txt
+        cat ${DATA_DIR}/changelog.head.html ${DATA_DIR}/changelog.body.txt ${DATA_DIR}/changelog.foot.html > ${DATA_DIR}/changelog.html
+        rm ${DATA_DIR}/changelog.xx.*
+        git add ${DATA_DIR}/changelog.*
         git add ${CHANGE_FILE}
     fi
 fi
@@ -133,11 +139,10 @@ then
     mv data/index.html.new data/index.html
     sed -e "s#style.css?t=.*\"#style.css?t=${CACHE}\"#" data/index.html > data/index.html.new
     mv data/index.html.new data/index.html
-    echo "${LASTCHANGE}" > data/lastChange.txt
+    echo "${LASTCHANGE}" > ${DATA_DIR}/lastChange.txt
 
     git add data/index.html
-    git add data/script.js
-    git add data/lastChange.txt
+    git add ${DATA_DIR}/lastChange.txt
 
     echo "Commit: ${MESSAGE} ${NOW}"
     if [[ "${SHOULD_COMMIT}" == "1" ]]

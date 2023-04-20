@@ -13,8 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.2/index.global.min.js" integrity="sha256-6XCj3LkKsl7TSl5Ico36HM7UTtf14UXhwbMRtlNKeo0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.0.2/index.global.min.js" integrity="sha256-XBrQI12e5wCxhPsk7vc3U9QADZlQBorRPa61JmaYEcE=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js" integrity="sha256-6H5VB5QyLldKH9oMFUmjxw2uWpPZETQXpCkBaDjquMs=" crossorigin="anonymous"></script>
-    <script src="script.js?t=202304180451"></script>
-    <link rel="stylesheet" href="style.css?t=202304180451">
+    <script src="assets/script.js?t=202304201003"></script>
+    <link rel="stylesheet" href="assets/style.css?t=202304201003">
   </head>
   <body>
     <div class="wrapper">
@@ -51,8 +51,14 @@
             This page is updated daily and generated directly from the SixFlags API.
           </p>
           <div class="center">
+            <select name="parkid" id="parkid" class="button">
+              <option value="6">Magic Mountain (Valencia, CA)</option>
+              <option value="11">Hurricane Harbor (Valencia, CA)</option>
+            </select>
+          </div>
+          <div class="center">
             <a class="button" href="hours.txt">Text</a>
-            <a class="button" href="changelog.html">Changelog</a>
+            <a id="changelog" class="button" href="park/6/changelog.html">Changelog</a>
             <a class="button" href="https://github.com/jffmrk/sfmm">Source</a>
             <a class="button webcal-subscribe" href="#">Subscribe</a>
           </div>

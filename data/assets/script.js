@@ -3,6 +3,8 @@ var lastFetch = new Date().toJSON();
 var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
 
+var parkCalendar = 6;
+
 function pad(str) {
     return ("0" + str).slice(-2);
 }
@@ -123,7 +125,7 @@ function exportImage(start) {
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
         var suffix = exportSuffix();
-        var filename = year + '-' + month + '-sfmm--parkcalendar' + suffix + '.png';
+        var filename = year + '-' + month + '-sf-' + parkCalendar + '--parkcalendar' + suffix + '.png';
         link.setAttribute('download', filename);
         link.setAttribute('href', imgData);
         var img = document.createElement('img');
@@ -254,7 +256,7 @@ function setupTheme() {
 }
 
 function doSubscribe() {
-    var calUrl = 'webcal://jffmrk.github.io/sfmm/hours.ics';
+    var calUrl = 'webcal://jffmrk.github.io/sfmm/park/' + parkCalendar + '/hours.ics';
     document.location.assign(calUrl);
     navigator.clipboard.writeText(calUrl);
     setTimeout(function() {
@@ -349,7 +351,7 @@ var pastEvents = {
         var fetchArray = this.didFetch;
         fetchArray.push(jsonFile);
         log('debug', jsonFile + " • loading");
-        var jsonUrl = "archive/" + jsonFile + this.queryParams(date);
+        var jsonUrl = 'park/' + parkCalendar + '/archive/' + jsonFile + this.queryParams(date);
         fetch(jsonUrl)
             .then(response => {
                 if (!response.ok) {
@@ -461,7 +463,8 @@ function addCalendarSources() {
 
     pastEvents.reset();
 
-    var upcomingUrl = "https://jffmrk.github.io/sfmm/hours.end.ics?t=" + btoa(lastFetch);
+    var upcomingUrl = "https://jffmrk.github.io/sfmm/park/' + parkCalendar + '/hours.end.ics?t=" + btoa(lastFetch);
+    upcomingUrl = 'park/' + parkCalendar + '/hours.end.ics';
 
     calendar.addEventSource({
         id: 'future',
@@ -494,7 +497,7 @@ var abortFetchTime = parseInt(focusCheckTime * 2 / 3);
 
 function detectChange(onChange, onSuccess) {
     var cache = new Date().getTime();
-    var url = "lastChange.txt?t=" + cache;
+    var url = 'park/' + parkCalendar + "/lastChange.txt?t=" + cache;
 
     const controller = new AbortController();
     const id = setTimeout(function() {
@@ -581,6 +584,17 @@ function setupFocus() {
     window.addEventListener('focus', onFocus);
 }
 
+function setupSelect() {
+    var parkSelect = document.getElementById('parkid');
+    parkSelect.addEventListener('change', function() {
+        var newPark = parkSelect.value;
+        if (newPark != parkCalendar) {
+            parkCalendar = newPark;
+            refresh("New Park Selected");
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     var logDiv = document.getElementById('log');
     if (logDiv) {
@@ -592,6 +606,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupTheme();
     setupFocus();
     setupCalendar();
+    setupSelect();
 
     // Update calendar when printing
     // window.matchMedia('print').addEventListener('change', function(mql) {
