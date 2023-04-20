@@ -29,11 +29,16 @@ DATA_DIR=data/park/${PARK_ID}
 ## Fetch current times from the API
 ##
 echo "Fetch new json..."
-./api-hours.sh | jq > ${DATA_DIR}/current.json
+./api-hours.sh ${PARK_ID} | jq > ${DATA_DIR}/current.json
 echo "Parse new json (all)..."
 ./list.sh ${DATA_DIR}/current.json > ${DATA_DIR}/current.txt
 echo "Parse new json (upcoming)..."
 ./upcoming.sh ${DATA_DIR}/current.json > ${DATA_DIR}/current.upcoming.txt
+
+PARK_NAME=$(cat ${DATA_DIR}/current.json | jq -r .name)
+PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
+echo "Park Name: ${PARK_NAME}"
+echo "Abbreviation: ${PARK_ABBREVIATION}"
 
 ##
 ## Detect changes in the JSON
@@ -106,13 +111,13 @@ then
     CHANGES=3
 
     echo "Generate ics (end) ..."
-    ./ical.sh ${DATA_DIR}/hours.json end > ${DATA_DIR}/hours.end.ics
+    ./ical.sh ${DATA_DIR}/hours.json end "${PARK_NAME}" > ${DATA_DIR}/hours.end.ics
 
     # echo "Generate ics (archive) ..."
     # ./ical.sh ${DATA_DIR}/hours.json end archive > ${DATA_DIR}/hours.end.archive.ics
 
     echo "Generate ics (subscribe) ..."
-    ./ical.sh ${DATA_DIR}/hours.json summary > ${DATA_DIR}/hours.ics
+    ./ical.sh ${DATA_DIR}/hours.json summary "${PARK_NAME}" > ${DATA_DIR}/hours.ics
 
     # echo "Generate ics (subscribe archive) ..."
     # ./ical.sh ${DATA_DIR}/hours.json summary > ${DATA_DIR}/hours.archive.ics
@@ -156,7 +161,7 @@ fi
 
 if [[ "${CHANGES_DIFF}" != 0 && "${SLACK_WEBHOOK_URL}" != "" ]]
 then
-    LINK="<https://jffmrk.github.io/sfmm/|SFMM Park Hours>"
+    LINK="<https://jffmrk.github.io/sfmm/|${PARK_NAME} Park Calendar>"
     DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
     read -r -d '' SLACK_MESSAGE << EOM
 {

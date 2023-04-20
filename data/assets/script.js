@@ -5,6 +5,21 @@ var rapidToggleCount = 0;
 
 var parkCalendar = 6;
 
+var parkNames = {
+    6: {
+        name: "Six Flags Magic Mountain",
+        abbr: "SFMM"
+    },
+    11: {
+        name: "Six Flags Hurricane Harbor, Los Angeles",
+        abbr: "SFHHLA"
+    }
+}
+
+function abbreviation() {
+    return parkNames[parkCalendar].abbr.toLowerCase();
+}
+
 function pad(str) {
     return ("0" + str).slice(-2);
 }
@@ -110,7 +125,7 @@ function exportScreenshot(start) {
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
         var suffix = exportSuffix();
-        link.setAttribute('download', year + '-' + month + '-sfmm--parkcalendar' + suffix + '.png');
+        link.setAttribute('download', year + '-' + month + '-' + abbreviation() + '--parkcalendar' + suffix + '.png');
         link.setAttribute('href', canvas.toDataURL("image/png"));
         link.click();
         exportReset(start);
@@ -125,7 +140,7 @@ function exportImage(start) {
         var month = pad(calendar.view.currentStart.getMonth() + 1);
         var link = document.createElement('a');
         var suffix = exportSuffix();
-        var filename = year + '-' + month + '-sf-' + parkCalendar + '--parkcalendar' + suffix + '.png';
+        var filename = year + '-' + month + '-' + abbreviation() + '--parkcalendar' + suffix + '.png';
         link.setAttribute('download', filename);
         link.setAttribute('href', imgData);
         var img = document.createElement('img');
@@ -584,15 +599,24 @@ function setupFocus() {
     window.addEventListener('focus', onFocus);
 }
 
+function selectPark(newPark) {
+    parkCalendar = newPark;
+    document.getElementById('pageTitle').innerText = parkNames[parkCalendar].name;
+    document.title = parkNames[parkCalendar].name + " • ParkCalendar.com";
+}
+
 function setupSelect() {
     var parkSelect = document.getElementById('parkid');
     parkSelect.addEventListener('change', function() {
         var newPark = parkSelect.value;
         if (newPark != parkCalendar) {
-            parkCalendar = newPark;
+            selectPark(newPark);
+            detectChange();
             refresh("New Park Selected");
         }
     });
+
+    selectPark(parkSelect.value);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
