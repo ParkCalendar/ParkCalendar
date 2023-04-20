@@ -601,6 +601,7 @@ function setupFocus() {
 
 function selectPark(newPark) {
     parkCalendar = newPark;
+    document.getElementById('changelog').href = 'park/' + parkCalendar + '/changelog.html';
     document.getElementById('pageTitle').innerText = parkNames[parkCalendar].name;
     document.title = parkNames[parkCalendar].name + " • ParkCalendar.com";
 }
