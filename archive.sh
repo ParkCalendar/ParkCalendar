@@ -26,10 +26,16 @@ then
     exit 9
 fi
 
+cd "$(dirname "$0")"
+BASE_SCRIPT=$(pwd)
+
+cd "$(dirname "${FILE}")"
+BASE_FILE="$(basename "${FILE}")"
+
 TODAY=$(${DATECMD} +%Y%m%d)
 HAS_ARCHIVE=0
 
-for row in $(cat ${FILE})
+for row in $(cat ${BASE_FILE})
 do
     R=${row}
     if [[ "${START}" == "" ]]
@@ -44,9 +50,9 @@ do
     if [[ "${DAY}" < "${TODAY}" ]]
     then
         ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
-        echo "${START}" >> data/archive/${ARCHIVE_FILE}.txt
-        echo "${END}" >> data/archive/${ARCHIVE_FILE}.txt
-        git add data/archive/${ARCHIVE_FILE}.txt
+        echo "${START}" >> archive/${ARCHIVE_FILE}.txt
+        echo "${END}" >> archive/${ARCHIVE_FILE}.txt
+        git add archive/${ARCHIVE_FILE}.txt
         HAS_ARCHIVE=1
     fi
 
@@ -55,8 +61,8 @@ done
 
 if [[ "${HAS_ARCHIVE}" == "1" ]]
 then
-    ./archive-json.sh data/archive/${ARCHIVE_FILE}.txt | jq > data/archive/${ARCHIVE_FILE}.json
-    git add data/archive/${ARCHIVE_FILE}.json
+    "${BASE_SCRIPT}/archive-json.sh" archive/${ARCHIVE_FILE}.txt | jq > archive/${ARCHIVE_FILE}.json
+    git add archive/${ARCHIVE_FILE}.json
 fi
 
 exit ${HAS_ARCHIVE}
