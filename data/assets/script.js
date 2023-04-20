@@ -601,7 +601,10 @@ function setupFocus() {
 
 function selectPark(newPark) {
     parkCalendar = newPark;
-    document.getElementById('changelog').href = 'park/' + parkCalendar + '/changelog.html';
+    var elements = document.getElementsByClassName('dynamic');
+    Array.prototype.forEach.call(elements, function(e) {
+        e.href = 'park/' + newPark + '/' + e.dataset.link;
+    });
     document.getElementById('pageTitle').innerText = parkNames[parkCalendar].name;
     document.title = parkNames[parkCalendar].name + " • ParkCalendar.com";
 }
