@@ -48,7 +48,7 @@ CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
 MESSAGE="fetch update"
 if [[ "$CHANGES" != "0" ]]
 then
-    echo "::notice::JSON Changed"
+    echo "::notice::JSON Changed ${PARK_NAME}"
     git add ${DATA_DIR}/current.json
     MESSAGE="fetch - JSON Changed"
 fi
@@ -63,7 +63,7 @@ if [[ "${CHANGES_ARCHIVE}" != "0" ]]
 then
     ICS_UPDATE=1
     CHANGES=3
-    echo "::notice::Archive Changed"
+    echo "::notice::Archive Changed ${PARK_NAME}"
     MESSAGE="fetch - Archive Changed"
 fi
 
@@ -88,12 +88,12 @@ CHANGES_DIFF=$?
 if [[ "${CHANGES_DIFF}" == "0" ]]
 then
     rm ${CHANGE_FILE}
-    echo "::notice::Upcoming Times - No Change"
+    echo "::notice::Upcoming Times - No Change - ${PARK_NAME}"
 else
     cat ${CHANGE_FILE}
     ICS_UPDATE=1
     CHANGES=2
-    echo "::notice::Upcoming Times - CHANGED!"
+    echo "::notice::Upcoming Times - CHANGED - ${PARK_NAME}"
     MESSAGE="fetch - New Times"
 fi
 
