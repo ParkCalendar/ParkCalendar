@@ -403,6 +403,9 @@ var pastEvents = {
         var end = new Date(fetchInfo.endStr);
         this.doFetch(end);
         success([]);
+        setTimeout(function() {
+            log('debug', "calendar.start: " + calendar.view.currentStart);
+        }, 750);
     },
 
     reset: function() {
