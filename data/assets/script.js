@@ -478,8 +478,7 @@ function addCalendarSources() {
 
     pastEvents.reset();
 
-    var upcomingUrl = "https://jffmrk.github.io/sfmm/park/' + parkCalendar + '/hours.end.ics?t=" + btoa(lastFetch);
-    upcomingUrl = 'park/' + parkCalendar + '/hours.end.ics';
+    var upcomingUrl = 'park/' + parkCalendar + '/hours.end.ics?t=' + btoa(lastFetch);
 
     calendar.addEventSource({
         id: 'future',
