@@ -614,9 +614,14 @@ function setupSelect() {
     parkSelect.addEventListener('change', function() {
         var newPark = parkSelect.value;
         if (newPark != parkCalendar) {
+            start = calendar.view.currentStart;
             selectPark(newPark);
             detectChange();
             refresh("New Park Selected");
+            setTimeout(function() {
+                log('debug', 'Reset to ' + start);
+                calendar.gotoDate(start);
+            }, 1500);
         }
     });
 
