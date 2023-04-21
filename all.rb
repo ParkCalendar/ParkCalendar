@@ -23,4 +23,5 @@ end
 
 sorted = my_parks.sort_by { |e| [e['state'], e['city'], e['name']] }
 
+File.write('data/park/sixflags-raw.json', JSON.pretty_generate(all_parks))
 File.write('data/park/sixflags.json', JSON.pretty_generate(sorted))
