@@ -90,26 +90,21 @@ function takeScreenshot() {
 
 function handleExport(exportType) {
     document.documentElement.classList = 'print preparing';
-    var start = calendar.view.currentStart;
     refresh(exportType == "screenshot" ? "Take Screenshot" : "Preparing Print");
     setTimeout(function() {
-        log('debug', 'Jumping to ' + start);
-        calendar.gotoDate(start);
-        setTimeout(function() {
-            doTakeScreenshot(start, exportType);
-        }, 1000);
-    }, 750);
+        doTakeScreenshot(exportType);
+    }, 1500);
 }
 
-function doTakeScreenshot(start, exportType) {
+function doTakeScreenshot(exportType) {
     var now = new Date();
     var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
     document.getElementById('printDate').innerHTML = "Exported on " + dateStr + " @ " + timeStr;
     if (exportType == "screenshot") {
-        exportImage(start);
+        exportImage();
     } else {
-        exportPrint(start);
+        exportPrint();
     }
 }
 
@@ -117,7 +112,7 @@ function exportReady() {
     document.documentElement.classList.remove('preparing');
 }
 
-function exportScreenshot(start) {
+function exportScreenshot() {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         exportReady();
@@ -128,11 +123,11 @@ function exportScreenshot(start) {
         link.setAttribute('download', year + '-' + month + '-' + abbreviation() + '--parkcalendar' + suffix + '.png');
         link.setAttribute('href', canvas.toDataURL("image/png"));
         link.click();
-        exportReset(start);
+        exportReset();
     });
 }
 
-function exportImage(start) {
+function exportImage() {
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var imgData = canvas.toDataURL("image/png");
@@ -166,7 +161,7 @@ function exportImage(start) {
             topPrintEl.style.display = '';
             capture.style.display = '';
             imgDiv.remove();
-            exportReset(start);
+            exportReset();
             topResetEl.removeEventListener('click', topResetHandler);
         };
         topResetEl.addEventListener('click', topResetHandler);
@@ -175,7 +170,7 @@ function exportImage(start) {
     });
 }
 
-function exportPrint(start) {
+function exportPrint() {
     var topPrintEl = document.getElementById('topPrint');
     var topPrintHandler = function() {
         window.print();
@@ -184,7 +179,7 @@ function exportPrint(start) {
 
     var topResetEl = document.getElementById('topReset');
     var topResetHandler = function() {
-        exportReset(start);
+        exportReset();
         topPrintEl.removeEventListener('click', topPrintHandler);
         topResetEl.removeEventListener('click', topResetHandler);
     };
@@ -192,16 +187,12 @@ function exportPrint(start) {
     exportReady();
 }
 
-function exportReset(start) {
+function exportReset() {
     document.documentElement.classList = [];
     setupTheme();
     document.getElementById('calendar').style.display = 'none';
     setTimeout(function() {
         refresh("Reset Page");
-        setTimeout(function() {
-            log('debug', 'Reset to ' + start);
-            calendar.gotoDate(start);
-        }, 1500);
     }, 500);
 }
 
@@ -277,6 +268,12 @@ function doSubscribe() {
     setTimeout(function() {
         alert("WebCal URL copied to clipboard. Open your Calendar App to subscribe.\n\n" + calUrl);
     }, 750);
+}
+
+function calendarStart() {
+    var year = calendar.view.currentStart.getFullYear();
+    var month = pad(calendar.view.currentStart.getMonth() + 1);
+    return year + "-" + month;
 }
 
 function setupCalendar() {
@@ -404,7 +401,7 @@ var pastEvents = {
         this.doFetch(end);
         success([]);
         setTimeout(function() {
-            log('debug', "calendar.start: " + calendar.view.currentStart);
+            sessionStorage.setItem('currentStart', calendarStart());
         }, 750);
     },
 
@@ -501,6 +498,11 @@ function addCalendarSources() {
         fadeIn(calendarEl);
 
         updateLastChangeTime();
+
+        var savedCurrentStart = sessionStorage.getItem('currentStart');
+        if (savedCurrentStart) {
+            calendar.gotoDate(savedCurrentStart);
+        }
     }, 250);
 }
 
@@ -602,6 +604,7 @@ function setupFocus() {
 }
 
 function selectPark(newPark) {
+    sessionStorage.setItem('parkId', newPark);
     parkCalendar = newPark;
     var elements = document.getElementsByClassName('dynamic');
     Array.prototype.forEach.call(elements, function(e) {
@@ -616,18 +619,19 @@ function setupSelect() {
     parkSelect.addEventListener('change', function() {
         var newPark = parkSelect.value;
         if (newPark != parkCalendar) {
-            start = calendar.view.currentStart;
             selectPark(newPark);
             detectChange();
             refresh("New Park Selected");
-            setTimeout(function() {
-                log('debug', 'Reset to ' + start);
-                calendar.gotoDate(start);
-            }, 1500);
         }
     });
 
-    selectPark(parkSelect.value);
+    var savedParkId = sessionStorage.getItem('parkId');
+    if (savedParkId) {
+        parkSelect.value = savedParkId;
+        selectPark(savedParkId);
+    } else {
+        selectPark(parkSelect.value);
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -640,8 +644,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setupTheme();
     setupFocus();
-    setupCalendar();
     setupSelect();
+    setupCalendar();
 
     // Update calendar when printing
     // window.matchMedia('print').addEventListener('change', function(mql) {
