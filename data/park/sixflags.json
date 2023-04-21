@@ -1,0 +1,158 @@
+[
+  {
+    "parkId": 46,
+    "name": "Six Flags Hurricane Harbor, Phoenix",
+    "city": "Glendale",
+    "state": "AZ"
+  },
+  {
+    "parkId": 42,
+    "name": "Six Flags Hurricane Harbor, Concord",
+    "city": "Concord",
+    "state": "CA"
+  },
+  {
+    "parkId": 11,
+    "name": "Six Flags Hurricane Harbor, Los Angeles",
+    "city": "Valencia",
+    "state": "CA"
+  },
+  {
+    "parkId": 6,
+    "name": "Six Flags Magic Mountain",
+    "city": "Valencia",
+    "state": "CA"
+  },
+  {
+    "parkId": 17,
+    "name": "Six Flags Discovery Kingdom",
+    "city": "Vallejo",
+    "state": "CA"
+  },
+  {
+    "parkId": 2,
+    "name": "Six Flags Over Georgia",
+    "city": "Austell",
+    "state": "GA"
+  },
+  {
+    "parkId": 25,
+    "name": "Six Flags White Water, Atlanta",
+    "city": "Marietta",
+    "state": "GA"
+  },
+  {
+    "parkId": 48,
+    "name": "Six Flags Hurricane Harbor, Rockford",
+    "city": "Cherry Valley",
+    "state": "IL"
+  },
+  {
+    "parkId": 7,
+    "name": "Six Flags Great America",
+    "city": "Gurnee",
+    "state": "IL"
+  },
+  {
+    "parkId": 13,
+    "name": "Six Flags Hurricane Harbor, Chicago",
+    "city": "Gurnee",
+    "state": "IL"
+  },
+  {
+    "parkId": 20,
+    "name": "Six Flags New England",
+    "city": "Agawam",
+    "state": "MA"
+  },
+  {
+    "parkId": 14,
+    "name": "Six Flags America",
+    "city": "Bowie",
+    "state": "MD"
+  },
+  {
+    "parkId": 3,
+    "name": "Six Flags St. Louis",
+    "city": "Eureka",
+    "state": "MO"
+  },
+  {
+    "parkId": 28,
+    "name": "Six Flags México",
+    "city": "Ciudad de México",
+    "state": "MX"
+  },
+  {
+    "parkId": 32,
+    "name": "Six Flags Hurricane Harbor, Oaxtepec",
+    "city": "Oaxtepec",
+    "state": "MX"
+  },
+  {
+    "parkId": 5,
+    "name": "Six Flags Great Adventure",
+    "city": "Jackson",
+    "state": "NJ"
+  },
+  {
+    "parkId": 23,
+    "name": "Six Flags Hurricane Harbor, Jackson",
+    "city": "Jackson",
+    "state": "NJ"
+  },
+  {
+    "parkId": 45,
+    "name": "Six Flags Darien Lake",
+    "city": "Darien Center",
+    "state": "NY"
+  },
+  {
+    "parkId": 24,
+    "name": "The Great Escape",
+    "city": "Queensbury",
+    "state": "NY"
+  },
+  {
+    "parkId": 43,
+    "name": "Six Flags Frontier City",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "parkId": 44,
+    "name": "Six Flags Hurricane Harbor, Oklahoma City",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "parkId": 29,
+    "name": "La Ronde, Montreal",
+    "city": "Montreal",
+    "state": "QC"
+  },
+  {
+    "parkId": 10,
+    "name": "Six Flags Hurricane Harbor, Arlington",
+    "city": "Arlington",
+    "state": "TX"
+  },
+  {
+    "parkId": 1,
+    "name": "Six Flags Over Texas",
+    "city": "Arlington",
+    "state": "TX"
+  },
+  {
+    "parkId": 8,
+    "name": "Six Flags Fiesta Texas",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "parkId": 47,
+    "name": "Six Flags Hurricane Harbor, SplashTown",
+    "city": "Spring",
+    "state": "TX"
+  }
+]
