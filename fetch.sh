@@ -24,6 +24,7 @@ then
     PARK_ID=6
 fi
 DATA_DIR=data/park/${PARK_ID}
+DATA_COMMON=data/park/common
 
 ##
 ## Fetch current times from the API
@@ -128,9 +129,10 @@ then
     then
         echo "<div class='changelog-entry' data-change='${EXT}'><h2>${LASTCHANGE}</h2><pre>" > ${DATA_DIR}/changelog.xx.1.txt
         echo "</pre></div>" > ${DATA_DIR}/changelog.xx.2.txt
+        sed "s/::PARK_TITLE::/${PARK_NAME}/g" ${DATA_COMMON}/changelog.head.html > ${DATA_DIR}/changelog.xx.head.html
         cat ${DATA_DIR}/changelog.xx.1.txt ${CHANGE_FILE} ${DATA_DIR}/changelog.xx.2.txt ${DATA_DIR}/changelog.body.txt > ${DATA_DIR}/changelog.xx.body.txt
         mv ${DATA_DIR}/changelog.xx.body.txt ${DATA_DIR}/changelog.body.txt
-        cat ${DATA_DIR}/changelog.head.html ${DATA_DIR}/changelog.body.txt ${DATA_DIR}/changelog.foot.html > ${DATA_DIR}/changelog.html
+        cat ${DATA_DIR}/changelog.xx.head.html ${DATA_DIR}/changelog.body.txt ${DATA_COMMON}/changelog.foot.html > ${DATA_DIR}/changelog.html
         rm ${DATA_DIR}/changelog.xx.*
         git add ${DATA_DIR}/changelog.*
         git add ${CHANGE_FILE}

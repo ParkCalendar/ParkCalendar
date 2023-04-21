@@ -327,6 +327,30 @@
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
+    },
+    {
+      "open": "2023-07-16T10:30:00",
+      "close": "2023-07-16T19:00:00",
+      "operatingDate": "2023-07-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-07-17T10:30:00",
+      "close": "2023-07-17T19:00:00",
+      "operatingDate": "2023-07-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-07-18T10:30:00",
+      "close": "2023-07-18T19:00:00",
+      "operatingDate": "2023-07-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
     }
   ],
   "abbreviation": "SFHHLA",
