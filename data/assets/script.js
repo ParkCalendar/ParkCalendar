@@ -2,7 +2,7 @@ var calendar;
 var lastFetch = new Date().toJSON();
 var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
-
+var allParks = [];
 var parkCalendar = 6;
 
 var parkNames = {
@@ -625,13 +625,53 @@ function setupSelect() {
         }
     });
 
+    var len = parkSelect.options.length - 1;
+    for (var i = len; i >= 0; i--) {
+        parkSelect.remove(i);
+    }
+    parkNames = {};
+    allParks.forEach(park => {
+        parkNames[park.parkId] = {
+            name: park.name,
+            abbr: park.parkId
+        };
+        var option = document.createElement('option');
+        option.text = park.name + " (" + park.city + ", " + park.state + ")";
+        option.value = park.parkId;
+        parkSelect.add(option);
+    });
+
     var savedParkId = localStorage.getItem('parkId');
-    if (savedParkId) {
+    if (savedParkId !== undefined) {
         parkSelect.value = savedParkId;
         selectPark(savedParkId);
     } else {
         selectPark(parkSelect.value);
     }
+}
+
+function fetchAllParks(onFetch) {
+    var url = 'park/sixflags.json';
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                log('warn', "No Park Data!");
+                return Promise.reject("NoData");
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.info("Fetched Parks: • " + data.length);
+            allParks = data;
+            onFetch();
+            console.info("Fetched Parks: DONE");
+        })
+        .catch(error => {
+            if (error == "NoData") {
+                return;
+            }
+            log('err', "ERR • Fetching Park Data");
+        });
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -644,8 +684,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setupTheme();
     setupFocus();
-    setupSelect();
-    setupCalendar();
+    fetchAllParks(function() {
+        setupSelect();
+        setupCalendar();
+    });
 
     // Update calendar when printing
     // window.matchMedia('print').addEventListener('change', function(mql) {
