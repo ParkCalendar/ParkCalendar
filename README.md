@@ -1,4 +1,4 @@
-# SixFlags Magic Mountain Park Hours
+# SixFlags Park Hours
 
 A couple reasons for this project:
 
@@ -13,7 +13,7 @@ Hope this is useful to you. Feel free to open an issue or suggest an improvement
 
 View the published page to see upcoming & past hours or subscribe to the .ics calendar feed:
 
-https://jffmrk.github.io/sfmm/
+https://parkcalendar.com
 
 
 ## Resources
