@@ -1,0 +1,431 @@
+{
+  "operatingHours": [
+    {
+      "open": "2023-04-22T10:30:00",
+      "close": "2023-04-22T20:00:00",
+      "operatingDate": "2023-04-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-04-23T10:30:00",
+      "close": "2023-04-23T19:00:00",
+      "operatingDate": "2023-04-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-04-29T10:30:00",
+      "close": "2023-04-29T20:00:00",
+      "operatingDate": "2023-04-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-04-30T10:30:00",
+      "close": "2023-04-30T19:00:00",
+      "operatingDate": "2023-04-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-06T10:30:00",
+      "close": "2023-05-06T20:00:00",
+      "operatingDate": "2023-05-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-07T10:30:00",
+      "close": "2023-05-07T19:00:00",
+      "operatingDate": "2023-05-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-12T10:30:00",
+      "close": "2023-05-12T18:00:00",
+      "operatingDate": "2023-05-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-13T10:30:00",
+      "close": "2023-05-13T20:00:00",
+      "operatingDate": "2023-05-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-14T10:30:00",
+      "close": "2023-05-14T19:00:00",
+      "operatingDate": "2023-05-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-18T10:30:00",
+      "close": "2023-05-18T18:00:00",
+      "operatingDate": "2023-05-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-19T10:30:00",
+      "close": "2023-05-19T19:00:00",
+      "operatingDate": "2023-05-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-20T10:30:00",
+      "close": "2023-05-20T20:00:00",
+      "operatingDate": "2023-05-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-21T10:30:00",
+      "close": "2023-05-21T19:00:00",
+      "operatingDate": "2023-05-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-23T10:30:00",
+      "close": "2023-05-23T18:00:00",
+      "operatingDate": "2023-05-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-24T10:30:00",
+      "close": "2023-05-24T18:00:00",
+      "operatingDate": "2023-05-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-25T10:30:00",
+      "close": "2023-05-25T18:00:00",
+      "operatingDate": "2023-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-26T10:30:00",
+      "close": "2023-05-26T19:00:00",
+      "operatingDate": "2023-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-27T10:30:00",
+      "close": "2023-05-27T21:00:00",
+      "operatingDate": "2023-05-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-28T10:30:00",
+      "close": "2023-05-28T21:00:00",
+      "operatingDate": "2023-05-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-29T10:30:00",
+      "close": "2023-05-29T20:00:00",
+      "operatingDate": "2023-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-30T10:30:00",
+      "close": "2023-05-30T19:00:00",
+      "operatingDate": "2023-05-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-31T10:30:00",
+      "close": "2023-05-31T19:00:00",
+      "operatingDate": "2023-05-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-01T10:30:00",
+      "close": "2023-06-01T19:00:00",
+      "operatingDate": "2023-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-02T10:30:00",
+      "close": "2023-06-02T20:00:00",
+      "operatingDate": "2023-06-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-03T10:30:00",
+      "close": "2023-06-03T20:00:00",
+      "operatingDate": "2023-06-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-04T10:30:00",
+      "close": "2023-06-04T20:00:00",
+      "operatingDate": "2023-06-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-05T10:30:00",
+      "close": "2023-06-05T20:00:00",
+      "operatingDate": "2023-06-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-06T10:30:00",
+      "close": "2023-06-06T20:00:00",
+      "operatingDate": "2023-06-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-07T10:30:00",
+      "close": "2023-06-07T20:00:00",
+      "operatingDate": "2023-06-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-08T10:30:00",
+      "close": "2023-06-08T20:00:00",
+      "operatingDate": "2023-06-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-09T10:30:00",
+      "close": "2023-06-09T20:00:00",
+      "operatingDate": "2023-06-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-10T10:30:00",
+      "close": "2023-06-10T21:00:00",
+      "operatingDate": "2023-06-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-11T10:30:00",
+      "close": "2023-06-11T21:00:00",
+      "operatingDate": "2023-06-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
+  "abbreviation": "SFGR",
+  "currentAnimation": {
+    "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-640.gif",
+    "750": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-750.gif",
+    "828": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-828.gif",
+    "1080": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-1080.gif",
+    "1440": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-1440.gif"
+  },
+  "ecommerceUri": "https://sixflags.com/greatamerica/store/tickets?noheaders",
+  "seasonPassesEcommerceUri": "https://sixflags.com/greatamerica/store/tickets?noheaders",
+  "rideHeightUnitOfMeasure": "in",
+  "membershipEcommerceUri": "https://sixflags.com/greatamerica/store/tickets?noheaders",
+  "appCarousel": [],
+  "virtualQueueEnabled": false,
+  "freeVirtualQueueUri": "https://gr-free.sfflashpass.com/",
+  "paidVirtualQueueUri": "https://gr.sfflashpass.com/",
+  "chatUrl": "https://direct.lc.chat/8585046/69",
+  "upcomingHours": [
+    {
+      "open": "2023-04-22T10:30:00",
+      "close": "2023-04-22T20:00:00",
+      "operatingDate": "2023-04-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-04-23T10:30:00",
+      "close": "2023-04-23T19:00:00",
+      "operatingDate": "2023-04-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
+  "enableNativeCommerce": false,
+  "acceptedBillingIds": [
+    206,
+    204,
+    205,
+    201,
+    15,
+    1,
+    2,
+    3
+  ],
+  "parkId": 7,
+  "name": "Six Flags Great America",
+  "address": "542 North Route 21",
+  "city": "Gurnee",
+  "state": "IL",
+  "postalCode": "60031",
+  "country": "United States",
+  "phone": "847-249-2133",
+  "renderLocation": {
+    "heading": 180,
+    "radius": 0,
+    "latitude": 42.367646,
+    "longitude": -87.933866
+  },
+  "entranceLocation": {
+    "latitude": 42.370244,
+    "longitude": -87.935916
+  },
+  "image": {
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/sfgm_blur_1440x707.jpeg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/sfgm_blur_1440x707.jpeg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/sfgm_blur_1440x707.jpeg"
+  },
+  "logo": {
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/sfgam-mobile_home-800px.png",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/sfgam-mobile_home-800px.png",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/sfgam-mobile_home-800px.png"
+  },
+  "couponsEnabled": true,
+  "isWaterPark": false,
+  "location": {
+    "radius": 2.5,
+    "latitude": 42.371,
+    "longitude": -87.9358
+  },
+  "featuredRide": {
+    "id": 6559,
+    "name": "THE JOKER™ Free-Fly Coaster"
+  },
+  "featuredEvent": null,
+  "featuredShow": null,
+  "featuredSouvenir": null,
+  "featuredFoodItem": null,
+  "featuredProduct": null,
+  "parkMapImageURL": {
+    "750": "https://static.sixflags.com/app/maps/SFGR/home-maps/img-homescreen-sfgr-750.png",
+    "1080": "https://static.sixflags.com/app/maps/SFGR/home-maps/img-homescreen-sfgr-1080.png",
+    "1242": "https://static.sixflags.com/app/maps/SFGR/home-maps/img-homescreen-sfgr-1242.png",
+    "1440": "https://static.sixflags.com/app/maps/SFGR/home-maps/img-homescreen-sfgr-1440.png"
+  },
+  "tileServerURL": "https://static.sixflags.com/app/maps/Spring2018/SFGR/",
+  "routingURL": "https://static.sixflags.com/app/maps/Spring2018/SFGR/SFGRPaths.json",
+  "isRoutingEnabled": true,
+  "seasonal": [
+    {
+      "isff": true,
+      "iship": false,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/fficonlowres",
+        "1080": "http://www.placeholderfor21.com/fficonmedres",
+        "1440": "http://www.placeholderfor21.com/fficonhighres"
+      },
+      "publishBegin": "2022-09-17T00:00:00",
+      "publishEnd": "2022-10-31T00:00:00",
+      "eventBegin": "2022-09-17T00:00:00",
+      "eventEnd": "2022-10-31T00:00:00",
+      "color": "0x000000",
+      "featuredAttraction": null
+    },
+    {
+      "isff": false,
+      "iship": true,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfgm-coaster.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/hipiconlowres",
+        "1080": "http://www.placeholderfor21.com/hipiconomedres",
+        "1440": "http://www.placeholderfor21.com/hipiconohighres"
+      },
+      "publishBegin": "2021-11-17T00:00:00",
+      "publishEnd": "2021-12-31T00:00:00",
+      "eventBegin": "2021-11-17T00:00:00",
+      "eventEnd": "2021-12-31T00:00:00",
+      "color": "0x920507",
+      "featuredAttraction": null
+    }
+  ],
+  "photoProvider": "colorvision",
+  "featuredPhotoItem": "View and share your ride and park photos.",
+  "wifiEnabled": false,
+  "wifiName": null,
+  "flashPassEnabled": true,
+  "flashPassUrl": "https://gr.sfflashpass.com/?utm_campaign=qsmart_sfgr&utm_source=mobile-app&utm_medium=app-home",
+  "enableMobileFoodOrdering": true,
+  "venueNextUuId": "1b59a2dd-8e67-44bd-9ac8-2bb602db14f0",
+  "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z5c6qc1q7q1ipc2zzzztpu",
+  "enableReservations": false,
+  "reservationUrl": "https://sixflags.com/greatamerica/reserve?noheaders",
+  "parkingUrl_en": "https://www.sixflags.com/greatamerica/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_fr": null,
+  "parkingUrl_es": null,
+  "parkMapPdf": null,
+  "concept3dMapId": null,
+  "storeUrl": null,
+  "flashPassStoreUrl": null,
+  "diningStoreUrl": null,
+  "toastMessages": null
+}
