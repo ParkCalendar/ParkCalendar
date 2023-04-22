@@ -23,14 +23,16 @@ then
     USE_END_DATE=1
 fi
 
+PARK_NAME=$4
+
 USE_ARCHIVE=0
-PRODID="SixFlags Magic Mountain Park Hours"
-CALNAME="SixFlags Magic Mountain - Upcoming"
+PRODID="${PARK_NAME} - Park Hours"
+CALNAME="${PARK_NAME} - Upcoming"
 if [[ "$3" == "archive" ]]
 then
     USE_ARCHIVE=1
-    PRODID="SixFlags Magic Mountain Park Hours - Archive"
-    CALNAME="SixFlags Magic Mountain - Archive"
+    PRODID="${PARK_NAME} - Archive"
+    CALNAME="${PARK_NAME} - Archive"
 fi
 
 START=""

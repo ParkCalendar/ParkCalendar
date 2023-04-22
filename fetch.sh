@@ -113,16 +113,16 @@ then
     CHANGES=3
 
     echo "Generate ics (end) ..."
-    ./ical.sh ${DATA_DIR}/hours.json end "${PARK_NAME}" > ${DATA_DIR}/hours.end.ics
+    ./ical.sh ${DATA_DIR}/hours.json end future "${PARK_NAME}" > ${DATA_DIR}/hours.end.ics
 
     # echo "Generate ics (archive) ..."
-    # ./ical.sh ${DATA_DIR}/hours.json end archive > ${DATA_DIR}/hours.end.archive.ics
+    # ./ical.sh ${DATA_DIR}/hours.json end archive "${PARK_NAME}" > ${DATA_DIR}/hours.end.archive.ics
 
     echo "Generate ics (subscribe) ..."
-    ./ical.sh ${DATA_DIR}/hours.json summary "${PARK_NAME}" > ${DATA_DIR}/hours.ics
+    ./ical.sh ${DATA_DIR}/hours.json summary future "${PARK_NAME}" > ${DATA_DIR}/hours.ics
 
     # echo "Generate ics (subscribe archive) ..."
-    # ./ical.sh ${DATA_DIR}/hours.json summary > ${DATA_DIR}/hours.archive.ics
+    # ./ical.sh ${DATA_DIR}/hours.json summary archive "${PARK_NAME}" > ${DATA_DIR}/hours.archive.ics
 
     git add ${DATA_DIR}/hours.*
 
