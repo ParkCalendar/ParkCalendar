@@ -24,7 +24,10 @@ then
     git checkout -b ${BRANCH}
     git push --set-upstream origin ${BRANCH}
 fi
-exit
+
+echo "--"
+echo "-- Begin Fetch"
+echo "--"
 
 # ./fetch.sh ${ARG1} ${ARG2} 1
 # ./fetch.sh ${ARG1} ${ARG2} 2
@@ -52,6 +55,10 @@ exit
 # ./fetch.sh ${ARG1} ${ARG2} 46
 # ./fetch.sh ${ARG1} ${ARG2} 47
 # ./fetch.sh ${ARG1} ${ARG2} 48
+
+echo "--"
+echo "-- End Fetch"
+echo "--"
 
 if [[ "${ARG1}" == "commit" ]]
 then
