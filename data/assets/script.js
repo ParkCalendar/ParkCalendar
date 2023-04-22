@@ -645,6 +645,8 @@ function setupSelect() {
     if (savedParkId != null) {
         parkSelect.value = savedParkId;
         selectPark(savedParkId);
+    } else {
+        selectPark(parkSelect.value);
     }
 }
 
