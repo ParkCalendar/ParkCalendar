@@ -54,7 +54,7 @@ do
         ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
         echo "${START}" >> ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt
         echo "${END}" >> ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt
-        git add archive/${ARCHIVE_FILE}.txt
+        git add ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt
         HAS_ARCHIVE=1
     fi
 
