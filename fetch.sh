@@ -7,6 +7,11 @@ cd "$(dirname "$0")"
 
 export TZ=America/Los_Angeles
 
+SUMMARY="|"
+addToSummary () {
+    SUMMARY="${SUMMARY} $1 |"
+}
+
 SHOULD_COMMIT=0
 FORCE_UPDATE=0
 ICS_UPDATE=0
@@ -42,6 +47,8 @@ PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
 echo "Park Name: ${PARK_NAME}"
 echo "Abbreviation: ${PARK_ABBREVIATION}"
 
+addToSummary "${PARK_NAME}"
+
 ##
 ## Detect changes in the JSON
 ##
@@ -50,9 +57,12 @@ CHANGES=$(( 0 + $(git status --porcelain | grep json | wc -l) ))
 MESSAGE="fetch update"
 if [[ "$CHANGES" != "0" ]]
 then
-    echo "::notice::JSON Changed ${PARK_NAME}"
+    echo "••• JSON Changed ${PARK_NAME}"
     git add ${DATA_DIR}/current.json
-    MESSAGE="fetch - JSON Changed"
+    MESSAGE="fetch - JSON Changed - ${PARK_NAME}"
+    addToSummary "✅"
+else
+    addToSummary "x"
 fi
 
 ##
@@ -67,9 +77,14 @@ then
     then
         ICS_UPDATE=1
         CHANGES=3
-        echo "::notice::Archive Changed ${PARK_NAME}"
-        MESSAGE="fetch - Archive Changed"
+        echo "••• Archive Changed ${PARK_NAME}"
+        MESSAGE="fetch - Archive Changed - ${PARK_NAME}"
+        addToSummary "✅"
+    else
+        addToSummary "x"
     fi
+else
+    addToSummary "x"
 fi
 
 ##
@@ -93,21 +108,24 @@ then
     if [[ "${CHANGES_DIFF}" == "0" ]]
     then
         rm ${CHANGE_FILE}
-        echo "::notice::Upcoming Times - No Change - ${PARK_NAME}"
+        echo "••• Upcoming Times - No Change - ${PARK_NAME}"
+        addToSummary "x"
     else
         cat ${CHANGE_FILE}
         ICS_UPDATE=1
         CHANGES=2
-        echo "::notice::Upcoming Times - CHANGED - ${PARK_NAME}"
+        echo "••• Upcoming Times - CHANGED - ${PARK_NAME}"
         MESSAGE="fetch - New Times - ${PARK_NAME}"
+        addToSummary "✅"
     fi
 else
     CHANGES_DIFF=1
     ICS_UPDATE=1
     CHANGES=2
-    echo "::notice::BRAND NEW TIMES - ${PARK_NAME}"
+    echo "••• BRAND NEW TIMES - ${PARK_NAME}"
     MESSAGE="fetch - New Times - ${PARK_NAME}"
     echo "initial fetch" > ${CHANGE_FILE}
+    addToSummary "✅ NEW ✅"
 fi
 
 if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
@@ -192,3 +210,5 @@ then
 EOM
     curl -X POST -H 'Content-type: application/json' --data "${SLACK_MESSAGE}" ${SLACK_WEBHOOK_URL}
 fi
+
+echo "${SUMMARY}" >> ${GITHUB_STEP_SUMMARY}

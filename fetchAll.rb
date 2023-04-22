@@ -36,6 +36,15 @@ if fetch_arg1 == 'commit'
     logRun "git push --set-upstream origin #{branch}"
 end
 
+summary_file = ENV['GITHUB_STEP_SUMMARY']
+open(summary_file, 'a') { |f|
+  f.puts "# SixFlags Fetch"
+  f.puts
+  f.puts "| Park Name | JSON | Archive | Upcoming |"
+  f.puts "| --------- | ---- | ------- | -------- |"
+}
+
+
 all_parks = JSON.parse(File.read('data/park/sixflags.json'))
 all_parks.each do |park|
     if fetch_id == 'all' || fetch_id.to_s == park['parkId'].to_s
