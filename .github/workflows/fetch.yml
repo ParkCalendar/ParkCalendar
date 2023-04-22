@@ -17,6 +17,11 @@ jobs:
       with:
         token: ${{ secrets.REPO_TOKEN }}
 
+    - name: Ruby Setup
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2.2'
+
     - name: Fetch Hours
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
