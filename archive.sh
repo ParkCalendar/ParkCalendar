@@ -49,9 +49,11 @@ do
     DAY=$(${DATECMD} +'%Y%m%d' -d "${START}")
     if [[ "${DAY}" < "${TODAY}" ]]
     then
+        ARCHIVE_DIR=$(${DATECMD} +'archive/%Y' -d "${START}")
+        mkdir -p "${ARCHIVE_DIR}"
         ARCHIVE_FILE=$(${DATECMD} +'%Y-%m' -d "${START}")
-        echo "${START}" >> archive/${ARCHIVE_FILE}.txt
-        echo "${END}" >> archive/${ARCHIVE_FILE}.txt
+        echo "${START}" >> ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt
+        echo "${END}" >> ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt
         git add archive/${ARCHIVE_FILE}.txt
         HAS_ARCHIVE=1
     fi
@@ -61,8 +63,8 @@ done
 
 if [[ "${HAS_ARCHIVE}" == "1" ]]
 then
-    "${BASE_SCRIPT}/archive-json.sh" archive/${ARCHIVE_FILE}.txt | jq > archive/${ARCHIVE_FILE}.json
-    git add archive/${ARCHIVE_FILE}.json
+    "${BASE_SCRIPT}/archive-json.sh" ${ARCHIVE_DIR}/${ARCHIVE_FILE}.txt | jq > ${ARCHIVE_DIR}/${ARCHIVE_FILE}.json
+    git add ${ARCHIVE_DIR}/${ARCHIVE_FILE}.json
 fi
 
 exit ${HAS_ARCHIVE}

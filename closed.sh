@@ -28,10 +28,11 @@ then
     REASON="Rain Closure"
 fi
 
+FILE_DIR="${DATA_DIR}/archive/$(${DATECMD} +'%Y')"
 FILE=$(${DATECMD} +'%Y-%m')
 
-FILE_TXT="${DATA_DIR}/archive/${FILE}.txt"
-FILE_JSON="${DATA_DIR}/archive/${FILE}.json"
+FILE_TXT="${FILE_DIR}/${FILE}.txt"
+FILE_JSON="${FILE_DIR}/${FILE}.json"
 
 START=$(${DATECMD} +'%Y-%m-%dT10:30:00')
 CLOSED="⛔️ ${REASON}"

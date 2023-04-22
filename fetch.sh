@@ -25,6 +25,7 @@ then
 fi
 DATA_DIR=data/park/${PARK_ID}
 DATA_COMMON=data/park/common
+mkdir -p "${DATE_DIR}"
 
 ##
 ## Fetch current times from the API

@@ -330,7 +330,7 @@ var pastEvents = {
     getJsonFile: function(date) {
         var year = date.getFullYear();
         var mon = ("0" + (date.getMonth() + 1)).slice(-2);
-        var jsonFile = year + "-" + mon + ".json";
+        var jsonFile = year + "/" + year + "-" + mon + ".json";
         return jsonFile;
     },
 
@@ -604,7 +604,7 @@ function setupFocus() {
 }
 
 function selectPark(newPark) {
-    sessionStorage.setItem('parkId', newPark);
+    localStorage.setItem('parkId', newPark);
     parkCalendar = newPark;
     var elements = document.getElementsByClassName('dynamic');
     Array.prototype.forEach.call(elements, function(e) {
@@ -625,7 +625,7 @@ function setupSelect() {
         }
     });
 
-    var savedParkId = sessionStorage.getItem('parkId');
+    var savedParkId = localStorage.getItem('parkId');
     if (savedParkId) {
         parkSelect.value = savedParkId;
         selectPark(savedParkId);
