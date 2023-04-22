@@ -25,7 +25,7 @@ then
 fi
 DATA_DIR=data/park/${PARK_ID}
 DATA_COMMON=data/park/common
-mkdir -p "${DATE_DIR}"
+mkdir -p "${DATA_DIR}"
 
 ##
 ## Fetch current times from the API
@@ -58,45 +58,56 @@ fi
 ##
 ## Archive past times
 ##
-echo "Archive past upcoming times..."
-./archive.sh ${DATA_DIR}/hours.upcoming.txt
-CHANGES_ARCHIVE=$?
-if [[ "${CHANGES_ARCHIVE}" != "0" ]]
+if [[ -f "${DATA_DIR}/hours.upcoming.txt" ]]
 then
-    ICS_UPDATE=1
-    CHANGES=3
-    echo "::notice::Archive Changed ${PARK_NAME}"
-    MESSAGE="fetch - Archive Changed"
+    echo "Archive past upcoming times..."
+    ./archive.sh ${DATA_DIR}/hours.upcoming.txt
+    CHANGES_ARCHIVE=$?
+    if [[ "${CHANGES_ARCHIVE}" != "0" ]]
+    then
+        ICS_UPDATE=1
+        CHANGES=3
+        echo "::notice::Archive Changed ${PARK_NAME}"
+        MESSAGE="fetch - Archive Changed"
+    fi
 fi
 
 ##
 ## Regenerate upcoming times from previous API response & check for changes
 ##
-echo "Parse previous json (all)..."
-./list.sh ${DATA_DIR}/hours.json > ${DATA_DIR}/hours.txt
-
+CACHE=$(date +%Y%m%d%H%M)
+LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
 EXT=$(date +%Y%m%d-%H%M%S)
-CACHE=$(date +%Y%m%d%H%M)
-LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
-
 CHANGE_FILE=${DATA_DIR}/changelog/${YEAR}/diff.${EXT}.txt
 mkdir -p ${DATA_DIR}/changelog/${YEAR}
-
-echo "Diff upcoming times..."
-diff --expand-tabs --side-by-side --width 60 --suppress-common-lines ${DATA_DIR}/hours.txt ${DATA_DIR}/current.txt > ${CHANGE_FILE}
-CHANGES_DIFF=$?
-if [[ "${CHANGES_DIFF}" == "0" ]]
+if [[ -f "${DATA_DIR}/hours.json" ]]
 then
-    rm ${CHANGE_FILE}
-    echo "::notice::Upcoming Times - No Change - ${PARK_NAME}"
+    echo "Parse previous json (all)..."
+    ./list.sh ${DATA_DIR}/hours.json > ${DATA_DIR}/hours.txt
+
+    echo "Diff upcoming times..."
+    diff --expand-tabs --side-by-side --width 60 --suppress-common-lines ${DATA_DIR}/hours.txt ${DATA_DIR}/current.txt > ${CHANGE_FILE}
+    CHANGES_DIFF=$?
+    if [[ "${CHANGES_DIFF}" == "0" ]]
+    then
+        rm ${CHANGE_FILE}
+        echo "::notice::Upcoming Times - No Change - ${PARK_NAME}"
+    else
+        cat ${CHANGE_FILE}
+        ICS_UPDATE=1
+        CHANGES=2
+        echo "::notice::Upcoming Times - CHANGED - ${PARK_NAME}"
+        MESSAGE="fetch - New Times - ${PARK_NAME}"
+    fi
 else
-    cat ${CHANGE_FILE}
+    CHANGES_DIFF=9
     ICS_UPDATE=1
     CHANGES=2
-    echo "::notice::Upcoming Times - CHANGED - ${PARK_NAME}"
-    MESSAGE="fetch - New Times"
+    echo "::notice::BRAND NEW TIMES - ${PARK_NAME}"
+    MESSAGE="fetch - New Times - ${PARK_NAME}"
+    touch ${CHANGE_FILE}
 fi
 
 if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
@@ -155,7 +166,7 @@ then
     echo "Commit: ${MESSAGE} ${NOW}"
     if [[ "${SHOULD_COMMIT}" == "1" ]]
     then
-        git commit -m "${MESSAGE} ${NOW}" 
+        git commit -m "${MESSAGE} ${NOW} - ${PARK_NAME}" 
         git push
     else
         echo "•• commit skipped ••"
@@ -173,7 +184,7 @@ then
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "${LASTCHANGE}\n\n${DIFF}\n\n${LINK}"
+				"text": "${PARK_NAME} - ${LASTCHANGE}\n\n${DIFF}\n\n${LINK}"
 			}
 		}
 	]
