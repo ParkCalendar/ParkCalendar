@@ -117,6 +117,7 @@ then
     cp ${DATA_DIR}/current.upcoming.txt ${DATA_DIR}/hours.upcoming.txt
     git add ${DATA_DIR}/current.*
     git add ${DATA_DIR}/hours.*
+    git add ${CHANGE_FILE}
 fi
 
 if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
@@ -147,7 +148,6 @@ then
         cat ${DATA_DIR}/changelog.xx.head.html ${DATA_DIR}/changelog.body.txt ${DATA_COMMON}/changelog.foot.html > ${DATA_DIR}/changelog.html
         rm ${DATA_DIR}/changelog.xx.*
         git add ${DATA_DIR}/changelog.*
-        git add ${CHANGE_FILE}
     fi
 fi
 

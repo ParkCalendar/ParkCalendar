@@ -17,7 +17,7 @@ var parkNames = {
 }
 
 function abbreviation() {
-    return parkNames[parkCalendar].abbr.toLowerCase();
+    return parkNames[parkCalendar].abbr.toString().toLowerCase();
 }
 
 function pad(str) {
