@@ -102,12 +102,12 @@ then
         MESSAGE="fetch - New Times - ${PARK_NAME}"
     fi
 else
-    CHANGES_DIFF=9
+    CHANGES_DIFF=1
     ICS_UPDATE=1
     CHANGES=2
     echo "::notice::BRAND NEW TIMES - ${PARK_NAME}"
     MESSAGE="fetch - New Times - ${PARK_NAME}"
-    touch ${CHANGE_FILE}
+    echo "initial fetch" > ${CHANGE_FILE}
 fi
 
 if [[ "${CHANGES_DIFF}" != "0" || "${CHANGES_ARCHIVE}" != "0" || "${FORCE_UPDATE}" == "1" ]]
