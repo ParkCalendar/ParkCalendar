@@ -501,6 +501,8 @@ function addCalendarSources() {
         if (savedCurrentStart) {
             calendar.gotoDate(savedCurrentStart);
         }
+
+        setStatus(lastFetch);
     }, 250);
 }
 
