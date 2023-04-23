@@ -748,7 +748,24 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/86",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-04-29T11:00:00",
+      "close": "2023-04-29T18:00:00",
+      "operatingDate": "2023-04-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-04-30T11:00:00",
+      "close": "2023-04-30T18:00:00",
+      "operatingDate": "2023-04-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
