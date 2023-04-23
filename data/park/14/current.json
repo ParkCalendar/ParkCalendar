@@ -1,14 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-04-22T11:00:00",
-      "close": "2023-04-22T16:32:00",
-      "operatingDate": "2023-04-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-04-23T11:00:00",
       "close": "2023-04-23T19:00:00",
       "operatingDate": "2023-04-23T00:00:00",
@@ -1027,14 +1019,6 @@
   "paidVirtualQueueUri": "https://am.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/72",
   "upcomingHours": [
-    {
-      "open": "2023-04-22T11:00:00",
-      "close": "2023-04-22T16:32:00",
-      "operatingDate": "2023-04-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
     {
       "open": "2023-04-23T11:00:00",
       "close": "2023-04-23T19:00:00",
