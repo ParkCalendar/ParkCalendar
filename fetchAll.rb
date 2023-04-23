@@ -41,7 +41,7 @@ open(summary_file, 'a') { |f|
   f.puts "# SixFlags Fetch"
   f.puts
   f.puts "| Park Name | JSON | Archive | Upcoming |"
-  f.puts "| --------- | ---- | ------- | -------- |"
+  f.puts "| :-------: | :--: | :-----: | :------: |"
 }
 
 

@@ -59,7 +59,7 @@ if [[ "$CHANGES" != "0" ]]
 then
     echo "••• JSON Changed ${PARK_NAME}"
     git add ${DATA_DIR}/current.json
-    MESSAGE="fetch - JSON Changed - ${PARK_NAME}"
+    MESSAGE="fetch - JSON Changed"
     addToSummary "✅"
 else
     addToSummary "x"
@@ -78,7 +78,7 @@ then
         ICS_UPDATE=1
         CHANGES=3
         echo "••• Archive Changed ${PARK_NAME}"
-        MESSAGE="fetch - Archive Changed - ${PARK_NAME}"
+        MESSAGE="fetch - Archive Changed"
         addToSummary "✅"
     else
         addToSummary "x"
@@ -115,7 +115,7 @@ then
         ICS_UPDATE=1
         CHANGES=2
         echo "••• Upcoming Times - CHANGED - ${PARK_NAME}"
-        MESSAGE="fetch - New Times - ${PARK_NAME}"
+        MESSAGE="fetch - New Times"
         addToSummary "✅"
     fi
 else
@@ -123,7 +123,7 @@ else
     ICS_UPDATE=1
     CHANGES=2
     echo "••• BRAND NEW TIMES - ${PARK_NAME}"
-    MESSAGE="fetch - New Times - ${PARK_NAME}"
+    MESSAGE="fetch - Initial Times"
     echo "initial fetch" > ${CHANGE_FILE}
     addToSummary "✅ NEW ✅"
 fi
