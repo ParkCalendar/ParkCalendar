@@ -497,17 +497,11 @@ function addCalendarSources() {
         var calendarEl = document.getElementById('calendar');
         fadeIn(calendarEl);
 
-        updateLastChangeTime();
-
         var savedCurrentStart = sessionStorage.getItem('currentStart');
         if (savedCurrentStart) {
             calendar.gotoDate(savedCurrentStart);
         }
     }, 250);
-}
-
-function updateLastChangeTime() {
-    setStatus(lastFetch);
 }
 
 var lastFocusCheck = 0;
@@ -538,6 +532,7 @@ function detectChange(onChange, onSuccess) {
         .then(text => {
             if (lastFetch != text) {
                 lastFetch = text;
+                setStatus(lastFetch);
                 log('log', "• change detected " + text);
                 if (onChange) { 
                     onChange();
