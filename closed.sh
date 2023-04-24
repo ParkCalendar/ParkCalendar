@@ -36,6 +36,7 @@ FILE_JSON="${FILE_DIR}/${FILE}.json"
 
 START=$(${DATECMD} +'%Y-%m-%dT10:30:00')
 CLOSED="⛔️ ${REASON}"
+## CLOSED="☔️ Closed Early"
 
 echo $START >> $FILE_TXT
 echo $CLOSED >> $FILE_TXT

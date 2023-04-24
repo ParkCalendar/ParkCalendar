@@ -193,7 +193,7 @@ fi
 
 if [[ "${CHANGES_DIFF}" != 0 && "${SLACK_WEBHOOK_URL}" != "" ]]
 then
-    LINK="<https://jffmrk.github.io/sfmm/|${PARK_NAME} Park Calendar>"
+    LINK="<https://jffmrk.github.io/sfmm/#${PARK_ID}|${PARK_NAME} Park Calendar>"
     DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
     read -r -d '' SLACK_MESSAGE << EOM
 {
@@ -202,7 +202,7 @@ then
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "${PARK_NAME} - ${LASTCHANGE}\n\n${DIFF}\n\n${LINK}"
+				"text": "${PARK_NAME} (${PARK_ID})\n${LASTCHANGE}\n\n${DIFF}\n\n${LINK}"
 			}
 		}
 	]
