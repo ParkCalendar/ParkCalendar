@@ -601,7 +601,9 @@ function setupFocus() {
 }
 
 function selectPark(newPark) {
+    log('log', "selectPark " + newPark);
     localStorage.setItem('parkId', newPark);
+    window.location.hash = newPark;
     parkCalendar = newPark;
     var elements = document.getElementsByClassName('dynamic');
     Array.prototype.forEach.call(elements, function(e) {
@@ -638,13 +640,25 @@ function setupSelect() {
         parkSelect.add(option);
     });
 
-    var savedParkId = localStorage.getItem('parkId');
-    if (savedParkId != null) {
-        parkSelect.value = savedParkId;
-        selectPark(savedParkId);
-    } else {
-        selectPark(parkSelect.value);
+    var selectedParkId = window.location.hash;
+    if (selectedParkId != null && selectedParkId.length > 0) {
+        selectedParkId = selectedParkId.substring(1);
+        if (parkNames[selectedParkId] == null) {
+            selectedParkId = '';
+        }
     }
+    if (selectedParkId.length == 0) {
+        selectedParkId = localStorage.getItem('parkId');
+        if (parkNames[selectedParkId] == null) {
+            selectedParkId = '';
+        }
+    }
+
+    if (selectedParkId.length == 0) {
+        selectedParkId = 6;
+    }
+    parkSelect.value = selectedParkId;
+    selectPark(selectedParkId);
 }
 
 function fetchAllParks(onFetch) {

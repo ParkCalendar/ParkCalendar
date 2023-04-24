@@ -47,7 +47,7 @@ PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
 echo "Park Name: ${PARK_NAME}"
 echo "Abbreviation: ${PARK_ABBREVIATION}"
 
-addToSummary "${PARK_NAME}"
+addToSummary "[${PARK_NAME}](https://parkcalendar.com#${PARK_ID})"
 
 ##
 ## Detect changes in the JSON
