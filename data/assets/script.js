@@ -271,8 +271,12 @@ function doSubscribe() {
 }
 
 function calendarStart() {
-    var year = calendar.view.currentStart.getFullYear();
-    var month = pad(calendar.view.currentStart.getMonth() + 1);
+    return yearMonth(calendar.view.currentStart);
+}
+
+function yearMonth(date) {
+    var year = date.getFullYear();
+    var month = pad(date.getMonth() + 1);
     return year + "-" + month;
 }
 
@@ -329,8 +333,8 @@ var pastEvents = {
 
     getJsonFile: function(date) {
         var year = date.getFullYear();
-        var mon = ("0" + (date.getMonth() + 1)).slice(-2);
-        var jsonFile = year + "/" + year + "-" + mon + ".json";
+        var file = yearMonth(date);
+        var jsonFile = year + "/" + file + ".json";
         return jsonFile;
     },
 
@@ -391,18 +395,21 @@ var pastEvents = {
     },
 
     calendarFetchFn: function(fetchInfo, success, failure) {
+        var isFirst = this.didFetch.length == 0;
         log('debug', "Request: " + fetchInfo.startStr + " -> " + fetchInfo.endStr);
         var start = new Date(fetchInfo.startStr);
         this.doFetch(start);
         start.setDate(start.getDate() + 8);
         start.setDate(1);
+        if (!isFirst) {
+            var currentCalendarView = yearMonth(start);
+            sessionStorage.setItem('currentStart', currentCalendarView);
+            updateHash();
+        }
         this.doFetch(start);
         var end = new Date(fetchInfo.endStr);
         this.doFetch(end);
         success([]);
-        setTimeout(function() {
-            sessionStorage.setItem('currentStart', calendarStart());
-        }, 750);
     },
 
     reset: function() {
@@ -600,11 +607,57 @@ function setupFocus() {
     window.addEventListener('focus', onFocus);
 }
 
+function getHashData() {
+    var hash = window.location.hash;
+    var obj = {
+        parkId: null,
+        currentStart: null
+    };
+    if (hash == null || hash.trim().length == 0) {
+        return obj;
+    }
+    var arr = hash.trim();
+    if (arr.startsWith('#')) {
+        arr = arr.substring(1);
+    }
+    arr = arr.split(',');
+    if (arr.length < 1 || arr.length > 2) {
+        return obj;
+    }
+
+    // Extract park id
+    var parkId = parseInt(arr[0]);
+    if (parkId > 0) {
+        obj.parkId = arr[0];
+    }
+
+    // Extract current start
+    if (arr.length > 1) {
+        var start = arr[1];
+        var found = start.match(/\d{4}-\d{2}/);
+        if (found != null) {
+            obj.currentStart = found;
+        }
+    }
+
+    console.log(JSON.stringify(obj));
+    return obj;
+}
+
+function updateHash() {
+    var newHash = parkCalendar;
+    var currentStart = sessionStorage.getItem('currentStart');
+    if (currentStart) {
+        newHash = newHash + ',' + currentStart;
+    }
+    window.location.hash = newHash;
+}
+
 function selectPark(newPark) {
     log('log', "selectPark " + newPark);
-    localStorage.setItem('parkId', newPark);
-    window.location.hash = newPark;
     parkCalendar = newPark;
+    localStorage.setItem('parkId', newPark);
+    updateHash();
     var elements = document.getElementsByClassName('dynamic');
     Array.prototype.forEach.call(elements, function(e) {
         e.href = 'park/' + newPark + '/' + e.dataset.link;
@@ -640,25 +693,29 @@ function setupSelect() {
         parkSelect.add(option);
     });
 
-    var selectedParkId = window.location.hash;
-    if (selectedParkId != null && selectedParkId.length > 0) {
-        selectedParkId = selectedParkId.substring(1);
-        if (parkNames[selectedParkId] == null) {
-            selectedParkId = '';
+    var hashObj = getHashData();
+    if (hashObj.parkId != null) {
+        if (parkNames[hashObj.parkId] == null) {
+            hashObj.parkId = null;
         }
     }
-    if (selectedParkId.length == 0) {
-        selectedParkId = localStorage.getItem('parkId');
-        if (parkNames[selectedParkId] == null) {
-            selectedParkId = '';
+    if (hashObj.parkId == null) {
+        hashObj.parkId = localStorage.getItem('parkId');
+        if (parkNames[hashObj.parkId] == null) {
+            hashObj.parkId = null;
         }
     }
 
-    if (selectedParkId.length == 0) {
-        selectedParkId = 6;
+    if (hashObj.parkId == null) {
+        hashObj.parkId = 6;
     }
-    parkSelect.value = selectedParkId;
-    selectPark(selectedParkId);
+    parkSelect.value = hashObj.parkId;
+
+    if (hashObj.currentStart != null) {
+        sessionStorage.setItem('currentStart', hashObj.currentStart);
+    }
+
+    selectPark(hashObj.parkId);
 }
 
 function fetchAllParks(onFetch) {
