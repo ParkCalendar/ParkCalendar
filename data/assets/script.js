@@ -672,8 +672,12 @@ function setupSelect() {
         var newPark = parkSelect.value;
         if (newPark != parkCalendar) {
             selectPark(newPark);
-            detectChange();
-            refresh("New Park Selected");
+            lastFetch = "";
+            setStatus("New Park Selected");
+            var onFetch = function() {
+                refresh("Loading...");
+            };
+            detectChange(onFetch, onFetch);
         }
     });
 
