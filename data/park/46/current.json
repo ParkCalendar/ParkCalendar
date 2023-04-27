@@ -1037,5 +1037,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }
