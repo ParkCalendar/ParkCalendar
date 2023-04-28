@@ -1,3 +1,9 @@
+<div class='changelog-entry' data-change='20230427-185543'><h2>Thu Apr 27 2023 @ 06:55 PM</h2><pre>
+20230530 -- 11:00a - 06:00p  <
+20230531 -- 11:00a - 06:00p  <
+20230601 -- 11:00a - 06:00p  <
+20230703 -- 11:00a - 09:00p  |  20230703 -- 11:00a - 06:00p
+</pre></div>
 <div class='changelog-entry' data-change='20230421-222015'><h2>Fri Apr 21 2023 @ 10:20 PM</h2><pre>
 initial fetch
 </pre></div>
