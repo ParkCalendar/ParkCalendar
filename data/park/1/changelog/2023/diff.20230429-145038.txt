@@ -1,4 +1,3 @@
-<div class='changelog-entry' data-change='20230429-145038'><h2>Sat Apr 29 2023 @ 02:50 PM</h2><pre>
                              >  20230703 -- 11:00a - 10:00p
                              >  20230704 -- 11:00a - 10:00p
                              >  20230705 -- 11:00a - 07:00p
@@ -59,10 +58,3 @@
                              >  20230929 -- 06:00p - 11:00p
                              >  20230930 -- 12:00p - 10:00p
                              >  20231001 -- 12:00p - 09:00p
-</pre></div>
-<div class='changelog-entry' data-change='20230428-185418'><h2>Fri Apr 28 2023 @ 06:54 PM</h2><pre>
-                             >  20230702 -- 11:00a - 10:00p
-</pre></div>
-<div class='changelog-entry' data-change='20230421-221733'><h2>Fri Apr 21 2023 @ 10:17 PM</h2><pre>
-initial fetch
-</pre></div>
