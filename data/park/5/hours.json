@@ -1,22 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-04-22T10:30:00",
-      "close": "2023-04-22T20:00:00",
-      "operatingDate": "2023-04-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-04-23T10:30:00",
-      "close": "2023-04-23T20:00:00",
-      "operatingDate": "2023-04-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-04-28T10:00:00",
       "close": "2023-04-28T17:00:00",
       "operatingDate": "2023-04-28T00:00:00",
@@ -1641,5 +1625,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }
