@@ -918,17 +918,25 @@
   "chatUrl": "https://direct.lc.chat/8585046/82",
   "upcomingHours": [
     {
-      "open": "2023-04-29T11:00:00",
-      "close": "2023-04-29T18:00:00",
-      "operatingDate": "2023-04-29T00:00:00",
+      "open": "2023-04-30T12:00:00",
+      "close": "2023-04-30T18:00:00",
+      "operatingDate": "2023-04-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
     },
     {
-      "open": "2023-04-30T12:00:00",
-      "close": "2023-04-30T18:00:00",
-      "operatingDate": "2023-04-30T00:00:00",
+      "open": "2023-05-06T11:00:00",
+      "close": "2023-05-06T18:00:00",
+      "operatingDate": "2023-05-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-07T12:00:00",
+      "close": "2023-05-07T18:00:00",
+      "operatingDate": "2023-05-07T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
@@ -1059,5 +1067,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }
