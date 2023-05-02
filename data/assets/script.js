@@ -270,6 +270,27 @@ function doSubscribe() {
     }, 750);
 }
 
+function doShare() {
+    var shareUrl = 'https://parkcalendar.com/#' + parkCalendar
+    var currentStart = sessionStorage.getItem('currentStart');
+    var today = new Date();
+    if (currentStart && currentStart != yearMonth(today)) {
+        shareUrl += ',' + currentStart;
+    }
+    navigator.clipboard.writeText(shareUrl);
+    setTimeout(function() {
+        alert("URL copied to clipboard. Paste to share.\n\n" + shareUrl);
+    }, 250);
+}
+
+function setupLinks() {
+    var addToCalendar = document.getElementById('addToCalendar');
+    addToCalendar.addEventListener('click', doSubscribe);
+
+    var shareCalendar = document.getElementById('shareCalendar');
+    shareCalendar.addEventListener('click', doShare);
+}
+
 function calendarStart() {
     return yearMonth(calendar.view.currentStart);
 }
@@ -319,12 +340,6 @@ function setupCalendar() {
     hideCalendar();
 
     addCalendarSources();
-
-    var elements = document.getElementsByClassName('webcal-subscribe');
-    Array.prototype.forEach.call(elements, function(e) {
-        console.log("add event");
-        e.addEventListener('click', doSubscribe);
-    });
 }
 
 var pastEvents = {
@@ -655,6 +670,16 @@ function updateHash() {
 
 function selectPark(newPark) {
     log('log', "selectPark " + newPark);
+
+    var elements = document.getElementsByClassName('park-links');
+    Array.prototype.forEach.call(elements, function(e) {
+        e.classList = 'park-links hidden';
+    });
+    var selectedEl = document.getElementById('park-' + newPark);
+    if (selectedEl) {
+        selectedEl.classList.remove('hidden');
+    }
+    
     parkCalendar = newPark;
     localStorage.setItem('parkId', newPark);
     updateHash();
@@ -759,6 +784,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchAllParks(function() {
         setupSelect();
         setupCalendar();
+        setupLinks();
     });
 
     // Update calendar when printing
