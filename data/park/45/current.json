@@ -129,14 +129,6 @@
       "waterParkClose": "2023-06-18T19:00:00"
     },
     {
-      "open": "2023-06-19T11:00:00",
-      "close": "2023-06-19T19:00:00",
-      "operatingDate": "2023-06-19T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-06-19T11:30:00",
-      "waterParkClose": "2023-06-19T19:00:00"
-    },
-    {
       "open": "2023-06-23T11:00:00",
       "close": "2023-06-23T21:00:00",
       "operatingDate": "2023-06-23T00:00:00",
@@ -362,7 +354,7 @@
     },
     {
       "open": "2023-07-24T11:00:00",
-      "close": "2023-07-24T21:00:00",
+      "close": "2023-07-24T19:00:00",
       "operatingDate": "2023-07-24T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-07-24T11:30:00",
@@ -370,7 +362,7 @@
     },
     {
       "open": "2023-07-25T11:00:00",
-      "close": "2023-07-25T21:00:00",
+      "close": "2023-07-25T19:00:00",
       "operatingDate": "2023-07-25T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-07-25T11:30:00",
@@ -834,5 +826,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }

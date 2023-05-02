@@ -1,14 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-04-29T11:00:00",
-      "close": "2023-04-29T18:00:00",
-      "operatingDate": "2023-04-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-04-30T11:00:00",
       "close": "2023-04-30T18:00:00",
       "operatingDate": "2023-04-30T00:00:00",
@@ -100,30 +92,6 @@
       "open": "2023-05-29T11:00:00",
       "close": "2023-05-29T18:00:00",
       "operatingDate": "2023-05-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-30T11:00:00",
-      "close": "2023-05-30T18:00:00",
-      "operatingDate": "2023-05-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-31T11:00:00",
-      "close": "2023-05-31T18:00:00",
-      "operatingDate": "2023-05-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-06-01T11:00:00",
-      "close": "2023-06-01T18:00:00",
-      "operatingDate": "2023-06-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
@@ -378,7 +346,7 @@
     },
     {
       "open": "2023-07-03T11:00:00",
-      "close": "2023-07-03T21:00:00",
+      "close": "2023-07-03T18:00:00",
       "operatingDate": "2023-07-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -748,7 +716,24 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/86",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-05-06T11:00:00",
+      "close": "2023-05-06T18:00:00",
+      "operatingDate": "2023-05-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-07T11:00:00",
+      "close": "2023-05-07T18:00:00",
+      "operatingDate": "2023-05-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -868,5 +853,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }
