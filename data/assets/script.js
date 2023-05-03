@@ -128,6 +128,8 @@ function exportScreenshot() {
 }
 
 function exportImage() {
+    //TODO: base64 to File - https://stackoverflow.com/a/38935990
+    //TODO: share api: https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share
     var capture = document.getElementById('capture');
     html2canvas(capture).then(function(canvas) {
         var imgData = canvas.toDataURL("image/png");
