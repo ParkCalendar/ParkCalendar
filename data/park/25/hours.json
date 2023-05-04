@@ -639,22 +639,6 @@
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
-    },
-    {
-      "open": "2023-09-09T11:00:00",
-      "close": "2023-09-09T18:00:00",
-      "operatingDate": "2023-09-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-09-10T11:00:00",
-      "close": "2023-09-10T18:00:00",
-      "operatingDate": "2023-09-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
     }
   ],
   "abbreviation": "SFWWA",
@@ -794,5 +778,6 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
   "toastMessages": null
 }
