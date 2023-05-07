@@ -892,28 +892,44 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2023-05-05T10:30:00",
-      "close": "2023-05-05T18:00:00",
-      "operatingDate": "2023-05-05T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-06T10:30:00",
-      "close": "2023-05-06T21:00:00",
-      "operatingDate": "2023-05-06T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-05-06T12:00:00",
-      "waterParkClose": "2023-05-06T19:00:00"
-    },
-    {
       "open": "2023-05-07T10:30:00",
       "close": "2023-05-07T19:00:00",
       "operatingDate": "2023-05-07T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-05-07T12:00:00",
       "waterParkClose": "2023-05-07T18:00:00"
+    },
+    {
+      "open": "2023-05-12T10:30:00",
+      "close": "2023-05-12T18:00:00",
+      "operatingDate": "2023-05-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-13T10:30:00",
+      "close": "2023-05-13T21:00:00",
+      "operatingDate": "2023-05-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2023-05-13T12:00:00",
+      "waterParkClose": "2023-05-13T19:00:00"
+    },
+    {
+      "open": "2023-05-14T10:30:00",
+      "close": "2023-05-14T19:00:00",
+      "operatingDate": "2023-05-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2023-05-14T12:00:00",
+      "waterParkClose": "2023-05-14T18:00:00"
+    },
+    {
+      "open": "2023-05-15T10:30:00",
+      "close": "2023-05-15T18:00:00",
+      "operatingDate": "2023-05-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null
     }
   ],
   "enableNativeCommerce": false,
