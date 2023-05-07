@@ -658,7 +658,24 @@
   "freeVirtualQueueUri": "https://ww-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://ww.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/77",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-05-13T11:00:00",
+      "close": "2023-05-13T19:00:00",
+      "operatingDate": "2023-05-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-14T11:00:00",
+      "close": "2023-05-14T19:00:00",
+      "operatingDate": "2023-05-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
