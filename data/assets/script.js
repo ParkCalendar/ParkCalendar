@@ -3,7 +3,7 @@ var lastFetch = new Date().toJSON();
 var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
 var allParks = [];
-var parkCalendar = 6;
+var parkCalendar = null;
 
 var parkNames = {
     6: {
@@ -535,8 +535,13 @@ var focusCheckTime = 15000;
 var abortFetchTime = parseInt(focusCheckTime * 2 / 3);
 
 function detectChange(onChange, onSuccess) {
+    if (parkCalendar == null) {
+        return;
+    }
+
     var cache = new Date().getTime();
     var url = 'park/' + parkCalendar + "/lastChange.txt?t=" + cache;
+    log('warn', url);
 
     const controller = new AbortController();
     const id = setTimeout(function() {
@@ -672,6 +677,13 @@ function updateHash() {
 
 function selectPark(newPark) {
     log('log', "selectPark " + newPark);
+    parkCalendar = newPark;
+
+    setStatus("New Park Selected");
+    var onFetch = function() {
+        refresh("Loading...");
+    };
+    detectChange(onFetch, onFetch);
 
     var elements = document.getElementsByClassName('park-links');
     Array.prototype.forEach.call(elements, function(e) {
@@ -682,7 +694,6 @@ function selectPark(newPark) {
         selectedEl.classList.remove('hidden');
     }
     
-    parkCalendar = newPark;
     localStorage.setItem('parkId', newPark);
     updateHash();
     var elements = document.getElementsByClassName('dynamic');
@@ -700,11 +711,6 @@ function setupSelect() {
         if (newPark != parkCalendar) {
             selectPark(newPark);
             lastFetch = "";
-            setStatus("New Park Selected");
-            var onFetch = function() {
-                refresh("Loading...");
-            };
-            detectChange(onFetch, onFetch);
         }
     });
 
@@ -737,6 +743,7 @@ function setupSelect() {
         }
     }
 
+    // Default to Magic Mountain
     if (hashObj.parkId == null) {
         hashObj.parkId = 6;
     }
