@@ -541,7 +541,7 @@ function detectChange(onChange, onSuccess) {
 
     var cache = new Date().getTime();
     var url = 'park/' + parkCalendar + "/lastChange.txt?t=" + cache;
-    log('warn', url);
+    log('debug', url);
 
     const controller = new AbortController();
     const id = setTimeout(function() {
