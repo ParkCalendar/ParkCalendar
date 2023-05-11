@@ -1252,5 +1252,7 @@
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
   "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
   "toastMessages": null
 }
