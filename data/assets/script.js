@@ -101,6 +101,8 @@ function doTakeScreenshot(exportType) {
     var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
     document.getElementById('printDate').innerHTML = "Exported on " + dateStr + " @ " + timeStr;
+    document.getElementById('directLink').href = 'https://parkcalendar.com/#' + parkCalendar;
+    document.getElementById('directLink').innerText = 'ParkCalendar.com#' + parkCalendar;
     if (exportType == "screenshot") {
         exportImage();
     } else {
@@ -110,21 +112,6 @@ function doTakeScreenshot(exportType) {
 
 function exportReady() {
     document.documentElement.classList.remove('preparing');
-}
-
-function exportScreenshot() {
-    var capture = document.getElementById('capture');
-    html2canvas(capture).then(function(canvas) {
-        exportReady();
-        var year = calendar.view.currentStart.getFullYear();
-        var month = pad(calendar.view.currentStart.getMonth() + 1);
-        var link = document.createElement('a');
-        var suffix = exportSuffix();
-        link.setAttribute('download', year + '-' + month + '-' + abbreviation() + '--parkcalendar' + suffix + '.png');
-        link.setAttribute('href', canvas.toDataURL("image/png"));
-        link.click();
-        exportReset();
-    });
 }
 
 function exportImage() {
@@ -191,6 +178,8 @@ function exportPrint() {
 
 function exportReset() {
     document.documentElement.classList = [];
+    document.getElementById('directLink').href = 'https://parkcalendar.com/';
+    document.getElementById('directLink').innerText = 'ParkCalendar.com';
     setupTheme();
     document.getElementById('calendar').style.display = 'none';
     setTimeout(function() {
