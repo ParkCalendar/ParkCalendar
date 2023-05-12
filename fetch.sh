@@ -226,4 +226,9 @@ EOM
     curl -X POST -H 'Content-type: application/json' --data "${DISCORD_MESSAGE}" ${DISCORD_WEBHOOK_URL}
 fi
 
-echo "${SUMMARY}" >> ${GITHUB_STEP_SUMMARY}
+echo "${SUMMARY}"
+
+if [[ "${GITHUB_STEP_SUMMARY}" != "" ]]
+then
+    echo "${SUMMARY}" >> ${GITHUB_STEP_SUMMARY}
+fi
