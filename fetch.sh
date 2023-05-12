@@ -208,6 +208,7 @@ then
 	]
 }
 EOM
+    echo "Notify Slack - ${PARK_ID} - ${PARK_NAME}"
     curl -X POST -H 'Content-type: application/json' --data "${SLACK_MESSAGE}" ${SLACK_WEBHOOK_URL}
 fi
 
@@ -221,6 +222,7 @@ then
     "content": ${CONTENT}
 }
 EOM
+    echo "Notify Discord - ${PARK_ID} - ${PARK_NAME}"
     curl -X POST -H 'Content-type: application/json' --data "${DISCORD_MESSAGE}" ${DISCORD_WEBHOOK_URL}
 fi
 
