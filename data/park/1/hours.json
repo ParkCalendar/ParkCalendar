@@ -1,46 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-04-29T11:00:00",
-      "close": "2023-04-29T21:00:00",
-      "operatingDate": "2023-04-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-04-30T11:00:00",
-      "close": "2023-04-30T20:00:00",
-      "operatingDate": "2023-04-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-05T11:00:00",
-      "close": "2023-05-05T20:00:00",
-      "operatingDate": "2023-05-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-06T11:00:00",
-      "close": "2023-05-06T21:00:00",
-      "operatingDate": "2023-05-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-07T11:00:00",
-      "close": "2023-05-07T20:00:00",
-      "operatingDate": "2023-05-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-13T11:00:00",
       "close": "2023-05-13T21:00:00",
       "operatingDate": "2023-05-13T00:00:00",
@@ -58,7 +18,7 @@
     },
     {
       "open": "2023-05-19T11:00:00",
-      "close": "2023-05-19T20:00:00",
+      "close": "2023-05-19T19:00:00",
       "operatingDate": "2023-05-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -938,9 +898,9 @@
     "longitude": -97.07002
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/sfot_blur_1440x707.jpeg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/sfot_blur_1440x707.jpeg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/sfot_blur_1440x707.jpeg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFOT_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/SFOT_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/SFOT_blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/2020/04/sfot.png",
@@ -1039,5 +999,7 @@
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
   "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
   "toastMessages": null
 }
