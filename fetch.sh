@@ -193,7 +193,7 @@ fi
 
 if [[ "${CHANGES_DIFF}" != 0 && "${SLACK_WEBHOOK_URL}" != "" ]]
 then
-    LINK="<https://jffmrk.github.io/sfmm/#${PARK_ID}|${PARK_NAME} Park Calendar>"
+    LINK="<https://parkcalendar.com/#${PARK_ID}|${PARK_NAME} Park Calendar>"
     DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
     read -r -d '' SLACK_MESSAGE << EOM
 {
@@ -209,6 +209,19 @@ then
 }
 EOM
     curl -X POST -H 'Content-type: application/json' --data "${SLACK_MESSAGE}" ${SLACK_WEBHOOK_URL}
+fi
+
+if [[ "${CHANGES_DIFF}" != 0 && "${DISCORD_WEBHOOK_URL}" != "" ]]
+then
+    LINK="[${PARK_NAME} Park Calendar](https://parkcalendar.com/#${PARK_ID})"
+    DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
+    CONTENT=$(echo "${LINK} (${LASTCHANGE})\n${DIFF}" | jq -R -s '.')
+    read -r -d '' DISCORD_MESSAGE << EOM
+{
+    "content": ${CONTENT}
+}
+EOM
+    curl -X POST -H 'Content-type: application/json' --data "${DISCORD_MESSAGE}" ${DISCORD_WEBHOOK_URL}
 fi
 
 echo "${SUMMARY}" >> ${GITHUB_STEP_SUMMARY}
