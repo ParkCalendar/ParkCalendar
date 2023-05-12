@@ -184,6 +184,7 @@ function exportReset() {
     document.getElementById('calendar').style.display = 'none';
     setTimeout(function() {
         refresh("Reset Page");
+        updateHash();
     }, 500);
 }
 
@@ -658,7 +659,8 @@ function getHashData() {
 function updateHash() {
     var newHash = parkCalendar;
     var currentStart = sessionStorage.getItem('currentStart');
-    if (currentStart) {
+    var today = new Date();
+    if (currentStart && currentStart != yearMonth(today)) {
         newHash = newHash + ',' + currentStart;
     }
     window.location.hash = newHash;
