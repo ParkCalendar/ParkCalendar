@@ -1154,9 +1154,9 @@
     "longitude": -72.615532
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/sfne_blur_1440x707.jpeg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/sfne_blur_1440x707.jpeg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/sfne_blur_1440x707.jpeg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFNE_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/SFNE_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/SFNE_blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/sfne-mobile_home-800px.png",
@@ -1252,5 +1252,7 @@
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
   "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
   "toastMessages": null
 }
