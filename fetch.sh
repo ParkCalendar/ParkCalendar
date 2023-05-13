@@ -194,7 +194,7 @@ fi
 if [[ "${CHANGES_DIFF}" != 0 && "${SLACK_WEBHOOK_URL}" != "" ]]
 then
     LINK="<https://parkcalendar.com/#${PARK_ID}|${PARK_NAME} Park Calendar>"
-    DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
+    DIFF="\`\`\`$(cat ${CHANGE_FILE})\`\`\`"
     read -r -d '' SLACK_MESSAGE << EOM
 {
 	"blocks": [
@@ -215,7 +215,7 @@ fi
 if [[ "${CHANGES_DIFF}" != 0 && "${DISCORD_WEBHOOK_URL}" != "" ]]
 then
     LINK="[${PARK_NAME} Park Calendar](https://parkcalendar.com/#${PARK_ID})"
-    DIFF="\`\`\`\n$(cat ${CHANGE_FILE})\n\`\`\`"
+    DIFF="\`\`\`$(cat ${CHANGE_FILE})\`\`\`"
     CONTENT=$(echo "${LINK} (${LASTCHANGE})\n${DIFF}" | jq -R -s '.')
     read -r -d '' DISCORD_MESSAGE << EOM
 {
