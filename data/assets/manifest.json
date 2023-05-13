@@ -1,11 +1,11 @@
 {
-  "name": "SFMM Hours",
-  "short_name": "SFMM Hours",
+  "name": "ParkCalendar",
+  "short_name": "ParkCalendar",
   "theme_color": "#d6362e",
   "background_color": "#f6c544",
   "display": "fullscreen",
-  "scope": "https://jffmrk.github.io/sfmm/",
-  "start_url": "https://jffmrk.github.io/sfmm/",
+  "scope": "https://parkcalendar.com/",
+  "start_url": "https://parkcalendar.com/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

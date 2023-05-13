@@ -254,7 +254,7 @@ function setupTheme() {
 }
 
 function doSubscribe() {
-    var calUrl = 'webcal://jffmrk.github.io/sfmm/park/' + parkCalendar + '/hours.ics';
+    var calUrl = 'webcal://parkcalendar.com/park/' + parkCalendar + '/hours.ics';
     document.location.assign(calUrl);
     navigator.clipboard.writeText(calUrl);
     setTimeout(function() {
