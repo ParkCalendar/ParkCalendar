@@ -658,7 +658,32 @@
   "freeVirtualQueueUri": "https://ww-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://ww.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/77",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-05-14T11:00:00",
+      "close": "2023-05-14T19:00:00",
+      "operatingDate": "2023-05-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-20T11:00:00",
+      "close": "2023-05-20T19:00:00",
+      "operatingDate": "2023-05-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-21T11:00:00",
+      "close": "2023-05-21T19:00:00",
+      "operatingDate": "2023-05-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -689,9 +714,9 @@
     "longitude": -84.519548
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/wwa_blur_1440x707.jpeg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/wwa_blur_1440x707.jpeg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/wwa_blur_1440x707.jpeg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFWW_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/SFWW_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/SFWW_blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/sfww-mobile_home-800px.png",
@@ -779,5 +804,7 @@
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
   "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
   "toastMessages": null
 }
