@@ -2,6 +2,15 @@ name: Park Closed Today
 
 on:
   workflow_dispatch:
+    inputs:
+      park_id:
+        description: 'Park Id'
+        required: true
+        default: '6'
+      reason:
+        description: 'Closure Reason'
+        required: true
+        default: 'Rain Closure'
 
 jobs:
   fetch:
@@ -18,7 +27,7 @@ jobs:
       run: |
         git config --global user.name '${{ secrets.REPO_USER_NAME }}'
         git config --global user.email '${{ secrets.REPO_USER_EMAIL }}'
-        ./closed.sh commit
+        ./closed.sh ${{ github.event.inputs.park_id }} commit "${{ github.event.inputs.reason }}"
 
     - name: Fetch Hours
       env:
@@ -26,4 +35,4 @@ jobs:
       run: |
         git config --global user.name '${{ secrets.REPO_USER_NAME }}'
         git config --global user.email '${{ secrets.REPO_USER_EMAIL }}'
-        ./fetch.sh commit
+        ./fetch.sh commit update ${{ github.event.inputs.park_id }}
