@@ -3,7 +3,13 @@
 ## Add a closure
 ##
 
-PARK_ID=6
+PARK_ID=$1
+if [[ "${PARK_ID}" == "" ]]
+then
+    echo "USAGE: ./closed.sh <park_id> [commit [reason]]"
+    exit 9
+fi
+
 DATA_DIR="data/park/${PARK_ID}"
 
 export TZ=America/Los_Angeles
@@ -16,11 +22,11 @@ else
 fi
 
 SHOULD_COMMIT=0
-REASON=$1
+REASON=$2
 if [[ "${REASON}" == "commit" ]]
 then
     SHOULD_COMMIT=1
-    REASON=$2
+    REASON=$3
 fi
 
 if [[ "${REASON}" == "" ]]
