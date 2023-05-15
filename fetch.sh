@@ -47,7 +47,7 @@ PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
 echo "Park Name: ${PARK_NAME}"
 echo "Abbreviation: ${PARK_ABBREVIATION}"
 
-addToSummary "[${PARK_NAME}](https://parkcalendar.com#${PARK_ID})"
+addToSummary "[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})"
 
 ##
 ## Detect changes in the JSON
@@ -163,7 +163,8 @@ then
     then
         echo "<div class='changelog-entry' data-change='${CHANGE_ID}'><h2>${LASTCHANGE}</h2><pre>" > ${DATA_DIR}/changelog.xx.1.txt
         echo "</pre></div>" > ${DATA_DIR}/changelog.xx.2.txt
-        sed "s/::PARK_TITLE::/${PARK_NAME}/g" ${DATA_COMMON}/changelog.head.html > ${DATA_DIR}/changelog.xx.head.html
+        sed "s/::PARK_TITLE::/${PARK_NAME}/g" ${DATA_COMMON}/changelog.head.html > ${DATA_DIR}/changelog.xx.head.1.html
+        sed "s/::PARK_ID::/${PARK_ID}/g" ${DATA_DIR}/changelog.xx.head.1.html > ${DATA_DIR}/changelog.xx.head.html
         cat ${DATA_DIR}/changelog.xx.1.txt ${CHANGE_FILE} ${DATA_DIR}/changelog.xx.2.txt ${DATA_DIR}/changelog.body.txt > ${DATA_DIR}/changelog.xx.body.txt
         mv ${DATA_DIR}/changelog.xx.body.txt ${DATA_DIR}/changelog.body.txt
         cat ${DATA_DIR}/changelog.xx.head.html ${DATA_DIR}/changelog.body.txt ${DATA_COMMON}/changelog.foot.html > ${DATA_DIR}/changelog.html
