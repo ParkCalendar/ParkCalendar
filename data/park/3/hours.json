@@ -932,14 +932,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/66",
   "upcomingHours": [
     {
-      "open": "2023-05-14T11:00:00",
-      "close": "2023-05-14T18:00:00",
-      "operatingDate": "2023-05-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-20T11:00:00",
       "close": "2023-05-20T19:00:00",
       "operatingDate": "2023-05-20T00:00:00",
