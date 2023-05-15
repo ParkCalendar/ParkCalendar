@@ -94,8 +94,8 @@ CACHE=$(date +%Y%m%d%H%M)
 LASTCHANGE=$(date "+%a %b %d %Y @ %I:%M %p")
 NOW=$(date +%m-%d-%Y)
 YEAR=$(date +%Y)
-EXT=$(date +%Y%m%d-%H%M%S)
-CHANGE_FILE=${DATA_DIR}/changelog/${YEAR}/diff.${EXT}.txt
+CHANGE_ID=$(date +%Y%m%d-%H%M%S)
+CHANGE_FILE=${DATA_DIR}/changelog/${YEAR}/diff.${CHANGE_ID}.txt
 mkdir -p ${DATA_DIR}/changelog/${YEAR}
 if [[ -f "${DATA_DIR}/hours.json" ]]
 then
@@ -107,7 +107,7 @@ then
     CHANGES_DIFF=$?
     if [[ "${CHANGES_DIFF}" == "0" ]]
     then
-        rm ${CHANGE_FILE}
+        rm -f ${CHANGE_FILE}
         echo "••• Upcoming Times - No Change - ${PARK_NAME}"
         addToSummary "x"
     else
@@ -135,7 +135,10 @@ then
     cp ${DATA_DIR}/current.upcoming.txt ${DATA_DIR}/hours.upcoming.txt
     git add ${DATA_DIR}/current.*
     git add ${DATA_DIR}/hours.*
-    git add ${CHANGE_FILE}
+    if [[ "${CHANGES_DIFF}" == "1" ]]
+    then
+        git add ${CHANGE_FILE}
+    fi
 fi
 
 if [[ "${ICS_UPDATE}" == "1" || "${FORCE_UPDATE}" == "1" ]]
@@ -158,7 +161,7 @@ then
 
     if [[ "${CHANGES_DIFF}" == "1" ]]
     then
-        echo "<div class='changelog-entry' data-change='${EXT}'><h2>${LASTCHANGE}</h2><pre>" > ${DATA_DIR}/changelog.xx.1.txt
+        echo "<div class='changelog-entry' data-change='${CHANGE_ID}'><h2>${LASTCHANGE}</h2><pre>" > ${DATA_DIR}/changelog.xx.1.txt
         echo "</pre></div>" > ${DATA_DIR}/changelog.xx.2.txt
         sed "s/::PARK_TITLE::/${PARK_NAME}/g" ${DATA_COMMON}/changelog.head.html > ${DATA_DIR}/changelog.xx.head.html
         cat ${DATA_DIR}/changelog.xx.1.txt ${CHANGE_FILE} ${DATA_DIR}/changelog.xx.2.txt ${DATA_DIR}/changelog.body.txt > ${DATA_DIR}/changelog.xx.body.txt
@@ -214,12 +217,22 @@ fi
 
 if [[ "${CHANGES_DIFF}" != 0 && "${DISCORD_WEBHOOK_URL}" != "" ]]
 then
-    LINK="[${PARK_NAME} Park Calendar](https://parkcalendar.com/#${PARK_ID})"
-    DIFF="\`\`\`$(cat ${CHANGE_FILE})\`\`\`"
-    CONTENT=$(echo "${LINK}\r\n(${LASTCHANGE})\r\n${DIFF}" | jq -R -s '.')
+    CHANGE_LINES=$(( 0 + $(cat ${CHANGE_FILE} | wc -l) ))
+    CHANGE_TOP=$(head -4 ${CHANGE_FILE})
+    CHANGE_TOP_MORE=""
+    LINK="[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})"
+    CHANGELINK="[Changes on ${LASTCHANGE}](https://parkcalendar.com/park/${PARK_ID}/changelog.html?id=${CHANGE_ID})"
+    if (( CHANGE_LINES > 4 ))
+    then
+        CHANGELINK="${CHANGELINK} - tap for full list"
+        CHANGE_TOP_MORE="\n..."
+    fi
+    CHANGE_TOP=$(echo "${CHANGE_TOP}" | jq -R -s '.' | sed 's/"//g')
+
+    CONTENT=$(echo "${LINK}\n🔸 ${CHANGELINK}\n\`\`\`${CHANGE_TOP}${CHANGE_TOP_MORE}\`\`\`\n---")
     read -r -d '' DISCORD_MESSAGE << EOM
 {
-    "content": ${CONTENT}
+    "content": "${CONTENT}"
 }
 EOM
     echo "Notify Discord - ${PARK_ID} - ${PARK_NAME}"
