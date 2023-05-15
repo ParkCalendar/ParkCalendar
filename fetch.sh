@@ -225,7 +225,7 @@ then
     if (( CHANGE_LINES > 4 ))
     then
         CHANGELINK="${CHANGELINK} - tap for full list"
-        CHANGE_TOP_MORE="\n..."
+        CHANGE_TOP_MORE="..."
     fi
     CHANGE_TOP=$(echo "${CHANGE_TOP}" | jq -R -s '.' | sed 's/"//g')
 
