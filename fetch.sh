@@ -216,7 +216,7 @@ if [[ "${CHANGES_DIFF}" != 0 && "${DISCORD_WEBHOOK_URL}" != "" ]]
 then
     LINK="[${PARK_NAME} Park Calendar](https://parkcalendar.com/#${PARK_ID})"
     DIFF="\`\`\`$(cat ${CHANGE_FILE})\`\`\`"
-    CONTENT=$(echo "${LINK}\n(${LASTCHANGE})\n${DIFF}" | jq -R -s '.')
+    CONTENT=$(echo "${LINK}\r\n(${LASTCHANGE})\r\n${DIFF}" | jq -R -s '.')
     read -r -d '' DISCORD_MESSAGE << EOM
 {
     "content": ${CONTENT}
