@@ -55,14 +55,16 @@ all_parks.each do |park|
     end
 end
 
-if File.exists?(summary_file)
-    IO.copy_stream(summary_file, "LAST_FETCH.md") 
-    logRun("git add LAST_FETCH.md")
-    logRun("git commit -m 'fetch #{today_string}'")
-    logRun("git push")
-end
 
 if fetch_arg1 == 'commit'
+
+    if File.exists?(summary_file)
+        IO.copy_stream(summary_file, "LAST_FETCH.md") 
+        logRun("git add LAST_FETCH.md")
+        logRun("git commit -m 'fetch #{today_string}'")
+        logRun("git push")
+    end
+
     logRun("git checkout main")
     logRun("git merge -m 'Merge #{branch}' #{branch}")
     logRun("git push")
