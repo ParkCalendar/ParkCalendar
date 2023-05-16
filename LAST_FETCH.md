@@ -1,5 +1,7 @@
 # SixFlags Fetch
 
+*2023-05-16 17:50:32 +0000*
+
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
 | [Six Flags Hurricane Harbor, Phoenix](https://parkcalendar.com/#46) | x | x | x |
@@ -13,7 +15,7 @@
 | [Six Flags Great America](https://parkcalendar.com/#7) | ✅ | x | ✅ |
 | [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13) | x | x | x |
 | [Six Flags New England](https://parkcalendar.com/#20) | x | x | x |
-| [Six Flags America](https://parkcalendar.com/#14) | ✅ | x | ✅ |
+| [Six Flags America](https://parkcalendar.com/#14) | x | x | x |
 | [Six Flags St. Louis](https://parkcalendar.com/#3) | x | x | x |
 | [Six Flags México](https://parkcalendar.com/#28) | x | x | x |
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32) | x | x | x |
