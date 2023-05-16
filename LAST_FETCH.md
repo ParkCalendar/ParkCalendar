@@ -10,10 +10,10 @@
 | [Six Flags Over Georgia](https://parkcalendar.com/#2) | x | x | x |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25) | x | x | x |
 | [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48) | x | x | x |
-| [Six Flags Great America](https://parkcalendar.com/#7) | x | x | x |
+| [Six Flags Great America](https://parkcalendar.com/#7) | ✅ | x | ✅ |
 | [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13) | x | x | x |
 | [Six Flags New England](https://parkcalendar.com/#20) | x | x | x |
-| [Six Flags America](https://parkcalendar.com/#14) | ✅ | x | x |
+| [Six Flags America](https://parkcalendar.com/#14) | ✅ | x | ✅ |
 | [Six Flags St. Louis](https://parkcalendar.com/#3) | x | x | x |
 | [Six Flags México](https://parkcalendar.com/#28) | x | x | x |
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32) | x | x | x |
