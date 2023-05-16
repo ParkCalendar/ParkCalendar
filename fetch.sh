@@ -44,10 +44,12 @@ echo "Parse new json (upcoming)..."
 
 PARK_NAME=$(cat ${DATA_DIR}/current.json | jq -r .name)
 PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
+PARK_CITY=$(cat ${DATA_DIR}/current.json | jq -r .city)
+PARK_STATE=$(cat ${DATA_DIR}/current.json | jq -r .state)
 echo "Park Name: ${PARK_NAME}"
 echo "Abbreviation: ${PARK_ABBREVIATION}"
 
-addToSummary "[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})"
+addToSummary "[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})<br>${PARK_CITY}, ${PARK_STATE}"
 
 ##
 ## Detect changes in the JSON
