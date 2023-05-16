@@ -9,11 +9,17 @@ The park hours are generated directly from the SixFlags API (see below). A GitHu
 
 Hope this is useful to you. Feel free to open an issue or suggest an improvement.
 
-## GitHub Page
+## View the Calendar
 
-View the published page to see upcoming & past hours or subscribe to the .ics calendar feed:
+View this page to see upcoming & past hours, subscribe to the .ics calendar feed, save a screenshot, or print out a calendar.
 
-https://parkcalendar.com
+[ParkCalendar.com](https://parkcalendar.com)
+
+## Track Changes
+
+View the [last fetch summary](LAST_FETCH.md) to see what has recently changed.
+
+Join the [Discord Server](https://parkcalendar.com/links/#discord) to see the changes posted as they are detected.
 
 
 ## Resources
