@@ -37,12 +37,14 @@ if fetch_arg1 == 'commit'
 end
 
 summary_file = ENV['GITHUB_STEP_SUMMARY']
-open(summary_file, 'a') { |f|
-  f.puts "# SixFlags Fetch"
-  f.puts
-  f.puts "| Park Name | JSON | Archive | Upcoming |"
-  f.puts "| :-------- | :--: | :-----: | :------: |"
-}
+if File.exists?(summary_file)
+    open(summary_file, 'a') { |f|
+        f.puts "# SixFlags Fetch"
+        f.puts
+        f.puts "| Park Name | JSON | Archive | Upcoming |"
+        f.puts "| :-------- | :--: | :-----: | :------: |"
+    }
+end
 
 
 all_parks = JSON.parse(File.read('data/park/sixflags.json'))
@@ -51,6 +53,13 @@ all_parks.each do |park|
         log(park['name'])
         logRun("./fetch.sh #{fetch_arg1} #{fetch_arg2} #{park['parkId']}")
     end
+end
+
+if File.exists?(summary_file)
+    IO.copy_stream(summary_file, "LAST_FETCH.md") 
+    logRun("git add LAST_FETCH.md")
+    logRun("git commit -m 'fetch #{today_string}'")
+    logRun("git push")
 end
 
 if fetch_arg1 == 'commit'
