@@ -1,14 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-05-15T10:00:00",
-      "close": "2023-05-15T20:00:00",
-      "operatingDate": "2023-05-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-18T10:00:00",
       "close": "2023-05-18T18:00:00",
       "operatingDate": "2023-05-18T00:00:00",
@@ -180,14 +172,6 @@
       "open": "2023-06-24T10:00:00",
       "close": "2023-06-24T20:00:00",
       "operatingDate": "2023-06-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-06-25T10:00:00",
-      "close": "2023-06-25T20:00:00",
-      "operatingDate": "2023-06-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
@@ -595,14 +579,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/78",
   "upcomingHours": [
-    {
-      "open": "2023-05-15T10:00:00",
-      "close": "2023-05-15T20:00:00",
-      "operatingDate": "2023-05-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
     {
       "open": "2023-05-18T10:00:00",
       "close": "2023-05-18T18:00:00",
