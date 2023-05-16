@@ -37,7 +37,7 @@ if fetch_arg1 == 'commit'
 end
 
 summary_file = ENV['GITHUB_STEP_SUMMARY']
-if File.exists?(summary_file)
+if File.exist?(summary_file)
     open(summary_file, 'a') { |f|
         f.puts "# SixFlags Fetch"
         f.puts
@@ -58,7 +58,7 @@ end
 
 if fetch_arg1 == 'commit'
 
-    if File.exists?(summary_file)
+    if File.exist?(summary_file)
         IO.copy_stream(summary_file, "LAST_FETCH.md") 
         logRun("git add LAST_FETCH.md")
         logRun("git commit -m 'fetch #{today_string}'")
