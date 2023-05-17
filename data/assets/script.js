@@ -762,6 +762,9 @@ function setupSelect() {
         parkSelect.remove(i);
     }
     parkNames = {};
+
+    var parkSelectContent = document.getElementById('parkSelectContent');
+
     allParks.forEach(park => {
         parkNames[park.parkId] = {
             name: park.name,
@@ -771,6 +774,16 @@ function setupSelect() {
         option.text = park.name + " (" + park.city + ", " + park.state + ")";
         option.value = park.parkId;
         parkSelect.add(option);
+
+        var sel = document.createElement('a');
+        sel.classList = 'button';
+        sel.href = '#' + park.parkId;
+        sel.innerHTML = park.name + '<br><span class="small">' + park.city + ', ' + park.state;
+        sel.addEventListener('click', function() {
+            selectPark(park.parkId);
+        });
+        parkSelectContent.appendChild(sel);
+
     });
 
     var hashObj = getHashData();

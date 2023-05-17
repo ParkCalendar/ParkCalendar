@@ -240,6 +240,24 @@ a.button:hover {
     border-color: var(--fc-button-hover-border-color);
     color: var(--sf-button-hover-link-color);
 }
+.options {
+    background-color: var(--sf-button-bg-color);
+    border: 2px solid var(--sf-button-border-color);
+    border-radius: 6px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 350px;
+}
+.options a.button {
+    display: block;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--sf-button-border-color);
+}
+.small {
+    font-size: 0.7em;
+}
 p {
     margin: 1.2em 0;
 }
