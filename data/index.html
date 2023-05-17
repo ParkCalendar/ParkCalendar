@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/style.css?t=202305170451">
   </head>
   <body>
+    <div id="cover" class="cover"></div>
     <div class="wrapper">
       <div class="content">
         <div class="topButtons">
@@ -25,7 +26,9 @@
         </div>
         <div id="capture">
           <div class="topHeader">
-            <button id="themeToggle" class="icon"><i class="system"></i></button>
+            <button id="location" class="icon floatLeft"><i class="location"></i></button>
+            <button id="themeToggle" class="icon floatRight"><i class="system"></i></button>
+            <div id="parkSelectContent" class="options"></div>
             <h1 id="pageTitle">
               SixFlags Magic Mountain Park Hours
             </h1>
@@ -50,12 +53,6 @@
           <p class="center dim">
             This page is updated daily and generated directly from the SixFlags API.
           </p>
-          <div class="center">
-            <select name="parkid" id="parkid" class="button">
-              <option value="6">Magic Mountain (Valencia, CA)</option>
-              <option value="11">Hurricane Harbor (Valencia, CA)</option>
-            </select>
-          </div>
           <div class="center">
             <a class="button dynamic" data-link="hours.txt" href="park/6/hours.txt">Text</a>
             <a class="button dynamic" data-link="changelog.html" href="park/6/changelog.html">Changelog</a>

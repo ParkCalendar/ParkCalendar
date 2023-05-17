@@ -16,6 +16,7 @@
     --sf-button-link-color: #248;
     --sf-button-hover-link-color: #9BF;
     --sf-button-capture-bg-color: transparent;
+    --sf-theme-color-yellow: #f7c445;
 }
 
 @media only screen {
@@ -112,9 +113,13 @@ button.icon {
     padding: 2px;
     cursor: pointer;
 }
-.topHeader button.icon {
-    margin-left: 8px;
+.floatRight {
     float: right;
+    margin-left: 8px;
+}
+.floatLeft {
+    float: left;
+    margin-right: 8px;
 }
 .footer button.icon {
     display: block;
@@ -240,6 +245,47 @@ a.button:hover {
     border-color: var(--fc-button-hover-border-color);
     color: var(--sf-button-hover-link-color);
 }
+.cover {
+    display: none;
+    opacity: 0.7;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+}
+.options {
+    display: none;
+    background-color: var(--sf-button-bg-color);
+    border: 5px solid var(--sf-theme-color-yellow);
+    border-radius: 6px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 350px;
+    width: 80vw;
+    max-width: 500px;
+    position: absolute;
+    z-index: 999;
+    margin-left: 40px;
+}
+.options .state {
+    background-color: var(--sf-theme-color-yellow);
+    color: #444;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--sf-button-border-color);
+}
+.options a.button {
+    display: block;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--sf-button-border-color);
+}
+.small {
+    font-size: 0.7em;
+}
 p {
     margin: 1.2em 0;
 }
@@ -284,7 +330,7 @@ p {
         background-color: var(--fc-neutral-bg-color-sm);
     }
     .topHeader {
-        background-color: #f7c445;
+        background-color: var(--sf-theme-color-yellow);
         padding: 10px;
         color: #222;
         margin: -10px -12px 8px;
