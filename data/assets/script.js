@@ -4,6 +4,7 @@ var lastToggle = new Date().getTime();
 var rapidToggleCount = 0;
 var allParks = [];
 var parkCalendar = null;
+var allAbbreviations = {};
 
 var parkNames = {
     6: {
@@ -17,6 +18,9 @@ var parkNames = {
 }
 
 function abbreviation() {
+    if (allAbbreviations[parkCalendar] != null) {
+        return allAbbreviations[parkCalendar].toLowerCase();
+    }
     return parkNames[parkCalendar].abbr.toString().toLowerCase();
 }
 
@@ -520,6 +524,52 @@ function addCalendarSources() {
     }, 250);
 }
 
+function fetchAbbreviation() {
+    if (parkCalendar == null) {
+        return;
+    }
+
+    if (allAbbreviations[parkCalendar] != null) {
+        return;
+    }
+
+    var cache = new Date().getTime();
+    var url = 'park/' + parkCalendar + "/abbreviation.txt?t=" + cache;
+    log('debug', url);
+
+    const controller = new AbortController();
+    const id = setTimeout(function() {
+        log('warn', "• abbreviation.txt - request timeout");
+        controller.abort();
+    }, abortFetchTime);
+    const fetchOptions = {
+        signal: controller.signal
+    }
+
+    fetch(url, fetchOptions)
+        .then(response => {
+            if (!response.ok) {
+                log('warn', "abbreviation.txt • no data");
+                return Promise.reject("NoData");
+            }
+            return response.text();
+        })
+        .then(text => {
+            allAbbreviations[parkCalendar] = text;
+            log('log', "• abbreviation " + text);
+        })
+        .catch(error => {
+            if (error == "NoData") {
+                return;
+            }
+            log('err', "abbreviation.txt • ERR");
+        })
+        .finally(() => {
+            lastFocusCheck = 0;
+            clearTimeout(id);
+        });
+}
+
 var lastFocusCheck = 0;
 var focusCheckTime = 15000;
 var abortFetchTime = parseInt(focusCheckTime * 2 / 3);
@@ -541,6 +591,8 @@ function detectChange(onChange, onSuccess) {
     const fetchOptions = {
         signal: controller.signal
     }
+
+    fetchAbbreviation();
 
     fetch(url, fetchOptions)
         .then(response => {

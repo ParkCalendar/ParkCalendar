@@ -44,6 +44,8 @@ echo "Parse new json (upcoming)..."
 
 PARK_NAME=$(cat ${DATA_DIR}/current.json | jq -r .name)
 PARK_ABBREVIATION=$(cat ${DATA_DIR}/current.json | jq -r .abbreviation)
+echo ${PARK_ABBREVIATION} > ${DATA_DIR}/abbreviation.txt
+git add ${DATA_DIR}/abbreviation.txt
 PARK_CITY=$(cat ${DATA_DIR}/current.json | jq -r .city)
 PARK_STATE=$(cat ${DATA_DIR}/current.json | jq -r .state)
 echo "Park Name: ${PARK_NAME}"
