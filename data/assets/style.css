@@ -270,23 +270,27 @@ a.button:hover {
 }
 .options {
     display: none;
-    background-color: var(--sf-button-bg-color);
+    flex-direction: column;
+    position: fixed;    
+    background-color: var(--sf-theme-color-yellow);
     border: 5px solid var(--sf-theme-color-yellow);
     border-radius: 6px;
-    overflow-x: hidden;
-    overflow-y: scroll;
     height: 400px;
     width: 80vw;
     max-width: 500px;
-    position: absolute;
     z-index: 999;
     margin-left: 40px;
 }
 .options .title {
     background-color: var(--sf-theme-color-yellow);
     color: #444;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: bold;
     padding: 6px 10px 10px 10px;
+}
+.options .parks {
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .options .state {
     background-color: var(--sf-theme-color-yellow);
@@ -297,6 +301,7 @@ a.button:hover {
 .options a.button {
     display: block;
     margin: 0;
+    padding: 8px 10px 8px 35px;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid var(--sf-theme-color-yellow);
@@ -307,6 +312,12 @@ a.button:hover {
     background-color: var(--sf-select-park-bg-color-hover);
     border-color: var(--sf-theme-color-yellow);
     color: var(--sf-select-park-color-hover);
+}
+.options a.selected::before {
+    content: '☑️';
+    position: fixed;
+    margin-left: -25px;
+    margin-top: 0.3em;
 }
 .small {
     font-size: 0.7em;

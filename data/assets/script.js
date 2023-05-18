@@ -722,6 +722,15 @@ function selectPark(newPark) {
     log('log', "selectPark " + newPark);
     parkCalendar = newPark;
 
+    var lastSelectedPark = document.querySelector('.parks .selected');
+    if (lastSelectedPark) {
+        lastSelectedPark.classList.remove('selected');
+    }
+    var newlySelectedPark = document.getElementById('park-' + newPark);
+    if (newlySelectedPark) {
+        newlySelectedPark.classList.add('selected');
+    }
+
     setStatus("New Park Selected");
     var onFetch = function() {
         refresh("Loading...");
@@ -750,9 +759,9 @@ function selectPark(newPark) {
 function toggleLocationSelector() {
     var parkSelectWrapper = document.getElementById('parkSelectWrapper');
     var cover = document.getElementById('cover');
-    var display = parkSelectWrapper.style.display != 'block' ? 'block' : null;
-    parkSelectWrapper.style.display = display;
-    cover.style.display = display;
+    var show = parkSelectWrapper.style.display == '';
+    parkSelectWrapper.style.display = show ? 'flex' : '';
+    cover.style.display = show ? 'block' : '';
 }
 
 function setupSelect() {
@@ -782,6 +791,7 @@ function setupSelect() {
         }
 
         var sel = document.createElement('a');
+        sel.id = 'park-' + park.parkId;
         sel.classList = 'button';
         sel.href = '#' + park.parkId;
         sel.innerHTML = park.name + '<br><span class="small">' + park.city + ', ' + park.state + '</span>';
