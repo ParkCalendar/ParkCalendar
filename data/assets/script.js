@@ -775,6 +775,9 @@ function setupSelect() {
     var toggleButton = document.getElementById('location');
     toggleButton.addEventListener('click', toggleLocationSelector);
 
+    var closeButton = document.getElementById('parkSelectClose');
+    closeButton.addEventListener('click', toggleLocationSelector);
+
     parkNames = {};
     allParks.forEach(park => {
         parkNames[park.parkId] = {
