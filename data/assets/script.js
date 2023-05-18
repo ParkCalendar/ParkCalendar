@@ -748,11 +748,10 @@ function selectPark(newPark) {
 }
 
 function toggleLocationSelector() {
-    var parkSelectContent = document.getElementById('parkSelectContent');
+    var parkSelectWrapper = document.getElementById('parkSelectWrapper');
     var cover = document.getElementById('cover');
-    log('debug', 'toggle location - ' + parkSelectContent.style.display);
-    var display = parkSelectContent.style.display != 'block' ? 'block' : null;
-    parkSelectContent.style.display = display;
+    var display = parkSelectWrapper.style.display != 'block' ? 'block' : null;
+    parkSelectWrapper.style.display = display;
     cover.style.display = display;
 }
 
