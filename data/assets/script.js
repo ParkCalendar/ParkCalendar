@@ -762,6 +762,14 @@ function toggleLocationSelector() {
     var show = parkSelectWrapper.style.display == '';
     parkSelectWrapper.style.display = show ? 'flex' : '';
     cover.style.display = show ? 'block' : '';
+
+    if (show) {
+        var selectedPark = document.getElementById('park-' + parkCalendar);
+        var offset = selectedPark.offsetTop;
+        var height = selectedPark.offsetHeight;
+
+        document.getElementById('parkSelectContent').scrollTop = offset - (height * 1.5);
+    }
 }
 
 function setupSelect() {
