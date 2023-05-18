@@ -741,7 +741,7 @@ function selectPark(newPark) {
     Array.prototype.forEach.call(elements, function(e) {
         e.classList = 'park-links hidden';
     });
-    var selectedEl = document.getElementById('park-' + newPark);
+    var selectedEl = document.getElementById('park-links-' + newPark);
     if (selectedEl) {
         selectedEl.classList.remove('hidden');
     }
