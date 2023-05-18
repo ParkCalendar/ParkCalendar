@@ -315,9 +315,10 @@ a.button:hover {
 }
 .options a.selected::before {
     content: '☑️';
-    position: fixed;
+    position: relative;
     margin-left: -25px;
-    margin-top: 0.3em;
+    margin-right: 5px;
+    top: 0.5em;
 }
 .small {
     font-size: 0.7em;
