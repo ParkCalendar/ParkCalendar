@@ -17,6 +17,10 @@
     --sf-button-hover-link-color: #9BF;
     --sf-button-capture-bg-color: transparent;
     --sf-theme-color-yellow: #f7c445;
+    --sf-select-park-bg-color: #FFFFFF;
+    --sf-select-park-bg-color-hover: #ffe093;
+    --sf-select-park-color: #222;
+    --sf-select-park-color-hover: #422;
 }
 
 @media only screen {
@@ -41,6 +45,10 @@
         --sf-button-link-color: rgb(216 238 255);
         --sf-button-hover-link-color: #fff;
         --sf-button-capture-bg-color: #88888880;
+        --sf-select-park-bg-color: #322;
+        --sf-select-park-bg-color-hover: #544;
+        --sf-select-park-color: #FFF;
+        --sf-select-park-color-hover: #DFEFFF;
     }
 }
 
@@ -66,6 +74,10 @@
         --sf-button-link-color: rgb(216 238 255);
         --sf-button-hover-link-color: #fff;
         --sf-button-capture-bg-color: #88888880;
+        --sf-select-park-bg-color: #322;
+        --sf-select-park-bg-color-hover: #544;
+        --sf-select-park-color: #FFF;
+        --sf-select-park-color-hover: #DFEFFF;
     }
 }
 
@@ -281,14 +293,20 @@ a.button:hover {
     color: #707070;
     font-size: 0.9em;
     padding: 6px 10px;
-    border-bottom: 1px solid var(--sf-button-border-color);
 }
 .options a.button {
     display: block;
     margin: 0;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid var(--sf-button-border-color);
+    border-bottom: 1px solid var(--sf-theme-color-yellow);
+    background-color: var(--sf-select-park-bg-color);
+    color: var(--sf-select-park-color);
+}
+.options a.button:hover {
+    background-color: var(--sf-select-park-bg-color-hover);
+    border-color: var(--sf-theme-color-yellow);
+    color: var(--sf-select-park-color-hover);
 }
 .small {
     font-size: 0.7em;
