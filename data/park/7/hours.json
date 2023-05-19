@@ -974,5 +974,12 @@
   "groupStoreUrl": null,
   "cabanasStoreUrl": null,
   "parkingStoreUrl": null,
+  "accessibilityGuideUrl": null,
+  "accessibilityGuidePdfUrl": null,
+  "accessibilityWaterGuideUrl": null,
+  "healthSafetyUrl": null,
+  "guestSafetyUrl": null,
+  "parkPoliciesUrl": null,
+  "accessibilityFaqUrl": null,
   "toastMessages": null
 }
