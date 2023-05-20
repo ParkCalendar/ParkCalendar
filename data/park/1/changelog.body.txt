@@ -1,5 +1,5 @@
 <div class='changelog-entry' data-change='20230519-185142'><h2>Fri May 19 2023 @ 06:51 PM</h2><pre>
-20230519 -- 12:30p - 05:00p  |  20230519 -- 11:00a - 07:00p
+20230519 -- 11:00a - 07:00p  |  20230519 -- 12:30p - 05:00p
 </pre></div>
 <div class='changelog-entry' data-change='20230519-145128'><h2>Fri May 19 2023 @ 02:51 PM</h2><pre>
 20230705 -- 11:00a - 07:00p  |  20230705 -- 11:00a - 08:00p
