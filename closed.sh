@@ -35,8 +35,9 @@ then
 fi
 
 FILE_DIR="${DATA_DIR}/archive/$(${DATECMD} +'%Y')"
-FILE=$(${DATECMD} +'%Y-%m')
+mkdir -p ${FILE_DIR}
 
+FILE=$(${DATECMD} +'%Y-%m')
 FILE_TXT="${FILE_DIR}/${FILE}.txt"
 FILE_JSON="${FILE_DIR}/${FILE}.json"
 
