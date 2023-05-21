@@ -226,18 +226,24 @@ then
     CHANGE_TOP=$(head -4 ${CHANGE_FILE})
     CHANGE_TOP_MORE=""
     LINK="[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})"
-    CHANGELINK="[Changes on ${LASTCHANGE}](https://parkcalendar.com/park/${PARK_ID}/changelog.html?id=${CHANGE_ID})"
     if (( CHANGE_LINES > 4 ))
     then
-        CHANGELINK="${CHANGELINK} - tap for full list"
-        CHANGE_TOP_MORE="..."
+        CHANGE_TOP_MORE="... (tap for full list)"
     fi
     CHANGE_TOP=$(echo "${CHANGE_TOP}" | jq -R -s '.' | sed 's/"//g')
 
-    CONTENT=$(echo "${LINK}\n🔸 ${CHANGELINK}\n\`\`\`${CHANGE_TOP}${CHANGE_TOP_MORE}\`\`\`\n---")
+    CHANGES_CONTENT=$(echo "\`\`\`${CHANGE_TOP}${CHANGE_TOP_MORE}\`\`\`")
     read -r -d '' DISCORD_MESSAGE << EOM
 {
-    "content": "${CONTENT}"
+    "content": "${LINK}",
+    "embeds": [
+        {
+            "title": "Changes on ${LASTCHANGE}",
+            "url": "https://parkcalendar.com/park/${PARK_ID}/changelog.html?id=${CHANGE_ID}",
+            "description": "${CHANGES_CONTENT}",
+            "color": 16237637
+        }
+    ]
 }
 EOM
     echo "Notify Discord - ${PARK_ID} - ${PARK_NAME}"
