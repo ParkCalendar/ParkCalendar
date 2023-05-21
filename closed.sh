@@ -40,6 +40,8 @@ mkdir -p ${FILE_DIR}
 FILE=$(${DATECMD} +'%Y-%m')
 FILE_TXT="${FILE_DIR}/${FILE}.txt"
 FILE_JSON="${FILE_DIR}/${FILE}.json"
+touch ${FILE_TXT}
+touch ${FILE_JSON}
 
 START=$(${DATECMD} +'%Y-%m-%dT10:30:00')
 CLOSED="⛔️ ${REASON}"
