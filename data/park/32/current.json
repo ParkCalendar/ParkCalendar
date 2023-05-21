@@ -558,7 +558,10 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 86955,
+    "name": "King Cobra"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
