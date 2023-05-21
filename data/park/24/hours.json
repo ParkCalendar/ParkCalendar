@@ -874,7 +874,48 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/76",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-05-21T11:00:00",
+      "close": "2023-05-21T18:00:00",
+      "operatingDate": "2023-05-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-26T10:00:00",
+      "close": "2023-05-26T17:00:00",
+      "operatingDate": "2023-05-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-27T11:00:00",
+      "close": "2023-05-27T19:00:00",
+      "operatingDate": "2023-05-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2023-05-27T12:00:00",
+      "waterParkClose": "2023-05-27T18:00:00"
+    },
+    {
+      "open": "2023-05-28T11:00:00",
+      "close": "2023-05-28T19:00:00",
+      "operatingDate": "2023-05-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2023-05-28T12:00:00",
+      "waterParkClose": "2023-05-28T18:00:00"
+    },
+    {
+      "open": "2023-05-29T11:00:00",
+      "close": "2023-05-29T18:00:00",
+      "operatingDate": "2023-05-29T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2023-05-29T12:00:00",
+      "waterParkClose": "2023-05-29T17:00:00"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -905,9 +946,9 @@
     "longitude": -73.69225
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/tge_blur_1440x707.jpeg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/tge_blur_1440x707.jpeg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/tge_blur_1440x707.jpeg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/TGE_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/TGE_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/TGE_blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/SFGE-SF-Logo-Color.png",
@@ -1006,5 +1047,14 @@
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
   "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
+  "accessibilityGuideUrl": null,
+  "accessibilityGuidePdfUrl": null,
+  "accessibilityWaterGuideUrl": null,
+  "healthSafetyUrl": null,
+  "guestSafetyUrl": null,
+  "parkPoliciesUrl": null,
+  "accessibilityFaqUrl": null,
   "toastMessages": null
 }
