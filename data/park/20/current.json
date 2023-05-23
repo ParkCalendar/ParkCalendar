@@ -1102,7 +1102,10 @@
     "id": 9283,
     "name": "THE JOKER™ 4D Free Fly Coaster"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 325568,
+    "name": "July 4th Firework Celebration presented by Coca-Co"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
