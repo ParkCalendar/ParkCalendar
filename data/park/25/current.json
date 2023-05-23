@@ -731,7 +731,10 @@
     "longitude": -84.5203
   },
   "featuredRide": null,
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 321349,
+    "name": "NEW! Dive-In Movies"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
