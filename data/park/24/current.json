@@ -958,7 +958,10 @@
     "id": 9546,
     "name": "Comet"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324191,
+    "name": "4th of July Fireworks Celebration Present by Coca-"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
