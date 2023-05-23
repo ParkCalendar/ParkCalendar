@@ -225,7 +225,7 @@ then
     CHANGE_LINES=$(( 0 + $(cat ${CHANGE_FILE} | wc -l) ))
     CHANGE_TOP=$(head -4 ${CHANGE_FILE})
     CHANGE_TOP_MORE=""
-    LINK="[${PARK_NAME}](https://parkcalendar.com/#${PARK_ID})\n*${PARK_CITY}, ${PARK_STATE}*"
+    LINK="[**${PARK_NAME}**](https://parkcalendar.com/#${PARK_ID})\n*${PARK_CITY}, ${PARK_STATE}*"
     if (( CHANGE_LINES > 4 ))
     then
         CHANGE_TOP_MORE="... (tap for full list)"
