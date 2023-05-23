@@ -756,7 +756,10 @@
     "latitude": 30.0712,
     "longitude": -95.433
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 11606,
+    "name": "Big Kahuna"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
