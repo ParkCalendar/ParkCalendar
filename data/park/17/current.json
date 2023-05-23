@@ -1278,7 +1278,10 @@
     "id": 8751,
     "name": "WONDER WOMAN Lasso of Truth"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 147870,
+    "name": "Grad Nite"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
