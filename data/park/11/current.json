@@ -782,7 +782,10 @@
     "id": 7555,
     "name": "Python Plunge"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 277465,
+    "name": "Dive-In Movie Nights"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
