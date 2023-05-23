@@ -872,7 +872,10 @@
     "id": 11194,
     "name": "Wild West Water Works"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 325397,
+    "name": "4th Of July Celebration"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
