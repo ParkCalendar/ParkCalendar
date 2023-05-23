@@ -911,7 +911,10 @@
     "name": "AQUAMAN: Power Wave"
   },
   "featuredEvent": null,
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 53064,
+    "name": "LOONEY TUNES Meet & Greet"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
