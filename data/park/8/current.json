@@ -843,7 +843,10 @@
     "longitude": -98.609
   },
   "featuredRide": null,
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324186,
+    "name": "4th of July Celebration"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
