@@ -982,7 +982,10 @@
     "id": 4543,
     "name": "BATMAN: The Ride"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324162,
+    "name": "Fright Fest"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
