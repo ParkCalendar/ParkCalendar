@@ -730,7 +730,10 @@
     "latitude": 33.9578,
     "longitude": -84.5203
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 9881,
+    "name": "Buccaneer Bay"
+  },
   "featuredEvent": {
     "id": 321349,
     "name": "NEW! Dive-In Movies"
