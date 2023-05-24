@@ -692,7 +692,10 @@
     "latitude": 42.2445,
     "longitude": -88.9641
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 42800,
+    "name": "Wipeout"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
