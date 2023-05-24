@@ -676,7 +676,10 @@
     "latitude": 42.3683,
     "longitude": -87.9388
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 6087,
+    "name": "Bahama Mama and Bubba Tubba"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
