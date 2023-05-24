@@ -762,7 +762,10 @@
     "latitude": 40.1384,
     "longitude": -74.4405
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 42755,
+    "name": "Big Wave Racer"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
