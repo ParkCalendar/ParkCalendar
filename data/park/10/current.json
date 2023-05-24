@@ -794,7 +794,10 @@
     "latitude": 32.762,
     "longitude": -97.0829
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 7318,
+    "name": "Der Stuka"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
