@@ -842,7 +842,10 @@
     "latitude": 29.6009,
     "longitude": -98.609
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 6892,
+    "name": "Goliath"
+  },
   "featuredEvent": {
     "id": 324186,
     "name": "4th of July Celebration"
