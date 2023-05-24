@@ -746,7 +746,10 @@
     "latitude": 37.974,
     "longitude": -122.0512
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 10974,
+    "name": "Break Point Plunge"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
