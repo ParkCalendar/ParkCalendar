@@ -892,7 +892,10 @@
     "latitude": 33.6962,
     "longitude": -112.1503
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 11540,
+    "name": "Anaconda"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
