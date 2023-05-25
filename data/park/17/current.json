@@ -1282,7 +1282,10 @@
     "id": 147870,
     "name": "Grad Nite"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 38460,
+    "name": "Drench!"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
