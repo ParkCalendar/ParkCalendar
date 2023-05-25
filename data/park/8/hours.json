@@ -842,12 +842,18 @@
     "latitude": 29.6009,
     "longitude": -98.609
   },
-  "featuredRide": null,
-  "featuredEvent": {
-    "id": 324186,
-    "name": "4th of July Celebration"
+  "featuredRide": {
+    "id": 6892,
+    "name": "Goliath"
   },
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 80574,
+    "name": "Roller Coaster Rodeo"
+  },
+  "featuredShow": {
+    "id": 53507,
+    "name": "Pop Summer"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
