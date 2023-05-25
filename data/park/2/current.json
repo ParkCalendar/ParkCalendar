@@ -914,7 +914,10 @@
     "id": 264359,
     "name": "July 4th"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 83330,
+    "name": "ShenaniGuns! Comedy Wild West Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
