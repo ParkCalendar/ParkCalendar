@@ -1462,7 +1462,10 @@
     "id": 5084,
     "name": "Barnstormer"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 322452,
+    "name": "Holiday in the Park"
+  },
   "featuredShow": {
     "id": 179094,
     "name": "Holiday Magic: A Celebration of the Season"
