@@ -869,10 +869,13 @@
     "longitude": -97.4416
   },
   "featuredRide": {
-    "id": 11194,
-    "name": "Wild West Water Works"
+    "id": 11058,
+    "name": "Diamondback"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 325397,
+    "name": "4th Of July Celebration"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
