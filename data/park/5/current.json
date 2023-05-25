@@ -1526,7 +1526,10 @@
       "eventBegin": "2021-11-12T00:00:00",
       "eventEnd": "2022-01-04T00:00:00",
       "color": "0x920507",
-      "featuredAttraction": null
+      "featuredAttraction": {
+        "id": 80196,
+        "name": "Jersey Devil Coaster"
+      }
     }
   ],
   "photoProvider": "colorvision",
