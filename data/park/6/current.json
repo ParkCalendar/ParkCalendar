@@ -1662,8 +1662,14 @@
     "id": 5916,
     "name": "Tatsu"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 265075,
+    "name": "4th of July Celebration"
+  },
+  "featuredShow": {
+    "id": 122382,
+    "name": "Full Throttle Summer Nights"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
