@@ -896,7 +896,10 @@
     "id": 11540,
     "name": "Anaconda"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324658,
+    "name": "Labor Day Fireworks"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
