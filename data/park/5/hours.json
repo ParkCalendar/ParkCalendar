@@ -1,14 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-05-25T10:00:00",
-      "close": "2023-05-25T17:00:00",
-      "operatingDate": "2023-05-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-26T10:30:00",
       "close": "2023-05-26T21:00:00",
       "operatingDate": "2023-05-26T00:00:00",
@@ -178,7 +170,7 @@
     },
     {
       "open": "2023-06-16T10:30:00",
-      "close": "2023-06-16T21:00:00",
+      "close": "2023-06-16T19:00:00",
       "operatingDate": "2023-06-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1371,14 +1363,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
-    {
-      "open": "2023-05-25T10:00:00",
-      "close": "2023-05-25T17:00:00",
-      "operatingDate": "2023-05-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
     {
       "open": "2023-05-26T10:30:00",
       "close": "2023-05-26T21:00:00",
