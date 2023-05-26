@@ -873,10 +873,13 @@
     "name": "Diamondback"
   },
   "featuredEvent": {
-    "id": 325397,
-    "name": "4th Of July Celebration"
+    "id": 298681,
+    "name": "Fright Fest"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 38476,
+    "name": "Hollywood Stunt Gunfight Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
