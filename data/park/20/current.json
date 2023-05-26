@@ -1106,7 +1106,10 @@
     "id": 325568,
     "name": "July 4th Firework Celebration presented by Coca-Co"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 108946,
+    "name": "Character Encounters"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
