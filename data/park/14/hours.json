@@ -998,8 +998,14 @@
     "id": 7652,
     "name": "BATWING Coaster"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 324092,
+    "name": "¡Viva La Fiesta!"
+  },
+  "featuredShow": {
+    "id": 375383,
+    "name": "Camp Groove"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
