@@ -1275,11 +1275,17 @@
     "longitude": -122.2337
   },
   "featuredRide": {
-    "id": 8751,
-    "name": "WONDER WOMAN Lasso of Truth"
+    "id": 8424,
+    "name": "Kong"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 147870,
+    "name": "Grad Nite"
+  },
+  "featuredShow": {
+    "id": 38460,
+    "name": "Drench!"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
