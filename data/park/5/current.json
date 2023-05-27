@@ -1450,10 +1450,7 @@
     "id": 322452,
     "name": "Holiday in the Park"
   },
-  "featuredShow": {
-    "id": 179094,
-    "name": "Holiday Magic: A Celebration of the Season"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
