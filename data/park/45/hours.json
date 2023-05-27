@@ -789,10 +789,13 @@
     "longitude": -78.3897
   },
   "featuredRide": {
-    "id": 11418,
-    "name": "Pirate"
+    "id": 11400,
+    "name": "Mind Eraser"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324336,
+    "name": "Fright Fest 2023"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
