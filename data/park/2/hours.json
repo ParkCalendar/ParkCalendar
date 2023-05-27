@@ -910,8 +910,14 @@
     "id": 4234,
     "name": "The Great American Scream Machine"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 264359,
+    "name": "July 4th"
+  },
+  "featuredShow": {
+    "id": 83330,
+    "name": "ShenaniGuns! Comedy Wild West Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
