@@ -979,11 +979,17 @@
     "longitude": -90.6748
   },
   "featuredRide": {
-    "id": 4543,
-    "name": "BATMAN: The Ride"
+    "id": 4531,
+    "name": "American Thunder"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 321538,
+    "name": "Coaster Fest"
+  },
+  "featuredShow": {
+    "id": 38416,
+    "name": "LOONEY TUNES Character Appearances"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
