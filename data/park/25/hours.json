@@ -660,14 +660,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/77",
   "upcomingHours": [
     {
-      "open": "2023-05-27T11:00:00",
-      "close": "2023-05-27T19:00:00",
-      "operatingDate": "2023-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-28T11:00:00",
       "close": "2023-05-28T19:00:00",
       "operatingDate": "2023-05-28T00:00:00",
@@ -679,6 +671,62 @@
       "open": "2023-05-29T11:00:00",
       "close": "2023-05-29T19:00:00",
       "operatingDate": "2023-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-30T11:00:00",
+      "close": "2023-05-30T19:00:00",
+      "operatingDate": "2023-05-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-31T11:00:00",
+      "close": "2023-05-31T19:00:00",
+      "operatingDate": "2023-05-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-01T11:00:00",
+      "close": "2023-06-01T19:00:00",
+      "operatingDate": "2023-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-02T11:00:00",
+      "close": "2023-06-02T19:00:00",
+      "operatingDate": "2023-06-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-03T11:00:00",
+      "close": "2023-06-03T19:00:00",
+      "operatingDate": "2023-06-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-04T11:00:00",
+      "close": "2023-06-04T19:00:00",
+      "operatingDate": "2023-06-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-05T11:00:00",
+      "close": "2023-06-05T19:00:00",
+      "operatingDate": "2023-06-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
@@ -730,8 +778,14 @@
     "latitude": 33.9578,
     "longitude": -84.5203
   },
-  "featuredRide": null,
-  "featuredEvent": null,
+  "featuredRide": {
+    "id": 9849,
+    "name": "Atlanta Ocean Wave Pool"
+  },
+  "featuredEvent": {
+    "id": 321349,
+    "name": "NEW! Dive-In Movies"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
