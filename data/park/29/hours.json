@@ -812,25 +812,25 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2023-05-22T10:30:00",
-      "close": "2023-05-22T19:00:00",
-      "operatingDate": "2023-05-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-27T10:30:00",
-      "close": "2023-05-27T19:00:00",
-      "operatingDate": "2023-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-28T10:30:00",
       "close": "2023-05-28T19:00:00",
       "operatingDate": "2023-05-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-03T10:30:00",
+      "close": "2023-06-03T19:00:00",
+      "operatingDate": "2023-06-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-04T10:30:00",
+      "close": "2023-06-04T19:00:00",
+      "operatingDate": "2023-06-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null
@@ -878,8 +878,14 @@
     "latitude": 45.5225,
     "longitude": -73.535
   },
-  "featuredRide": null,
-  "featuredEvent": null,
+  "featuredRide": {
+    "id": 98536,
+    "name": "Démon"
+  },
+  "featuredEvent": {
+    "id": 357567,
+    "name": "L’International des Feux Loto-Québec"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
