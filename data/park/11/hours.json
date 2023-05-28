@@ -706,7 +706,40 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/89",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2023-05-28T10:30:00",
+      "close": "2023-05-28T18:00:00",
+      "operatingDate": "2023-05-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-05-29T10:30:00",
+      "close": "2023-05-29T18:00:00",
+      "operatingDate": "2023-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-03T10:30:00",
+      "close": "2023-06-03T19:00:00",
+      "operatingDate": "2023-06-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    },
+    {
+      "open": "2023-06-04T10:30:00",
+      "close": "2023-06-04T18:00:00",
+      "operatingDate": "2023-06-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -737,9 +770,9 @@
     "longitude": -118.595014
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/hhla_blur_1440x707.jpeg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/hhla_blur_1440x707.jpeg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/hhla_blur_1440x707.jpeg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/HHLA_Blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/HHLA_Blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/HHLA_Blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/hh_horizontal-logo.png",
@@ -754,10 +787,13 @@
     "longitude": -118.5974
   },
   "featuredRide": {
-    "id": 7555,
-    "name": "Python Plunge"
+    "id": 7486,
+    "name": "Black Snake Summit"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 277465,
+    "name": "Dive-In Movie Nights"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -829,5 +865,15 @@
   "storeUrl": null,
   "flashPassStoreUrl": null,
   "diningStoreUrl": null,
+  "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
+  "accessibilityGuideUrl": null,
+  "accessibilityGuidePdfUrl": null,
+  "accessibilityWaterGuideUrl": null,
+  "healthSafetyUrl": null,
+  "guestSafetyUrl": null,
+  "parkPoliciesUrl": null,
+  "accessibilityFaqUrl": null,
   "toastMessages": null
 }
