@@ -837,6 +837,8 @@ function setupSelect() {
     }
 
     selectPark(hashObj.parkId);
+
+    window.history.replaceState(null, document.title, "/");
 }
 
 function fetchAllParks(onFetch) {
