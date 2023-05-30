@@ -838,7 +838,10 @@
     "id": 7318,
     "name": "Der Stuka"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 348493,
+    "name": "Summer Vibes"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
