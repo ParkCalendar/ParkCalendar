@@ -1,22 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-05-27T11:00:00",
-      "close": "2023-05-27T18:00:00",
-      "operatingDate": "2023-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
-      "open": "2023-05-28T12:00:00",
-      "close": "2023-05-28T18:00:00",
-      "operatingDate": "2023-05-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-05-29T11:00:00",
       "close": "2023-05-29T18:00:00",
       "operatingDate": "2023-05-29T00:00:00",
