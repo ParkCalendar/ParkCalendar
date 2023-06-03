@@ -554,7 +554,10 @@
     "id": 7469,
     "name": "Anaconda"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 367080,
+    "name": "Kids Boo Fest"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
