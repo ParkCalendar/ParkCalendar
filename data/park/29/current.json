@@ -886,7 +886,10 @@
     "latitude": 45.5225,
     "longitude": -73.535
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 84044,
+    "name": "Démon"
+  },
   "featuredEvent": {
     "id": 357591,
     "name": "L’International des Feux Loto-Québec"
