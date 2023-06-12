@@ -1268,14 +1268,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
     {
-      "open": "2023-06-11T10:30:00",
-      "close": "2023-06-11T21:00:00",
-      "operatingDate": "2023-06-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null
-    },
-    {
       "open": "2023-06-12T10:30:00",
       "close": "2023-06-12T20:00:00",
       "operatingDate": "2023-06-12T00:00:00",
