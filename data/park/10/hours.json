@@ -242,7 +242,7 @@
     },
     {
       "open": "2023-07-15T11:00:00",
-      "close": "2023-07-15T20:00:00",
+      "close": "2023-07-15T19:00:00",
       "operatingDate": "2023-07-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -250,7 +250,7 @@
     },
     {
       "open": "2023-07-16T11:00:00",
-      "close": "2023-07-16T20:00:00",
+      "close": "2023-07-16T19:00:00",
       "operatingDate": "2023-07-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -298,7 +298,7 @@
     },
     {
       "open": "2023-07-22T11:00:00",
-      "close": "2023-07-22T20:00:00",
+      "close": "2023-07-22T19:00:00",
       "operatingDate": "2023-07-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -354,7 +354,7 @@
     },
     {
       "open": "2023-07-29T11:00:00",
-      "close": "2023-07-29T20:00:00",
+      "close": "2023-07-29T19:00:00",
       "operatingDate": "2023-07-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -362,7 +362,7 @@
     },
     {
       "open": "2023-07-30T11:00:00",
-      "close": "2023-07-30T20:00:00",
+      "close": "2023-07-30T19:00:00",
       "operatingDate": "2023-07-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
