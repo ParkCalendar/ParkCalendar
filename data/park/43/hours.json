@@ -731,10 +731,7 @@
       "eventBegin": "2021-09-21T00:00:00",
       "eventEnd": "2021-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 188636,
-        "name": "Santa’s Frontier Express"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
