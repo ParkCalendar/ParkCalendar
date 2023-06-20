@@ -904,10 +904,15 @@
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
-  "parkMapImageURL": null,
-  "tileServerURL": null,
-  "routingURL": null,
-  "isRoutingEnabled": false,
+  "parkMapImageURL": {
+    "750": "https://static.sixflags.com/app/maps/SFWWP/home-maps/img-homescreen-sfwwp-750.png",
+    "1080": "https://static.sixflags.com/app/maps/SFWWP/home-maps/img-homescreen-sfwwp-1080.png",
+    "1242": "https://static.sixflags.com/app/maps/SFWWP/home-maps/img-homescreen-sfwwp-1242.png",
+    "1440": "https://static.sixflags.com/app/maps/SFWWP/home-maps/img-homescreen-sfwwp-1440.png"
+  },
+  "tileServerURL": "https://static.sixflags.com/app/maps/Spring2018/SFWWP/",
+  "routingURL": "https://static.sixflags.com/app/maps/Spring2018/SFWWP/SFWWPPaths.json",
+  "isRoutingEnabled": true,
   "seasonal": [
     {
       "isff": true,
@@ -952,8 +957,8 @@
       "featuredAttraction": null
     }
   ],
-  "photoProvider": "kodak",
-  "featuredPhotoItem": "View and share your ride and park photos.",
+  "photoProvider": null,
+  "featuredPhotoItem": null,
   "wifiEnabled": false,
   "wifiName": null,
   "flashPassEnabled": false,
