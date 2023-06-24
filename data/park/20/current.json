@@ -2,11 +2,11 @@
   "operatingHours": [
     {
       "open": "2023-06-24T11:00:00",
-      "close": "2023-06-24T19:00:00",
+      "close": "2023-06-24T20:00:00",
       "operatingDate": "2023-06-24T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-06-24T11:30:00",
-      "waterParkClose": "2023-06-24T17:00:00",
+      "waterParkClose": "2023-06-24T17:30:00",
       "tzIndicator": "America/New_York"
     },
     {
@@ -912,11 +912,11 @@
   "upcomingHours": [
     {
       "open": "2023-06-24T11:00:00",
-      "close": "2023-06-24T19:00:00",
+      "close": "2023-06-24T20:00:00",
       "operatingDate": "2023-06-24T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-06-24T11:30:00",
-      "waterParkClose": "2023-06-24T17:00:00",
+      "waterParkClose": "2023-06-24T17:30:00",
       "tzIndicator": "America/New_York"
     },
     {
