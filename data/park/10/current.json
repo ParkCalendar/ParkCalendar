@@ -673,10 +673,7 @@
     "id": 7318,
     "name": "Der Stuka"
   },
-  "featuredEvent": {
-    "id": 348576,
-    "name": "Island Beats & Eats"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
