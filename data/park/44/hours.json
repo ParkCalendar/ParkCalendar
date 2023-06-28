@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-06-26T11:00:00",
-      "close": "2023-06-26T18:00:00",
-      "operatingDate": "2023-06-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-06-27T11:00:00",
-      "close": "2023-06-27T18:00:00",
-      "operatingDate": "2023-06-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-06-28T11:00:00",
       "close": "2023-06-28T18:00:00",
       "operatingDate": "2023-06-28T00:00:00",
@@ -38,7 +20,7 @@
     },
     {
       "open": "2023-06-30T11:00:00",
-      "close": "2023-06-30T18:00:00",
+      "close": "2023-06-30T19:00:00",
       "operatingDate": "2023-06-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -56,7 +38,7 @@
     },
     {
       "open": "2023-07-02T12:00:00",
-      "close": "2023-07-02T18:00:00",
+      "close": "2023-07-02T19:00:00",
       "operatingDate": "2023-07-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -428,24 +410,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/83",
   "upcomingHours": [
     {
-      "open": "2023-06-26T11:00:00",
-      "close": "2023-06-26T18:00:00",
-      "operatingDate": "2023-06-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-06-27T11:00:00",
-      "close": "2023-06-27T18:00:00",
-      "operatingDate": "2023-06-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-06-28T11:00:00",
       "close": "2023-06-28T18:00:00",
       "operatingDate": "2023-06-28T00:00:00",
@@ -465,7 +429,7 @@
     },
     {
       "open": "2023-06-30T11:00:00",
-      "close": "2023-06-30T18:00:00",
+      "close": "2023-06-30T19:00:00",
       "operatingDate": "2023-06-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -483,7 +447,7 @@
     },
     {
       "open": "2023-07-02T12:00:00",
-      "close": "2023-07-02T18:00:00",
+      "close": "2023-07-02T19:00:00",
       "operatingDate": "2023-07-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
