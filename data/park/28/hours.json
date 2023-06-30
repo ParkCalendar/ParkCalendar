@@ -28,15 +28,6 @@
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2023-07-05T10:00:00",
-      "close": "2023-07-05T18:00:00",
-      "operatingDate": "2023-07-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2023-07-06T10:00:00",
       "close": "2023-07-06T18:00:00",
       "operatingDate": "2023-07-06T00:00:00",
@@ -67,15 +58,6 @@
       "open": "2023-07-09T10:00:00",
       "close": "2023-07-09T20:00:00",
       "operatingDate": "2023-07-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-07-12T10:00:00",
-      "close": "2023-07-12T18:00:00",
-      "operatingDate": "2023-07-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
