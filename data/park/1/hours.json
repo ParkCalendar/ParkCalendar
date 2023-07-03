@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-06-30T11:00:00",
-      "close": "2023-06-30T20:00:00",
-      "operatingDate": "2023-06-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-07-01T11:00:00",
-      "close": "2023-07-01T21:00:00",
-      "operatingDate": "2023-07-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-07-02T11:00:00",
-      "close": "2023-07-02T21:00:00",
-      "operatingDate": "2023-07-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-07-03T11:00:00",
       "close": "2023-07-03T21:00:00",
       "operatingDate": "2023-07-03T00:00:00",
@@ -65,7 +38,7 @@
     },
     {
       "open": "2023-07-07T11:00:00",
-      "close": "2023-07-07T20:00:00",
+      "close": "2023-07-07T21:00:00",
       "operatingDate": "2023-07-07T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -128,7 +101,7 @@
     },
     {
       "open": "2023-07-14T11:00:00",
-      "close": "2023-07-14T20:00:00",
+      "close": "2023-07-14T21:00:00",
       "operatingDate": "2023-07-14T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -191,7 +164,7 @@
     },
     {
       "open": "2023-07-21T11:00:00",
-      "close": "2023-07-21T20:00:00",
+      "close": "2023-07-21T21:00:00",
       "operatingDate": "2023-07-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -254,7 +227,7 @@
     },
     {
       "open": "2023-07-28T11:00:00",
-      "close": "2023-07-28T20:00:00",
+      "close": "2023-07-28T21:00:00",
       "operatingDate": "2023-07-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -317,7 +290,7 @@
     },
     {
       "open": "2023-08-04T11:00:00",
-      "close": "2023-08-04T20:00:00",
+      "close": "2023-08-04T21:00:00",
       "operatingDate": "2023-08-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -380,7 +353,7 @@
     },
     {
       "open": "2023-08-11T11:00:00",
-      "close": "2023-08-11T20:00:00",
+      "close": "2023-08-11T21:00:00",
       "operatingDate": "2023-08-11T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -606,7 +579,7 @@
     },
     {
       "open": "2023-07-07T11:00:00",
-      "close": "2023-07-07T20:00:00",
+      "close": "2023-07-07T21:00:00",
       "operatingDate": "2023-07-07T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
