@@ -271,6 +271,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2023-08-11T11:00:00",
+      "close": "2023-08-11T18:00:00",
+      "operatingDate": "2023-08-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2023-08-12T11:00:00",
       "close": "2023-08-12T20:00:00",
       "operatingDate": "2023-08-12T00:00:00",
@@ -1007,8 +1016,8 @@
     "name": "Kong"
   },
   "featuredEvent": {
-    "id": 318466,
-    "name": "The Marine World Experience"
+    "id": 279620,
+    "name": "World Snake Day"
   },
   "featuredShow": {
     "id": 38460,
