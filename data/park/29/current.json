@@ -739,9 +739,9 @@
     "longitude": -73.534578
   },
   "image": {
-    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/Laronde_blur_2023-1.jpg",
-    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/Laronde_blur_2023-1.jpg",
-    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/Laronde_blur_2023-1.jpg"
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/Laronde_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/Laronde_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/Laronde_blur_2023.jpg"
   },
   "logo": {
     "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/lrfr_logo_nobkgd-2.png",
@@ -791,10 +791,10 @@
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": null,
-      "publishEnd": null,
-      "eventBegin": null,
-      "eventEnd": null,
+      "publishBegin": "2022-10-08T00:00:00",
+      "publishEnd": "2022-10-30T00:00:00",
+      "eventBegin": "2022-10-08T00:00:00",
+      "eventEnd": "2022-10-30T00:00:00",
       "color": "0x000000",
       "featuredAttraction": null
     },
