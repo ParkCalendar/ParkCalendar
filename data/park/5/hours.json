@@ -1073,15 +1073,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
     {
-      "open": "2023-07-16T10:30:00",
-      "close": "2023-07-16T20:00:00",
-      "operatingDate": "2023-07-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-07-17T11:00:00",
       "close": "2023-07-17T20:00:00",
       "operatingDate": "2023-07-17T00:00:00",
@@ -1205,8 +1196,8 @@
     "name": "Barnstormer"
   },
   "featuredEvent": {
-    "id": 322452,
-    "name": "Holiday in the Park"
+    "id": 151367,
+    "name": "Thrill-A-Thon"
   },
   "featuredShow": {
     "id": 392244,
