@@ -1,27 +1,9 @@
 {
   "operatingHours": [
     {
-      "open": "2023-07-19T12:00:00",
-      "close": "2023-07-19T20:00:00",
-      "operatingDate": "2023-07-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2023-07-20T13:00:00",
       "close": "2023-07-20T23:30:00",
       "operatingDate": "2023-07-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2023-07-21T10:30:00",
-      "close": "2023-07-21T20:00:00",
-      "operatingDate": "2023-07-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -515,27 +497,9 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2023-07-19T12:00:00",
-      "close": "2023-07-19T20:00:00",
-      "operatingDate": "2023-07-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2023-07-20T13:00:00",
       "close": "2023-07-20T23:30:00",
       "operatingDate": "2023-07-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2023-07-21T10:30:00",
-      "close": "2023-07-21T20:00:00",
-      "operatingDate": "2023-07-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -616,7 +580,7 @@
     "name": "Démon"
   },
   "featuredEvent": {
-    "id": 357567,
+    "id": 357591,
     "name": "L’International des Feux Loto-Québec"
   },
   "featuredShow": null,
