@@ -1,3 +1,6 @@
+<div class='changelog-entry' data-change='20230725-135503'><h2>Tue Jul 25 2023 @ 01:55 PM</h2><pre>
+                             >  20230810 -- 11:00a - 06:00p
+</pre></div>
 <div class='changelog-entry' data-change='20230719-135511'><h2>Wed Jul 19 2023 @ 01:55 PM</h2><pre>
 20230731 -- 11:00a - 07:00p  |  20230731 -- 11:00a - 06:00p
 20230801 -- 11:00a - 07:00p  |  20230801 -- 11:00a - 06:00p
