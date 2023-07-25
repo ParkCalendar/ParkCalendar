@@ -1,48 +1,12 @@
 {
   "operatingHours": [
     {
-      "open": "2023-07-21T11:00:00",
-      "close": "2023-07-21T18:00:00",
-      "operatingDate": "2023-07-21T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-07-21T12:00:00",
-      "waterParkClose": "2023-07-21T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-07-22T11:00:00",
-      "close": "2023-07-22T21:00:00",
-      "operatingDate": "2023-07-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-07-22T11:30:00",
-      "waterParkClose": "2023-07-22T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-07-23T11:00:00",
-      "close": "2023-07-23T21:00:00",
-      "operatingDate": "2023-07-23T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-07-23T11:30:00",
-      "waterParkClose": "2023-07-23T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-07-24T11:00:00",
-      "close": "2023-07-24T20:00:00",
-      "operatingDate": "2023-07-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-07-24T12:00:00",
-      "waterParkClose": "2023-07-24T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-07-25T11:00:00",
-      "close": "2023-07-25T20:00:00",
+      "close": "2023-07-25T17:00:00",
       "operatingDate": "2023-07-25T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-07-25T12:00:00",
-      "waterParkClose": "2023-07-25T18:00:00",
+      "waterParkClose": "2023-07-25T16:00:00",
       "tzIndicator": "America/New_York"
     },
     {
@@ -668,21 +632,12 @@
   "chatUrl": "https://direct.lc.chat/8585046/74",
   "upcomingHours": [
     {
-      "open": "2023-07-24T11:00:00",
-      "close": "2023-07-24T20:00:00",
-      "operatingDate": "2023-07-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-07-24T12:00:00",
-      "waterParkClose": "2023-07-24T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-07-25T11:00:00",
-      "close": "2023-07-25T20:00:00",
+      "close": "2023-07-25T17:00:00",
       "operatingDate": "2023-07-25T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2023-07-25T12:00:00",
-      "waterParkClose": "2023-07-25T18:00:00",
+      "waterParkClose": "2023-07-25T16:00:00",
       "tzIndicator": "America/New_York"
     },
     {
@@ -884,5 +839,6 @@
   "parkPoliciesUrl": null,
   "accessibilityFaqUrl": null,
   "concept3dLogoCategoryId": null,
+  "groupSalesInquiryUrl": null,
   "toastMessages": null
 }
