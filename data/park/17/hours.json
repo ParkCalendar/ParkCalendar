@@ -1,42 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-07-28T11:00:00",
-      "close": "2023-07-28T21:00:00",
-      "operatingDate": "2023-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-07-29T11:00:00",
-      "close": "2023-07-29T21:00:00",
-      "operatingDate": "2023-07-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-07-30T11:00:00",
-      "close": "2023-07-30T19:00:00",
-      "operatingDate": "2023-07-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-07-31T11:00:00",
-      "close": "2023-07-31T18:00:00",
-      "operatingDate": "2023-07-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-08-01T11:00:00",
       "close": "2023-08-01T18:00:00",
       "operatingDate": "2023-08-01T00:00:00",
@@ -757,15 +721,6 @@
   "paidVirtualQueueUri": "https://dk.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/73",
   "upcomingHours": [
-    {
-      "open": "2023-07-31T11:00:00",
-      "close": "2023-07-31T18:00:00",
-      "operatingDate": "2023-07-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2023-08-01T11:00:00",
       "close": "2023-08-01T18:00:00",
