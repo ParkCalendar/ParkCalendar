@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-08-03T11:00:00",
-      "close": "2023-08-03T18:00:00",
-      "operatingDate": "2023-08-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-08-04T11:00:00",
       "close": "2023-08-04T21:00:00",
       "operatingDate": "2023-08-04T00:00:00",
@@ -100,15 +91,6 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
-      "open": "2023-08-17T10:00:00",
-      "close": "2023-08-17T15:00:00",
-      "operatingDate": "2023-08-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-08-18T10:00:00",
       "close": "2023-08-18T15:00:00",
       "operatingDate": "2023-08-18T00:00:00",
@@ -136,15 +118,6 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
-      "open": "2023-08-24T10:00:00",
-      "close": "2023-08-24T15:00:00",
-      "operatingDate": "2023-08-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-08-25T10:00:00",
       "close": "2023-08-25T15:00:00",
       "operatingDate": "2023-08-25T00:00:00",
@@ -166,15 +139,6 @@
       "open": "2023-08-27T11:00:00",
       "close": "2023-08-27T18:00:00",
       "operatingDate": "2023-08-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-08-31T10:00:00",
-      "close": "2023-08-31T15:00:00",
-      "operatingDate": "2023-08-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -703,15 +667,6 @@
   "paidVirtualQueueUri": "https://dk.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/73",
   "upcomingHours": [
-    {
-      "open": "2023-08-03T11:00:00",
-      "close": "2023-08-03T18:00:00",
-      "operatingDate": "2023-08-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2023-08-04T11:00:00",
       "close": "2023-08-04T21:00:00",
