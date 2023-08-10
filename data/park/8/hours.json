@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-08-08T11:00:00",
-      "close": "2023-08-08T19:00:00",
-      "operatingDate": "2023-08-08T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-08T12:00:00",
-      "waterParkClose": "2023-08-08T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-08-09T11:00:00",
-      "close": "2023-08-09T19:00:00",
-      "operatingDate": "2023-08-09T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-09T12:00:00",
-      "waterParkClose": "2023-08-09T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-08-10T11:00:00",
       "close": "2023-08-10T19:00:00",
       "operatingDate": "2023-08-10T00:00:00",
@@ -262,7 +244,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-10-15T12:00:00",
+      "open": "2023-10-15T17:00:00",
       "close": "2023-10-15T22:00:00",
       "operatingDate": "2023-10-15T00:00:00",
       "hasWaterPark": true,
@@ -676,24 +658,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
-    {
-      "open": "2023-08-08T11:00:00",
-      "close": "2023-08-08T19:00:00",
-      "operatingDate": "2023-08-08T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-08T12:00:00",
-      "waterParkClose": "2023-08-08T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-08-09T11:00:00",
-      "close": "2023-08-09T19:00:00",
-      "operatingDate": "2023-08-09T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-09T12:00:00",
-      "waterParkClose": "2023-08-09T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2023-08-10T11:00:00",
       "close": "2023-08-10T19:00:00",
