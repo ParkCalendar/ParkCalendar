@@ -428,15 +428,15 @@ var pastEvents = {
     }
 };
 
-function fadeIn(el) {
-    fade(el, true, 10);
+function fadeIn(el, onComplete) {
+    fade(el, true, 10, onComplete);
 }
 
-function fadeOut(el) {
-    fade(el, false, 10);
+function fadeOut(el, onComplete) {
+    fade(el, false, 10, onComplete);
 }
 
-function fade(el, increase, delay) {
+function fade(el, increase, delay, onComplete) {
     // Increase Params
     var opacity = 0.1;
     var opacityEnd = 1;
@@ -456,6 +456,9 @@ function fade(el, increase, delay) {
         if (atLimit(opacity)) {
             clearInterval(timer);
             opacity = opacityEnd;
+            if (typeof onComplete === "function") {
+                onComplete();
+            }
         }
         el.style.filter = 'opacity(' + opacity + ')';
         opacity *= factor;
@@ -760,15 +763,27 @@ function toggleLocationSelector() {
     var parkSelectWrapper = document.getElementById('parkSelectWrapper');
     var cover = document.getElementById('cover');
     var show = parkSelectWrapper.style.display == '';
-    parkSelectWrapper.style.display = show ? 'flex' : '';
-    cover.style.display = show ? 'block' : '';
 
     if (show) {
+        parkSelectWrapper.style.filter = 'opacity(0)';
+        cover.style.filter = 'opacity(0)';
+        parkSelectWrapper.style.display = 'flex';
+        cover.style.display = 'block';
+        fadeIn(parkSelectWrapper);
+        fadeIn(cover);
+
         var selectedPark = document.getElementById('park-' + parkCalendar);
         var offset = selectedPark.offsetTop;
         var height = selectedPark.offsetHeight;
 
         document.getElementById('parkSelectContent').scrollTop = offset - (height * 1.5);
+    } else {
+        fadeOut(parkSelectWrapper, function() {
+            parkSelectWrapper.style.display = '';
+        });
+        fadeOut(cover, function() {
+            cover.style.display = '';
+        });
     }
 }
 
