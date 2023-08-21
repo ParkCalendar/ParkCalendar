@@ -95,6 +95,11 @@
     "end": "2023-08-19T21:00:00"
   },
   {
+    "title": "⛔️ Hurricane",
+    "start": "2023-08-20",
+    "allday": "true"
+  },
+  {
     "title": "⛔️ Rain",
     "start": "2023-08-21",
     "allday": "true"
