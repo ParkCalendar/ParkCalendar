@@ -425,10 +425,7 @@
     "id": 324157,
     "name": "Oktoberfest"
   },
-  "featuredShow": {
-    "id": 375383,
-    "name": "Camp Groove"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
