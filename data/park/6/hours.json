@@ -794,33 +794,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/68",
   "upcomingHours": [
     {
-      "open": "2023-08-24T10:30:00",
-      "close": "2023-08-24T17:00:00",
-      "operatingDate": "2023-08-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-08-25T10:30:00",
-      "close": "2023-08-25T18:00:00",
-      "operatingDate": "2023-08-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-08-26T10:30:00",
-      "close": "2023-08-26T21:00:00",
-      "operatingDate": "2023-08-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-08-27T10:30:00",
       "close": "2023-08-27T20:00:00",
       "operatingDate": "2023-08-27T00:00:00",
@@ -833,6 +806,42 @@
       "open": "2023-08-28T10:30:00",
       "close": "2023-08-28T18:00:00",
       "operatingDate": "2023-08-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2023-09-01T10:30:00",
+      "close": "2023-09-01T20:00:00",
+      "operatingDate": "2023-09-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2023-09-02T10:30:00",
+      "close": "2023-09-02T21:00:00",
+      "operatingDate": "2023-09-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2023-09-03T10:30:00",
+      "close": "2023-09-03T21:00:00",
+      "operatingDate": "2023-09-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2023-09-04T10:30:00",
+      "close": "2023-09-04T21:00:00",
+      "operatingDate": "2023-09-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -890,8 +899,8 @@
     "name": "Tatsu"
   },
   "featuredEvent": {
-    "id": 405663,
-    "name": "Gaming House"
+    "id": 305196,
+    "name": "Kids Boo Fest"
   },
   "featuredShow": {
     "id": 38424,
