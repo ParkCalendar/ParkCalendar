@@ -298,10 +298,7 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": {
-    "id": 298681,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 38476,
     "name": "Hollywood Stunt Gunfight Show"
