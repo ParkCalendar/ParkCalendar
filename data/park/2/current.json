@@ -462,5 +462,7 @@
   "accessibilityFaqUrl": null,
   "concept3dLogoCategoryId": null,
   "groupSalesInquiryUrl": null,
+  "speedyDailyStoreUrl": null,
+  "speedySeasonStoreUrl": null,
   "toastMessages": null
 }
