@@ -317,15 +317,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2023-09-02T11:00:00",
-      "close": "2023-09-02T20:00:00",
-      "operatingDate": "2023-09-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2023-09-03T11:00:00",
       "close": "2023-09-03T20:00:00",
       "operatingDate": "2023-09-03T00:00:00",
@@ -338,6 +329,24 @@
       "open": "2023-09-04T11:00:00",
       "close": "2023-09-04T20:00:00",
       "operatingDate": "2023-09-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2023-09-09T11:00:00",
+      "close": "2023-09-09T23:00:00",
+      "operatingDate": "2023-09-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2023-09-10T11:00:00",
+      "close": "2023-09-10T19:00:00",
+      "operatingDate": "2023-09-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
