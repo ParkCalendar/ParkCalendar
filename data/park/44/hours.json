@@ -257,15 +257,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/83",
   "upcomingHours": [
     {
-      "open": "2023-09-02T11:00:00",
-      "close": "2023-09-02T18:00:00",
-      "operatingDate": "2023-09-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-09-03T11:00:00",
       "close": "2023-09-03T18:00:00",
       "operatingDate": "2023-09-03T00:00:00",
@@ -418,5 +409,7 @@
   "accessibilityFaqUrl": null,
   "concept3dLogoCategoryId": null,
   "groupSalesInquiryUrl": null,
+  "speedyDailyStoreUrl": null,
+  "speedySeasonStoreUrl": null,
   "toastMessages": null
 }
