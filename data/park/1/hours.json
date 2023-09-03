@@ -551,15 +551,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/63",
   "upcomingHours": [
     {
-      "open": "2023-09-02T11:00:00",
-      "close": "2023-09-02T21:00:00",
-      "operatingDate": "2023-09-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-09-03T11:00:00",
       "close": "2023-09-03T21:00:00",
       "operatingDate": "2023-09-03T00:00:00",
@@ -572,6 +563,24 @@
       "open": "2023-09-04T11:00:00",
       "close": "2023-09-04T20:00:00",
       "operatingDate": "2023-09-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2023-09-09T11:00:00",
+      "close": "2023-09-09T20:00:00",
+      "operatingDate": "2023-09-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2023-09-10T11:00:00",
+      "close": "2023-09-10T19:00:00",
+      "operatingDate": "2023-09-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -629,8 +638,8 @@
     "name": "AQUAMAN: Power Wave"
   },
   "featuredEvent": {
-    "id": 404598,
-    "name": "Gaming House"
+    "id": 324381,
+    "name": "Fright Fest"
   },
   "featuredShow": {
     "id": 53064,
@@ -726,5 +735,7 @@
   "accessibilityFaqUrl": null,
   "concept3dLogoCategoryId": null,
   "groupSalesInquiryUrl": null,
+  "speedyDailyStoreUrl": null,
+  "speedySeasonStoreUrl": null,
   "toastMessages": null
 }
