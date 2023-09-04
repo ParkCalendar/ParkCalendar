@@ -308,15 +308,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/74",
   "upcomingHours": [
     {
-      "open": "2023-09-03T11:00:00",
-      "close": "2023-09-03T21:00:00",
-      "operatingDate": "2023-09-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-09-03T11:30:00",
-      "waterParkClose": "2023-09-03T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-09-04T11:00:00",
       "close": "2023-09-04T20:00:00",
       "operatingDate": "2023-09-04T00:00:00",
