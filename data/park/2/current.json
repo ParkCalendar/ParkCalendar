@@ -1,87 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-08-12T11:00:00",
-      "close": "2023-08-12T20:00:00",
-      "operatingDate": "2023-08-12T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-12T12:00:00",
-      "waterParkClose": "2023-08-12T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-08-13T11:00:00",
-      "close": "2023-08-13T19:00:00",
-      "operatingDate": "2023-08-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-13T12:00:00",
-      "waterParkClose": "2023-08-13T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-08-19T11:00:00",
-      "close": "2023-08-19T20:00:00",
-      "operatingDate": "2023-08-19T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-19T12:00:00",
-      "waterParkClose": "2023-08-19T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-08-20T11:00:00",
-      "close": "2023-08-20T19:00:00",
-      "operatingDate": "2023-08-20T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-20T12:00:00",
-      "waterParkClose": "2023-08-20T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-08-26T11:00:00",
-      "close": "2023-08-26T20:00:00",
-      "operatingDate": "2023-08-26T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-26T12:00:00",
-      "waterParkClose": "2023-08-26T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-08-27T11:00:00",
-      "close": "2023-08-27T19:00:00",
-      "operatingDate": "2023-08-27T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-08-27T12:00:00",
-      "waterParkClose": "2023-08-27T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-02T11:00:00",
-      "close": "2023-09-02T20:00:00",
-      "operatingDate": "2023-09-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-09-02T12:00:00",
-      "waterParkClose": "2023-09-02T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-03T11:00:00",
-      "close": "2023-09-03T20:00:00",
-      "operatingDate": "2023-09-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-09-03T12:00:00",
-      "waterParkClose": "2023-09-03T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-04T11:00:00",
-      "close": "2023-09-04T19:00:00",
-      "operatingDate": "2023-09-04T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-09-04T12:00:00",
-      "waterParkClose": "2023-09-04T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-09-10T11:00:00",
       "close": "2023-09-10T19:00:00",
       "operatingDate": "2023-09-10T00:00:00",
@@ -269,6 +188,123 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-11T11:00:00",
+      "close": "2023-11-11T18:00:00",
+      "operatingDate": "2023-11-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-12T11:00:00",
+      "close": "2023-11-12T18:00:00",
+      "operatingDate": "2023-11-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-18T14:00:00",
+      "close": "2023-11-18T20:00:00",
+      "operatingDate": "2023-11-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-19T14:00:00",
+      "close": "2023-11-19T20:00:00",
+      "operatingDate": "2023-11-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-20T14:00:00",
+      "close": "2023-11-20T20:00:00",
+      "operatingDate": "2023-11-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-21T14:00:00",
+      "close": "2023-11-21T20:00:00",
+      "operatingDate": "2023-11-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-22T14:00:00",
+      "close": "2023-11-22T20:00:00",
+      "operatingDate": "2023-11-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-24T12:00:00",
+      "close": "2023-11-24T20:00:00",
+      "operatingDate": "2023-11-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-25T12:00:00",
+      "close": "2023-11-25T20:00:00",
+      "operatingDate": "2023-11-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-12-09T14:00:00",
+      "close": "2023-12-09T20:00:00",
+      "operatingDate": "2023-12-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-12-10T14:00:00",
+      "close": "2023-12-10T20:00:00",
+      "operatingDate": "2023-12-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-12-16T14:00:00",
+      "close": "2023-12-16T20:00:00",
+      "operatingDate": "2023-12-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-12-17T14:00:00",
+      "close": "2023-12-17T20:00:00",
+      "operatingDate": "2023-12-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFOG",
@@ -289,15 +325,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/65",
   "upcomingHours": [
-    {
-      "open": "2023-09-04T11:00:00",
-      "close": "2023-09-04T19:00:00",
-      "operatingDate": "2023-09-04T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2023-09-04T12:00:00",
-      "waterParkClose": "2023-09-04T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2023-09-10T11:00:00",
       "close": "2023-09-10T19:00:00",
