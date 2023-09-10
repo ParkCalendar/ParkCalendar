@@ -459,6 +459,24 @@
       "waterParkOpen": "2023-09-10T12:00:00",
       "waterParkClose": "2023-09-10T18:00:00",
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-09-16T12:00:00",
+      "close": "2023-09-16T22:00:00",
+      "operatingDate": "2023-09-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-09-17T12:00:00",
+      "close": "2023-09-17T22:00:00",
+      "operatingDate": "2023-09-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "enableNativeCommerce": false,
