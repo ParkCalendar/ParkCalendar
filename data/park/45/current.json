@@ -28,6 +28,15 @@
       "tzIndicator": "America/New_York"
     },
     {
+      "open": "2023-10-06T18:00:00",
+      "close": "2023-10-06T23:00:00",
+      "operatingDate": "2023-10-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
       "open": "2023-10-07T12:00:00",
       "close": "2023-10-07T22:00:00",
       "operatingDate": "2023-10-07T00:00:00",
@@ -178,8 +187,8 @@
       "eventEnd": "2022-10-15T00:00:00",
       "color": "0x000000",
       "featuredAttraction": {
-        "id": 150277,
-        "name": "Jack Pallet’s Scarecrow Row"
+        "id": 11371,
+        "name": "Grand Carousel"
       }
     },
     {
