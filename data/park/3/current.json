@@ -335,10 +335,7 @@
     "id": 324162,
     "name": "Fright Fest"
   },
-  "featuredShow": {
-    "id": 38416,
-    "name": "LOONEY TUNES Character Appearances"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
