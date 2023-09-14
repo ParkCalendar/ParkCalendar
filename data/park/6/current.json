@@ -848,10 +848,7 @@
       "eventBegin": "2022-09-10T00:00:00",
       "eventEnd": "2022-10-31T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 438934,
-        "name": "SAW X NEW!"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
