@@ -1,42 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-09-08T18:00:00",
-      "close": "2023-09-08T23:00:00",
-      "operatingDate": "2023-09-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-09T11:00:00",
-      "close": "2023-09-09T17:00:00",
-      "operatingDate": "2023-09-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-10T11:00:00",
-      "close": "2023-09-10T20:00:00",
-      "operatingDate": "2023-09-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-11T11:00:00",
-      "close": "2023-09-11T18:00:00",
-      "operatingDate": "2023-09-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-09-14T11:00:00",
       "close": "2023-09-14T18:00:00",
       "operatingDate": "2023-09-14T00:00:00",
@@ -658,15 +622,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
-    {
-      "open": "2023-09-11T11:00:00",
-      "close": "2023-09-11T18:00:00",
-      "operatingDate": "2023-09-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2023-09-14T11:00:00",
       "close": "2023-09-14T18:00:00",
