@@ -75,17 +75,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/86",
-  "upcomingHours": [
-    {
-      "open": "2023-09-17T11:00:00",
-      "close": "2023-09-17T17:00:00",
-      "operatingDate": "2023-09-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
