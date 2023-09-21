@@ -1,0 +1,177 @@
+{
+  "operatingHours": [
+    {
+      "open": "2023-09-16T11:00:00",
+      "close": "2023-09-16T17:00:00",
+      "operatingDate": "2023-09-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2023-09-17T11:00:00",
+      "close": "2023-09-17T17:00:00",
+      "operatingDate": "2023-09-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    }
+  ],
+  "abbreviation": "SFHHCO",
+  "currentAnimation": {
+    "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-640.gif",
+    "750": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-750.gif",
+    "828": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-828.gif",
+    "1080": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-1080.gif",
+    "1440": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-1440.gif"
+  },
+  "ecommerceUri": "https://sixflags.com/hurricaneharborconcord/store/tickets?noheaders",
+  "seasonPassesEcommerceUri": "https://sixflags.com/hurricaneharborconcord/store/tickets?noheaders",
+  "rideHeightUnitOfMeasure": "in",
+  "membershipEcommerceUri": "https://sixflags.com/hurricaneharborconcord/store/tickets?noheaders",
+  "appCarousel": [],
+  "virtualQueueEnabled": false,
+  "freeVirtualQueueUri": null,
+  "paidVirtualQueueUri": null,
+  "chatUrl": "https://direct.lc.chat/8585046/81",
+  "upcomingHours": [],
+  "enableNativeCommerce": false,
+  "acceptedBillingIds": [
+    206,
+    204,
+    205,
+    201,
+    15,
+    1,
+    2,
+    3
+  ],
+  "parkId": 42,
+  "name": "Six Flags Hurricane Harbor, Concord",
+  "address": "1950 Waterworld Pkwy",
+  "city": "Concord",
+  "state": "CA",
+  "postalCode": "94520",
+  "country": "United States",
+  "phone": null,
+  "renderLocation": {
+    "heading": 0,
+    "radius": 0,
+    "latitude": 37.974015,
+    "longitude": -122.051201
+  },
+  "entranceLocation": {
+    "latitude": 37.973304,
+    "longitude": -122.05055
+  },
+  "image": {
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/HHCO_blur_2023-1.jpg",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/HHCO_blur_2023-1.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/HHCO_blur_2023-1.jpg"
+  },
+  "logo": {
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/hhco-mobile_home-800px.png",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/hhco-mobile_home-800px.png",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/hhco-mobile_home-800px.png"
+  },
+  "couponsEnabled": true,
+  "isWaterPark": true,
+  "location": {
+    "radius": 0.16,
+    "latitude": 37.974,
+    "longitude": -122.0512
+  },
+  "featuredRide": {
+    "id": 10974,
+    "name": "Break Point Plunge"
+  },
+  "featuredEvent": null,
+  "featuredShow": null,
+  "featuredSouvenir": null,
+  "featuredFoodItem": null,
+  "featuredProduct": null,
+  "parkMapImageURL": null,
+  "tileServerURL": null,
+  "routingURL": null,
+  "isRoutingEnabled": false,
+  "seasonal": [
+    {
+      "isff": true,
+      "iship": false,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/fficonlowres",
+        "1080": "http://www.placeholderfor21.com/fficonmedres",
+        "1440": "http://www.placeholderfor21.com/fficonhighres"
+      },
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
+      "color": "0x000000",
+      "featuredAttraction": null
+    },
+    {
+      "isff": false,
+      "iship": true,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/hhco-tornado.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/hipiconlowres",
+        "1080": "http://www.placeholderfor21.com/hipiconomedres",
+        "1440": "http://www.placeholderfor21.com/hipiconohighres"
+      },
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
+      "color": "0x920507",
+      "featuredAttraction": null
+    }
+  ],
+  "photoProvider": "kodak",
+  "featuredPhotoItem": "View and share your ride and park photos.",
+  "wifiEnabled": false,
+  "wifiName": null,
+  "flashPassEnabled": false,
+  "flashPassUrl": null,
+  "enableMobileFoodOrdering": true,
+  "venueNextUuId": "943e010a-5542-40fa-9e99-1b87c77380cc",
+  "mapboxStyleUrl": null,
+  "enableReservations": false,
+  "reservationUrl": "https://sixflags.com/hurricaneharborconcord/reserve?noheaders",
+  "parkingUrl_en": "https://www.sixflags.com/hurricaneharborconcord/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_fr": null,
+  "parkingUrl_es": null,
+  "parkMapPdf": null,
+  "concept3dMapId": null,
+  "storeUrl": null,
+  "flashPassStoreUrl": null,
+  "diningStoreUrl": null,
+  "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
+  "accessibilityGuideUrl": null,
+  "accessibilityGuidePdfUrl": null,
+  "accessibilityWaterGuideUrl": null,
+  "healthSafetyUrl": null,
+  "guestSafetyUrl": null,
+  "parkPoliciesUrl": null,
+  "accessibilityFaqUrl": null,
+  "concept3dLogoCategoryId": null,
+  "groupSalesInquiryUrl": null,
+  "speedyDailyStoreUrl": null,
+  "speedySeasonStoreUrl": null,
+  "toastMessages": null
+}
