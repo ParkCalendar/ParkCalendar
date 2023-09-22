@@ -28,6 +28,15 @@
       "tzIndicator": "America/New_York"
     },
     {
+      "open": "2023-09-25T10:00:00",
+      "close": "2023-09-25T16:00:00",
+      "operatingDate": "2023-09-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
       "open": "2023-09-28T11:00:00",
       "close": "2023-09-28T18:00:00",
       "operatingDate": "2023-09-28T00:00:00",
@@ -594,6 +603,15 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-09-25T10:00:00",
+      "close": "2023-09-25T16:00:00",
+      "operatingDate": "2023-09-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "enableNativeCommerce": false,
@@ -647,8 +665,8 @@
     "name": "Barnstormer"
   },
   "featuredEvent": {
-    "id": 322452,
-    "name": "Holiday in the Park"
+    "id": 321713,
+    "name": "Oktoberfest"
   },
   "featuredShow": null,
   "featuredSouvenir": null,
