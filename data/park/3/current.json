@@ -344,7 +344,10 @@
     "id": 324162,
     "name": "Fright Fest"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 406874,
+    "name": "Looney Tunes Characters and Spooky Mooky Mayhem Da"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
