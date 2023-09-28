@@ -1,33 +1,5 @@
 {
-  "operatingHours": [
-    {
-      "open": "2023-09-24T11:00:00",
-      "close": "2023-09-24T17:00:00",
-      "operatingDate": "2023-09-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-09-30T11:00:00",
-      "close": "2023-09-30T17:00:00",
-      "operatingDate": "2023-09-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-10-01T11:00:00",
-      "close": "2023-10-01T17:00:00",
-      "operatingDate": "2023-10-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    }
-  ],
+  "operatingHours": [],
   "abbreviation": "SFHHNJ",
   "currentAnimation": {
     "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-640.gif",
@@ -45,26 +17,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/75",
-  "upcomingHours": [
-    {
-      "open": "2023-09-30T11:00:00",
-      "close": "2023-09-30T17:00:00",
-      "operatingDate": "2023-09-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-10-01T11:00:00",
-      "close": "2023-10-01T17:00:00",
-      "operatingDate": "2023-10-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
