@@ -263,15 +263,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/66",
   "upcomingHours": [
     {
-      "open": "2023-10-01T12:00:00",
-      "close": "2023-10-01T21:00:00",
-      "operatingDate": "2023-10-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-10-06T18:00:00",
       "close": "2023-10-06T23:00:00",
       "operatingDate": "2023-10-06T00:00:00",
@@ -350,8 +341,8 @@
     "name": "American Thunder"
   },
   "featuredEvent": {
-    "id": 324162,
-    "name": "Fright Fest"
+    "id": 324158,
+    "name": "Kids Boo Fest"
   },
   "featuredShow": null,
   "featuredSouvenir": null,
