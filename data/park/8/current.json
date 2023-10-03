@@ -1,60 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-09-22T17:00:00",
-      "close": "2023-09-22T23:00:00",
-      "operatingDate": "2023-09-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-09-23T12:00:00",
-      "close": "2023-09-23T22:00:00",
-      "operatingDate": "2023-09-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-09-24T12:00:00",
-      "close": "2023-09-24T22:00:00",
-      "operatingDate": "2023-09-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-09-29T17:00:00",
-      "close": "2023-09-29T23:00:00",
-      "operatingDate": "2023-09-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-09-30T12:00:00",
-      "close": "2023-09-30T22:00:00",
-      "operatingDate": "2023-09-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-10-01T12:00:00",
-      "close": "2023-10-01T22:00:00",
-      "operatingDate": "2023-10-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-10-06T17:00:00",
       "close": "2023-10-06T23:00:00",
       "operatingDate": "2023-10-06T00:00:00",
@@ -497,7 +443,7 @@
     },
     {
       "open": "2023-12-31T12:00:00",
-      "close": "2023-12-31T20:00:00",
+      "close": "2023-12-31T22:00:00",
       "operatingDate": "2023-12-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
