@@ -108,6 +108,24 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2023-10-14T13:00:00",
+      "close": "2023-10-14T22:00:00",
+      "operatingDate": "2023-10-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2023-10-15T13:00:00",
+      "close": "2023-10-15T20:00:00",
+      "operatingDate": "2023-10-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
     }
   ],
   "enableNativeCommerce": false,
