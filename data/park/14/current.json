@@ -263,7 +263,10 @@
     "id": 324157,
     "name": "Oktoberfest"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 447125,
+    "name": "Lost Spirits"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
