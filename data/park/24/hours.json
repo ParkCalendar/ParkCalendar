@@ -128,15 +128,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/76",
   "upcomingHours": [
     {
-      "open": "2023-10-07T12:00:00",
-      "close": "2023-10-07T17:00:00",
-      "operatingDate": "2023-10-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-10-08T12:00:00",
       "close": "2023-10-08T21:00:00",
       "operatingDate": "2023-10-08T00:00:00",
@@ -149,6 +140,33 @@
       "open": "2023-10-09T12:00:00",
       "close": "2023-10-09T20:00:00",
       "operatingDate": "2023-10-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-10-13T17:00:00",
+      "close": "2023-10-13T22:00:00",
+      "operatingDate": "2023-10-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-10-14T12:00:00",
+      "close": "2023-10-14T21:00:00",
+      "operatingDate": "2023-10-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-10-15T12:00:00",
+      "close": "2023-10-15T20:00:00",
+      "operatingDate": "2023-10-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
