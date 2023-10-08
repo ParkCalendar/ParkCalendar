@@ -1,17 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-07T12:00:00",
-      "close": "2023-10-07T22:00:00",
-      "operatingDate": "2023-10-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-10-08T12:00:00",
-      "close": "2023-10-08T22:00:00",
+      "close": "2023-10-08T17:00:00",
       "operatingDate": "2023-10-08T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -44,6 +35,15 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-10-28T12:00:00",
+      "close": "2023-10-28T22:00:00",
+      "operatingDate": "2023-10-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFDL",
@@ -60,7 +60,7 @@
   "upcomingHours": [
     {
       "open": "2023-10-08T12:00:00",
-      "close": "2023-10-08T22:00:00",
+      "close": "2023-10-08T17:00:00",
       "operatingDate": "2023-10-08T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
