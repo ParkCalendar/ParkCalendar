@@ -266,5 +266,6 @@
   "groupSalesInquiryUrl": null,
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
+  "enableSpeedy": null,
   "toastMessages": null
 }
