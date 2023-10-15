@@ -614,10 +614,7 @@
     "id": 321713,
     "name": "Oktoberfest"
   },
-  "featuredShow": {
-    "id": 443605,
-    "name": "Witch’s Brew"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
