@@ -1,13 +1,13 @@
 # SixFlags Fetch
 
-*2023-10-17 20:54:49 +0000*
+*2023-10-17 23:54:49 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
 | [Six Flags Hurricane Harbor, Phoenix](https://parkcalendar.com/#46)<br><sup>Glendale, AZ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Concord](https://parkcalendar.com/#42)<br><sup>Concord, CA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Los Angeles](https://parkcalendar.com/#11)<br><sup>Valencia, CA</sup> | x | x | x |
-| [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | ✅ | x | ✅ |
+| [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
 | [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | x | x | x |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
@@ -21,7 +21,7 @@
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | x | x | x |
 | [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
-| [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | ✅ | x | ✅ |
+| [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | x | x | x |
 | [The Great Escape](https://parkcalendar.com/#24)<br><sup>Queensbury, NY</sup> | x | x | x |
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oklahoma City](https://parkcalendar.com/#44)<br><sup>Oklahoma City, OK</sup> | x | x | x |
