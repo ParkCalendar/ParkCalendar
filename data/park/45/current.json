@@ -72,10 +72,7 @@
     "id": 11400,
     "name": "Mind Eraser"
   },
-  "featuredEvent": {
-    "id": 324336,
-    "name": "Fright Fest 2023"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
