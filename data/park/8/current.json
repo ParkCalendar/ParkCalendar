@@ -629,10 +629,7 @@
       "eventBegin": "2021-11-17T00:00:00",
       "eventEnd": "2022-01-03T00:00:00",
       "color": "0x920507",
-      "featuredAttraction": {
-        "id": 186365,
-        "name": "H2Ho Ho Ho"
-      }
+      "featuredAttraction": null
     }
   ],
   "photoProvider": "kodak",
