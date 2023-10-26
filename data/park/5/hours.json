@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-24T17:00:00",
-      "close": "2023-10-24T22:00:00",
-      "operatingDate": "2023-10-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-10-25T17:00:00",
-      "close": "2023-10-25T22:00:00",
-      "operatingDate": "2023-10-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-10-26T17:00:00",
       "close": "2023-10-26T22:00:00",
       "operatingDate": "2023-10-26T00:00:00",
@@ -29,7 +11,7 @@
     },
     {
       "open": "2023-10-27T15:00:00",
-      "close": "2023-10-28T00:00:00",
+      "close": "2023-10-27T23:59:00",
       "operatingDate": "2023-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -425,24 +407,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
     {
-      "open": "2023-10-24T17:00:00",
-      "close": "2023-10-24T22:00:00",
-      "operatingDate": "2023-10-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-10-25T17:00:00",
-      "close": "2023-10-25T22:00:00",
-      "operatingDate": "2023-10-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-10-26T17:00:00",
       "close": "2023-10-26T22:00:00",
       "operatingDate": "2023-10-26T00:00:00",
@@ -453,7 +417,7 @@
     },
     {
       "open": "2023-10-27T15:00:00",
-      "close": "2023-10-28T00:00:00",
+      "close": "2023-10-27T23:59:00",
       "operatingDate": "2023-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
