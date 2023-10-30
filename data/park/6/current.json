@@ -515,15 +515,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/68",
   "upcomingHours": [
     {
-      "open": "2023-10-29T10:30:00",
-      "close": "2023-10-29T23:00:00",
-      "operatingDate": "2023-10-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2023-10-30T10:30:00",
       "close": "2023-10-30T18:00:00",
       "operatingDate": "2023-10-30T00:00:00",
