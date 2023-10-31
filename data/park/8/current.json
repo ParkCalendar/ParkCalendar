@@ -1,42 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-27T17:00:00",
-      "close": "2023-10-27T23:00:00",
-      "operatingDate": "2023-10-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-10-28T12:00:00",
-      "close": "2023-10-28T23:00:00",
-      "operatingDate": "2023-10-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-10-29T12:00:00",
-      "close": "2023-10-29T22:00:00",
-      "operatingDate": "2023-10-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-10-30T17:00:00",
-      "close": "2023-10-30T23:00:00",
-      "operatingDate": "2023-10-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-10-31T17:00:00",
       "close": "2023-10-31T23:00:00",
       "operatingDate": "2023-10-31T00:00:00",
@@ -145,7 +109,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-11-26T14:00:00",
+      "open": "2023-11-26T12:00:00",
       "close": "2023-11-26T21:00:00",
       "operatingDate": "2023-11-26T00:00:00",
       "hasWaterPark": false,
@@ -172,7 +136,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-12-03T14:00:00",
+      "open": "2023-12-03T12:00:00",
       "close": "2023-12-03T21:00:00",
       "operatingDate": "2023-12-03T00:00:00",
       "hasWaterPark": false,
@@ -190,8 +154,8 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-12-10T14:00:00",
-      "close": "2023-12-10T22:00:00",
+      "open": "2023-12-10T12:00:00",
+      "close": "2023-12-10T21:00:00",
       "operatingDate": "2023-12-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -281,7 +245,7 @@
     },
     {
       "open": "2023-12-26T12:00:00",
-      "close": "2023-12-26T20:00:00",
+      "close": "2023-12-26T22:00:00",
       "operatingDate": "2023-12-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -290,7 +254,7 @@
     },
     {
       "open": "2023-12-27T12:00:00",
-      "close": "2023-12-27T20:00:00",
+      "close": "2023-12-27T22:00:00",
       "operatingDate": "2023-12-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -299,7 +263,7 @@
     },
     {
       "open": "2023-12-28T12:00:00",
-      "close": "2023-12-28T20:00:00",
+      "close": "2023-12-28T22:00:00",
       "operatingDate": "2023-12-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -352,15 +316,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
-    {
-      "open": "2023-10-30T17:00:00",
-      "close": "2023-10-30T23:00:00",
-      "operatingDate": "2023-10-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2023-10-31T17:00:00",
       "close": "2023-10-31T23:00:00",
