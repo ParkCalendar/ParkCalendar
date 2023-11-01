@@ -169,10 +169,7 @@
     "id": 7652,
     "name": "BATWING Coaster"
   },
-  "featuredEvent": {
-    "id": 324157,
-    "name": "Oktoberfest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 447125,
     "name": "Lost Spirits"
