@@ -65,18 +65,36 @@
   "chatUrl": "https://direct.lc.chat/8585046/74",
   "upcomingHours": [
     {
-      "open": "2023-11-04T12:00:00",
-      "close": "2023-11-04T22:00:00",
-      "operatingDate": "2023-11-04T00:00:00",
+      "open": "2023-11-05T12:00:00",
+      "close": "2023-11-05T21:00:00",
+      "operatingDate": "2023-11-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2023-11-05T12:00:00",
-      "close": "2023-11-05T21:00:00",
-      "operatingDate": "2023-11-05T00:00:00",
+      "open": "2023-11-10T12:00:00",
+      "close": "2023-11-10T19:00:00",
+      "operatingDate": "2023-11-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-11T12:00:00",
+      "close": "2023-11-11T19:00:00",
+      "operatingDate": "2023-11-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2023-11-12T12:00:00",
+      "close": "2023-11-12T19:00:00",
+      "operatingDate": "2023-11-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
