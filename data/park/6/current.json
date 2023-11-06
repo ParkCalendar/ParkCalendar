@@ -610,10 +610,7 @@
     "id": 5916,
     "name": "Tatsu"
   },
-  "featuredEvent": {
-    "id": 427693,
-    "name": "Fright Fest 2023"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 166827,
     "name": "Little Monsters Crafts & Activities (Kids Boo Fest"
