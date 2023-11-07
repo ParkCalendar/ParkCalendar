@@ -644,10 +644,7 @@
       "eventBegin": "2022-09-10T00:00:00",
       "eventEnd": "2022-10-31T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 436397,
-        "name": "Condemned House Party"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
