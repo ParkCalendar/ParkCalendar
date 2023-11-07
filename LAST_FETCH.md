@@ -1,13 +1,13 @@
 # SixFlags Fetch
 
-*2023-11-07 11:55:01 +0000*
+*2023-11-07 15:55:07 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
 | [Six Flags Hurricane Harbor, Phoenix](https://parkcalendar.com/#46)<br><sup>Glendale, AZ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Concord](https://parkcalendar.com/#42)<br><sup>Concord, CA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Los Angeles](https://parkcalendar.com/#11)<br><sup>Valencia, CA</sup> | x | x | x |
-| [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | ✅ | ✅ | x |
+| [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
 | [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | x | x | x |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
