@@ -385,10 +385,7 @@
     "id": 6892,
     "name": "Goliath"
   },
-  "featuredEvent": {
-    "id": 450546,
-    "name": "KID FLASH™ Cosmic Coaster Grand Opening"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
