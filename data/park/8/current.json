@@ -389,7 +389,10 @@
     "id": 324223,
     "name": "Veterans Weekend"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 45466,
+    "name": "Christmas Tree Lighting Presented by ANCIRA™"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
