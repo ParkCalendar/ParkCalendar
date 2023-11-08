@@ -385,7 +385,10 @@
     "id": 6892,
     "name": "Goliath"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324223,
+    "name": "Veterans Weekend"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
