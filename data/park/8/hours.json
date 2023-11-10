@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-31T17:00:00",
-      "close": "2023-10-31T23:00:00",
-      "operatingDate": "2023-10-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-11-04T12:00:00",
-      "close": "2023-11-04T19:00:00",
-      "operatingDate": "2023-11-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2023-11-05T12:00:00",
-      "close": "2023-11-05T18:00:00",
-      "operatingDate": "2023-11-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-11-11T12:00:00",
       "close": "2023-11-11T19:00:00",
       "operatingDate": "2023-11-11T00:00:00",
@@ -46,8 +19,8 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-11-18T14:00:00",
-      "close": "2023-11-18T22:00:00",
+      "open": "2023-11-18T13:00:00",
+      "close": "2023-11-18T21:00:00",
       "operatingDate": "2023-11-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -55,7 +28,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-11-19T14:00:00",
+      "open": "2023-11-19T13:00:00",
       "close": "2023-11-19T21:00:00",
       "operatingDate": "2023-11-19T00:00:00",
       "hasWaterPark": false,
@@ -92,7 +65,7 @@
     },
     {
       "open": "2023-11-24T12:00:00",
-      "close": "2023-11-24T22:00:00",
+      "close": "2023-11-24T21:00:00",
       "operatingDate": "2023-11-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -101,7 +74,7 @@
     },
     {
       "open": "2023-11-25T12:00:00",
-      "close": "2023-11-25T22:00:00",
+      "close": "2023-11-25T21:00:00",
       "operatingDate": "2023-11-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -128,7 +101,7 @@
     },
     {
       "open": "2023-12-02T12:00:00",
-      "close": "2023-12-02T22:00:00",
+      "close": "2023-12-02T21:00:00",
       "operatingDate": "2023-12-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -146,7 +119,7 @@
     },
     {
       "open": "2023-12-09T12:00:00",
-      "close": "2023-12-09T22:00:00",
+      "close": "2023-12-09T21:00:00",
       "operatingDate": "2023-12-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -173,7 +146,7 @@
     },
     {
       "open": "2023-12-16T12:00:00",
-      "close": "2023-12-16T22:00:00",
+      "close": "2023-12-16T21:00:00",
       "operatingDate": "2023-12-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -182,7 +155,7 @@
     },
     {
       "open": "2023-12-17T12:00:00",
-      "close": "2023-12-17T22:00:00",
+      "close": "2023-12-17T21:00:00",
       "operatingDate": "2023-12-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -190,8 +163,8 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-12-18T14:00:00",
-      "close": "2023-12-18T22:00:00",
+      "open": "2023-12-18T13:00:00",
+      "close": "2023-12-18T21:00:00",
       "operatingDate": "2023-12-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -199,8 +172,8 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-12-19T14:00:00",
-      "close": "2023-12-19T22:00:00",
+      "open": "2023-12-19T13:00:00",
+      "close": "2023-12-19T21:00:00",
       "operatingDate": "2023-12-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -208,8 +181,8 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-12-20T14:00:00",
-      "close": "2023-12-20T22:00:00",
+      "open": "2023-12-20T13:00:00",
+      "close": "2023-12-20T21:00:00",
       "operatingDate": "2023-12-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -218,7 +191,7 @@
     },
     {
       "open": "2023-12-21T12:00:00",
-      "close": "2023-12-21T22:00:00",
+      "close": "2023-12-21T21:00:00",
       "operatingDate": "2023-12-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -227,7 +200,7 @@
     },
     {
       "open": "2023-12-22T12:00:00",
-      "close": "2023-12-22T22:00:00",
+      "close": "2023-12-22T21:00:00",
       "operatingDate": "2023-12-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -236,7 +209,7 @@
     },
     {
       "open": "2023-12-23T12:00:00",
-      "close": "2023-12-23T22:00:00",
+      "close": "2023-12-23T21:00:00",
       "operatingDate": "2023-12-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -245,7 +218,7 @@
     },
     {
       "open": "2023-12-26T12:00:00",
-      "close": "2023-12-26T22:00:00",
+      "close": "2023-12-26T21:00:00",
       "operatingDate": "2023-12-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -254,7 +227,7 @@
     },
     {
       "open": "2023-12-27T12:00:00",
-      "close": "2023-12-27T22:00:00",
+      "close": "2023-12-27T21:00:00",
       "operatingDate": "2023-12-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -263,7 +236,7 @@
     },
     {
       "open": "2023-12-28T12:00:00",
-      "close": "2023-12-28T22:00:00",
+      "close": "2023-12-28T21:00:00",
       "operatingDate": "2023-12-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -272,7 +245,7 @@
     },
     {
       "open": "2023-12-29T12:00:00",
-      "close": "2023-12-29T22:00:00",
+      "close": "2023-12-29T21:00:00",
       "operatingDate": "2023-12-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -281,7 +254,7 @@
     },
     {
       "open": "2023-12-30T12:00:00",
-      "close": "2023-12-30T22:00:00",
+      "close": "2023-12-30T21:00:00",
       "operatingDate": "2023-12-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -386,10 +359,13 @@
     "name": "Goliath"
   },
   "featuredEvent": {
-    "id": 450546,
-    "name": "KID FLASH™ Cosmic Coaster Grand Opening"
+    "id": 324223,
+    "name": "Veterans Weekend"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 45466,
+    "name": "Christmas Tree Lighting Presented by ANCIRA™"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
