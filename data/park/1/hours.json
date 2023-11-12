@@ -236,9 +236,18 @@
   "chatUrl": "https://direct.lc.chat/8585046/63",
   "upcomingHours": [
     {
-      "open": "2023-10-31T18:00:00",
-      "close": "2023-10-31T23:00:00",
-      "operatingDate": "2023-10-31T00:00:00",
+      "open": "2023-11-19T12:00:00",
+      "close": "2023-11-19T21:00:00",
+      "operatingDate": "2023-11-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2023-11-20T14:00:00",
+      "close": "2023-11-20T21:00:00",
+      "operatingDate": "2023-11-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -296,8 +305,8 @@
     "name": "AQUAMAN: Power Wave"
   },
   "featuredEvent": {
-    "id": 324381,
-    "name": "Fright Fest"
+    "id": 438650,
+    "name": "The VIP Gazebo Experience"
   },
   "featuredShow": {
     "id": 53064,
