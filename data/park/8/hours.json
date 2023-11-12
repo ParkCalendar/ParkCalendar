@@ -1,17 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2023-11-11T12:00:00",
-      "close": "2023-11-11T19:00:00",
-      "operatingDate": "2023-11-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2023-11-12T12:00:00",
-      "close": "2023-11-12T18:00:00",
+      "close": "2023-11-12T14:00:00",
       "operatingDate": "2023-11-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -291,7 +282,7 @@
   "upcomingHours": [
     {
       "open": "2023-11-12T12:00:00",
-      "close": "2023-11-12T18:00:00",
+      "close": "2023-11-12T14:00:00",
       "operatingDate": "2023-11-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
