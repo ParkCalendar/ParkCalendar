@@ -434,13 +434,10 @@
     "name": "*Batman The Ride"
   },
   "featuredEvent": {
-    "id": 367055,
-    "name": "Festival del Terror"
+    "id": 367058,
+    "name": "Christmas In the Park"
   },
-  "featuredShow": {
-    "id": 377678,
-    "name": "Mariachi en vivo"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
