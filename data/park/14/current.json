@@ -54,17 +54,7 @@
   "freeVirtualQueueUri": "https://am-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://am.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/72",
-  "upcomingHours": [
-    {
-      "open": "2023-11-12T11:00:00",
-      "close": "2023-11-12T18:00:00",
-      "operatingDate": "2023-11-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
