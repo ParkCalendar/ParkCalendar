@@ -398,10 +398,7 @@
       "eventBegin": "2022-09-08T00:00:00",
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 440327,
-        "name": "NEW! – Carnival of Terrors"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
