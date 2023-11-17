@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2023-11-17 15:54:49 +0000*
+*2023-11-17 17:54:57 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -17,7 +17,7 @@
 | [Six Flags New England](https://parkcalendar.com/#20)<br><sup>Agawam, MA</sup> | x | x | x |
 | [Six Flags America](https://parkcalendar.com/#14)<br><sup>Bowie, MD</sup> | x | x | x |
 | [Six Flags St. Louis](https://parkcalendar.com/#3)<br><sup>Eureka, MO</sup> | x | x | x |
-| [Six Flags México](https://parkcalendar.com/#28)<br><sup>Ciudad de México, MX</sup> | x | x | x |
+| [Six Flags México](https://parkcalendar.com/#28)<br><sup>Ciudad de México, MX</sup> | ✅ | x | ✅ |
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | x | x | x |
 | [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
