@@ -78,10 +78,7 @@
     "id": 6194,
     "name": "Demon"
   },
-  "featuredEvent": {
-    "id": 317166,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
