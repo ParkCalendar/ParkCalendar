@@ -1,17 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2023-11-26T12:00:00",
-      "close": "2023-11-26T18:00:00",
-      "operatingDate": "2023-11-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2023-12-02T12:00:00",
-      "close": "2023-12-02T21:00:00",
+      "close": "2023-12-02T20:00:00",
       "operatingDate": "2023-12-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -29,7 +20,7 @@
     },
     {
       "open": "2023-12-09T12:00:00",
-      "close": "2023-12-09T21:00:00",
+      "close": "2023-12-09T20:00:00",
       "operatingDate": "2023-12-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -47,7 +38,7 @@
     },
     {
       "open": "2023-12-16T12:00:00",
-      "close": "2023-12-16T21:00:00",
+      "close": "2023-12-16T20:00:00",
       "operatingDate": "2023-12-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -65,7 +56,7 @@
     },
     {
       "open": "2023-12-22T16:00:00",
-      "close": "2023-12-22T21:00:00",
+      "close": "2023-12-22T20:00:00",
       "operatingDate": "2023-12-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -74,7 +65,7 @@
     },
     {
       "open": "2023-12-23T12:00:00",
-      "close": "2023-12-23T21:00:00",
+      "close": "2023-12-23T20:00:00",
       "operatingDate": "2023-12-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -128,7 +119,7 @@
     },
     {
       "open": "2023-12-30T12:00:00",
-      "close": "2023-12-30T21:00:00",
+      "close": "2023-12-30T20:00:00",
       "operatingDate": "2023-12-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -174,7 +165,7 @@
   "upcomingHours": [
     {
       "open": "2023-12-02T12:00:00",
-      "close": "2023-12-02T21:00:00",
+      "close": "2023-12-02T20:00:00",
       "operatingDate": "2023-12-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
