@@ -377,7 +377,10 @@
     "name": "Tatsu"
   },
   "featuredEvent": null,
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 185390,
+    "name": "Crafts with Mrs. Claus"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
