@@ -1,3 +1,9 @@
+<div class='changelog-entry' data-change='20231208-181636'><h2>Fri Dec 08 2023 @ 06:16 PM</h2><pre>
+                             >  20240603 -- 11:00a - 06:00p
+                             >  20240604 -- 11:00a - 06:00p
+                             >  20240605 -- 11:00a - 06:00p
+                             >  20240606 -- 11:00a - 06:00p
+</pre></div>
 <div class='changelog-entry' data-change='20231208-125452'><h2>Fri Dec 08 2023 @ 12:54 PM</h2><pre>
                              >  20240524 -- 11:00a - 07:00p
                              >  20240525 -- 11:00a - 09:00p
