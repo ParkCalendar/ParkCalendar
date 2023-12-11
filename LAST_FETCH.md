@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2023-12-11 15:54:59 +0000*
+*2023-12-11 17:54:48 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -18,7 +18,7 @@
 | [Six Flags America](https://parkcalendar.com/#14)<br><sup>Bowie, MD</sup> | x | x | x |
 | [Six Flags St. Louis](https://parkcalendar.com/#3)<br><sup>Eureka, MO</sup> | x | x | x |
 | [Six Flags México](https://parkcalendar.com/#28)<br><sup>Ciudad de México, MX</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | ✅ | x | x |
+| [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | x | x | x |
 | [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | x | x | x |
