@@ -230,15 +230,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
     {
-      "open": "2023-12-10T10:00:00",
-      "close": "2023-12-10T18:00:00",
-      "operatingDate": "2023-12-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2023-12-16T10:00:00",
       "close": "2023-12-16T18:00:00",
       "operatingDate": "2023-12-16T00:00:00",
@@ -297,10 +288,7 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": {
-    "id": 7469,
-    "name": "Anaconda"
-  },
+  "featuredRide": null,
   "featuredEvent": {
     "id": 367081,
     "name": "Christmas In the Park"
