@@ -1025,6 +1025,69 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-07T11:00:00",
+      "close": "2024-07-07T21:00:00",
+      "operatingDate": "2024-07-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-08T11:00:00",
+      "close": "2024-07-08T19:00:00",
+      "operatingDate": "2024-07-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-09T11:00:00",
+      "close": "2024-07-09T19:00:00",
+      "operatingDate": "2024-07-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-10T11:00:00",
+      "close": "2024-07-10T19:00:00",
+      "operatingDate": "2024-07-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-11T11:00:00",
+      "close": "2024-07-11T19:00:00",
+      "operatingDate": "2024-07-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-12T11:00:00",
+      "close": "2024-07-12T21:00:00",
+      "operatingDate": "2024-07-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-07-13T11:00:00",
+      "close": "2024-07-13T21:00:00",
+      "operatingDate": "2024-07-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
     }
   ],
   "abbreviation": "SFDK",
