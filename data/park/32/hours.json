@@ -1,69 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-11-24T10:00:00",
-      "close": "2023-11-24T18:00:00",
-      "operatingDate": "2023-11-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-11-25T10:00:00",
-      "close": "2023-11-25T18:00:00",
-      "operatingDate": "2023-11-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-11-26T10:00:00",
-      "close": "2023-11-26T18:00:00",
-      "operatingDate": "2023-11-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-12-02T10:00:00",
-      "close": "2023-12-02T18:00:00",
-      "operatingDate": "2023-12-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-12-03T10:00:00",
-      "close": "2023-12-03T18:00:00",
-      "operatingDate": "2023-12-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-12-09T10:00:00",
-      "close": "2023-12-09T18:00:00",
-      "operatingDate": "2023-12-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2023-12-10T10:00:00",
-      "close": "2023-12-10T18:00:00",
-      "operatingDate": "2023-12-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2023-12-16T10:00:00",
       "close": "2023-12-16T18:00:00",
       "operatingDate": "2023-12-16T00:00:00",
@@ -157,24 +94,6 @@
       "open": "2024-01-01T10:00:00",
       "close": "2024-01-01T18:00:00",
       "operatingDate": "2024-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-01-02T10:00:00",
-      "close": "2024-01-02T18:00:00",
-      "operatingDate": "2024-01-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-01-03T10:00:00",
-      "close": "2024-01-03T18:00:00",
-      "operatingDate": "2024-01-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -288,7 +207,10 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 7469,
+    "name": "Anaconda"
+  },
   "featuredEvent": {
     "id": 367081,
     "name": "Christmas In the Park"
