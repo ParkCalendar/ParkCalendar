@@ -149,18 +149,36 @@
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
     {
-      "open": "2023-12-16T10:00:00",
-      "close": "2023-12-16T18:00:00",
-      "operatingDate": "2023-12-16T00:00:00",
+      "open": "2023-12-17T10:00:00",
+      "close": "2023-12-17T18:00:00",
+      "operatingDate": "2023-12-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2023-12-17T10:00:00",
-      "close": "2023-12-17T18:00:00",
-      "operatingDate": "2023-12-17T00:00:00",
+      "open": "2023-12-22T10:00:00",
+      "close": "2023-12-22T18:00:00",
+      "operatingDate": "2023-12-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2023-12-23T10:00:00",
+      "close": "2023-12-23T18:00:00",
+      "operatingDate": "2023-12-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2023-12-25T10:00:00",
+      "close": "2023-12-25T18:00:00",
+      "operatingDate": "2023-12-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
