@@ -2044,6 +2044,24 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-10-04T10:30:00",
+      "close": "2024-10-05T00:00:00",
+      "operatingDate": "2024-10-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-05T10:30:00",
+      "close": "2024-10-06T01:00:00",
+      "operatingDate": "2024-10-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-10-06T10:30:00",
       "close": "2024-10-06T23:00:00",
       "operatingDate": "2024-10-06T00:00:00",
@@ -2065,6 +2083,24 @@
       "open": "2024-10-10T17:00:00",
       "close": "2024-10-10T23:00:00",
       "operatingDate": "2024-10-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-11T10:30:00",
+      "close": "2024-10-12T00:00:00",
+      "operatingDate": "2024-10-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-12T10:30:00",
+      "close": "2024-10-13T01:00:00",
+      "operatingDate": "2024-10-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -2098,6 +2134,24 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-10-18T10:30:00",
+      "close": "2024-10-19T00:00:00",
+      "operatingDate": "2024-10-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-19T10:30:00",
+      "close": "2024-10-20T01:00:00",
+      "operatingDate": "2024-10-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-10-20T10:30:00",
       "close": "2024-10-20T23:00:00",
       "operatingDate": "2024-10-20T00:00:00",
@@ -2125,6 +2179,24 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-10-25T10:30:00",
+      "close": "2024-10-26T00:00:00",
+      "operatingDate": "2024-10-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-26T10:30:00",
+      "close": "2024-10-27T01:00:00",
+      "operatingDate": "2024-10-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-10-27T10:30:00",
       "close": "2024-10-27T23:00:00",
       "operatingDate": "2024-10-27T00:00:00",
@@ -2146,6 +2218,24 @@
       "open": "2024-10-31T17:00:00",
       "close": "2024-10-31T23:00:00",
       "operatingDate": "2024-10-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-11-01T10:30:00",
+      "close": "2024-11-02T00:00:00",
+      "operatingDate": "2024-11-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-11-02T10:30:00",
+      "close": "2024-11-03T01:00:00",
+      "operatingDate": "2024-11-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -2635,7 +2725,10 @@
     "id": 5916,
     "name": "Tatsu"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 460826,
+    "name": "Scream Break 2024"
+  },
   "featuredShow": {
     "id": 185390,
     "name": "Crafts with Mrs. Claus"
