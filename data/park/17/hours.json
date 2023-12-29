@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2023-12-30T12:00:00",
-      "close": "2023-12-30T18:00:00",
+      "close": "2023-12-30T19:00:00",
       "operatingDate": "2023-12-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -11,7 +11,7 @@
     },
     {
       "open": "2023-12-31T12:00:00",
-      "close": "2023-12-31T18:00:00",
+      "close": "2023-12-31T19:00:00",
       "operatingDate": "2023-12-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1794,7 +1794,7 @@
   "upcomingHours": [
     {
       "open": "2023-12-30T12:00:00",
-      "close": "2023-12-30T18:00:00",
+      "close": "2023-12-30T19:00:00",
       "operatingDate": "2023-12-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1803,7 +1803,7 @@
     },
     {
       "open": "2023-12-31T12:00:00",
-      "close": "2023-12-31T18:00:00",
+      "close": "2023-12-31T19:00:00",
       "operatingDate": "2023-12-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
