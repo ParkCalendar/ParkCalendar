@@ -1,35 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2023-12-30T12:00:00",
-      "close": "2023-12-30T19:00:00",
-      "operatingDate": "2023-12-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-12-31T12:00:00",
-      "close": "2023-12-31T19:00:00",
-      "operatingDate": "2023-12-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-01T11:00:00",
-      "close": "2024-01-01T18:00:00",
-      "operatingDate": "2024-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-01-02T11:00:00",
-      "close": "2024-01-02T18:00:00",
+      "close": "2024-01-02T16:00:00",
       "operatingDate": "2024-01-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1793,17 +1766,8 @@
   "chatUrl": "https://direct.lc.chat/8585046/73",
   "upcomingHours": [
     {
-      "open": "2024-01-01T11:00:00",
-      "close": "2024-01-01T18:00:00",
-      "operatingDate": "2024-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-01-02T11:00:00",
-      "close": "2024-01-02T18:00:00",
+      "close": "2024-01-02T16:00:00",
       "operatingDate": "2024-01-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
