@@ -178,10 +178,7 @@
     "id": 5084,
     "name": "Barnstormer"
   },
-  "featuredEvent": {
-    "id": 322452,
-    "name": "Holiday in the Park"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
