@@ -731,10 +731,7 @@
     "id": 324381,
     "name": "Fright Fest"
   },
-  "featuredShow": {
-    "id": 53064,
-    "name": "LOONEY TUNES Meet & Greet"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
