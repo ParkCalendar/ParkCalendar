@@ -1,5 +1,15 @@
 {
-  "operatingHours": [],
+  "operatingHours": [
+    {
+      "open": "2024-10-27T12:00:00",
+      "close": "2024-10-27T22:00:00",
+      "operatingDate": "2024-10-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "abbreviation": "SFFC",
   "currentAnimation": null,
   "ecommerceUri": "https://sixflags.com/frontiercity/store/tickets?noheaders",
@@ -62,10 +72,7 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": {
-    "id": 298681,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 38476,
     "name": "Crackaxle Canyon Demo Stunt Show"
