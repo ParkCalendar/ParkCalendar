@@ -1,69 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2023-12-28T10:30:00",
-      "close": "2023-12-28T22:00:00",
-      "operatingDate": "2023-12-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-12-29T10:30:00",
-      "close": "2023-12-29T22:00:00",
-      "operatingDate": "2023-12-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-12-30T10:30:00",
-      "close": "2023-12-30T22:00:00",
-      "operatingDate": "2023-12-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2023-12-31T10:30:00",
-      "close": "2023-12-31T22:00:00",
-      "operatingDate": "2023-12-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-01T10:30:00",
-      "close": "2024-01-01T18:00:00",
-      "operatingDate": "2024-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-02T10:30:00",
-      "close": "2024-01-02T18:00:00",
-      "operatingDate": "2024-01-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-03T10:30:00",
-      "close": "2024-01-03T18:00:00",
-      "operatingDate": "2024-01-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-01-04T10:30:00",
       "close": "2024-01-04T18:00:00",
       "operatingDate": "2024-01-04T00:00:00",
@@ -470,7 +407,7 @@
     },
     {
       "open": "2024-03-16T10:30:00",
-      "close": "2024-03-16T18:00:00",
+      "close": "2024-03-16T20:00:00",
       "operatingDate": "2024-03-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -2584,33 +2521,6 @@
   "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/68",
   "upcomingHours": [
-    {
-      "open": "2024-01-01T10:30:00",
-      "close": "2024-01-01T18:00:00",
-      "operatingDate": "2024-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-02T10:30:00",
-      "close": "2024-01-02T18:00:00",
-      "operatingDate": "2024-01-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-03T10:30:00",
-      "close": "2024-01-03T18:00:00",
-      "operatingDate": "2024-01-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2024-01-04T10:30:00",
       "close": "2024-01-04T18:00:00",
