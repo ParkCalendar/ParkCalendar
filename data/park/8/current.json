@@ -920,45 +920,36 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2024-01-03T12:00:00",
-      "close": "2024-01-03T19:00:00",
-      "operatingDate": "2024-01-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-01-04T12:00:00",
-      "close": "2024-01-04T19:00:00",
-      "operatingDate": "2024-01-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-01-05T12:00:00",
-      "close": "2024-01-05T20:00:00",
-      "operatingDate": "2024-01-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-01-06T12:00:00",
-      "close": "2024-01-06T20:00:00",
-      "operatingDate": "2024-01-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-01-07T12:00:00",
       "close": "2024-01-07T19:00:00",
       "operatingDate": "2024-01-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-01-13T10:30:00",
+      "close": "2024-01-13T18:00:00",
+      "operatingDate": "2024-01-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-01-14T10:30:00",
+      "close": "2024-01-14T18:00:00",
+      "operatingDate": "2024-01-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-01-15T10:30:00",
+      "close": "2024-01-15T18:00:00",
+      "operatingDate": "2024-01-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
