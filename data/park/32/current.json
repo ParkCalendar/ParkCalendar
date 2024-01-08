@@ -247,10 +247,7 @@
     "id": 7469,
     "name": "Anaconda"
   },
-  "featuredEvent": {
-    "id": 367081,
-    "name": "Christmas In the Park"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
