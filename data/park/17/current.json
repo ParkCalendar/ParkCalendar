@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-01-06T11:00:00",
-      "close": "2024-01-06T17:00:00",
-      "operatingDate": "2024-01-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-01-07T11:00:00",
-      "close": "2024-01-07T18:00:00",
-      "operatingDate": "2024-01-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-01-13T11:00:00",
       "close": "2024-01-13T18:00:00",
       "operatingDate": "2024-01-13T00:00:00",
@@ -200,7 +182,7 @@
     },
     {
       "open": "2024-03-16T11:00:00",
-      "close": "2024-03-16T22:00:00",
+      "close": "2024-03-16T20:00:00",
       "operatingDate": "2024-03-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -218,7 +200,7 @@
     },
     {
       "open": "2024-03-23T11:00:00",
-      "close": "2024-03-23T22:00:00",
+      "close": "2024-03-23T20:00:00",
       "operatingDate": "2024-03-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -245,7 +227,7 @@
     },
     {
       "open": "2024-03-29T11:00:00",
-      "close": "2024-03-29T21:00:00",
+      "close": "2024-03-29T20:00:00",
       "operatingDate": "2024-03-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -254,7 +236,7 @@
     },
     {
       "open": "2024-03-30T11:00:00",
-      "close": "2024-03-30T22:00:00",
+      "close": "2024-03-30T20:00:00",
       "operatingDate": "2024-03-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -299,7 +281,7 @@
     },
     {
       "open": "2024-04-05T11:00:00",
-      "close": "2024-04-05T21:00:00",
+      "close": "2024-04-05T20:00:00",
       "operatingDate": "2024-04-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -308,7 +290,7 @@
     },
     {
       "open": "2024-04-06T11:00:00",
-      "close": "2024-04-06T22:00:00",
+      "close": "2024-04-06T20:00:00",
       "operatingDate": "2024-04-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -326,7 +308,7 @@
     },
     {
       "open": "2024-04-12T11:00:00",
-      "close": "2024-04-12T20:00:00",
+      "close": "2024-04-12T18:00:00",
       "operatingDate": "2024-04-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
