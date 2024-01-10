@@ -918,7 +918,10 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 325397,
+    "name": "4th Of July Celebration"
+  },
   "featuredShow": {
     "id": 38476,
     "name": "Crackaxle Canyon Demo Stunt Show"
