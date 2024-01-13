@@ -1,5 +1,60 @@
 {
-  "operatingHours": [],
+  "operatingHours": [
+    {
+      "open": "2024-05-11T11:00:00",
+      "close": "2024-05-11T18:00:00",
+      "operatingDate": "2024-05-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-12T11:00:00",
+      "close": "2024-05-12T18:00:00",
+      "operatingDate": "2024-05-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-18T11:00:00",
+      "close": "2024-05-18T18:00:00",
+      "operatingDate": "2024-05-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-19T11:00:00",
+      "close": "2024-05-19T18:00:00",
+      "operatingDate": "2024-05-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-25T11:00:00",
+      "close": "2024-05-25T18:00:00",
+      "operatingDate": "2024-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-26T11:00:00",
+      "close": "2024-05-26T18:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "abbreviation": "SFHHA",
   "currentAnimation": {
     "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-water-park-640.gif",

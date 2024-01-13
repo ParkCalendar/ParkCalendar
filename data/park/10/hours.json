@@ -1,36 +1,54 @@
 {
   "operatingHours": [
     {
-      "open": "2023-09-16T11:00:00",
-      "close": "2023-09-16T17:00:00",
-      "operatingDate": "2023-09-16T00:00:00",
+      "open": "2024-05-11T11:00:00",
+      "close": "2024-05-11T18:00:00",
+      "operatingDate": "2024-05-11T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-09-17T11:00:00",
-      "close": "2023-09-17T17:00:00",
-      "operatingDate": "2023-09-17T00:00:00",
+      "open": "2024-05-12T11:00:00",
+      "close": "2024-05-12T18:00:00",
+      "operatingDate": "2024-05-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-09-23T11:00:00",
-      "close": "2023-09-23T17:00:00",
-      "operatingDate": "2023-09-23T00:00:00",
+      "open": "2024-05-18T11:00:00",
+      "close": "2024-05-18T18:00:00",
+      "operatingDate": "2024-05-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-09-24T11:00:00",
-      "close": "2023-09-24T17:00:00",
-      "operatingDate": "2023-09-24T00:00:00",
+      "open": "2024-05-19T11:00:00",
+      "close": "2024-05-19T18:00:00",
+      "operatingDate": "2024-05-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-25T11:00:00",
+      "close": "2024-05-25T18:00:00",
+      "operatingDate": "2024-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-26T11:00:00",
+      "close": "2024-05-26T18:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -191,5 +209,6 @@
   "groupSalesInquiryUrl": null,
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
+  "enableSpeedy": null,
   "toastMessages": null
 }
