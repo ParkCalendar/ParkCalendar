@@ -254,15 +254,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/78",
   "upcomingHours": [
     {
-      "open": "2024-01-14T11:00:00",
-      "close": "2024-01-14T22:00:00",
-      "operatingDate": "2024-01-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-01-18T11:00:00",
       "close": "2024-01-18T22:00:00",
       "operatingDate": "2024-01-18T00:00:00",
