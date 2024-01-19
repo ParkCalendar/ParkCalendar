@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-01-20T12:00:00",
-      "close": "2024-01-20T19:00:00",
-      "operatingDate": "2024-01-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-01-21T12:00:00",
-      "close": "2024-01-21T19:00:00",
-      "operatingDate": "2024-01-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-01-27T12:00:00",
       "close": "2024-01-27T19:00:00",
       "operatingDate": "2024-01-27T00:00:00",
@@ -540,26 +522,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/63",
-  "upcomingHours": [
-    {
-      "open": "2024-01-20T12:00:00",
-      "close": "2024-01-20T19:00:00",
-      "operatingDate": "2024-01-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-01-21T12:00:00",
-      "close": "2024-01-21T19:00:00",
-      "operatingDate": "2024-01-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
