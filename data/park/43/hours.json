@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-02-17T11:00:00",
-      "close": "2024-02-17T14:00:00",
-      "operatingDate": "2024-02-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-03-16T11:00:00",
       "close": "2024-03-16T19:00:00",
       "operatingDate": "2024-03-16T00:00:00",
