@@ -62,10 +62,7 @@
     "id": 9989,
     "name": "*Batman The Ride"
   },
-  "featuredEvent": {
-    "id": 367058,
-    "name": "Christmas In the Park"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
