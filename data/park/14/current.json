@@ -1,42 +1,5 @@
 {
-  "operatingHours": [
-    {
-      "open": "2023-11-04T11:00:00",
-      "close": "2023-11-04T18:00:00",
-      "operatingDate": "2023-11-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-11-05T11:00:00",
-      "close": "2023-11-05T18:00:00",
-      "operatingDate": "2023-11-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-11-11T11:00:00",
-      "close": "2023-11-11T18:00:00",
-      "operatingDate": "2023-11-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2023-11-12T11:00:00",
-      "close": "2023-11-12T18:00:00",
-      "operatingDate": "2023-11-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    }
-  ],
+  "operatingHours": [],
   "abbreviation": "SFAM",
   "currentAnimation": {
     "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-640.gif",
