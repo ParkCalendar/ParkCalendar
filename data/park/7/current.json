@@ -1,15 +1,5 @@
 {
-  "operatingHours": [
-    {
-      "open": "2023-10-31T18:00:00",
-      "close": "2023-10-31T21:00:00",
-      "operatingDate": "2023-10-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "operatingHours": [],
   "abbreviation": "SFGR",
   "currentAnimation": {
     "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-640.gif",
