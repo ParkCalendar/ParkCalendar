@@ -1,36 +1,45 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-26T18:00:00",
-      "close": "2023-10-26T22:00:00",
-      "operatingDate": "2023-10-26T00:00:00",
+      "open": "2024-03-29T11:00:00",
+      "close": "2024-03-29T19:00:00",
+      "operatingDate": "2024-03-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-10-27T18:00:00",
-      "close": "2023-10-27T23:00:00",
-      "operatingDate": "2023-10-27T00:00:00",
+      "open": "2024-03-30T11:00:00",
+      "close": "2024-03-30T19:00:00",
+      "operatingDate": "2024-03-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-10-28T12:00:00",
-      "close": "2023-10-28T23:00:00",
-      "operatingDate": "2023-10-28T00:00:00",
+      "open": "2024-03-31T11:00:00",
+      "close": "2024-03-31T18:00:00",
+      "operatingDate": "2024-03-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2023-10-29T12:00:00",
-      "close": "2023-10-29T21:00:00",
-      "operatingDate": "2023-10-29T00:00:00",
+      "open": "2024-04-06T11:00:00",
+      "close": "2024-04-06T19:00:00",
+      "operatingDate": "2024-04-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-04-07T11:00:00",
+      "close": "2024-04-07T18:00:00",
+      "operatingDate": "2024-04-07T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -106,8 +115,8 @@
     "name": "American Thunder"
   },
   "featuredEvent": {
-    "id": 324162,
-    "name": "Fright Fest"
+    "id": 377695,
+    "name": "Low Sensory Sundays in April"
   },
   "featuredShow": null,
   "featuredSouvenir": null,
