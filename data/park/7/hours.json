@@ -1,9 +1,9 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-31T18:00:00",
-      "close": "2023-10-31T21:00:00",
-      "operatingDate": "2023-10-31T00:00:00",
+      "open": "2024-04-20T10:30:00",
+      "close": "2024-04-20T20:00:00",
+      "operatingDate": "2024-04-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -27,17 +27,7 @@
   "freeVirtualQueueUri": "https://gr-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://gr.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/69",
-  "upcomingHours": [
-    {
-      "open": "2023-10-31T18:00:00",
-      "close": "2023-10-31T21:00:00",
-      "operatingDate": "2023-10-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
