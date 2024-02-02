@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-02-02 20:55:06 +0000*
+*2024-02-02 23:54:55 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -8,7 +8,7 @@
 | [Six Flags Hurricane Harbor, Concord](https://parkcalendar.com/#42)<br><sup>Concord, CA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Los Angeles](https://parkcalendar.com/#11)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | x | x | x |
-| [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | ✅ | x | ✅ |
+| [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
 | [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | x | x | x |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48)<br><sup>Cherry Valley, IL</sup> | x | x | x |
@@ -28,5 +28,5 @@
 | [La Ronde, Montreal](https://parkcalendar.com/#29)<br><sup>Montreal, QC</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | x | x | x |
-| [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | ✅ | x | x |
+| [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | x | x | x |
