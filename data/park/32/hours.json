@@ -1,87 +1,5 @@
 {
-  "operatingHours": [
-    {
-      "open": "2024-02-03T10:00:00",
-      "close": "2024-02-03T18:00:00",
-      "operatingDate": "2024-02-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-04T10:00:00",
-      "close": "2024-02-04T18:00:00",
-      "operatingDate": "2024-02-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-05T10:00:00",
-      "close": "2024-02-05T18:00:00",
-      "operatingDate": "2024-02-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-10T10:00:00",
-      "close": "2024-02-10T18:00:00",
-      "operatingDate": "2024-02-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-11T10:00:00",
-      "close": "2024-02-11T18:00:00",
-      "operatingDate": "2024-02-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-17T10:00:00",
-      "close": "2024-02-17T18:00:00",
-      "operatingDate": "2024-02-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-18T10:00:00",
-      "close": "2024-02-18T18:00:00",
-      "operatingDate": "2024-02-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-24T10:00:00",
-      "close": "2024-02-24T18:00:00",
-      "operatingDate": "2024-02-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-25T10:00:00",
-      "close": "2024-02-25T18:00:00",
-      "operatingDate": "2024-02-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    }
-  ],
+  "operatingHours": [],
   "abbreviation": "SFHHOX",
   "currentAnimation": null,
   "ecommerceUri": "https://sixflags.com.mx/hurricaneharborox/store/tickets?noheaders",
@@ -93,44 +11,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/80",
-  "upcomingHours": [
-    {
-      "open": "2024-02-04T10:00:00",
-      "close": "2024-02-04T18:00:00",
-      "operatingDate": "2024-02-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-05T10:00:00",
-      "close": "2024-02-05T18:00:00",
-      "operatingDate": "2024-02-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-10T10:00:00",
-      "close": "2024-02-10T18:00:00",
-      "operatingDate": "2024-02-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-02-11T10:00:00",
-      "close": "2024-02-11T18:00:00",
-      "operatingDate": "2024-02-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     1,
