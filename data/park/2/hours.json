@@ -314,6 +314,42 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-28T11:00:00",
+      "close": "2024-05-28T20:00:00",
+      "operatingDate": "2024-05-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-29T11:00:00",
+      "close": "2024-05-29T20:00:00",
+      "operatingDate": "2024-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-30T11:00:00",
+      "close": "2024-05-30T20:00:00",
+      "operatingDate": "2024-05-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-31T11:00:00",
+      "close": "2024-05-31T20:00:00",
+      "operatingDate": "2024-05-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFOG",
@@ -385,8 +421,8 @@
     "name": "Blue Hawk"
   },
   "featuredEvent": {
-    "id": 321531,
-    "name": "Holiday in the Park"
+    "id": 321265,
+    "name": "Spring Break"
   },
   "featuredShow": {
     "id": 452688,
