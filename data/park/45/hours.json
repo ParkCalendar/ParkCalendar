@@ -1,12 +1,21 @@
 {
   "operatingHours": [
     {
-      "open": "2023-10-21T12:00:00",
-      "close": "2023-10-21T22:00:00",
-      "operatingDate": "2023-10-21T00:00:00",
-      "hasWaterPark": false,
+      "open": "2024-05-17T11:00:00",
+      "close": "2024-05-17T17:00:00",
+      "operatingDate": "2024-05-17T00:00:00",
+      "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-18T11:00:00",
+      "close": "2024-05-18T21:00:00",
+      "operatingDate": "2024-05-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-05-18T11:00:00",
+      "waterParkClose": "2024-05-18T19:00:00",
       "tzIndicator": "America/New_York"
     }
   ],
@@ -72,10 +81,7 @@
     "id": 11400,
     "name": "Mind Eraser"
   },
-  "featuredEvent": {
-    "id": 324336,
-    "name": "Fright Fest 2023"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
