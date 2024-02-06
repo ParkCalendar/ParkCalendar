@@ -521,6 +521,15 @@
       "waterParkOpen": "2024-07-31T11:30:00",
       "waterParkClose": "2024-07-31T19:00:00",
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-08-01T11:00:00",
+      "close": "2024-08-01T21:00:00",
+      "operatingDate": "2024-08-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-08-01T11:30:00",
+      "waterParkClose": "2024-08-01T19:00:00",
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFDL",
