@@ -912,7 +912,17 @@
   "freeVirtualQueueUri": "https://fc-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://fc.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/82",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-02-17T11:00:00",
+      "close": "2024-02-17T14:00:00",
+      "operatingDate": "2024-02-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
