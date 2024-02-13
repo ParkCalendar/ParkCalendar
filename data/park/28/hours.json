@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2024-02-16T10:00:00",
-      "close": "2024-02-16T20:00:00",
+      "close": "2024-02-16T21:00:00",
       "operatingDate": "2024-02-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -84,7 +84,7 @@
   "upcomingHours": [
     {
       "open": "2024-02-16T10:00:00",
-      "close": "2024-02-16T20:00:00",
+      "close": "2024-02-16T21:00:00",
       "operatingDate": "2024-02-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
