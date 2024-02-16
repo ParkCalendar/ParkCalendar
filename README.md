@@ -1,3 +1,4 @@
+
 # SixFlags Park Hours
 
 A couple reasons for this project:
