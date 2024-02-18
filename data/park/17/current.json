@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-02-19T11:00:00",
-      "close": "2024-02-19T18:00:00",
-      "operatingDate": "2024-02-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-02-24T11:00:00",
       "close": "2024-02-24T18:00:00",
       "operatingDate": "2024-02-24T00:00:00",
@@ -1576,15 +1567,6 @@
   "paidVirtualQueueUri": "https://dk.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/73",
   "upcomingHours": [
-    {
-      "open": "2024-02-19T11:00:00",
-      "close": "2024-02-19T18:00:00",
-      "operatingDate": "2024-02-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2024-02-24T11:00:00",
       "close": "2024-02-24T18:00:00",
