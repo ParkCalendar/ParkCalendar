@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-02-19 17:55:00 +0000*
+*2024-02-19 20:55:05 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -9,7 +9,7 @@
 | [Six Flags Hurricane Harbor, Los Angeles](https://parkcalendar.com/#11)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
-| [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | x | x | x |
+| [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | ✅ | x | ✅ |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48)<br><sup>Cherry Valley, IL</sup> | x | x | x |
 | [Six Flags Great America](https://parkcalendar.com/#7)<br><sup>Gurnee, IL</sup> | x | x | x |
@@ -19,8 +19,8 @@
 | [Six Flags St. Louis](https://parkcalendar.com/#3)<br><sup>Eureka, MO</sup> | x | x | x |
 | [Six Flags México](https://parkcalendar.com/#28)<br><sup>Ciudad de México, MX</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | x | x | x |
-| [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | ✅ | x | ✅ |
-| [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | ✅ | x | ✅ |
+| [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
+| [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | x | x | x |
 | [The Great Escape](https://parkcalendar.com/#24)<br><sup>Queensbury, NY</sup> | x | x | x |
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
