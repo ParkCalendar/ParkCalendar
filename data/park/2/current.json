@@ -1008,7 +1008,26 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/65",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-03-02T11:00:00",
+      "close": "2024-03-02T20:00:00",
+      "operatingDate": "2024-03-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-03T11:00:00",
+      "close": "2024-03-03T18:00:00",
+      "operatingDate": "2024-03-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
