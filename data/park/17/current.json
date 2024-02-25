@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-02-24T11:00:00",
-      "close": "2024-02-24T18:00:00",
-      "operatingDate": "2024-02-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-02-25T11:00:00",
       "close": "2024-02-25T18:00:00",
       "operatingDate": "2024-02-25T00:00:00",
@@ -76,6 +67,15 @@
       "open": "2024-03-23T11:00:00",
       "close": "2024-03-23T20:00:00",
       "operatingDate": "2024-03-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-03-24T11:00:00",
+      "close": "2024-03-24T18:00:00",
+      "operatingDate": "2024-03-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
