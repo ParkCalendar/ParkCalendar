@@ -587,7 +587,7 @@
     },
     {
       "open": "2024-06-23T11:00:00",
-      "close": "2024-06-23T20:00:00",
+      "close": "2024-06-23T21:00:00",
       "operatingDate": "2024-06-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -650,7 +650,7 @@
     },
     {
       "open": "2024-06-30T11:00:00",
-      "close": "2024-06-30T20:00:00",
+      "close": "2024-06-30T21:00:00",
       "operatingDate": "2024-06-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
