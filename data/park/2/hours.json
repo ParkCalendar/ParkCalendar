@@ -1008,7 +1008,35 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/65",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-03-03T11:00:00",
+      "close": "2024-03-03T18:00:00",
+      "operatingDate": "2024-03-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-09T11:00:00",
+      "close": "2024-03-09T20:00:00",
+      "operatingDate": "2024-03-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-10T11:00:00",
+      "close": "2024-03-10T18:00:00",
+      "operatingDate": "2024-03-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -1064,8 +1092,8 @@
     "name": "July 4th Fireworks Celebration"
   },
   "featuredShow": {
-    "id": 452688,
-    "name": "The Grand Fir Lighting Spectacular"
+    "id": 83330,
+    "name": "Comedy Wild West Show"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
