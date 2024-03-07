@@ -494,6 +494,132 @@
       "waterParkOpen": "2024-06-30T11:00:00",
       "waterParkClose": "2024-06-30T18:00:00",
       "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-01T11:00:00",
+      "close": "2024-07-01T19:00:00",
+      "operatingDate": "2024-07-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-01T11:00:00",
+      "waterParkClose": "2024-07-01T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-02T11:00:00",
+      "close": "2024-07-02T19:00:00",
+      "operatingDate": "2024-07-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-02T11:00:00",
+      "waterParkClose": "2024-07-02T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-03T11:00:00",
+      "close": "2024-07-03T19:00:00",
+      "operatingDate": "2024-07-03T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-03T11:00:00",
+      "waterParkClose": "2024-07-03T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-04T11:00:00",
+      "close": "2024-07-04T21:00:00",
+      "operatingDate": "2024-07-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-04T11:00:00",
+      "waterParkClose": "2024-07-04T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-05T11:00:00",
+      "close": "2024-07-05T21:00:00",
+      "operatingDate": "2024-07-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-05T11:00:00",
+      "waterParkClose": "2024-07-05T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-06T11:00:00",
+      "close": "2024-07-06T21:00:00",
+      "operatingDate": "2024-07-06T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-06T11:00:00",
+      "waterParkClose": "2024-07-06T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-07T11:00:00",
+      "close": "2024-07-07T20:00:00",
+      "operatingDate": "2024-07-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-07T11:00:00",
+      "waterParkClose": "2024-07-07T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-08T11:00:00",
+      "close": "2024-07-08T19:00:00",
+      "operatingDate": "2024-07-08T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-08T11:00:00",
+      "waterParkClose": "2024-07-08T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-09T11:00:00",
+      "close": "2024-07-09T19:00:00",
+      "operatingDate": "2024-07-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-09T11:00:00",
+      "waterParkClose": "2024-07-09T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-10T11:00:00",
+      "close": "2024-07-10T19:00:00",
+      "operatingDate": "2024-07-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-10T11:00:00",
+      "waterParkClose": "2024-07-10T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-11T11:00:00",
+      "close": "2024-07-11T19:00:00",
+      "operatingDate": "2024-07-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-11T11:00:00",
+      "waterParkClose": "2024-07-11T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-12T11:00:00",
+      "close": "2024-07-12T20:00:00",
+      "operatingDate": "2024-07-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-12T11:00:00",
+      "waterParkClose": "2024-07-12T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-13T11:00:00",
+      "close": "2024-07-13T21:00:00",
+      "operatingDate": "2024-07-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-13T11:00:00",
+      "waterParkClose": "2024-07-13T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-07-14T11:00:00",
+      "close": "2024-07-14T20:00:00",
+      "operatingDate": "2024-07-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-07-14T11:00:00",
+      "waterParkClose": "2024-07-14T18:00:00",
+      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFSL",
@@ -662,5 +788,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
