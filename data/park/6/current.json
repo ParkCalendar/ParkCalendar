@@ -2406,5 +2406,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
