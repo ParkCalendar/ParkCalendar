@@ -479,15 +479,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/63",
   "upcomingHours": [
     {
-      "open": "2024-03-09T11:00:00",
-      "close": "2024-03-09T21:00:00",
-      "operatingDate": "2024-03-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-03-10T11:00:00",
       "close": "2024-03-10T21:00:00",
       "operatingDate": "2024-03-10T00:00:00",
@@ -500,6 +491,60 @@
       "open": "2024-03-11T11:00:00",
       "close": "2024-03-11T21:00:00",
       "operatingDate": "2024-03-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-12T11:00:00",
+      "close": "2024-03-12T21:00:00",
+      "operatingDate": "2024-03-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-13T11:00:00",
+      "close": "2024-03-13T21:00:00",
+      "operatingDate": "2024-03-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-14T11:00:00",
+      "close": "2024-03-14T21:00:00",
+      "operatingDate": "2024-03-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-15T11:00:00",
+      "close": "2024-03-15T21:00:00",
+      "operatingDate": "2024-03-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-16T11:00:00",
+      "close": "2024-03-16T21:00:00",
+      "operatingDate": "2024-03-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-17T11:00:00",
+      "close": "2024-03-17T21:00:00",
+      "operatingDate": "2024-03-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
