@@ -1550,18 +1550,27 @@
   "chatUrl": "https://direct.lc.chat/8585046/73",
   "upcomingHours": [
     {
-      "open": "2024-03-09T11:00:00",
-      "close": "2024-03-09T18:00:00",
-      "operatingDate": "2024-03-09T00:00:00",
+      "open": "2024-03-10T11:00:00",
+      "close": "2024-03-10T18:00:00",
+      "operatingDate": "2024-03-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Los_Angeles"
     },
     {
-      "open": "2024-03-10T11:00:00",
-      "close": "2024-03-10T18:00:00",
-      "operatingDate": "2024-03-10T00:00:00",
+      "open": "2024-03-16T11:00:00",
+      "close": "2024-03-16T20:00:00",
+      "operatingDate": "2024-03-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-03-17T11:00:00",
+      "close": "2024-03-17T18:00:00",
+      "operatingDate": "2024-03-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
