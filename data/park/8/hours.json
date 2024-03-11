@@ -1721,15 +1721,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2024-03-10T10:30:00",
-      "close": "2024-03-10T21:00:00",
-      "operatingDate": "2024-03-10T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-03-11T10:30:00",
       "close": "2024-03-11T21:00:00",
       "operatingDate": "2024-03-11T00:00:00",
