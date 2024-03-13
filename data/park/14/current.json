@@ -1081,7 +1081,10 @@
     "id": 443562,
     "name": "¡Viva La Fiesta!"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 375383,
+    "name": "Camp Groove"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
