@@ -10,24 +10,6 @@
       "tzIndicator": "America/Denver"
     },
     {
-      "open": "2024-03-14T11:00:00",
-      "close": "2024-03-14T17:00:00",
-      "operatingDate": "2024-03-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-03-15T11:00:00",
-      "close": "2024-03-15T17:00:00",
-      "operatingDate": "2024-03-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2024-03-16T11:00:00",
       "close": "2024-03-16T17:00:00",
       "operatingDate": "2024-03-16T00:00:00",
@@ -1047,7 +1029,35 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/85",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-03-13T11:00:00",
+      "close": "2024-03-13T17:00:00",
+      "operatingDate": "2024-03-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-03-16T11:00:00",
+      "close": "2024-03-16T17:00:00",
+      "operatingDate": "2024-03-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-03-17T11:00:00",
+      "close": "2024-03-17T17:00:00",
+      "operatingDate": "2024-03-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -1193,5 +1203,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }

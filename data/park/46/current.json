@@ -10,24 +10,6 @@
       "tzIndicator": "America/Denver"
     },
     {
-      "open": "2024-03-14T11:00:00",
-      "close": "2024-03-14T17:00:00",
-      "operatingDate": "2024-03-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-03-15T11:00:00",
-      "close": "2024-03-15T17:00:00",
-      "operatingDate": "2024-03-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2024-03-16T11:00:00",
       "close": "2024-03-16T17:00:00",
       "operatingDate": "2024-03-16T00:00:00",
@@ -1052,24 +1034,6 @@
       "open": "2024-03-13T11:00:00",
       "close": "2024-03-13T17:00:00",
       "operatingDate": "2024-03-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-03-14T11:00:00",
-      "close": "2024-03-14T17:00:00",
-      "operatingDate": "2024-03-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-03-15T11:00:00",
-      "close": "2024-03-15T17:00:00",
-      "operatingDate": "2024-03-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
