@@ -912,7 +912,53 @@
   "freeVirtualQueueUri": "https://fc-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://fc.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/82",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-03-17T12:00:00",
+      "close": "2024-03-17T19:00:00",
+      "operatingDate": "2024-03-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-18T11:00:00",
+      "close": "2024-03-18T18:00:00",
+      "operatingDate": "2024-03-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-22T11:00:00",
+      "close": "2024-03-22T18:00:00",
+      "operatingDate": "2024-03-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-23T11:00:00",
+      "close": "2024-03-23T19:00:00",
+      "operatingDate": "2024-03-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-24T12:00:00",
+      "close": "2024-03-24T19:00:00",
+      "operatingDate": "2024-03-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -964,8 +1010,8 @@
     "name": "Diamondback"
   },
   "featuredEvent": {
-    "id": 103371,
-    "name": "Frontier City Job Fair"
+    "id": 325397,
+    "name": "4th Of July Celebration"
   },
   "featuredShow": {
     "id": 38476,
@@ -1056,5 +1102,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
