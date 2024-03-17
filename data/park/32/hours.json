@@ -545,24 +545,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
     {
-      "open": "2024-03-15T10:00:00",
-      "close": "2024-03-15T18:00:00",
-      "operatingDate": "2024-03-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-03-16T09:00:00",
-      "close": "2024-03-16T18:00:00",
-      "operatingDate": "2024-03-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-03-17T09:00:00",
       "close": "2024-03-17T18:00:00",
       "operatingDate": "2024-03-17T00:00:00",
@@ -575,6 +557,42 @@
       "open": "2024-03-18T10:00:00",
       "close": "2024-03-18T18:00:00",
       "operatingDate": "2024-03-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-03-22T10:00:00",
+      "close": "2024-03-22T18:00:00",
+      "operatingDate": "2024-03-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-03-23T09:00:00",
+      "close": "2024-03-23T18:00:00",
+      "operatingDate": "2024-03-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-03-24T09:00:00",
+      "close": "2024-03-24T18:00:00",
+      "operatingDate": "2024-03-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-03-25T09:00:00",
+      "close": "2024-03-25T18:00:00",
+      "operatingDate": "2024-03-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
