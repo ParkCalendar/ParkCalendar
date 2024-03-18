@@ -1649,15 +1649,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2024-03-17T10:30:00",
-      "close": "2024-03-17T19:00:00",
-      "operatingDate": "2024-03-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-03-23T10:30:00",
       "close": "2024-03-23T20:00:00",
       "operatingDate": "2024-03-23T00:00:00",
@@ -1727,8 +1718,8 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 80563,
-    "name": "Spring Break"
+    "id": 80574,
+    "name": "Roller Coaster Rodeo"
   },
   "featuredShow": {
     "id": 484081,
