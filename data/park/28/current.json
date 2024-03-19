@@ -1,51 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-03-14T11:00:00",
-      "close": "2024-03-14T19:00:00",
-      "operatingDate": "2024-03-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-03-15T10:00:00",
-      "close": "2024-03-15T20:00:00",
-      "operatingDate": "2024-03-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-03-16T10:00:00",
-      "close": "2024-03-16T20:00:00",
-      "operatingDate": "2024-03-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-03-17T10:00:00",
-      "close": "2024-03-17T20:00:00",
-      "operatingDate": "2024-03-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-03-18T10:00:00",
-      "close": "2024-03-18T20:00:00",
-      "operatingDate": "2024-03-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-03-21T11:00:00",
       "close": "2024-03-21T19:00:00",
       "operatingDate": "2024-03-21T00:00:00",
@@ -676,15 +631,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/78",
   "upcomingHours": [
-    {
-      "open": "2024-03-18T10:00:00",
-      "close": "2024-03-18T20:00:00",
-      "operatingDate": "2024-03-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
     {
       "open": "2024-03-21T11:00:00",
       "close": "2024-03-21T19:00:00",
