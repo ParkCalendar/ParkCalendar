@@ -1,8 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-03-21T11:00:00",
-      "close": "2024-03-21T19:00:00",
+      "open": "2024-03-21T10:00:00",
+      "close": "2024-03-21T18:00:00",
       "operatingDate": "2024-03-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -632,8 +632,8 @@
   "chatUrl": "https://direct.lc.chat/8585046/78",
   "upcomingHours": [
     {
-      "open": "2024-03-21T11:00:00",
-      "close": "2024-03-21T19:00:00",
+      "open": "2024-03-21T10:00:00",
+      "close": "2024-03-21T18:00:00",
       "operatingDate": "2024-03-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
