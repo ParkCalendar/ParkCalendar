@@ -1215,6 +1215,51 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-28T11:00:00",
+      "close": "2024-03-28T19:00:00",
+      "operatingDate": "2024-03-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-29T11:00:00",
+      "close": "2024-03-29T19:00:00",
+      "operatingDate": "2024-03-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-30T10:30:00",
+      "close": "2024-03-30T21:00:00",
+      "operatingDate": "2024-03-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-03-31T10:30:00",
+      "close": "2024-03-31T21:00:00",
+      "operatingDate": "2024-03-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-01T10:30:00",
+      "close": "2024-04-01T21:00:00",
+      "operatingDate": "2024-04-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "enableNativeCommerce": false,
