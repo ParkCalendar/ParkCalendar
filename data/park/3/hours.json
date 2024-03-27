@@ -917,6 +917,24 @@
       "waterParkOpen": "2024-08-31T11:00:00",
       "waterParkClose": "2024-08-31T18:00:00",
       "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-01T11:00:00",
+      "close": "2024-09-01T19:00:00",
+      "operatingDate": "2024-09-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-09-01T11:00:00",
+      "waterParkClose": "2024-09-01T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-02T11:00:00",
+      "close": "2024-09-02T19:00:00",
+      "operatingDate": "2024-09-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-09-02T11:00:00",
+      "waterParkClose": "2024-09-02T18:00:00",
+      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFSL",
@@ -936,7 +954,35 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/66",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-03-29T11:00:00",
+      "close": "2024-03-29T19:00:00",
+      "operatingDate": "2024-03-29T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-30T11:00:00",
+      "close": "2024-03-30T19:00:00",
+      "operatingDate": "2024-03-30T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-03-31T11:00:00",
+      "close": "2024-03-31T18:00:00",
+      "operatingDate": "2024-03-31T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -991,7 +1037,10 @@
     "id": 377695,
     "name": "Low Sensory Sundays in April"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 38416,
+    "name": "LOONEY TUNES Character Appearances"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,

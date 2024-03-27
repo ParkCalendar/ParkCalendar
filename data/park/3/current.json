@@ -917,6 +917,24 @@
       "waterParkOpen": "2024-08-31T11:00:00",
       "waterParkClose": "2024-08-31T18:00:00",
       "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-01T11:00:00",
+      "close": "2024-09-01T19:00:00",
+      "operatingDate": "2024-09-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-09-01T11:00:00",
+      "waterParkClose": "2024-09-01T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-02T11:00:00",
+      "close": "2024-09-02T19:00:00",
+      "operatingDate": "2024-09-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-09-02T11:00:00",
+      "waterParkClose": "2024-09-02T18:00:00",
+      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFSL",
