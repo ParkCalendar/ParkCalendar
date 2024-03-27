@@ -1196,6 +1196,24 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-28T10:00:00",
+      "close": "2024-12-28T18:00:00",
+      "operatingDate": "2024-12-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-29T10:00:00",
+      "close": "2024-12-29T18:00:00",
+      "operatingDate": "2024-12-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
     }
   ],
   "abbreviation": "SFHHOX",
