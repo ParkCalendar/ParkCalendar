@@ -1,17 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-03-24T11:00:00",
-      "close": "2024-03-24T18:00:00",
-      "operatingDate": "2024-03-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-03-28T11:00:00",
-      "close": "2024-03-28T19:00:00",
+      "close": "2024-03-28T16:00:00",
       "operatingDate": "2024-03-28T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
@@ -1038,7 +1029,7 @@
   "upcomingHours": [
     {
       "open": "2024-03-28T11:00:00",
-      "close": "2024-03-28T19:00:00",
+      "close": "2024-03-28T16:00:00",
       "operatingDate": "2024-03-28T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
