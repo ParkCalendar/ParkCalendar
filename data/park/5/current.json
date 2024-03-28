@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-03-28T11:00:00",
-      "close": "2024-03-28T19:00:00",
-      "operatingDate": "2024-03-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-03-29T11:00:00",
       "close": "2024-03-29T19:00:00",
       "operatingDate": "2024-03-29T00:00:00",
@@ -1198,15 +1189,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
-    {
-      "open": "2024-03-28T11:00:00",
-      "close": "2024-03-28T19:00:00",
-      "operatingDate": "2024-03-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-03-29T11:00:00",
       "close": "2024-03-29T19:00:00",
