@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2024-03-29T11:00:00",
-      "close": "2024-03-29T18:00:00",
+      "close": "2024-03-29T14:00:00",
       "operatingDate": "2024-03-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1479,7 +1479,7 @@
   "upcomingHours": [
     {
       "open": "2024-03-29T11:00:00",
-      "close": "2024-03-29T18:00:00",
+      "close": "2024-03-29T14:00:00",
       "operatingDate": "2024-03-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
