@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-03-28T09:00:00",
-      "close": "2024-03-28T18:00:00",
-      "operatingDate": "2024-03-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-03-29T09:00:00",
       "close": "2024-03-29T18:00:00",
       "operatingDate": "2024-03-29T00:00:00",
@@ -478,7 +469,7 @@
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2024-07-19T09:00:00",
+      "open": "2024-07-19T10:00:00",
       "close": "2024-07-19T18:00:00",
       "operatingDate": "2024-07-19T00:00:00",
       "hasWaterPark": false,
@@ -1282,15 +1273,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
-    {
-      "open": "2024-03-28T09:00:00",
-      "close": "2024-03-28T18:00:00",
-      "operatingDate": "2024-03-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
     {
       "open": "2024-03-29T09:00:00",
       "close": "2024-03-29T18:00:00",
