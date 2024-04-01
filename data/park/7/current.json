@@ -1045,7 +1045,10 @@
     "id": 317166,
     "name": "Fright Fest"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 129144,
+    "name": "Party Gras"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
