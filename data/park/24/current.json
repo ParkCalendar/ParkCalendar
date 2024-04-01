@@ -1077,10 +1077,7 @@
     "id": 9546,
     "name": "Comet"
   },
-  "featuredEvent": {
-    "id": 423182,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 444315,
     "name": "Boo Fest Activities"
