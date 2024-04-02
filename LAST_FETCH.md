@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-04-01 23:54:51 +0000*
+*2024-04-02 02:15:31 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -22,7 +22,7 @@
 | [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
 | [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | x | x | x |
-| [The Great Escape](https://parkcalendar.com/#24)<br><sup>Queensbury, NY</sup> | ✅ | x | x |
+| [The Great Escape](https://parkcalendar.com/#24)<br><sup>Queensbury, NY</sup> | x | x | x |
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oklahoma City](https://parkcalendar.com/#44)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [La Ronde, Montreal](https://parkcalendar.com/#29)<br><sup>Montreal, QC</sup> | x | x | x |
