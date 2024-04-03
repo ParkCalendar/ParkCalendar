@@ -38,7 +38,7 @@
     },
     {
       "open": "2024-05-25T11:00:00",
-      "close": "2024-05-25T18:00:00",
+      "close": "2024-05-25T19:00:00",
       "operatingDate": "2024-05-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -47,7 +47,7 @@
     },
     {
       "open": "2024-05-26T11:00:00",
-      "close": "2024-05-26T18:00:00",
+      "close": "2024-05-26T19:00:00",
       "operatingDate": "2024-05-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -210,5 +210,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
