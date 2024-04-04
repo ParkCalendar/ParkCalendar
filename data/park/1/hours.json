@@ -145,6 +145,15 @@
       "tzIndicator": "America/Chicago"
     },
     {
+      "open": "2024-05-10T00:00:00",
+      "close": "2024-05-10T23:00:00",
+      "operatingDate": "2024-05-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
       "open": "2024-05-11T11:00:00",
       "close": "2024-05-11T21:00:00",
       "operatingDate": "2024-05-11T00:00:00",
