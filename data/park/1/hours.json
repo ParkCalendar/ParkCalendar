@@ -118,7 +118,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-05-03T11:00:00",
+      "open": "2024-05-03T10:30:00",
       "close": "2024-05-03T18:00:00",
       "operatingDate": "2024-05-03T00:00:00",
       "hasWaterPark": false,
@@ -172,7 +172,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-05-16T11:00:00",
+      "open": "2024-05-16T10:30:00",
       "close": "2024-05-16T18:00:00",
       "operatingDate": "2024-05-16T00:00:00",
       "hasWaterPark": false,
@@ -181,7 +181,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-05-17T11:00:00",
+      "open": "2024-05-17T10:30:00",
       "close": "2024-05-17T18:00:00",
       "operatingDate": "2024-05-17T00:00:00",
       "hasWaterPark": false,
@@ -208,7 +208,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-05-23T11:00:00",
+      "open": "2024-05-23T10:30:00",
       "close": "2024-05-23T18:00:00",
       "operatingDate": "2024-05-23T00:00:00",
       "hasWaterPark": false,
