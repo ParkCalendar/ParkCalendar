@@ -1278,7 +1278,53 @@
   "freeVirtualQueueUri": "https://ne-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://ne.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/74",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-04-07T11:00:00",
+      "close": "2024-04-07T19:00:00",
+      "operatingDate": "2024-04-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-12T11:00:00",
+      "close": "2024-04-12T19:00:00",
+      "operatingDate": "2024-04-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-13T11:00:00",
+      "close": "2024-04-13T19:00:00",
+      "operatingDate": "2024-04-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-14T11:00:00",
+      "close": "2024-04-14T19:00:00",
+      "operatingDate": "2024-04-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-15T11:00:00",
+      "close": "2024-04-15T19:00:00",
+      "operatingDate": "2024-04-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -1330,8 +1376,8 @@
     "name": "BATMAN THE DARK KNIGHT™"
   },
   "featuredEvent": {
-    "id": 325568,
-    "name": "July 4th Firework Celebration"
+    "id": 325562,
+    "name": "Spring Break"
   },
   "featuredShow": {
     "id": 108946,
@@ -1427,5 +1473,6 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
