@@ -1131,6 +1131,7 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
   "toastMessages": null
 }
