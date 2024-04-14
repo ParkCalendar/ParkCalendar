@@ -1649,27 +1649,27 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2024-04-08T11:00:00",
-      "close": "2024-04-08T16:00:00",
-      "operatingDate": "2024-04-08T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-04-13T10:30:00",
-      "close": "2024-04-13T20:00:00",
-      "operatingDate": "2024-04-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-04-14T10:30:00",
       "close": "2024-04-14T18:00:00",
       "operatingDate": "2024-04-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-04-20T10:30:00",
+      "close": "2024-04-20T20:00:00",
+      "operatingDate": "2024-04-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-04-21T10:30:00",
+      "close": "2024-04-21T18:00:00",
+      "operatingDate": "2024-04-21T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1824,6 +1824,7 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
   "toastMessages": null
 }
