@@ -1136,18 +1136,36 @@
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
     {
-      "open": "2024-04-13T10:30:00",
-      "close": "2024-04-13T20:00:00",
-      "operatingDate": "2024-04-13T00:00:00",
+      "open": "2024-04-14T10:30:00",
+      "close": "2024-04-14T20:00:00",
+      "operatingDate": "2024-04-14T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-04-14T10:30:00",
-      "close": "2024-04-14T20:00:00",
-      "operatingDate": "2024-04-14T00:00:00",
+      "open": "2024-04-20T10:30:00",
+      "close": "2024-04-20T20:00:00",
+      "operatingDate": "2024-04-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-21T10:30:00",
+      "close": "2024-04-21T20:00:00",
+      "operatingDate": "2024-04-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-04-22T11:00:00",
+      "close": "2024-04-22T19:00:00",
+      "operatingDate": "2024-04-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1302,6 +1320,7 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
   "toastMessages": null
 }
