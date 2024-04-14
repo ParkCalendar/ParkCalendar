@@ -990,7 +990,26 @@
   "freeVirtualQueueUri": "https://gr-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://gr.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/69",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-04-20T10:30:00",
+      "close": "2024-04-20T20:00:00",
+      "operatingDate": "2024-04-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-04-21T10:30:00",
+      "close": "2024-04-21T19:00:00",
+      "operatingDate": "2024-04-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
