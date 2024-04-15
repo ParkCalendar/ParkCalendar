@@ -154,15 +154,6 @@
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-06-19T11:00:00",
-      "close": "2024-06-19T19:00:00",
-      "operatingDate": "2024-06-19T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-19T11:30:00",
-      "waterParkClose": "2024-06-19T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-06-21T11:00:00",
       "close": "2024-06-21T21:00:00",
       "operatingDate": "2024-06-21T00:00:00",
@@ -187,15 +178,6 @@
       "hasWaterPark": true,
       "waterParkOpen": "2024-06-23T11:30:00",
       "waterParkClose": "2024-06-23T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-06-24T11:00:00",
-      "close": "2024-06-24T19:00:00",
-      "operatingDate": "2024-06-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-24T11:30:00",
-      "waterParkClose": "2024-06-24T19:00:00",
       "tzIndicator": "America/New_York"
     },
     {
@@ -854,15 +836,6 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-10-14T12:00:00",
-      "close": "2024-10-14T18:00:00",
-      "operatingDate": "2024-10-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFDL",
@@ -927,7 +900,10 @@
     "id": 11400,
     "name": "Mind Eraser"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 440820,
+    "name": "Fright Fest"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -1017,5 +993,7 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
+  "promotionBanner": null,
   "toastMessages": null
 }
