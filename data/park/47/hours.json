@@ -3401,15 +3401,6 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-28T11:00:00",
-      "close": "2025-05-28T18:00:00",
-      "operatingDate": "2025-05-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFWWST",
@@ -3561,6 +3552,7 @@
   "speedyDailyStoreUrl": null,
   "speedySeasonStoreUrl": null,
   "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
   "toastMessages": null
 }
