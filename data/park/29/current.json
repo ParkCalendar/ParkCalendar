@@ -91,15 +91,6 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-06-13T10:00:00",
-      "close": "2024-06-13T17:00:00",
-      "operatingDate": "2024-06-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2024-06-14T10:00:00",
       "close": "2024-06-14T18:00:00",
       "operatingDate": "2024-06-14T00:00:00",
@@ -173,7 +164,7 @@
     },
     {
       "open": "2024-06-22T10:30:00",
-      "close": "2024-06-22T21:00:00",
+      "close": "2024-06-22T20:00:00",
       "operatingDate": "2024-06-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -182,7 +173,7 @@
     },
     {
       "open": "2024-06-23T10:30:00",
-      "close": "2024-06-23T21:00:00",
+      "close": "2024-06-23T20:00:00",
       "operatingDate": "2024-06-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -209,7 +200,7 @@
     },
     {
       "open": "2024-06-26T10:30:00",
-      "close": "2024-06-26T18:00:00",
+      "close": "2024-06-26T19:00:00",
       "operatingDate": "2024-06-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -227,7 +218,7 @@
     },
     {
       "open": "2024-06-28T10:30:00",
-      "close": "2024-06-28T21:00:00",
+      "close": "2024-06-28T20:00:00",
       "operatingDate": "2024-06-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -236,7 +227,7 @@
     },
     {
       "open": "2024-06-29T10:30:00",
-      "close": "2024-06-29T21:00:00",
+      "close": "2024-06-29T20:00:00",
       "operatingDate": "2024-06-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -245,7 +236,7 @@
     },
     {
       "open": "2024-06-30T10:30:00",
-      "close": "2024-06-30T21:00:00",
+      "close": "2024-06-30T20:00:00",
       "operatingDate": "2024-06-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -290,7 +281,7 @@
     },
     {
       "open": "2024-07-05T10:30:00",
-      "close": "2024-07-05T21:00:00",
+      "close": "2024-07-05T20:00:00",
       "operatingDate": "2024-07-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -299,7 +290,7 @@
     },
     {
       "open": "2024-07-06T10:30:00",
-      "close": "2024-07-06T21:00:00",
+      "close": "2024-07-06T20:00:00",
       "operatingDate": "2024-07-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -353,7 +344,7 @@
     },
     {
       "open": "2024-07-12T10:30:00",
-      "close": "2024-07-12T21:00:00",
+      "close": "2024-07-12T20:00:00",
       "operatingDate": "2024-07-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -362,7 +353,7 @@
     },
     {
       "open": "2024-07-13T10:30:00",
-      "close": "2024-07-13T21:00:00",
+      "close": "2024-07-13T20:00:00",
       "operatingDate": "2024-07-13T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -416,7 +407,7 @@
     },
     {
       "open": "2024-07-19T10:30:00",
-      "close": "2024-07-19T21:00:00",
+      "close": "2024-07-19T20:00:00",
       "operatingDate": "2024-07-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -434,7 +425,7 @@
     },
     {
       "open": "2024-07-21T10:30:00",
-      "close": "2024-07-21T21:00:00",
+      "close": "2024-07-21T20:00:00",
       "operatingDate": "2024-07-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -479,7 +470,7 @@
     },
     {
       "open": "2024-07-26T10:30:00",
-      "close": "2024-07-26T21:00:00",
+      "close": "2024-07-26T20:00:00",
       "operatingDate": "2024-07-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -497,7 +488,7 @@
     },
     {
       "open": "2024-07-28T10:30:00",
-      "close": "2024-07-28T21:00:00",
+      "close": "2024-07-28T20:00:00",
       "operatingDate": "2024-07-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -542,7 +533,7 @@
     },
     {
       "open": "2024-08-02T10:30:00",
-      "close": "2024-08-02T21:00:00",
+      "close": "2024-08-02T20:00:00",
       "operatingDate": "2024-08-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -551,7 +542,7 @@
     },
     {
       "open": "2024-08-03T10:30:00",
-      "close": "2024-08-03T21:00:00",
+      "close": "2024-08-03T20:00:00",
       "operatingDate": "2024-08-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -560,7 +551,7 @@
     },
     {
       "open": "2024-08-04T10:30:00",
-      "close": "2024-08-04T21:00:00",
+      "close": "2024-08-04T20:00:00",
       "operatingDate": "2024-08-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -605,7 +596,7 @@
     },
     {
       "open": "2024-08-09T10:30:00",
-      "close": "2024-08-09T21:00:00",
+      "close": "2024-08-09T20:00:00",
       "operatingDate": "2024-08-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -614,7 +605,7 @@
     },
     {
       "open": "2024-08-10T10:30:00",
-      "close": "2024-08-10T21:00:00",
+      "close": "2024-08-10T20:00:00",
       "operatingDate": "2024-08-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -623,7 +614,7 @@
     },
     {
       "open": "2024-08-11T10:30:00",
-      "close": "2024-08-11T21:00:00",
+      "close": "2024-08-11T20:00:00",
       "operatingDate": "2024-08-11T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -668,7 +659,7 @@
     },
     {
       "open": "2024-08-16T10:30:00",
-      "close": "2024-08-16T21:00:00",
+      "close": "2024-08-16T20:00:00",
       "operatingDate": "2024-08-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -677,7 +668,7 @@
     },
     {
       "open": "2024-08-17T10:30:00",
-      "close": "2024-08-17T21:00:00",
+      "close": "2024-08-17T20:00:00",
       "operatingDate": "2024-08-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -686,7 +677,7 @@
     },
     {
       "open": "2024-08-18T10:30:00",
-      "close": "2024-08-18T21:00:00",
+      "close": "2024-08-18T20:00:00",
       "operatingDate": "2024-08-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -722,7 +713,7 @@
     },
     {
       "open": "2024-08-22T10:30:00",
-      "close": "2024-08-22T18:00:00",
+      "close": "2024-08-22T20:00:00",
       "operatingDate": "2024-08-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -731,7 +722,7 @@
     },
     {
       "open": "2024-08-23T10:30:00",
-      "close": "2024-08-23T21:00:00",
+      "close": "2024-08-23T20:00:00",
       "operatingDate": "2024-08-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -740,7 +731,7 @@
     },
     {
       "open": "2024-08-24T10:30:00",
-      "close": "2024-08-24T21:00:00",
+      "close": "2024-08-24T20:00:00",
       "operatingDate": "2024-08-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -749,7 +740,7 @@
     },
     {
       "open": "2024-08-25T10:30:00",
-      "close": "2024-08-25T21:00:00",
+      "close": "2024-08-25T20:00:00",
       "operatingDate": "2024-08-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -758,7 +749,7 @@
     },
     {
       "open": "2024-08-31T10:30:00",
-      "close": "2024-08-31T21:00:00",
+      "close": "2024-08-31T20:00:00",
       "operatingDate": "2024-08-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -767,7 +758,7 @@
     },
     {
       "open": "2024-09-01T10:30:00",
-      "close": "2024-09-01T21:00:00",
+      "close": "2024-09-01T20:00:00",
       "operatingDate": "2024-09-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -793,7 +784,7 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-08T10:30:00",
+      "open": "2024-09-08T11:00:00",
       "close": "2024-09-08T19:00:00",
       "operatingDate": "2024-09-08T00:00:00",
       "hasWaterPark": false,
@@ -811,7 +802,7 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-15T10:30:00",
+      "open": "2024-09-15T11:00:00",
       "close": "2024-09-15T19:00:00",
       "operatingDate": "2024-09-15T00:00:00",
       "hasWaterPark": false,
@@ -829,7 +820,7 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-22T10:30:00",
+      "open": "2024-09-22T11:00:00",
       "close": "2024-09-22T19:00:00",
       "operatingDate": "2024-09-22T00:00:00",
       "hasWaterPark": false,
@@ -838,7 +829,7 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-28T10:30:00",
+      "open": "2024-09-28T11:00:00",
       "close": "2024-09-28T20:00:00",
       "operatingDate": "2024-09-28T00:00:00",
       "hasWaterPark": false,
@@ -847,7 +838,7 @@
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-29T10:30:00",
+      "open": "2024-09-29T11:00:00",
       "close": "2024-09-29T19:00:00",
       "operatingDate": "2024-09-29T00:00:00",
       "hasWaterPark": false,
