@@ -402,10 +402,7 @@
     "id": 9849,
     "name": "Atlanta Ocean Wave Pool"
   },
-  "featuredEvent": {
-    "id": 322234,
-    "name": "National Water Park Day"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
