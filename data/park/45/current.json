@@ -32,8 +32,8 @@
       "close": "2024-05-20T17:00:00",
       "operatingDate": "2024-05-20T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2024-05-20T11:30:00",
-      "waterParkClose": "2024-05-20T17:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
@@ -77,8 +77,8 @@
       "close": "2024-05-31T21:00:00",
       "operatingDate": "2024-05-31T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2024-05-31T11:30:00",
-      "waterParkClose": "2024-05-31T19:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
