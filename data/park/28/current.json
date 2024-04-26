@@ -1034,6 +1034,78 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-07T10:00:00",
+      "close": "2024-11-07T23:59:00",
+      "operatingDate": "2024-11-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-15T10:00:00",
+      "close": "2024-11-15T18:00:00",
+      "operatingDate": "2024-11-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-16T10:00:00",
+      "close": "2024-11-16T20:00:00",
+      "operatingDate": "2024-11-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-17T10:00:00",
+      "close": "2024-11-17T20:00:00",
+      "operatingDate": "2024-11-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-18T10:00:00",
+      "close": "2024-11-18T20:00:00",
+      "operatingDate": "2024-11-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-22T10:00:00",
+      "close": "2024-11-22T22:00:00",
+      "operatingDate": "2024-11-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-23T10:00:00",
+      "close": "2024-11-23T22:00:00",
+      "operatingDate": "2024-11-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-24T10:00:00",
+      "close": "2024-11-24T22:00:00",
+      "operatingDate": "2024-11-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
     }
   ],
   "abbreviation": "SFMX",
