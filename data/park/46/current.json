@@ -896,15 +896,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/85",
   "upcomingHours": [
     {
-      "open": "2024-04-28T11:00:00",
-      "close": "2024-04-28T17:00:00",
-      "operatingDate": "2024-04-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2024-05-04T11:00:00",
       "close": "2024-05-04T17:00:00",
       "operatingDate": "2024-05-04T00:00:00",
