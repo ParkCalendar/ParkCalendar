@@ -1161,7 +1161,10 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 86949,
+    "name": "Splash Island"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
