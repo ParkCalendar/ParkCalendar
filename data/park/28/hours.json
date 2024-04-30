@@ -1106,6 +1106,402 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-29T10:00:00",
+      "close": "2024-11-29T22:00:00",
+      "operatingDate": "2024-11-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-11-30T10:00:00",
+      "close": "2024-11-30T22:00:00",
+      "operatingDate": "2024-11-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-01T10:00:00",
+      "close": "2024-12-01T22:00:00",
+      "operatingDate": "2024-12-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-04T10:00:00",
+      "close": "2024-12-04T22:00:00",
+      "operatingDate": "2024-12-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-05T10:00:00",
+      "close": "2024-12-05T22:00:00",
+      "operatingDate": "2024-12-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-06T10:00:00",
+      "close": "2024-12-06T22:00:00",
+      "operatingDate": "2024-12-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-07T10:00:00",
+      "close": "2024-12-07T22:00:00",
+      "operatingDate": "2024-12-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-08T10:00:00",
+      "close": "2024-12-08T22:00:00",
+      "operatingDate": "2024-12-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-11T10:00:00",
+      "close": "2024-12-11T22:00:00",
+      "operatingDate": "2024-12-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-12T10:00:00",
+      "close": "2024-12-12T22:00:00",
+      "operatingDate": "2024-12-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-13T10:00:00",
+      "close": "2024-12-13T22:00:00",
+      "operatingDate": "2024-12-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-14T10:00:00",
+      "close": "2024-12-14T22:00:00",
+      "operatingDate": "2024-12-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-15T10:00:00",
+      "close": "2024-12-15T22:00:00",
+      "operatingDate": "2024-12-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-17T10:00:00",
+      "close": "2024-12-17T22:00:00",
+      "operatingDate": "2024-12-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-18T10:00:00",
+      "close": "2024-12-18T22:00:00",
+      "operatingDate": "2024-12-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-19T10:00:00",
+      "close": "2024-12-19T22:00:00",
+      "operatingDate": "2024-12-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-20T10:00:00",
+      "close": "2024-12-20T22:00:00",
+      "operatingDate": "2024-12-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-21T10:00:00",
+      "close": "2024-12-21T22:00:00",
+      "operatingDate": "2024-12-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-22T10:00:00",
+      "close": "2024-12-22T22:00:00",
+      "operatingDate": "2024-12-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-23T10:00:00",
+      "close": "2024-12-23T22:00:00",
+      "operatingDate": "2024-12-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-25T11:00:00",
+      "close": "2024-12-25T22:00:00",
+      "operatingDate": "2024-12-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-26T10:00:00",
+      "close": "2024-12-26T22:00:00",
+      "operatingDate": "2024-12-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-27T10:00:00",
+      "close": "2024-12-27T22:00:00",
+      "operatingDate": "2024-12-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-28T10:00:00",
+      "close": "2024-12-28T22:00:00",
+      "operatingDate": "2024-12-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-29T10:00:00",
+      "close": "2024-12-29T22:00:00",
+      "operatingDate": "2024-12-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-30T10:00:00",
+      "close": "2024-12-30T22:00:00",
+      "operatingDate": "2024-12-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-12-31T10:00:00",
+      "close": "2024-12-31T19:00:00",
+      "operatingDate": "2024-12-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-01T11:00:00",
+      "close": "2025-01-01T22:00:00",
+      "operatingDate": "2025-01-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-02T10:00:00",
+      "close": "2025-01-02T22:00:00",
+      "operatingDate": "2025-01-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-03T10:00:00",
+      "close": "2025-01-03T22:00:00",
+      "operatingDate": "2025-01-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-04T10:00:00",
+      "close": "2025-01-04T22:00:00",
+      "operatingDate": "2025-01-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-05T10:00:00",
+      "close": "2025-01-05T22:00:00",
+      "operatingDate": "2025-01-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-09T10:00:00",
+      "close": "2025-01-09T22:00:00",
+      "operatingDate": "2025-01-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-10T10:00:00",
+      "close": "2025-01-10T22:00:00",
+      "operatingDate": "2025-01-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-11T10:00:00",
+      "close": "2025-01-11T22:00:00",
+      "operatingDate": "2025-01-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-12T10:00:00",
+      "close": "2025-01-12T22:00:00",
+      "operatingDate": "2025-01-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-16T10:00:00",
+      "close": "2025-01-16T22:00:00",
+      "operatingDate": "2025-01-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-17T10:00:00",
+      "close": "2025-01-17T22:00:00",
+      "operatingDate": "2025-01-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-18T10:00:00",
+      "close": "2025-01-18T22:00:00",
+      "operatingDate": "2025-01-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-19T10:00:00",
+      "close": "2025-01-19T22:00:00",
+      "operatingDate": "2025-01-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-23T10:00:00",
+      "close": "2025-01-23T18:00:00",
+      "operatingDate": "2025-01-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-24T10:00:00",
+      "close": "2025-01-24T20:00:00",
+      "operatingDate": "2025-01-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-25T10:00:00",
+      "close": "2025-01-25T20:00:00",
+      "operatingDate": "2025-01-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-01-26T10:00:00",
+      "close": "2025-01-26T20:00:00",
+      "operatingDate": "2025-01-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
     }
   ],
   "abbreviation": "SFMX",
