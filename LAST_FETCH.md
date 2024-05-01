@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-05-01 15:54:51 +0000*
+*2024-05-01 17:55:09 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -26,7 +26,7 @@
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oklahoma City](https://parkcalendar.com/#44)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [La Ronde, Montreal](https://parkcalendar.com/#29)<br><sup>Montreal, QC</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | ✅ | x | ✅ |
-| [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | ✅ | x | x |
+| [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | x | x | x |
+| [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | ✅ | x | ✅ |
 | [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | x | x | x |
