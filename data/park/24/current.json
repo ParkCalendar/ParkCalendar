@@ -1077,7 +1077,10 @@
     "id": 9546,
     "name": "Comet"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 318926,
+    "name": "Wild West Fest"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
