@@ -806,18 +806,27 @@
   "chatUrl": "https://direct.lc.chat/8585046/82",
   "upcomingHours": [
     {
-      "open": "2024-05-04T11:00:00",
-      "close": "2024-05-04T19:00:00",
-      "operatingDate": "2024-05-04T00:00:00",
+      "open": "2024-05-05T12:00:00",
+      "close": "2024-05-05T19:00:00",
+      "operatingDate": "2024-05-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-05-05T12:00:00",
-      "close": "2024-05-05T19:00:00",
-      "operatingDate": "2024-05-05T00:00:00",
+      "open": "2024-05-11T11:00:00",
+      "close": "2024-05-11T19:00:00",
+      "operatingDate": "2024-05-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-12T12:00:00",
+      "close": "2024-05-12T19:00:00",
+      "operatingDate": "2024-05-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
