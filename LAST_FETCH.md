@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-05-06 15:55:02 +0000*
+*2024-05-06 17:54:49 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -29,4 +29,4 @@
 | [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | x | x | x |
