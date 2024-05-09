@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-01T10:00:00",
-      "close": "2024-05-01T18:00:00",
-      "operatingDate": "2024-05-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-04T10:00:00",
-      "close": "2024-05-04T18:00:00",
-      "operatingDate": "2024-05-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-05T10:00:00",
-      "close": "2024-05-05T18:00:00",
-      "operatingDate": "2024-05-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-05-11T10:00:00",
       "close": "2024-05-11T18:00:00",
       "operatingDate": "2024-05-11T00:00:00",
@@ -76,6 +49,15 @@
       "open": "2024-05-26T10:00:00",
       "close": "2024-05-26T18:00:00",
       "operatingDate": "2024-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-05-31T10:00:00",
+      "close": "2024-05-31T18:00:00",
+      "operatingDate": "2024-05-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -346,15 +328,6 @@
       "open": "2024-07-30T10:00:00",
       "close": "2024-07-30T18:00:00",
       "operatingDate": "2024-07-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-31T10:00:00",
-      "close": "2024-07-31T18:00:00",
-      "operatingDate": "2024-07-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1107,10 +1080,7 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": {
-    "id": 7469,
-    "name": "Anaconda"
-  },
+  "featuredRide": null,
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
