@@ -1080,7 +1080,10 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 86972,
+    "name": "Big Surf"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
