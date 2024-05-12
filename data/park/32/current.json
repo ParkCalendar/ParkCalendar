@@ -1022,18 +1022,27 @@
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
     {
-      "open": "2024-05-11T10:00:00",
-      "close": "2024-05-11T18:00:00",
-      "operatingDate": "2024-05-11T00:00:00",
+      "open": "2024-05-12T10:00:00",
+      "close": "2024-05-12T18:00:00",
+      "operatingDate": "2024-05-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2024-05-12T10:00:00",
-      "close": "2024-05-12T18:00:00",
-      "operatingDate": "2024-05-12T00:00:00",
+      "open": "2024-05-18T10:00:00",
+      "close": "2024-05-18T18:00:00",
+      "operatingDate": "2024-05-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2024-05-19T10:00:00",
+      "close": "2024-05-19T18:00:00",
+      "operatingDate": "2024-05-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
