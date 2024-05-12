@@ -896,18 +896,36 @@
   "chatUrl": "https://direct.lc.chat/8585046/85",
   "upcomingHours": [
     {
-      "open": "2024-05-11T11:00:00",
-      "close": "2024-05-11T17:00:00",
-      "operatingDate": "2024-05-11T00:00:00",
+      "open": "2024-05-12T11:00:00",
+      "close": "2024-05-12T17:00:00",
+      "operatingDate": "2024-05-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Denver"
     },
     {
-      "open": "2024-05-12T11:00:00",
-      "close": "2024-05-12T17:00:00",
-      "operatingDate": "2024-05-12T00:00:00",
+      "open": "2024-05-18T11:00:00",
+      "close": "2024-05-18T17:00:00",
+      "operatingDate": "2024-05-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-05-19T11:00:00",
+      "close": "2024-05-19T17:00:00",
+      "operatingDate": "2024-05-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-05-20T11:00:00",
+      "close": "2024-05-20T17:00:00",
+      "operatingDate": "2024-05-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
