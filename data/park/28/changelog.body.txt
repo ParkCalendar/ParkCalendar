@@ -1,3 +1,6 @@
+<div class='changelog-entry' data-change='20240514-165524'><h2>Tue May 14 2024 @ 04:55 PM</h2><pre>
+20240517 -- 10:00a - 08:00p  |  20240517 -- 10:00a - 06:00p
+</pre></div>
 <div class='changelog-entry' data-change='20240429-191620'><h2>Mon Apr 29 2024 @ 07:16 PM</h2><pre>
                              >  20241129 -- 10:00a - 10:00p
                              >  20241130 -- 10:00a - 10:00p

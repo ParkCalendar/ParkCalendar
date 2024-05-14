@@ -1,69 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-01T10:00:00",
-      "close": "2024-05-01T20:00:00",
-      "operatingDate": "2024-05-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-02T10:00:00",
-      "close": "2024-05-02T18:00:00",
-      "operatingDate": "2024-05-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-03T10:00:00",
-      "close": "2024-05-03T20:00:00",
-      "operatingDate": "2024-05-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-04T10:00:00",
-      "close": "2024-05-04T20:00:00",
-      "operatingDate": "2024-05-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-05T10:00:00",
-      "close": "2024-05-05T20:00:00",
-      "operatingDate": "2024-05-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-11T10:00:00",
-      "close": "2024-05-11T20:00:00",
-      "operatingDate": "2024-05-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-05-12T10:00:00",
-      "close": "2024-05-12T20:00:00",
-      "operatingDate": "2024-05-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-05-15T10:00:00",
       "close": "2024-05-15T20:00:00",
       "operatingDate": "2024-05-15T00:00:00",
@@ -83,7 +20,7 @@
     },
     {
       "open": "2024-05-17T10:00:00",
-      "close": "2024-05-17T20:00:00",
+      "close": "2024-05-17T18:00:00",
       "operatingDate": "2024-05-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1542,7 +1479,7 @@
     },
     {
       "open": "2024-05-17T10:00:00",
-      "close": "2024-05-17T20:00:00",
+      "close": "2024-05-17T18:00:00",
       "operatingDate": "2024-05-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
