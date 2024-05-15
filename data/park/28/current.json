@@ -1550,7 +1550,10 @@
     "name": "*Batman The Ride"
   },
   "featuredEvent": null,
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 378096,
+    "name": "Colors Party"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
