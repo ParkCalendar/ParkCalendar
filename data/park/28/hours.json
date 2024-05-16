@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-15T10:00:00",
-      "close": "2024-05-15T20:00:00",
-      "operatingDate": "2024-05-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-05-16T10:00:00",
       "close": "2024-05-16T18:00:00",
       "operatingDate": "2024-05-16T00:00:00",
@@ -202,15 +193,6 @@
       "open": "2024-06-21T10:00:00",
       "close": "2024-06-21T20:00:00",
       "operatingDate": "2024-06-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-06-22T10:00:00",
-      "close": "2024-06-22T20:00:00",
-      "operatingDate": "2024-06-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1460,15 +1442,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/78",
   "upcomingHours": [
     {
-      "open": "2024-05-15T10:00:00",
-      "close": "2024-05-15T20:00:00",
-      "operatingDate": "2024-05-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-05-16T10:00:00",
       "close": "2024-05-16T18:00:00",
       "operatingDate": "2024-05-16T00:00:00",
@@ -1551,8 +1524,8 @@
   },
   "featuredEvent": null,
   "featuredShow": {
-    "id": 378096,
-    "name": "Colors Party"
+    "id": 375615,
+    "name": "Héroes y Villanos Parade"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
