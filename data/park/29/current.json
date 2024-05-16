@@ -91,6 +91,15 @@
       "tzIndicator": "America/Toronto"
     },
     {
+      "open": "2024-06-13T10:00:00",
+      "close": "2024-06-13T17:00:00",
+      "operatingDate": "2024-06-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
       "open": "2024-06-14T10:00:00",
       "close": "2024-06-14T18:00:00",
       "operatingDate": "2024-06-14T00:00:00",
@@ -1020,10 +1029,7 @@
     "id": 84044,
     "name": "Démon"
   },
-  "featuredEvent": {
-    "id": 357591,
-    "name": "L’International des Feux Loto-Québec"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
