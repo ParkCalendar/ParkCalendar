@@ -1026,10 +1026,13 @@
     "longitude": -73.535
   },
   "featuredRide": {
-    "id": 84044,
+    "id": 98536,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 357567,
+    "name": "L’International des Feux Loto-Québec"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
