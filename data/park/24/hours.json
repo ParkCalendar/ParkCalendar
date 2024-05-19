@@ -1019,21 +1019,57 @@
   "chatUrl": "https://direct.lc.chat/8585046/76",
   "upcomingHours": [
     {
-      "open": "2024-05-18T11:00:00",
-      "close": "2024-05-18T18:00:00",
-      "operatingDate": "2024-05-18T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-05-19T11:00:00",
       "close": "2024-05-19T18:00:00",
       "operatingDate": "2024-05-19T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-23T10:00:00",
+      "close": "2024-05-23T17:00:00",
+      "operatingDate": "2024-05-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-24T10:00:00",
+      "close": "2024-05-24T17:00:00",
+      "operatingDate": "2024-05-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-25T11:00:00",
+      "close": "2024-05-25T19:00:00",
+      "operatingDate": "2024-05-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-05-25T12:00:00",
+      "waterParkClose": "2024-05-25T18:00:00",
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-26T11:00:00",
+      "close": "2024-05-26T19:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-05-26T12:00:00",
+      "waterParkClose": "2024-05-26T18:00:00",
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-05-27T11:00:00",
+      "close": "2024-05-27T18:00:00",
+      "operatingDate": "2024-05-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-05-27T12:00:00",
+      "waterParkClose": "2024-05-27T17:30:00",
       "tzIndicator": "America/New_York"
     }
   ],
@@ -1084,8 +1120,8 @@
     "longitude": -73.6911
   },
   "featuredRide": {
-    "id": 9546,
-    "name": "Comet"
+    "id": 9558,
+    "name": "Condor"
   },
   "featuredEvent": {
     "id": 324193,
