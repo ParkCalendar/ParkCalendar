@@ -696,7 +696,35 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/87",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-05-25T11:00:00",
+      "close": "2024-05-25T17:00:00",
+      "operatingDate": "2024-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-26T11:00:00",
+      "close": "2024-05-26T17:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-27T11:00:00",
+      "close": "2024-05-27T17:00:00",
+      "operatingDate": "2024-05-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
