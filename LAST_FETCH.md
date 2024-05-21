@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-05-20 23:54:46 +0000*
+*2024-05-21 02:19:18 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -13,7 +13,7 @@
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48)<br><sup>Cherry Valley, IL</sup> | x | x | x |
 | [Six Flags Great America](https://parkcalendar.com/#7)<br><sup>Gurnee, IL</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13)<br><sup>Gurnee, IL</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13)<br><sup>Gurnee, IL</sup> | x | x | x |
 | [Six Flags New England](https://parkcalendar.com/#20)<br><sup>Agawam, MA</sup> | x | x | x |
 | [Six Flags America](https://parkcalendar.com/#14)<br><sup>Bowie, MD</sup> | x | x | x |
 | [Six Flags St. Louis](https://parkcalendar.com/#3)<br><sup>Eureka, MO</sup> | x | x | x |
