@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-21T11:00:00",
-      "close": "2024-05-21T18:00:00",
-      "operatingDate": "2024-05-21T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-05-23T11:00:00",
       "close": "2024-05-23T18:00:00",
       "operatingDate": "2024-05-23T00:00:00",
@@ -176,8 +167,8 @@
       "close": "2024-06-10T18:00:00",
       "operatingDate": "2024-06-10T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-06-10T12:00:00",
+      "waterParkClose": "2024-06-10T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -185,8 +176,8 @@
       "close": "2024-06-11T18:00:00",
       "operatingDate": "2024-06-11T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-06-11T12:00:00",
+      "waterParkClose": "2024-06-11T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -194,8 +185,8 @@
       "close": "2024-06-12T18:00:00",
       "operatingDate": "2024-06-12T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-06-12T12:00:00",
+      "waterParkClose": "2024-06-12T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -203,8 +194,8 @@
       "close": "2024-06-13T18:00:00",
       "operatingDate": "2024-06-13T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-06-13T12:00:00",
+      "waterParkClose": "2024-06-13T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -212,8 +203,8 @@
       "close": "2024-06-14T20:00:00",
       "operatingDate": "2024-06-14T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-06-14T12:00:00",
+      "waterParkClose": "2024-06-14T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -1297,15 +1288,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
-    {
-      "open": "2024-05-21T11:00:00",
-      "close": "2024-05-21T18:00:00",
-      "operatingDate": "2024-05-21T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-05-23T11:00:00",
       "close": "2024-05-23T18:00:00",
