@@ -741,7 +741,89 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/83",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-05-26T11:00:00",
+      "close": "2024-05-26T19:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-27T11:00:00",
+      "close": "2024-05-27T19:00:00",
+      "operatingDate": "2024-05-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-28T11:00:00",
+      "close": "2024-05-28T18:00:00",
+      "operatingDate": "2024-05-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-29T11:00:00",
+      "close": "2024-05-29T18:00:00",
+      "operatingDate": "2024-05-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-30T11:00:00",
+      "close": "2024-05-30T18:00:00",
+      "operatingDate": "2024-05-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-05-31T11:00:00",
+      "close": "2024-05-31T18:00:00",
+      "operatingDate": "2024-05-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-06-01T11:00:00",
+      "close": "2024-06-01T19:00:00",
+      "operatingDate": "2024-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-06-02T11:00:00",
+      "close": "2024-06-02T19:00:00",
+      "operatingDate": "2024-06-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-06-03T11:00:00",
+      "close": "2024-06-03T18:00:00",
+      "operatingDate": "2024-06-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
