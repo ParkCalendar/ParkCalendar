@@ -920,18 +920,27 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2024-05-25T10:30:00",
-      "close": "2024-05-25T19:00:00",
-      "operatingDate": "2024-05-25T00:00:00",
+      "open": "2024-05-26T10:30:00",
+      "close": "2024-05-26T19:00:00",
+      "operatingDate": "2024-05-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-05-26T10:30:00",
-      "close": "2024-05-26T19:00:00",
-      "operatingDate": "2024-05-26T00:00:00",
+      "open": "2024-06-01T10:30:00",
+      "close": "2024-06-01T19:00:00",
+      "operatingDate": "2024-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-06-02T10:30:00",
+      "close": "2024-06-02T19:00:00",
+      "operatingDate": "2024-06-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
