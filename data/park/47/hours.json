@@ -1,60 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-17T11:00:00",
-      "close": "2024-05-17T15:00:00",
-      "operatingDate": "2024-05-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-18T11:00:00",
-      "close": "2024-05-18T18:00:00",
-      "operatingDate": "2024-05-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-19T11:00:00",
-      "close": "2024-05-19T18:00:00",
-      "operatingDate": "2024-05-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-24T11:00:00",
-      "close": "2024-05-24T17:00:00",
-      "operatingDate": "2024-05-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-25T11:00:00",
-      "close": "2024-05-25T18:00:00",
-      "operatingDate": "2024-05-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-26T11:00:00",
-      "close": "2024-05-26T18:00:00",
-      "operatingDate": "2024-05-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-05-27T11:00:00",
       "close": "2024-05-27T18:00:00",
       "operatingDate": "2024-05-27T00:00:00",
@@ -74,7 +20,7 @@
     },
     {
       "open": "2024-06-01T11:00:00",
-      "close": "2024-06-01T18:00:00",
+      "close": "2024-06-01T19:00:00",
       "operatingDate": "2024-06-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -83,7 +29,7 @@
     },
     {
       "open": "2024-06-02T11:00:00",
-      "close": "2024-06-02T18:00:00",
+      "close": "2024-06-02T19:00:00",
       "operatingDate": "2024-06-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1005,7 +951,7 @@
     },
     {
       "open": "2024-06-01T11:00:00",
-      "close": "2024-06-01T18:00:00",
+      "close": "2024-06-01T19:00:00",
       "operatingDate": "2024-06-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1014,7 +960,7 @@
     },
     {
       "open": "2024-06-02T11:00:00",
-      "close": "2024-06-02T18:00:00",
+      "close": "2024-06-02T19:00:00",
       "operatingDate": "2024-06-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
