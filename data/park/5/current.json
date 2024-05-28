@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-27T10:30:00",
-      "close": "2024-05-27T19:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-05-28T10:30:00",
       "close": "2024-05-28T20:00:00",
       "operatingDate": "2024-05-28T00:00:00",
@@ -317,7 +308,7 @@
     },
     {
       "open": "2024-07-01T11:00:00",
-      "close": "2024-07-01T21:30:00",
+      "close": "2024-07-01T20:00:00",
       "operatingDate": "2024-07-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -326,7 +317,7 @@
     },
     {
       "open": "2024-07-02T11:00:00",
-      "close": "2024-07-02T21:30:00",
+      "close": "2024-07-02T20:00:00",
       "operatingDate": "2024-07-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -416,7 +407,7 @@
     },
     {
       "open": "2024-07-12T10:30:00",
-      "close": "2024-07-12T21:00:00",
+      "close": "2024-07-12T20:00:00",
       "operatingDate": "2024-07-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -479,7 +470,7 @@
     },
     {
       "open": "2024-07-19T10:30:00",
-      "close": "2024-07-19T21:00:00",
+      "close": "2024-07-19T20:00:00",
       "operatingDate": "2024-07-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -542,7 +533,7 @@
     },
     {
       "open": "2024-07-26T10:30:00",
-      "close": "2024-07-26T21:00:00",
+      "close": "2024-07-26T20:00:00",
       "operatingDate": "2024-07-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -605,7 +596,7 @@
     },
     {
       "open": "2024-08-02T10:30:00",
-      "close": "2024-08-02T21:00:00",
+      "close": "2024-08-02T20:00:00",
       "operatingDate": "2024-08-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -668,7 +659,7 @@
     },
     {
       "open": "2024-08-09T10:30:00",
-      "close": "2024-08-09T21:00:00",
+      "close": "2024-08-09T20:00:00",
       "operatingDate": "2024-08-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -910,15 +901,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
-    {
-      "open": "2024-05-27T10:30:00",
-      "close": "2024-05-27T19:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-05-28T10:30:00",
       "close": "2024-05-28T20:00:00",
