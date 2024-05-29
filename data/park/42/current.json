@@ -763,7 +763,10 @@
     "id": 10974,
     "name": "Break Point Plunge"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 501102,
+    "name": "Senior Picnic Days"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
