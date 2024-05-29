@@ -1,69 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-18T11:00:00",
-      "close": "2024-05-18T21:00:00",
-      "operatingDate": "2024-05-18T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-19T11:00:00",
-      "close": "2024-05-19T20:00:00",
-      "operatingDate": "2024-05-19T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-24T11:00:00",
-      "close": "2024-05-24T20:00:00",
-      "operatingDate": "2024-05-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-25T11:00:00",
-      "close": "2024-05-25T21:00:00",
-      "operatingDate": "2024-05-25T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-05-25T12:00:00",
-      "waterParkClose": "2024-05-25T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-26T11:00:00",
-      "close": "2024-05-26T20:00:00",
-      "operatingDate": "2024-05-26T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-05-26T12:00:00",
-      "waterParkClose": "2024-05-26T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-27T11:00:00",
-      "close": "2024-05-27T20:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-05-27T12:00:00",
-      "waterParkClose": "2024-05-27T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-28T11:00:00",
-      "close": "2024-05-28T20:00:00",
-      "operatingDate": "2024-05-28T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-05-29T11:00:00",
       "close": "2024-05-29T20:00:00",
       "operatingDate": "2024-05-29T00:00:00",
@@ -728,6 +665,42 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-09-14T12:00:00",
+      "close": "2024-09-14T22:00:00",
+      "operatingDate": "2024-09-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-09-15T12:00:00",
+      "close": "2024-09-15T22:00:00",
+      "operatingDate": "2024-09-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-09-21T12:00:00",
+      "close": "2024-09-21T22:00:00",
+      "operatingDate": "2024-09-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-09-22T12:00:00",
+      "close": "2024-09-22T22:00:00",
+      "operatingDate": "2024-09-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFOG",
@@ -748,24 +721,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/65",
   "upcomingHours": [
-    {
-      "open": "2024-05-27T11:00:00",
-      "close": "2024-05-27T20:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-05-27T12:00:00",
-      "waterParkClose": "2024-05-27T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-28T11:00:00",
-      "close": "2024-05-28T20:00:00",
-      "operatingDate": "2024-05-28T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-05-29T11:00:00",
       "close": "2024-05-29T20:00:00",
