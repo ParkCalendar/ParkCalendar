@@ -936,5 +936,7 @@
   "enableSpeedy": null,
   "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
+  "pictureStoreUrl": null,
+  "pomVomUrl": null,
   "toastMessages": null
 }
