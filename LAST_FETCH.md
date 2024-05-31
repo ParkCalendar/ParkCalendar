@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-05-31 20:54:48 +0000*
+*2024-05-31 23:54:51 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -11,9 +11,9 @@
 | [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
 | [Six Flags Over Georgia](https://parkcalendar.com/#2)<br><sup>Austell, GA</sup> | x | x | x |
 | [Six Flags White Water, Atlanta](https://parkcalendar.com/#25)<br><sup>Marietta, GA</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48)<br><sup>Cherry Valley, IL</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, Rockford](https://parkcalendar.com/#48)<br><sup>Cherry Valley, IL</sup> | x | x | x |
 | [Six Flags Great America](https://parkcalendar.com/#7)<br><sup>Gurnee, IL</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13)<br><sup>Gurnee, IL</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, Chicago](https://parkcalendar.com/#13)<br><sup>Gurnee, IL</sup> | x | x | x |
 | [Six Flags New England](https://parkcalendar.com/#20)<br><sup>Agawam, MA</sup> | x | x | x |
 | [Six Flags America](https://parkcalendar.com/#14)<br><sup>Bowie, MD</sup> | x | x | x |
 | [Six Flags St. Louis](https://parkcalendar.com/#3)<br><sup>Eureka, MO</sup> | x | x | x |
@@ -26,7 +26,7 @@
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oklahoma City](https://parkcalendar.com/#44)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [La Ronde, Montreal](https://parkcalendar.com/#29)<br><sup>Montreal, QC</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | x | x | x |
+| [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | ✅ | x | ✅ |
 | [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | x | x | x |
