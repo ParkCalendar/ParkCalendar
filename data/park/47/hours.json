@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-27T11:00:00",
-      "close": "2024-05-27T18:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-31T11:00:00",
-      "close": "2024-05-31T18:00:00",
-      "operatingDate": "2024-05-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-01T11:00:00",
       "close": "2024-06-01T19:00:00",
       "operatingDate": "2024-06-01T00:00:00",
@@ -932,24 +914,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/86",
   "upcomingHours": [
     {
-      "open": "2024-05-27T11:00:00",
-      "close": "2024-05-27T18:00:00",
-      "operatingDate": "2024-05-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-05-31T11:00:00",
-      "close": "2024-05-31T18:00:00",
-      "operatingDate": "2024-05-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-01T11:00:00",
       "close": "2024-06-01T19:00:00",
       "operatingDate": "2024-06-01T00:00:00",
@@ -1116,5 +1080,7 @@
   "enableSpeedy": null,
   "parkMapPreviewImageUrl": null,
   "promotionBanner": null,
+  "pictureStoreUrl": null,
+  "pomVomUrl": null,
   "toastMessages": null
 }
