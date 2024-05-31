@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-05-29T10:30:00",
-      "close": "2024-05-29T20:00:00",
-      "operatingDate": "2024-05-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-30T10:30:00",
-      "close": "2024-05-30T20:00:00",
-      "operatingDate": "2024-05-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-05-31T10:30:00",
       "close": "2024-05-31T20:00:00",
       "operatingDate": "2024-05-31T00:00:00",
@@ -47,7 +29,7 @@
     },
     {
       "open": "2024-06-03T10:30:00",
-      "close": "2024-06-03T20:00:00",
+      "close": "2024-06-03T19:00:00",
       "operatingDate": "2024-06-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -56,7 +38,7 @@
     },
     {
       "open": "2024-06-04T10:30:00",
-      "close": "2024-06-04T20:00:00",
+      "close": "2024-06-04T19:00:00",
       "operatingDate": "2024-06-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -65,7 +47,7 @@
     },
     {
       "open": "2024-06-05T10:30:00",
-      "close": "2024-06-05T20:00:00",
+      "close": "2024-06-05T19:00:00",
       "operatingDate": "2024-06-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -74,7 +56,7 @@
     },
     {
       "open": "2024-06-06T10:30:00",
-      "close": "2024-06-06T20:00:00",
+      "close": "2024-06-06T19:00:00",
       "operatingDate": "2024-06-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -893,24 +875,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
     {
-      "open": "2024-05-29T10:30:00",
-      "close": "2024-05-29T20:00:00",
-      "operatingDate": "2024-05-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-05-30T10:30:00",
-      "close": "2024-05-30T20:00:00",
-      "operatingDate": "2024-05-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-05-31T10:30:00",
       "close": "2024-05-31T20:00:00",
       "operatingDate": "2024-05-31T00:00:00",
@@ -939,7 +903,7 @@
     },
     {
       "open": "2024-06-03T10:30:00",
-      "close": "2024-06-03T20:00:00",
+      "close": "2024-06-03T19:00:00",
       "operatingDate": "2024-06-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
