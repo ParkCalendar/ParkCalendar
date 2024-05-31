@@ -1,11 +1,11 @@
 # SixFlags Fetch
 
-*2024-05-31 15:54:53 +0000*
+*2024-05-31 17:54:57 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
 | [Six Flags Hurricane Harbor, Phoenix](https://parkcalendar.com/#46)<br><sup>Glendale, AZ</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Concord](https://parkcalendar.com/#42)<br><sup>Concord, CA</sup> | x | x | x |
+| [Six Flags Hurricane Harbor, Concord](https://parkcalendar.com/#42)<br><sup>Concord, CA</sup> | ✅ | x | x |
 | [Six Flags Hurricane Harbor, Los Angeles](https://parkcalendar.com/#11)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Magic Mountain](https://parkcalendar.com/#6)<br><sup>Valencia, CA</sup> | x | x | x |
 | [Six Flags Discovery Kingdom](https://parkcalendar.com/#17)<br><sup>Vallejo, CA</sup> | x | x | x |
@@ -29,4 +29,4 @@
 | [Six Flags Hurricane Harbor, Arlington](https://parkcalendar.com/#10)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Over Texas](https://parkcalendar.com/#1)<br><sup>Arlington, TX</sup> | x | x | x |
 | [Six Flags Fiesta Texas](https://parkcalendar.com/#8)<br><sup>San Antonio, TX</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, SplashTown](https://parkcalendar.com/#47)<br><sup>Spring, TX</sup> | x | x | x |
