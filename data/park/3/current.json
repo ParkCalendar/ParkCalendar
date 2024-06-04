@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-06-01T11:00:00",
-      "close": "2024-06-01T20:00:00",
-      "operatingDate": "2024-06-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-01T11:00:00",
-      "waterParkClose": "2024-06-01T15:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-06-02T11:00:00",
-      "close": "2024-06-02T19:00:00",
-      "operatingDate": "2024-06-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-02T11:00:00",
-      "waterParkClose": "2024-06-02T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-06-03T11:00:00",
-      "close": "2024-06-03T19:00:00",
-      "operatingDate": "2024-06-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-04T11:00:00",
       "close": "2024-06-04T19:00:00",
       "operatingDate": "2024-06-04T00:00:00",
@@ -195,7 +168,7 @@
       "operatingDate": "2024-06-22T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2024-06-22T11:00:00",
-      "waterParkClose": "2024-06-22T18:00:00",
+      "waterParkClose": "2024-06-22T17:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -447,7 +420,7 @@
       "operatingDate": "2024-07-20T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2024-07-20T11:00:00",
-      "waterParkClose": "2024-07-20T18:00:00",
+      "waterParkClose": "2024-07-20T17:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -730,15 +703,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/66",
   "upcomingHours": [
-    {
-      "open": "2024-06-03T11:00:00",
-      "close": "2024-06-03T19:00:00",
-      "operatingDate": "2024-06-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-06-04T11:00:00",
       "close": "2024-06-04T19:00:00",
