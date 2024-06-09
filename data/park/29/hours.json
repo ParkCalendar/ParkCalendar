@@ -884,27 +884,45 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2024-06-07T10:00:00",
-      "close": "2024-06-07T18:00:00",
-      "operatingDate": "2024-06-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-06-08T10:30:00",
-      "close": "2024-06-08T19:00:00",
-      "operatingDate": "2024-06-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2024-06-09T10:30:00",
       "close": "2024-06-09T19:00:00",
       "operatingDate": "2024-06-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-06-14T10:00:00",
+      "close": "2024-06-14T18:00:00",
+      "operatingDate": "2024-06-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-06-15T10:30:00",
+      "close": "2024-06-15T20:00:00",
+      "operatingDate": "2024-06-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-06-16T10:30:00",
+      "close": "2024-06-16T20:00:00",
+      "operatingDate": "2024-06-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-06-17T10:00:00",
+      "close": "2024-06-17T18:00:00",
+      "operatingDate": "2024-06-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
