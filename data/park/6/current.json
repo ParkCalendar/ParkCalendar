@@ -1649,7 +1649,10 @@
     "id": 265075,
     "name": "4th of July Celebration Powered by Coca-Cola"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 508823,
+    "name": "DC Heroes & Villains Fest Cavalcade"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
