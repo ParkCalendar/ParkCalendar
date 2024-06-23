@@ -896,60 +896,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/85",
   "upcomingHours": [
     {
-      "open": "2024-06-17T10:30:00",
-      "close": "2024-06-17T19:00:00",
-      "operatingDate": "2024-06-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-06-18T10:30:00",
-      "close": "2024-06-18T19:00:00",
-      "operatingDate": "2024-06-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-06-19T10:30:00",
-      "close": "2024-06-19T19:00:00",
-      "operatingDate": "2024-06-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-06-20T10:30:00",
-      "close": "2024-06-20T19:00:00",
-      "operatingDate": "2024-06-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-06-21T10:30:00",
-      "close": "2024-06-21T19:00:00",
-      "operatingDate": "2024-06-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2024-06-22T10:30:00",
-      "close": "2024-06-22T19:00:00",
-      "operatingDate": "2024-06-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2024-06-23T10:30:00",
       "close": "2024-06-23T19:00:00",
       "operatingDate": "2024-06-23T00:00:00",
@@ -962,6 +908,69 @@
       "open": "2024-06-24T10:30:00",
       "close": "2024-06-24T19:00:00",
       "operatingDate": "2024-06-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-25T10:30:00",
+      "close": "2024-06-25T19:00:00",
+      "operatingDate": "2024-06-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-26T10:30:00",
+      "close": "2024-06-26T19:00:00",
+      "operatingDate": "2024-06-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-27T10:30:00",
+      "close": "2024-06-27T19:00:00",
+      "operatingDate": "2024-06-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-28T10:30:00",
+      "close": "2024-06-28T19:00:00",
+      "operatingDate": "2024-06-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-29T10:30:00",
+      "close": "2024-06-29T19:00:00",
+      "operatingDate": "2024-06-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-06-30T10:30:00",
+      "close": "2024-06-30T19:00:00",
+      "operatingDate": "2024-06-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2024-07-01T10:30:00",
+      "close": "2024-07-01T19:00:00",
+      "operatingDate": "2024-07-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
