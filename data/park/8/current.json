@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-06-24T11:00:00",
-      "close": "2024-06-24T20:00:00",
-      "operatingDate": "2024-06-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-24T12:00:00",
-      "waterParkClose": "2024-06-24T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-25T11:00:00",
       "close": "2024-06-25T19:00:00",
       "operatingDate": "2024-06-25T00:00:00",
@@ -991,15 +982,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
-    {
-      "open": "2024-06-24T11:00:00",
-      "close": "2024-06-24T20:00:00",
-      "operatingDate": "2024-06-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-24T12:00:00",
-      "waterParkClose": "2024-06-24T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-06-25T11:00:00",
       "close": "2024-06-25T19:00:00",
