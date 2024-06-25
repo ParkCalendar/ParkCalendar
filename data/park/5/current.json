@@ -818,6 +818,69 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-17T17:00:00",
+      "close": "2024-10-17T23:00:00",
+      "operatingDate": "2024-10-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-18T17:00:00",
+      "close": "2024-10-18T23:59:00",
+      "operatingDate": "2024-10-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-19T10:30:00",
+      "close": "2024-10-19T23:59:00",
+      "operatingDate": "2024-10-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-20T10:30:00",
+      "close": "2024-10-20T23:59:00",
+      "operatingDate": "2024-10-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-21T12:00:00",
+      "close": "2024-10-21T20:00:00",
+      "operatingDate": "2024-10-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-24T17:00:00",
+      "close": "2024-10-24T23:00:00",
+      "operatingDate": "2024-10-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-25T17:00:00",
+      "close": "2024-10-25T23:59:00",
+      "operatingDate": "2024-10-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFGA",
