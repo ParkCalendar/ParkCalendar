@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-06-24T11:00:00",
-      "close": "2024-06-24T20:00:00",
-      "operatingDate": "2024-06-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-24T12:00:00",
-      "waterParkClose": "2024-06-24T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-25T11:00:00",
       "close": "2024-06-25T19:00:00",
       "operatingDate": "2024-06-25T00:00:00",
@@ -992,15 +983,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
     {
-      "open": "2024-06-24T11:00:00",
-      "close": "2024-06-24T20:00:00",
-      "operatingDate": "2024-06-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-06-24T12:00:00",
-      "waterParkClose": "2024-06-24T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-06-25T11:00:00",
       "close": "2024-06-25T19:00:00",
       "operatingDate": "2024-06-25T00:00:00",
@@ -1119,8 +1101,8 @@
     "name": "4th of July Celebration Powered by Coca-Cola®"
   },
   "featuredShow": {
-    "id": 88160,
-    "name": "Summer Blast Fireworks"
+    "id": 128790,
+    "name": "Lights of Liberty Fireworks Spectacular"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
