@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-06-25T11:00:00",
-      "close": "2024-06-25T20:00:00",
-      "operatingDate": "2024-06-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-06-26T11:00:00",
       "close": "2024-06-26T20:00:00",
       "operatingDate": "2024-06-26T00:00:00",
@@ -703,15 +694,6 @@
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-09-23T12:00:00",
-      "close": "2024-09-23T20:00:00",
-      "operatingDate": "2024-09-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-09-27T17:00:00",
       "close": "2024-09-27T23:59:00",
       "operatingDate": "2024-09-27T00:00:00",
@@ -856,15 +838,6 @@
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-10-21T12:00:00",
-      "close": "2024-10-21T20:00:00",
-      "operatingDate": "2024-10-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-10-24T17:00:00",
       "close": "2024-10-24T23:00:00",
       "operatingDate": "2024-10-24T00:00:00",
@@ -901,15 +874,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://direct.lc.chat/8585046/67",
   "upcomingHours": [
-    {
-      "open": "2024-06-25T11:00:00",
-      "close": "2024-06-25T20:00:00",
-      "operatingDate": "2024-06-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-06-26T11:00:00",
       "close": "2024-06-26T20:00:00",
