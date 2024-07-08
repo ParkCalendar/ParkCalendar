@@ -1150,10 +1150,7 @@
     "id": 8454,
     "name": "Medusa"
   },
-  "featuredEvent": {
-    "id": 402687,
-    "name": "4th of July Celebration Powered by Coca-Cola®"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 38471,
     "name": "Seals and Sea Lions: Discovering Pinnipeds!"
