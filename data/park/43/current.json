@@ -757,7 +757,10 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 505321,
+    "name": "Western Wonders: Dinner & Magic Night"
+  },
   "featuredShow": {
     "id": 38476,
     "name": "Crackaxle Canyon Demo Stunt Show"
