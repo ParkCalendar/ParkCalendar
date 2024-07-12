@@ -964,6 +964,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-12-02T10:30:00",
+      "close": "2024-12-02T18:00:00",
+      "operatingDate": "2024-12-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-12-06T10:30:00",
       "close": "2024-12-06T20:00:00",
       "operatingDate": "2024-12-06T00:00:00",
@@ -985,6 +994,15 @@
       "open": "2024-12-08T10:30:00",
       "close": "2024-12-08T21:00:00",
       "operatingDate": "2024-12-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-12-09T10:30:00",
+      "close": "2024-12-09T18:00:00",
+      "operatingDate": "2024-12-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1250,8 +1268,8 @@
     "name": "Tatsu"
   },
   "featuredEvent": {
-    "id": 265075,
-    "name": "4th of July Celebration Powered by Coca-Cola"
+    "id": 460889,
+    "name": "Kids Boo Fest 2024"
   },
   "featuredShow": {
     "id": 508823,
