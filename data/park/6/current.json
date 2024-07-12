@@ -1,159 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-06-25T10:30:00",
-      "close": "2024-06-25T20:00:00",
-      "operatingDate": "2024-06-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-06-26T10:30:00",
-      "close": "2024-06-26T20:00:00",
-      "operatingDate": "2024-06-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-06-27T10:30:00",
-      "close": "2024-06-27T20:00:00",
-      "operatingDate": "2024-06-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-06-28T10:30:00",
-      "close": "2024-06-28T20:00:00",
-      "operatingDate": "2024-06-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-06-29T10:30:00",
-      "close": "2024-06-29T21:00:00",
-      "operatingDate": "2024-06-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-06-30T10:30:00",
-      "close": "2024-06-30T21:00:00",
-      "operatingDate": "2024-06-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-01T10:30:00",
-      "close": "2024-07-01T21:00:00",
-      "operatingDate": "2024-07-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-02T10:30:00",
-      "close": "2024-07-02T21:00:00",
-      "operatingDate": "2024-07-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-03T10:30:00",
-      "close": "2024-07-03T21:00:00",
-      "operatingDate": "2024-07-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-04T10:30:00",
-      "close": "2024-07-04T22:00:00",
-      "operatingDate": "2024-07-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-05T10:30:00",
-      "close": "2024-07-05T22:00:00",
-      "operatingDate": "2024-07-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-06T10:30:00",
-      "close": "2024-07-06T22:00:00",
-      "operatingDate": "2024-07-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-07T10:30:00",
-      "close": "2024-07-07T21:00:00",
-      "operatingDate": "2024-07-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-08T10:30:00",
-      "close": "2024-07-08T21:00:00",
-      "operatingDate": "2024-07-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-09T10:30:00",
-      "close": "2024-07-09T21:00:00",
-      "operatingDate": "2024-07-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-10T10:30:00",
-      "close": "2024-07-10T21:00:00",
-      "operatingDate": "2024-07-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-11T10:30:00",
-      "close": "2024-07-11T21:00:00",
-      "operatingDate": "2024-07-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-07-12T10:30:00",
       "close": "2024-07-12T21:00:00",
       "operatingDate": "2024-07-12T00:00:00",
@@ -442,6 +289,33 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-08-13T10:30:00",
+      "close": "2024-08-13T18:00:00",
+      "operatingDate": "2024-08-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-08-14T10:30:00",
+      "close": "2024-08-14T18:00:00",
+      "operatingDate": "2024-08-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-08-15T10:30:00",
+      "close": "2024-08-15T18:00:00",
+      "operatingDate": "2024-08-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-08-16T10:30:00",
       "close": "2024-08-16T18:00:00",
       "operatingDate": "2024-08-16T00:00:00",
@@ -499,6 +373,15 @@
       "open": "2024-08-25T10:30:00",
       "close": "2024-08-25T20:00:00",
       "operatingDate": "2024-08-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-08-26T10:30:00",
+      "close": "2024-08-26T18:00:00",
+      "operatingDate": "2024-08-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -568,6 +451,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-09-09T10:30:00",
+      "close": "2024-09-09T18:00:00",
+      "operatingDate": "2024-09-09T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-09-13T10:30:00",
       "close": "2024-09-13T17:00:00",
       "operatingDate": "2024-09-13T00:00:00",
@@ -595,6 +487,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-09-16T10:30:00",
+      "close": "2024-09-16T18:00:00",
+      "operatingDate": "2024-09-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-09-20T10:30:00",
       "close": "2024-09-20T17:00:00",
       "operatingDate": "2024-09-20T00:00:00",
@@ -616,6 +517,15 @@
       "open": "2024-09-22T10:30:00",
       "close": "2024-09-22T17:00:00",
       "operatingDate": "2024-09-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-23T10:30:00",
+      "close": "2024-09-23T18:00:00",
+      "operatingDate": "2024-09-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -658,6 +568,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-09-30T10:30:00",
+      "close": "2024-09-30T18:00:00",
+      "operatingDate": "2024-09-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-10-03T10:30:00",
       "close": "2024-10-03T17:00:00",
       "operatingDate": "2024-10-03T00:00:00",
@@ -688,6 +607,15 @@
       "open": "2024-10-06T10:30:00",
       "close": "2024-10-06T17:00:00",
       "operatingDate": "2024-10-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-07T10:30:00",
+      "close": "2024-10-07T18:00:00",
+      "operatingDate": "2024-10-07T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -775,6 +703,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-10-21T10:30:00",
+      "close": "2024-10-21T18:00:00",
+      "operatingDate": "2024-10-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-10-24T19:00:00",
       "close": "2024-10-24T23:00:00",
       "operatingDate": "2024-10-24T00:00:00",
@@ -805,6 +742,15 @@
       "open": "2024-10-27T10:30:00",
       "close": "2024-10-27T17:00:00",
       "operatingDate": "2024-10-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-10-28T10:30:00",
+      "close": "2024-10-28T18:00:00",
+      "operatingDate": "2024-10-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -847,6 +793,24 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-11-04T10:30:00",
+      "close": "2024-11-04T18:00:00",
+      "operatingDate": "2024-11-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-11-08T10:30:00",
+      "close": "2024-11-08T18:00:00",
+      "operatingDate": "2024-11-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-11-09T10:30:00",
       "close": "2024-11-09T20:00:00",
       "operatingDate": "2024-11-09T00:00:00",
@@ -874,6 +838,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-11-15T10:30:00",
+      "close": "2024-11-15T18:00:00",
+      "operatingDate": "2024-11-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2024-11-16T10:30:00",
       "close": "2024-11-16T20:00:00",
       "operatingDate": "2024-11-16T00:00:00",
@@ -886,6 +859,24 @@
       "open": "2024-11-17T10:30:00",
       "close": "2024-11-17T18:00:00",
       "operatingDate": "2024-11-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-11-18T10:30:00",
+      "close": "2024-11-18T18:00:00",
+      "operatingDate": "2024-11-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-11-22T10:30:00",
+      "close": "2024-11-22T18:00:00",
+      "operatingDate": "2024-11-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1171,42 +1162,6 @@
   "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/68",
   "upcomingHours": [
-    {
-      "open": "2024-07-08T10:30:00",
-      "close": "2024-07-08T21:00:00",
-      "operatingDate": "2024-07-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-09T10:30:00",
-      "close": "2024-07-09T21:00:00",
-      "operatingDate": "2024-07-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-10T10:30:00",
-      "close": "2024-07-10T21:00:00",
-      "operatingDate": "2024-07-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-07-11T10:30:00",
-      "close": "2024-07-11T21:00:00",
-      "operatingDate": "2024-07-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2024-07-12T10:30:00",
       "close": "2024-07-12T21:00:00",
