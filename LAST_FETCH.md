@@ -1,6 +1,6 @@
 # SixFlags Fetch
 
-*2024-07-12 15:54:48 +0000*
+*2024-07-12 17:54:49 +0000*
 
 | Park Name | JSON | Archive | Upcoming |
 | :-------- | :--: | :-----: | :------: |
@@ -20,8 +20,8 @@
 | [Six Flags México](https://parkcalendar.com/#28)<br><sup>Ciudad de México, MX</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oaxtepec](https://parkcalendar.com/#32)<br><sup>Oaxtepec, MX</sup> | x | x | x |
 | [Six Flags Great Adventure](https://parkcalendar.com/#5)<br><sup>Jackson, NJ</sup> | x | x | x |
-| [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | ✅ | x | ✅ |
-| [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | ✅ | x | ✅ |
+| [Six Flags Hurricane Harbor, Jackson](https://parkcalendar.com/#23)<br><sup>Jackson, NJ</sup> | x | x | x |
+| [Six Flags Darien Lake](https://parkcalendar.com/#45)<br><sup>Darien Center, NY</sup> | x | x | x |
 | [The Great Escape](https://parkcalendar.com/#24)<br><sup>Queensbury, NY</sup> | x | x | x |
 | [Six Flags Frontier City](https://parkcalendar.com/#43)<br><sup>Oklahoma City, OK</sup> | x | x | x |
 | [Six Flags Hurricane Harbor, Oklahoma City](https://parkcalendar.com/#44)<br><sup>Oklahoma City, OK</sup> | x | x | x |
