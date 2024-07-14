@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-12T10:30:00",
-      "close": "2024-07-12T20:00:00",
-      "operatingDate": "2024-07-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-07-13T10:30:00",
-      "close": "2024-07-13T21:00:00",
-      "operatingDate": "2024-07-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-07-14T10:30:00",
       "close": "2024-07-14T21:00:00",
       "operatingDate": "2024-07-14T00:00:00",
@@ -29,7 +11,7 @@
     },
     {
       "open": "2024-07-15T11:00:00",
-      "close": "2024-07-15T20:00:00",
+      "close": "2024-07-15T19:00:00",
       "operatingDate": "2024-07-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -38,7 +20,7 @@
     },
     {
       "open": "2024-07-16T11:00:00",
-      "close": "2024-07-16T20:00:00",
+      "close": "2024-07-16T19:00:00",
       "operatingDate": "2024-07-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -47,7 +29,7 @@
     },
     {
       "open": "2024-07-17T11:00:00",
-      "close": "2024-07-17T20:00:00",
+      "close": "2024-07-17T19:00:00",
       "operatingDate": "2024-07-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -804,7 +786,7 @@
     },
     {
       "open": "2024-07-15T11:00:00",
-      "close": "2024-07-15T20:00:00",
+      "close": "2024-07-15T19:00:00",
       "operatingDate": "2024-07-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -813,7 +795,7 @@
     },
     {
       "open": "2024-07-16T11:00:00",
-      "close": "2024-07-16T20:00:00",
+      "close": "2024-07-16T19:00:00",
       "operatingDate": "2024-07-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -822,7 +804,7 @@
     },
     {
       "open": "2024-07-17T11:00:00",
-      "close": "2024-07-17T20:00:00",
+      "close": "2024-07-17T19:00:00",
       "operatingDate": "2024-07-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
