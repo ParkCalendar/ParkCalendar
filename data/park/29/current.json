@@ -776,15 +776,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2024-07-14T13:00:00",
-      "close": "2024-07-14T23:30:00",
-      "operatingDate": "2024-07-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2024-07-15T10:30:00",
       "close": "2024-07-15T20:00:00",
       "operatingDate": "2024-07-15T00:00:00",
