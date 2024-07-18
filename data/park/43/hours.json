@@ -91,6 +91,15 @@
       "tzIndicator": "America/Chicago"
     },
     {
+      "open": "2024-08-01T11:00:00",
+      "close": "2024-08-01T18:00:00",
+      "operatingDate": "2024-08-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
       "open": "2024-08-02T11:00:00",
       "close": "2024-08-02T18:00:00",
       "operatingDate": "2024-08-02T00:00:00",
@@ -496,10 +505,7 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": {
-    "id": 505321,
-    "name": "Western Wonders: Dinner & Magic Night"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 38476,
     "name": "Crackaxle Canyon Demo Stunt Show"
