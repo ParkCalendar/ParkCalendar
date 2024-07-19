@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-18T11:00:00",
-      "close": "2024-07-18T18:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-07-19T11:00:00",
       "close": "2024-07-19T18:00:00",
       "operatingDate": "2024-07-19T00:00:00",
@@ -190,15 +181,6 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-08-09T11:00:00",
-      "close": "2024-08-09T18:00:00",
-      "operatingDate": "2024-08-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-08-10T11:00:00",
       "close": "2024-08-10T18:00:00",
       "operatingDate": "2024-08-10T00:00:00",
@@ -292,15 +274,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/83",
   "upcomingHours": [
-    {
-      "open": "2024-07-18T11:00:00",
-      "close": "2024-07-18T18:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-07-19T11:00:00",
       "close": "2024-07-19T18:00:00",
