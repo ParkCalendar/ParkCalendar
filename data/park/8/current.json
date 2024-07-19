@@ -1,42 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-15T11:00:00",
-      "close": "2024-07-15T20:00:00",
-      "operatingDate": "2024-07-15T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-15T12:00:00",
-      "waterParkClose": "2024-07-15T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-16T11:00:00",
-      "close": "2024-07-16T19:00:00",
-      "operatingDate": "2024-07-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-16T12:00:00",
-      "waterParkClose": "2024-07-16T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-17T11:00:00",
-      "close": "2024-07-17T19:00:00",
-      "operatingDate": "2024-07-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-17T12:00:00",
-      "waterParkClose": "2024-07-17T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-18T11:00:00",
-      "close": "2024-07-18T19:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-18T12:00:00",
-      "waterParkClose": "2024-07-18T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-07-19T11:00:00",
       "close": "2024-07-19T20:00:00",
       "operatingDate": "2024-07-19T00:00:00",
@@ -865,42 +829,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://direct.lc.chat/8585046/70",
   "upcomingHours": [
-    {
-      "open": "2024-07-15T11:00:00",
-      "close": "2024-07-15T20:00:00",
-      "operatingDate": "2024-07-15T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-15T12:00:00",
-      "waterParkClose": "2024-07-15T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-16T11:00:00",
-      "close": "2024-07-16T19:00:00",
-      "operatingDate": "2024-07-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-16T12:00:00",
-      "waterParkClose": "2024-07-16T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-17T11:00:00",
-      "close": "2024-07-17T19:00:00",
-      "operatingDate": "2024-07-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-17T12:00:00",
-      "waterParkClose": "2024-07-17T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-18T11:00:00",
-      "close": "2024-07-18T19:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-18T12:00:00",
-      "waterParkClose": "2024-07-18T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-07-19T11:00:00",
       "close": "2024-07-19T20:00:00",
