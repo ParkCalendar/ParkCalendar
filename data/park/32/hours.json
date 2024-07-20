@@ -1,60 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-12T10:00:00",
-      "close": "2024-07-12T18:00:00",
-      "operatingDate": "2024-07-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-13T09:00:00",
-      "close": "2024-07-13T18:00:00",
-      "operatingDate": "2024-07-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-14T09:00:00",
-      "close": "2024-07-14T18:00:00",
-      "operatingDate": "2024-07-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-16T10:00:00",
-      "close": "2024-07-16T18:00:00",
-      "operatingDate": "2024-07-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-17T10:00:00",
-      "close": "2024-07-17T18:00:00",
-      "operatingDate": "2024-07-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-18T10:00:00",
-      "close": "2024-07-18T18:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-07-19T09:00:00",
       "close": "2024-07-19T18:00:00",
       "operatingDate": "2024-07-19T00:00:00",
@@ -832,33 +778,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://direct.lc.chat/8585046/80",
   "upcomingHours": [
-    {
-      "open": "2024-07-16T10:00:00",
-      "close": "2024-07-16T18:00:00",
-      "operatingDate": "2024-07-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-17T10:00:00",
-      "close": "2024-07-17T18:00:00",
-      "operatingDate": "2024-07-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-07-18T10:00:00",
-      "close": "2024-07-18T18:00:00",
-      "operatingDate": "2024-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
     {
       "open": "2024-07-19T09:00:00",
       "close": "2024-07-19T18:00:00",
