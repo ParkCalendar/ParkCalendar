@@ -542,24 +542,6 @@
   "chatUrl": "https://direct.lc.chat/8585046/79",
   "upcomingHours": [
     {
-      "open": "2024-07-19T10:30:00",
-      "close": "2024-07-19T21:00:00",
-      "operatingDate": "2024-07-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-07-20T13:00:00",
-      "close": "2024-07-20T23:30:00",
-      "operatingDate": "2024-07-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2024-07-21T10:30:00",
       "close": "2024-07-21T21:00:00",
       "operatingDate": "2024-07-21T00:00:00",
@@ -572,6 +554,69 @@
       "open": "2024-07-22T10:30:00",
       "close": "2024-07-22T20:00:00",
       "operatingDate": "2024-07-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-23T10:30:00",
+      "close": "2024-07-23T20:00:00",
+      "operatingDate": "2024-07-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-24T10:30:00",
+      "close": "2024-07-24T20:00:00",
+      "operatingDate": "2024-07-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-25T10:30:00",
+      "close": "2024-07-25T20:00:00",
+      "operatingDate": "2024-07-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-26T10:30:00",
+      "close": "2024-07-26T21:00:00",
+      "operatingDate": "2024-07-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-27T13:00:00",
+      "close": "2024-07-27T23:30:00",
+      "operatingDate": "2024-07-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-28T10:30:00",
+      "close": "2024-07-28T21:00:00",
+      "operatingDate": "2024-07-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-07-29T10:30:00",
+      "close": "2024-07-29T20:00:00",
+      "operatingDate": "2024-07-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
