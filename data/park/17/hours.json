@@ -862,7 +862,10 @@
     "id": 8454,
     "name": "Medusa"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 445139,
+    "name": "Oktoberfest"
+  },
   "featuredShow": {
     "id": 38471,
     "name": "Seals and Sea Lions: Discovering Pinnipeds!"
