@@ -1,62 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-23T11:00:00",
-      "close": "2024-07-23T16:30:00",
-      "operatingDate": "2024-07-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-24T11:00:00",
-      "close": "2024-07-24T18:00:00",
-      "operatingDate": "2024-07-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-25T11:00:00",
-      "close": "2024-07-25T18:00:00",
-      "operatingDate": "2024-07-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-26T11:00:00",
-      "close": "2024-07-26T18:00:00",
-      "operatingDate": "2024-07-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-27T11:00:00",
-      "close": "2024-07-27T18:00:00",
-      "operatingDate": "2024-07-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-07-28T11:00:00",
-      "close": "2024-07-28T18:00:00",
-      "operatingDate": "2024-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-07-29T11:00:00",
-      "close": "2024-07-29T18:00:00",
+      "close": "2024-07-29T14:00:00",
       "operatingDate": "2024-07-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -258,7 +204,7 @@
   "upcomingHours": [
     {
       "open": "2024-07-29T11:00:00",
-      "close": "2024-07-29T18:00:00",
+      "close": "2024-07-29T14:00:00",
       "operatingDate": "2024-07-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
