@@ -1,35 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-07-31T11:00:00",
-      "close": "2024-07-31T19:00:00",
-      "operatingDate": "2024-07-31T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-31T11:30:00",
-      "waterParkClose": "2024-07-31T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-01T11:00:00",
-      "close": "2024-08-01T19:00:00",
-      "operatingDate": "2024-08-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-01T11:30:00",
-      "waterParkClose": "2024-08-01T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-02T11:00:00",
-      "close": "2024-08-02T21:00:00",
-      "operatingDate": "2024-08-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-02T11:30:00",
-      "waterParkClose": "2024-08-02T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-08-03T11:00:00",
-      "close": "2024-08-03T21:00:00",
+      "close": "2024-08-03T19:30:00",
       "operatingDate": "2024-08-03T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2024-08-03T11:30:00",
@@ -434,35 +407,8 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-07-31T11:00:00",
-      "close": "2024-07-31T19:00:00",
-      "operatingDate": "2024-07-31T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-07-31T11:30:00",
-      "waterParkClose": "2024-07-31T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-01T11:00:00",
-      "close": "2024-08-01T19:00:00",
-      "operatingDate": "2024-08-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-01T11:30:00",
-      "waterParkClose": "2024-08-01T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-02T11:00:00",
-      "close": "2024-08-02T21:00:00",
-      "operatingDate": "2024-08-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-02T11:30:00",
-      "waterParkClose": "2024-08-02T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-08-03T11:00:00",
-      "close": "2024-08-03T21:00:00",
+      "close": "2024-08-03T19:30:00",
       "operatingDate": "2024-08-03T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2024-08-03T11:30:00",
@@ -539,8 +485,8 @@
     "name": "BATWING Coaster"
   },
   "featuredEvent": {
-    "id": 443590,
-    "name": "Fright Fest"
+    "id": 324112,
+    "name": "Out in the Park"
   },
   "featuredShow": {
     "id": 375383,
