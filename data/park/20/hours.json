@@ -592,10 +592,7 @@
     "id": 8818,
     "name": "BATMAN THE DARK KNIGHT™"
   },
-  "featuredEvent": {
-    "id": 325569,
-    "name": "Food & Brew Festival"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 108946,
     "name": "Character Encounters"
