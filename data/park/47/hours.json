@@ -352,10 +352,7 @@
     "id": 11610,
     "name": "Big Spin"
   },
-  "featuredEvent": {
-    "id": 510892,
-    "name": "4th of July Celebration Powered by Coca-Cola®"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
