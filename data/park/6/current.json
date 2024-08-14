@@ -389,7 +389,7 @@
     },
     {
       "open": "2024-10-19T10:30:00",
-      "close": "2024-10-19T17:00:00",
+      "close": "2024-10-20T01:00:00",
       "operatingDate": "2024-10-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -398,7 +398,7 @@
     },
     {
       "open": "2024-10-20T10:30:00",
-      "close": "2024-10-20T17:00:00",
+      "close": "2024-10-21T00:00:00",
       "operatingDate": "2024-10-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -416,7 +416,7 @@
     },
     {
       "open": "2024-10-24T19:00:00",
-      "close": "2024-10-24T23:00:00",
+      "close": "2024-10-25T00:00:00",
       "operatingDate": "2024-10-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -425,7 +425,7 @@
     },
     {
       "open": "2024-10-25T10:30:00",
-      "close": "2024-10-25T17:00:00",
+      "close": "2024-10-26T01:00:00",
       "operatingDate": "2024-10-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -434,7 +434,7 @@
     },
     {
       "open": "2024-10-26T10:30:00",
-      "close": "2024-10-26T17:00:00",
+      "close": "2024-10-27T01:00:00",
       "operatingDate": "2024-10-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -443,7 +443,7 @@
     },
     {
       "open": "2024-10-27T10:30:00",
-      "close": "2024-10-27T17:00:00",
+      "close": "2024-10-28T00:00:00",
       "operatingDate": "2024-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
