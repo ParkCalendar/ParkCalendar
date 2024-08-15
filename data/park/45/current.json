@@ -1,60 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-08-09T11:00:00",
-      "close": "2024-08-09T15:00:00",
-      "operatingDate": "2024-08-09T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-09T11:30:00",
-      "waterParkClose": "2024-08-09T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-10T11:00:00",
-      "close": "2024-08-10T21:00:00",
-      "operatingDate": "2024-08-10T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-10T11:30:00",
-      "waterParkClose": "2024-08-10T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-11T11:00:00",
-      "close": "2024-08-11T21:00:00",
-      "operatingDate": "2024-08-11T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-11T11:30:00",
-      "waterParkClose": "2024-08-11T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-12T11:00:00",
-      "close": "2024-08-12T19:00:00",
-      "operatingDate": "2024-08-12T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-12T11:30:00",
-      "waterParkClose": "2024-08-12T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-13T11:00:00",
-      "close": "2024-08-13T19:00:00",
-      "operatingDate": "2024-08-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-13T11:30:00",
-      "waterParkClose": "2024-08-13T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-14T11:00:00",
-      "close": "2024-08-14T21:00:00",
-      "operatingDate": "2024-08-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-14T11:30:00",
-      "waterParkClose": "2024-08-14T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-08-15T11:00:00",
       "close": "2024-08-15T21:00:00",
       "operatingDate": "2024-08-15T00:00:00",
@@ -332,6 +278,24 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-19T12:00:00",
+      "close": "2024-10-19T22:00:00",
+      "operatingDate": "2024-10-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-26T12:00:00",
+      "close": "2024-10-26T22:00:00",
+      "operatingDate": "2024-10-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFDL",
@@ -346,33 +310,6 @@
   "paidVirtualQueueUri": "https://dl.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2024-08-12T11:00:00",
-      "close": "2024-08-12T19:00:00",
-      "operatingDate": "2024-08-12T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-12T11:30:00",
-      "waterParkClose": "2024-08-12T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-13T11:00:00",
-      "close": "2024-08-13T19:00:00",
-      "operatingDate": "2024-08-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-13T11:30:00",
-      "waterParkClose": "2024-08-13T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-08-14T11:00:00",
-      "close": "2024-08-14T21:00:00",
-      "operatingDate": "2024-08-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-14T11:30:00",
-      "waterParkClose": "2024-08-14T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-08-15T11:00:00",
       "close": "2024-08-15T21:00:00",
