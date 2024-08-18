@@ -677,21 +677,30 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-17T10:30:00",
-      "close": "2024-08-17T21:00:00",
-      "operatingDate": "2024-08-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-17T12:00:00",
-      "waterParkClose": "2024-08-17T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-08-18T11:00:00",
       "close": "2024-08-18T18:00:00",
       "operatingDate": "2024-08-18T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2024-08-18T12:00:00",
       "waterParkClose": "2024-08-18T18:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-08-24T10:30:00",
+      "close": "2024-08-24T20:00:00",
+      "operatingDate": "2024-08-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-08-24T12:00:00",
+      "waterParkClose": "2024-08-24T19:00:00",
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-08-25T11:00:00",
+      "close": "2024-08-25T18:00:00",
+      "operatingDate": "2024-08-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2024-08-25T12:00:00",
+      "waterParkClose": "2024-08-25T18:00:00",
       "tzIndicator": "America/Chicago"
     }
   ],
@@ -746,12 +755,12 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 108809,
-    "name": "FT92 Fan Event"
+    "id": 324201,
+    "name": "Oktoberfest Food Festival"
   },
   "featuredShow": {
-    "id": 506605,
-    "name": "Oh What A Night! Summer Fireworks Celebration"
+    "id": 484932,
+    "name": "Looney Tunes Meet & Greets"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -785,7 +794,10 @@
       "eventBegin": "2022-09-08T00:00:00",
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": null
+      "featuredAttraction": {
+        "id": 150235,
+        "name": "Slaughterhouse 6 Xtreme – The Butchering"
+      }
     },
     {
       "isff": false,
