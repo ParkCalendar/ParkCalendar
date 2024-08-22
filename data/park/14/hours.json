@@ -358,10 +358,7 @@
     "id": 7652,
     "name": "BATWING Coaster"
   },
-  "featuredEvent": {
-    "id": 443590,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 375383,
     "name": "Camp Groove"
