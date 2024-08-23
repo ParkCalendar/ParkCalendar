@@ -673,10 +673,7 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": {
-    "id": 324381,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
