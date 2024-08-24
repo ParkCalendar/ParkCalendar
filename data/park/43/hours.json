@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-08-17T11:00:00",
-      "close": "2024-08-17T19:00:00",
-      "operatingDate": "2024-08-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2024-08-17T12:00:00",
-      "waterParkClose": "2024-08-17T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-08-23T18:00:00",
       "close": "2024-08-23T22:00:00",
       "operatingDate": "2024-08-23T00:00:00",
@@ -68,8 +59,8 @@
       "close": "2024-09-02T18:00:00",
       "operatingDate": "2024-09-02T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2024-09-02T12:00:00",
+      "waterParkClose": "2024-09-02T17:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
