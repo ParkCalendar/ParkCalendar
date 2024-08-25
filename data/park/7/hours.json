@@ -1,60 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-08-14T10:30:00",
-      "close": "2024-08-14T20:00:00",
-      "operatingDate": "2024-08-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-15T10:30:00",
-      "close": "2024-08-15T20:00:00",
-      "operatingDate": "2024-08-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-16T10:30:00",
-      "close": "2024-08-16T20:00:00",
-      "operatingDate": "2024-08-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-17T10:30:00",
-      "close": "2024-08-17T21:00:00",
-      "operatingDate": "2024-08-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-18T10:30:00",
-      "close": "2024-08-18T20:00:00",
-      "operatingDate": "2024-08-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-19T10:30:00",
-      "close": "2024-08-19T20:00:00",
-      "operatingDate": "2024-08-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-08-24T10:30:00",
       "close": "2024-08-24T20:00:00",
       "operatingDate": "2024-08-24T00:00:00",
@@ -362,27 +308,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-19T10:30:00",
-      "close": "2024-08-19T20:00:00",
-      "operatingDate": "2024-08-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-08-24T10:30:00",
-      "close": "2024-08-24T20:00:00",
-      "operatingDate": "2024-08-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-08-25T10:30:00",
       "close": "2024-08-25T20:00:00",
       "operatingDate": "2024-08-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-08-31T10:30:00",
+      "close": "2024-08-31T21:00:00",
+      "operatingDate": "2024-08-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-01T10:30:00",
+      "close": "2024-09-01T21:00:00",
+      "operatingDate": "2024-09-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-02T10:30:00",
+      "close": "2024-09-02T20:00:00",
+      "operatingDate": "2024-09-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -439,14 +394,8 @@
     "id": 6194,
     "name": "Demon"
   },
-  "featuredEvent": {
-    "id": 317166,
-    "name": "Fright Fest"
-  },
-  "featuredShow": {
-    "id": 129144,
-    "name": "Party Gras"
-  },
+  "featuredEvent": null,
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
