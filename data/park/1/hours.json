@@ -605,18 +605,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-24T11:00:00",
-      "close": "2024-08-24T20:00:00",
-      "operatingDate": "2024-08-24T00:00:00",
+      "open": "2024-08-25T11:00:00",
+      "close": "2024-08-25T19:00:00",
+      "operatingDate": "2024-08-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2024-08-25T11:00:00",
-      "close": "2024-08-25T19:00:00",
-      "operatingDate": "2024-08-25T00:00:00",
+      "open": "2024-08-31T11:00:00",
+      "close": "2024-08-31T21:00:00",
+      "operatingDate": "2024-08-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-01T11:00:00",
+      "close": "2024-09-01T21:00:00",
+      "operatingDate": "2024-09-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-02T11:00:00",
+      "close": "2024-09-02T20:00:00",
+      "operatingDate": "2024-09-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -673,10 +691,7 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": {
-    "id": 324381,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
@@ -745,7 +760,7 @@
   "wifiEnabled": false,
   "wifiName": null,
   "flashPassEnabled": true,
-  "flashPassUrl": "https://ot.sfflashpass.com/?utm_campaign=qsmart_sfot&utm_source=mobile-app&utm_medium=app-home",
+  "flashPassUrl": "https://ot.sfflashpass.com/?utm_campaign=qsmart_sfot&utm_source=mobile-app&utm_medium=app-home-ridepage",
   "enableMobileFoodOrdering": true,
   "venueNextUuId": "e7e0b99b-6fed-4d75-a252-66c035d79faa",
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ckjnul8n62uho19n2gu4warx6",
