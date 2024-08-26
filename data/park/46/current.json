@@ -248,15 +248,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-25T11:00:00",
-      "close": "2024-08-25T17:00:00",
-      "operatingDate": "2024-08-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2024-08-30T17:00:00",
       "close": "2024-08-30T21:00:00",
       "operatingDate": "2024-08-30T00:00:00",
