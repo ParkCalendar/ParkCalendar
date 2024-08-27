@@ -400,7 +400,7 @@
   "wifiEnabled": false,
   "wifiName": null,
   "flashPassEnabled": true,
-  "flashPassUrl": "https://am.sfflashpass.com/?utm_campaign=qsmart_sfa&utm_source=mobile-app&utm_medium=app-home",
+  "flashPassUrl": "https://am.sfflashpass.com/?utm_campaign=qsmart_sfam&utm_source=mobile-app&utm_medium=app-ridepage",
   "enableMobileFoodOrdering": true,
   "venueNextUuId": "d7a78ea5-96db-429f-900b-2f34c9a90ba7",
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z4yqg50xas1ioah02ba5m2",
