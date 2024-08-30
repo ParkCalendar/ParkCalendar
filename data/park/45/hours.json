@@ -334,10 +334,7 @@
     "id": 11418,
     "name": "Pirate"
   },
-  "featuredEvent": {
-    "id": 440820,
-    "name": "Fright Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -431,5 +428,6 @@
   "promotionBanner": null,
   "pictureStoreUrl": null,
   "pomVomUrl": null,
+  "allParkPassportStoreUrl": null,
   "toastMessages": null
 }
