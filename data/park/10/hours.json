@@ -101,15 +101,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-31T11:00:00",
-      "close": "2024-08-31T18:00:00",
-      "operatingDate": "2024-08-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-09-01T11:00:00",
       "close": "2024-09-01T18:00:00",
       "operatingDate": "2024-09-01T00:00:00",
@@ -122,6 +113,24 @@
       "open": "2024-09-02T11:00:00",
       "close": "2024-09-02T18:00:00",
       "operatingDate": "2024-09-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-07T11:00:00",
+      "close": "2024-09-07T17:00:00",
+      "operatingDate": "2024-09-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-09-08T11:00:00",
+      "close": "2024-09-08T17:00:00",
+      "operatingDate": "2024-09-08T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -269,5 +278,6 @@
   "promotionBanner": null,
   "pictureStoreUrl": null,
   "pomVomUrl": null,
+  "allParkPassportStoreUrl": null,
   "toastMessages": null
 }
