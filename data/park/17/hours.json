@@ -632,15 +632,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-31T11:00:00",
-      "close": "2024-08-31T20:00:00",
-      "operatingDate": "2024-08-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-09-01T11:00:00",
       "close": "2024-09-01T20:00:00",
       "operatingDate": "2024-09-01T00:00:00",
@@ -653,6 +644,24 @@
       "open": "2024-09-02T11:00:00",
       "close": "2024-09-02T19:00:00",
       "operatingDate": "2024-09-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-07T11:00:00",
+      "close": "2024-09-07T18:00:00",
+      "operatingDate": "2024-09-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-08T11:00:00",
+      "close": "2024-09-08T18:00:00",
+      "operatingDate": "2024-09-08T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -710,8 +719,8 @@
     "name": "Medusa"
   },
   "featuredEvent": {
-    "id": 445139,
-    "name": "Oktoberfest"
+    "id": 150820,
+    "name": "Education Days"
   },
   "featuredShow": {
     "id": 38471,
@@ -814,5 +823,6 @@
   "promotionBanner": null,
   "pictureStoreUrl": null,
   "pomVomUrl": null,
+  "allParkPassportStoreUrl": null,
   "toastMessages": null
 }
