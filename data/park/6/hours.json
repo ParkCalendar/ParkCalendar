@@ -884,33 +884,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-08-26T10:30:00",
-      "close": "2024-08-26T18:00:00",
-      "operatingDate": "2024-08-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-08-30T10:30:00",
-      "close": "2024-08-30T20:00:00",
-      "operatingDate": "2024-08-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-08-31T10:30:00",
-      "close": "2024-08-31T21:00:00",
-      "operatingDate": "2024-08-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-09-01T10:30:00",
       "close": "2024-09-01T21:00:00",
       "operatingDate": "2024-09-01T00:00:00",
@@ -923,6 +896,42 @@
       "open": "2024-09-02T10:30:00",
       "close": "2024-09-02T21:00:00",
       "operatingDate": "2024-09-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-06T10:30:00",
+      "close": "2024-09-06T18:00:00",
+      "operatingDate": "2024-09-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-07T10:30:00",
+      "close": "2024-09-08T01:00:00",
+      "operatingDate": "2024-09-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-08T10:30:00",
+      "close": "2024-09-09T00:00:00",
+      "operatingDate": "2024-09-08T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-09-09T10:30:00",
+      "close": "2024-09-09T18:00:00",
+      "operatingDate": "2024-09-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
