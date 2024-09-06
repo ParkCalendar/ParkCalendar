@@ -309,7 +309,10 @@
     "id": 84044,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 489483,
+    "name": "Broue et Bouffe 2024"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
