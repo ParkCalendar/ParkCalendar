@@ -236,18 +236,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-09-14T11:00:00",
-      "close": "2024-09-14T23:00:00",
-      "operatingDate": "2024-09-14T00:00:00",
+      "open": "2024-09-15T11:00:00",
+      "close": "2024-09-15T19:00:00",
+      "operatingDate": "2024-09-15T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2024-09-15T11:00:00",
-      "close": "2024-09-15T19:00:00",
-      "operatingDate": "2024-09-15T00:00:00",
+      "open": "2024-09-21T11:00:00",
+      "close": "2024-09-21T23:00:00",
+      "operatingDate": "2024-09-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-09-22T11:00:00",
+      "close": "2024-09-22T19:00:00",
+      "operatingDate": "2024-09-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -300,7 +309,10 @@
     "id": 84044,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 357567,
+    "name": "L’International des Feux Loto-Québec"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
