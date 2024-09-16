@@ -1010,15 +1010,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-09-15T10:00:00",
-      "close": "2024-09-15T23:59:00",
-      "operatingDate": "2024-09-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-09-16T10:00:00",
       "close": "2024-09-16T23:59:00",
       "operatingDate": "2024-09-16T00:00:00",
