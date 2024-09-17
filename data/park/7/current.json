@@ -331,10 +331,7 @@
     "id": 6194,
     "name": "Demon"
   },
-  "featuredEvent": {
-    "id": 527356,
-    "name": "FANTA Beetlejuice Beetlejuice"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
