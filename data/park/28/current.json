@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2024-09-26T10:00:00",
-      "close": "2024-09-26T23:59:00",
+      "close": "2024-09-26T18:00:00",
       "operatingDate": "2024-09-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -822,7 +822,7 @@
   "upcomingHours": [
     {
       "open": "2024-09-26T10:00:00",
-      "close": "2024-09-26T23:59:00",
+      "close": "2024-09-26T18:00:00",
       "operatingDate": "2024-09-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
