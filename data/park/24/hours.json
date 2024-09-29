@@ -344,18 +344,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-09-28T12:00:00",
-      "close": "2024-09-28T21:00:00",
-      "operatingDate": "2024-09-28T00:00:00",
+      "open": "2024-09-29T12:00:00",
+      "close": "2024-09-29T20:00:00",
+      "operatingDate": "2024-09-29T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-09-29T12:00:00",
-      "close": "2024-09-29T20:00:00",
-      "operatingDate": "2024-09-29T00:00:00",
+      "open": "2024-10-04T17:00:00",
+      "close": "2024-10-04T22:00:00",
+      "operatingDate": "2024-10-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-05T12:00:00",
+      "close": "2024-10-05T21:00:00",
+      "operatingDate": "2024-10-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-06T12:00:00",
+      "close": "2024-10-06T20:00:00",
+      "operatingDate": "2024-10-06T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -413,8 +431,8 @@
     "name": "Condor"
   },
   "featuredEvent": {
-    "id": 324193,
-    "name": "Oktoberfest 2024"
+    "id": 324197,
+    "name": "Kids Boo Fest"
   },
   "featuredShow": null,
   "featuredSouvenir": null,
