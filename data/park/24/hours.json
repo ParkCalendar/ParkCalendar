@@ -344,24 +344,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-11T17:00:00",
-      "close": "2024-10-11T22:00:00",
-      "operatingDate": "2024-10-11T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2024-10-12T12:00:00",
-      "close": "2024-10-12T21:00:00",
-      "operatingDate": "2024-10-12T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-10-13T12:00:00",
       "close": "2024-10-13T21:00:00",
       "operatingDate": "2024-10-13T00:00:00",
@@ -374,6 +356,33 @@
       "open": "2024-10-14T12:00:00",
       "close": "2024-10-14T20:00:00",
       "operatingDate": "2024-10-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-18T17:00:00",
+      "close": "2024-10-18T22:00:00",
+      "operatingDate": "2024-10-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-19T12:00:00",
+      "close": "2024-10-19T21:00:00",
+      "operatingDate": "2024-10-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-20T12:00:00",
+      "close": "2024-10-20T20:00:00",
+      "operatingDate": "2024-10-20T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
