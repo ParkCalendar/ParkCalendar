@@ -389,15 +389,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-13T10:30:00",
-      "close": "2024-10-14T00:00:00",
-      "operatingDate": "2024-10-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-10-14T11:00:00",
       "close": "2024-10-14T21:00:00",
       "operatingDate": "2024-10-14T00:00:00",
@@ -463,8 +454,8 @@
   "country": "United States",
   "phone": "732-928-2000",
   "renderLocation": {
-    "heading": 180,
-    "radius": 0,
+    "heading": 180.00,
+    "radius": 0.0,
     "latitude": 40.136144,
     "longitude": -74.439806
   },
@@ -485,7 +476,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 3,
+    "radius": 3.0000,
     "latitude": 40.1384,
     "longitude": -74.4405
   },
