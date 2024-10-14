@@ -632,15 +632,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-13T12:00:00",
-      "close": "2024-10-13T22:00:00",
-      "operatingDate": "2024-10-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-10-14T12:00:00",
       "close": "2024-10-14T18:00:00",
       "operatingDate": "2024-10-14T00:00:00",
@@ -697,14 +688,14 @@
   "country": "United States",
   "phone": "707-644-4000",
   "renderLocation": {
-    "heading": -90,
-    "radius": 0,
-    "latitude": 38.13867,
-    "longitude": -122.23444
+    "heading": -90.00,
+    "radius": 0.0,
+    "latitude": 38.138670,
+    "longitude": -122.234440
   },
   "entranceLocation": {
-    "latitude": 38.13873,
-    "longitude": -122.23325
+    "latitude": 38.138730,
+    "longitude": -122.233250
   },
   "image": {
     "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFDK_blur_2023.jpg",
@@ -719,8 +710,8 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 2.5,
-    "latitude": 38.138,
+    "radius": 2.5000,
+    "latitude": 38.1380,
     "longitude": -122.2337
   },
   "featuredRide": {
