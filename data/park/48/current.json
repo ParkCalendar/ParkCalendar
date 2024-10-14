@@ -141,14 +141,14 @@
   "country": "United States",
   "phone": "815-966-2442",
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
-    "latitude": 0,
-    "longitude": 0
+    "heading": 0.0,
+    "radius": 0.0,
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "entranceLocation": {
-    "latitude": 0,
-    "longitude": 0
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "image": {
     "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/HHRO_blur_2023.jpg",
@@ -163,7 +163,7 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 2.5,
+    "radius": 2.5000,
     "latitude": 42.2445,
     "longitude": -88.9641
   },
