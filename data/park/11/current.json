@@ -318,13 +318,13 @@
   "country": "United States",
   "phone": "661-255-4100",
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
-    "latitude": 34.42521,
+    "heading": 0.0,
+    "radius": 0.0,
+    "latitude": 34.425210,
     "longitude": -118.594437
   },
   "entranceLocation": {
-    "latitude": 34.42385,
+    "latitude": 34.423850,
     "longitude": -118.595014
   },
   "image": {
@@ -340,7 +340,7 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 10,
+    "radius": 10.0000,
     "latitude": 34.4259,
     "longitude": -118.5974
   },
