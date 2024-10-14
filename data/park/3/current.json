@@ -173,15 +173,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-13T12:00:00",
-      "close": "2024-10-13T21:00:00",
-      "operatingDate": "2024-10-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-10-18T18:00:00",
       "close": "2024-10-18T23:00:00",
       "operatingDate": "2024-10-18T00:00:00",
@@ -229,14 +220,14 @@
   "country": "United States",
   "phone": "636-938-5300",
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
-    "latitude": 0,
-    "longitude": 0
+    "heading": 0.0,
+    "radius": 0.0,
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "entranceLocation": {
-    "latitude": 0,
-    "longitude": 0
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "image": {
     "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFSL_blur_2023.jpg",
@@ -251,7 +242,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 2.5,
+    "radius": 2.5000,
     "latitude": 38.5127,
     "longitude": -90.6748
   },
