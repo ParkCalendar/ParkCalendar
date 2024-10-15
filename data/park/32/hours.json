@@ -1,62 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-10-04T10:00:00",
-      "close": "2024-10-04T18:00:00",
-      "operatingDate": "2024-10-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-05T10:00:00",
-      "close": "2024-10-05T18:00:00",
-      "operatingDate": "2024-10-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-06T10:00:00",
-      "close": "2024-10-06T18:00:00",
-      "operatingDate": "2024-10-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-11T18:00:00",
-      "close": "2024-10-11T21:00:00",
-      "operatingDate": "2024-10-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-12T10:00:00",
-      "close": "2024-10-12T18:00:00",
-      "operatingDate": "2024-10-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-13T10:00:00",
-      "close": "2024-10-13T18:00:00",
-      "operatingDate": "2024-10-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-10-18T10:00:00",
-      "close": "2024-10-18T18:00:00",
+      "open": "2024-10-18T18:00:00",
+      "close": "2024-10-18T22:00:00",
       "operatingDate": "2024-10-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -65,7 +11,7 @@
     },
     {
       "open": "2024-10-19T10:00:00",
-      "close": "2024-10-19T18:00:00",
+      "close": "2024-10-19T22:00:00",
       "operatingDate": "2024-10-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -74,7 +20,7 @@
     },
     {
       "open": "2024-10-20T10:00:00",
-      "close": "2024-10-20T18:00:00",
+      "close": "2024-10-20T22:00:00",
       "operatingDate": "2024-10-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -83,7 +29,7 @@
     },
     {
       "open": "2024-10-24T10:00:00",
-      "close": "2024-10-24T18:00:00",
+      "close": "2024-10-24T22:00:00",
       "operatingDate": "2024-10-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -92,7 +38,7 @@
     },
     {
       "open": "2024-10-25T10:00:00",
-      "close": "2024-10-25T18:00:00",
+      "close": "2024-10-25T22:00:00",
       "operatingDate": "2024-10-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -101,7 +47,7 @@
     },
     {
       "open": "2024-10-26T10:00:00",
-      "close": "2024-10-26T18:00:00",
+      "close": "2024-10-26T22:00:00",
       "operatingDate": "2024-10-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -110,7 +56,7 @@
     },
     {
       "open": "2024-10-27T10:00:00",
-      "close": "2024-10-27T18:00:00",
+      "close": "2024-10-27T22:00:00",
       "operatingDate": "2024-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -119,7 +65,7 @@
     },
     {
       "open": "2024-10-30T10:00:00",
-      "close": "2024-10-30T18:00:00",
+      "close": "2024-10-30T22:00:00",
       "operatingDate": "2024-10-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -128,7 +74,7 @@
     },
     {
       "open": "2024-10-31T10:00:00",
-      "close": "2024-10-31T18:00:00",
+      "close": "2024-10-31T22:00:00",
       "operatingDate": "2024-10-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -137,7 +83,7 @@
     },
     {
       "open": "2024-11-01T10:00:00",
-      "close": "2024-11-01T18:00:00",
+      "close": "2024-11-01T22:00:00",
       "operatingDate": "2024-11-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -146,7 +92,7 @@
     },
     {
       "open": "2024-11-02T10:00:00",
-      "close": "2024-11-02T18:00:00",
+      "close": "2024-11-02T22:00:00",
       "operatingDate": "2024-11-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -155,7 +101,7 @@
     },
     {
       "open": "2024-11-03T10:00:00",
-      "close": "2024-11-03T18:00:00",
+      "close": "2024-11-03T22:00:00",
       "operatingDate": "2024-11-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -491,8 +437,8 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-18T10:00:00",
-      "close": "2024-10-18T18:00:00",
+      "open": "2024-10-18T18:00:00",
+      "close": "2024-10-18T22:00:00",
       "operatingDate": "2024-10-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -501,7 +447,7 @@
     },
     {
       "open": "2024-10-19T10:00:00",
-      "close": "2024-10-19T18:00:00",
+      "close": "2024-10-19T22:00:00",
       "operatingDate": "2024-10-19T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -510,7 +456,7 @@
     },
     {
       "open": "2024-10-20T10:00:00",
-      "close": "2024-10-20T18:00:00",
+      "close": "2024-10-20T22:00:00",
       "operatingDate": "2024-10-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
