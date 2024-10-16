@@ -300,14 +300,14 @@
   "country": "United States",
   "phone": null,
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 0.0,
+    "heading": 0,
+    "radius": 0,
     "latitude": 37.974015,
     "longitude": -122.051201
   },
   "entranceLocation": {
     "latitude": 37.973304,
-    "longitude": -122.050550
+    "longitude": -122.05055
   },
   "image": {
     "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/HHCO_blur_2023-1.jpg",
@@ -322,8 +322,8 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 0.1600,
-    "latitude": 37.9740,
+    "radius": 0.16,
+    "latitude": 37.974,
     "longitude": -122.0512
   },
   "featuredRide": {
