@@ -880,8 +880,8 @@
   "country": "México",
   "phone": "52-55-5728-7200",
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 0.0,
+    "heading": 0,
+    "radius": 0,
     "latitude": -99.211442,
     "longitude": -99.208831
   },
@@ -902,7 +902,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 0.5000,
+    "radius": 0.5,
     "latitude": 19.2947,
     "longitude": -99.2088
   },
