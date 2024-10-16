@@ -120,14 +120,14 @@
   "country": "United States",
   "phone": "817-265-3356",
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 0.0,
-    "latitude": 0.000000,
-    "longitude": 0.000000
+    "heading": 0,
+    "radius": 0,
+    "latitude": 0,
+    "longitude": 0
   },
   "entranceLocation": {
-    "latitude": 0.000000,
-    "longitude": 0.000000
+    "latitude": 0,
+    "longitude": 0
   },
   "image": {
     "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/HHA_blur_2023.jpg",
@@ -142,8 +142,8 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 10.0000,
-    "latitude": 32.7620,
+    "radius": 10,
+    "latitude": 32.762,
     "longitude": -97.0829
   },
   "featuredRide": {
