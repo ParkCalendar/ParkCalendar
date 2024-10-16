@@ -553,8 +553,8 @@
   "country": "United States",
   "phone": "210-697-5000",
   "renderLocation": {
-    "heading": 180.00,
-    "radius": 0.0,
+    "heading": 180,
+    "radius": 0,
     "latitude": 29.597388,
     "longitude": -98.610669
   },
@@ -575,9 +575,9 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 3.0000,
+    "radius": 3,
     "latitude": 29.6009,
-    "longitude": -98.6090
+    "longitude": -98.609
   },
   "featuredRide": {
     "id": 6942,
