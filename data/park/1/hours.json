@@ -490,14 +490,14 @@
   "country": "United States",
   "phone": "817-640-8900",
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 4.000000,
+    "heading": 0,
+    "radius": 4,
     "latitude": 32.756709,
     "longitude": -97.070145
   },
   "entranceLocation": {
-    "latitude": 32.755270,
-    "longitude": -97.070020
+    "latitude": 32.75527,
+    "longitude": -97.07002
   },
   "image": {
     "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFOT_blur_2023.jpg",
@@ -512,7 +512,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 10.0000,
+    "radius": 10,
     "latitude": 32.7565,
     "longitude": -97.0658
   },
