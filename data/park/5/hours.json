@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-10-17T18:00:00",
-      "close": "2024-10-17T23:00:00",
-      "operatingDate": "2024-10-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-10-18T17:00:00",
       "close": "2024-10-19T00:00:00",
       "operatingDate": "2024-10-18T00:00:00",
@@ -352,15 +343,6 @@
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2024-10-17T18:00:00",
-      "close": "2024-10-17T23:00:00",
-      "operatingDate": "2024-10-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2024-10-18T17:00:00",
       "close": "2024-10-19T00:00:00",
