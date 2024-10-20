@@ -83,27 +83,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-14T13:00:00",
-      "close": "2024-10-14T20:00:00",
-      "operatingDate": "2024-10-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-19T13:00:00",
-      "close": "2024-10-19T22:00:00",
-      "operatingDate": "2024-10-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2024-10-20T13:00:00",
       "close": "2024-10-20T22:00:00",
       "operatingDate": "2024-10-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-10-26T13:00:00",
+      "close": "2024-10-26T22:00:00",
+      "operatingDate": "2024-10-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2024-10-27T13:00:00",
+      "close": "2024-10-27T22:00:00",
+      "operatingDate": "2024-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -126,9 +126,9 @@
   "country": "Canada",
   "phone": "514-397-2001",
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 0.0,
-    "latitude": 45.524620,
+    "heading": 0,
+    "radius": 0,
+    "latitude": 45.52462,
     "longitude": -73.535192
   },
   "entranceLocation": {
@@ -148,9 +148,9 @@
   "couponsEnabled": false,
   "isWaterPark": false,
   "location": {
-    "radius": 2.5000,
+    "radius": 2.5,
     "latitude": 45.5225,
-    "longitude": -73.5350
+    "longitude": -73.535
   },
   "featuredRide": {
     "id": 98536,
