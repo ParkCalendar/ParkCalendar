@@ -119,18 +119,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-10-19T12:00:00",
-      "close": "2024-10-19T22:00:00",
-      "operatingDate": "2024-10-19T00:00:00",
+      "open": "2024-10-20T12:00:00",
+      "close": "2024-10-20T21:00:00",
+      "operatingDate": "2024-10-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-10-20T12:00:00",
-      "close": "2024-10-20T21:00:00",
-      "operatingDate": "2024-10-20T00:00:00",
+      "open": "2024-10-25T18:00:00",
+      "close": "2024-10-25T23:00:00",
+      "operatingDate": "2024-10-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-26T12:00:00",
+      "close": "2024-10-26T22:00:00",
+      "operatingDate": "2024-10-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-10-27T12:00:00",
+      "close": "2024-10-27T21:00:00",
+      "operatingDate": "2024-10-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -157,8 +175,8 @@
   "country": "United States",
   "phone": "301-249-1500",
   "renderLocation": {
-    "heading": 0.0,
-    "radius": 0.0,
+    "heading": 0,
+    "radius": 0,
     "latitude": 38.908277,
     "longitude": -76.773549
   },
@@ -179,7 +197,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 2.5000,
+    "radius": 2.5,
     "latitude": 38.9012,
     "longitude": -76.7714
   },
