@@ -1,69 +1,5 @@
 {
-  "operatingHours": [
-    {
-      "open": "2024-10-12T13:00:00",
-      "close": "2024-10-12T22:00:00",
-      "operatingDate": "2024-10-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-13T13:00:00",
-      "close": "2024-10-13T22:00:00",
-      "operatingDate": "2024-10-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-14T13:00:00",
-      "close": "2024-10-14T20:00:00",
-      "operatingDate": "2024-10-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-19T13:00:00",
-      "close": "2024-10-19T22:00:00",
-      "operatingDate": "2024-10-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-20T13:00:00",
-      "close": "2024-10-20T22:00:00",
-      "operatingDate": "2024-10-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-26T13:00:00",
-      "close": "2024-10-26T22:00:00",
-      "operatingDate": "2024-10-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-27T13:00:00",
-      "close": "2024-10-27T22:00:00",
-      "operatingDate": "2024-10-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    }
-  ],
+  "operatingHours": [],
   "abbreviation": "SFMC",
   "currentAnimation": {
     "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-640.gif",
@@ -81,26 +17,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [
-    {
-      "open": "2024-10-26T13:00:00",
-      "close": "2024-10-26T22:00:00",
-      "operatingDate": "2024-10-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2024-10-27T13:00:00",
-      "close": "2024-10-27T22:00:00",
-      "operatingDate": "2024-10-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     1,
