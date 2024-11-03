@@ -30,6 +30,11 @@ echo "------------------"
 cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusTemporarilyClosed") | .name'
 
 echo ""
+echo "TEMPORARILY CLOSED (weather)"
+echo "----------------------------"
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusTemporarilyClosedDueToWeather") | .name'
+
+echo ""
 echo "CLOSED"
 echo "------"
 cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusClosed") | .name'
@@ -42,4 +47,5 @@ cat ${RIDES_JSON} | jq -r '.rides[] | select(.status == "AttractionStatusClosedF
 echo ""
 echo "Other"
 echo "-----"
-cat ${RIDES_JSON} | jq -r '.rides[] | select(.status != "AttractionStatusTemporarilyClosed" and .status != "AttractionStatusClosed" and .status != "AttractionStatusOpen" and .status != "AttractionStatusClosedForSeason") | [.name, .status] | join (" - ")'
+cat ${RIDES_JSON} | jq -r '.rides[] | select(.status != "AttractionStatusTemporarilyClosed" and .status != "AttractionStatusClosed" and .status != "AttractionStatusOpen" and .status != "AttractionStatusClosedForSeason" and .status != "AttractionStatusTemporarilyClosedDueToWeather") | [.name, .status] | join (" - ")'
+echo ""
