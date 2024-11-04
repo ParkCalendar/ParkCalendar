@@ -476,12 +476,12 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 324212,
-    "name": "Fright Fest"
+    "id": 451048,
+    "name": "Holiday In the Park"
   },
   "featuredShow": {
-    "id": 38370,
-    "name": "The Arrival"
+    "id": 45466,
+    "name": "Christmas Tree Lighting Presented by ANCIRA™"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -516,8 +516,8 @@
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
       "featuredAttraction": {
-        "id": 150235,
-        "name": "Slaughterhouse 6 Xtreme – The Butchering"
+        "id": 315097,
+        "name": "Trapped"
       }
     },
     {
