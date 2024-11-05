@@ -493,10 +493,7 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": {
-    "id": 527334,
-    "name": "FANTA Beetlejuice Beetlejuice"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
