@@ -434,7 +434,10 @@
     "id": 478981,
     "name": "Holiday in the Park"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 341186,
+    "name": "Jolly Light Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
