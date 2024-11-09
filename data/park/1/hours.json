@@ -1,141 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-10-14T12:00:00",
-      "close": "2024-10-14T22:00:00",
-      "operatingDate": "2024-10-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-17T18:00:00",
-      "close": "2024-10-17T23:00:00",
-      "operatingDate": "2024-10-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-18T18:00:00",
-      "close": "2024-10-19T00:00:00",
-      "operatingDate": "2024-10-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-19T12:00:00",
-      "close": "2024-10-20T00:00:00",
-      "operatingDate": "2024-10-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-20T12:00:00",
-      "close": "2024-10-20T22:00:00",
-      "operatingDate": "2024-10-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-24T18:00:00",
-      "close": "2024-10-24T23:00:00",
-      "operatingDate": "2024-10-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-25T18:00:00",
-      "close": "2024-10-26T00:00:00",
-      "operatingDate": "2024-10-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-26T12:00:00",
-      "close": "2024-10-27T00:00:00",
-      "operatingDate": "2024-10-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-27T12:00:00",
-      "close": "2024-10-27T22:00:00",
-      "operatingDate": "2024-10-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-10-31T18:00:00",
-      "close": "2024-10-31T23:00:00",
-      "operatingDate": "2024-10-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-01T18:00:00",
-      "close": "2024-11-01T23:00:00",
-      "operatingDate": "2024-11-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-02T12:00:00",
-      "close": "2024-11-02T22:00:00",
-      "operatingDate": "2024-11-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-03T12:00:00",
-      "close": "2024-11-03T22:00:00",
-      "operatingDate": "2024-11-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-09T11:00:00",
-      "close": "2024-11-09T18:00:00",
-      "operatingDate": "2024-11-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-10T11:00:00",
-      "close": "2024-11-10T21:00:00",
-      "operatingDate": "2024-11-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-11-16T11:00:00",
       "close": "2024-11-16T18:00:00",
       "operatingDate": "2024-11-16T00:00:00",
@@ -423,26 +288,7 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [
-    {
-      "open": "2024-11-09T11:00:00",
-      "close": "2024-11-09T18:00:00",
-      "operatingDate": "2024-11-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-10T11:00:00",
-      "close": "2024-11-10T21:00:00",
-      "operatingDate": "2024-11-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -493,10 +339,7 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": {
-    "id": 527334,
-    "name": "FANTA Beetlejuice Beetlejuice"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
