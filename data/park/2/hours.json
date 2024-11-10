@@ -506,18 +506,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-09T11:00:00",
-      "close": "2024-11-09T18:00:00",
-      "operatingDate": "2024-11-09T00:00:00",
+      "open": "2024-11-10T11:00:00",
+      "close": "2024-11-10T18:00:00",
+      "operatingDate": "2024-11-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-11-10T11:00:00",
-      "close": "2024-11-10T18:00:00",
-      "operatingDate": "2024-11-10T00:00:00",
+      "open": "2024-11-16T11:00:00",
+      "close": "2024-11-16T18:00:00",
+      "operatingDate": "2024-11-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-17T11:00:00",
+      "close": "2024-11-17T18:00:00",
+      "operatingDate": "2024-11-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -575,12 +584,12 @@
     "name": "Blue Hawk"
   },
   "featuredEvent": {
-    "id": 440380,
-    "name": "Fright Fest"
+    "id": 534234,
+    "name": "Veteran & Military Appreciation Days"
   },
   "featuredShow": {
-    "id": 441061,
-    "name": "NEW! The Transylvanian Orchestra: Unleashed"
+    "id": 452688,
+    "name": "NEW! The Grand Fir Tree Lighting Celebration"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
