@@ -416,9 +416,18 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-10T12:00:00",
-      "close": "2024-11-10T18:00:00",
-      "operatingDate": "2024-11-10T00:00:00",
+      "open": "2024-11-16T12:00:00",
+      "close": "2024-11-16T19:00:00",
+      "operatingDate": "2024-11-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2024-11-17T12:00:00",
+      "close": "2024-11-17T18:00:00",
+      "operatingDate": "2024-11-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -476,12 +485,12 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 324212,
-    "name": "Fright Fest"
+    "id": 451048,
+    "name": "Holiday In the Park"
   },
   "featuredShow": {
-    "id": 38370,
-    "name": "The Arrival"
+    "id": 45466,
+    "name": "Christmas Tree Lighting Presented by ANCIRA™"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -515,10 +524,7 @@
       "eventBegin": "2022-09-08T00:00:00",
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 150235,
-        "name": "Slaughterhouse 6 Xtreme – The Butchering"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
