@@ -272,15 +272,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-10T11:00:00",
-      "close": "2024-11-10T18:00:00",
-      "operatingDate": "2024-11-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2024-11-11T11:00:00",
       "close": "2024-11-11T18:00:00",
       "operatingDate": "2024-11-11T00:00:00",
