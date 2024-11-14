@@ -181,6 +181,24 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2024-12-30T12:00:00",
+      "close": "2024-12-30T19:00:00",
+      "operatingDate": "2024-12-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2024-12-31T12:00:00",
+      "close": "2024-12-31T19:00:00",
+      "operatingDate": "2024-12-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2025-01-01T12:00:00",
       "close": "2025-01-01T19:00:00",
       "operatingDate": "2025-01-01T00:00:00",
