@@ -370,15 +370,6 @@
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2025-01-09T10:00:00",
-      "close": "2025-01-09T22:00:00",
-      "operatingDate": "2025-01-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-01-10T10:00:00",
       "close": "2025-01-10T22:00:00",
       "operatingDate": "2025-01-10T00:00:00",
