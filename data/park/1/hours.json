@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-11-16T11:00:00",
-      "close": "2024-11-16T18:00:00",
-      "operatingDate": "2024-11-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-11-17T11:00:00",
       "close": "2024-11-17T18:00:00",
       "operatingDate": "2024-11-17T00:00:00",
@@ -288,7 +279,17 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2024-11-17T11:00:00",
+      "close": "2024-11-17T18:00:00",
+      "operatingDate": "2024-11-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
