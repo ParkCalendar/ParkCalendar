@@ -506,18 +506,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-16T11:00:00",
-      "close": "2024-11-16T18:00:00",
-      "operatingDate": "2024-11-16T00:00:00",
+      "open": "2024-11-17T11:00:00",
+      "close": "2024-11-17T18:00:00",
+      "operatingDate": "2024-11-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2024-11-17T11:00:00",
-      "close": "2024-11-17T18:00:00",
-      "operatingDate": "2024-11-17T00:00:00",
+      "open": "2024-11-23T14:00:00",
+      "close": "2024-11-23T20:00:00",
+      "operatingDate": "2024-11-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-24T14:00:00",
+      "close": "2024-11-24T20:00:00",
+      "operatingDate": "2024-11-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-25T14:00:00",
+      "close": "2024-11-25T20:00:00",
+      "operatingDate": "2024-11-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
