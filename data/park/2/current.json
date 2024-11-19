@@ -583,7 +583,10 @@
     "id": 4131,
     "name": "Blue Hawk"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 539149,
+    "name": "Holiday Harmonies"
+  },
   "featuredShow": {
     "id": 130292,
     "name": "Looney Tunes Meet & Greet"
