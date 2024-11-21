@@ -1,42 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-11-15T10:00:00",
-      "close": "2024-11-15T18:00:00",
-      "operatingDate": "2024-11-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-11-17T10:00:00",
-      "close": "2024-11-17T20:00:00",
-      "operatingDate": "2024-11-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-11-18T10:00:00",
-      "close": "2024-11-18T20:00:00",
-      "operatingDate": "2024-11-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-11-20T10:00:00",
-      "close": "2024-11-20T18:00:00",
-      "operatingDate": "2024-11-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2024-11-22T10:00:00",
       "close": "2024-11-22T22:00:00",
       "operatingDate": "2024-11-22T00:00:00",
@@ -184,15 +148,6 @@
       "open": "2024-12-15T10:00:00",
       "close": "2024-12-15T22:00:00",
       "operatingDate": "2024-12-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-12-16T10:00:00",
-      "close": "2024-12-16T22:00:00",
-      "operatingDate": "2024-12-16T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -487,24 +442,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2024-11-18T10:00:00",
-      "close": "2024-11-18T20:00:00",
-      "operatingDate": "2024-11-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-11-20T10:00:00",
-      "close": "2024-11-20T18:00:00",
-      "operatingDate": "2024-11-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
     {
       "open": "2024-11-22T10:00:00",
       "close": "2024-11-22T22:00:00",
