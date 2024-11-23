@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-11-23T12:00:00",
-      "close": "2024-11-23T22:00:00",
-      "operatingDate": "2024-11-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-11-24T12:00:00",
       "close": "2024-11-24T21:00:00",
       "operatingDate": "2024-11-24T00:00:00",
@@ -272,15 +263,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-23T12:00:00",
-      "close": "2024-11-23T22:00:00",
-      "operatingDate": "2024-11-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-11-24T12:00:00",
       "close": "2024-11-24T21:00:00",
       "operatingDate": "2024-11-24T00:00:00",
@@ -349,7 +331,10 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 336309,
+    "name": "Holiday in the Park"
+  },
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
