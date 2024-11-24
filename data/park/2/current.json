@@ -506,15 +506,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-11-23T14:00:00",
-      "close": "2024-11-23T20:00:00",
-      "operatingDate": "2024-11-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2024-11-24T14:00:00",
       "close": "2024-11-24T20:00:00",
       "operatingDate": "2024-11-24T00:00:00",
@@ -527,6 +518,51 @@
       "open": "2024-11-25T14:00:00",
       "close": "2024-11-25T20:00:00",
       "operatingDate": "2024-11-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-26T14:00:00",
+      "close": "2024-11-26T20:00:00",
+      "operatingDate": "2024-11-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-27T14:00:00",
+      "close": "2024-11-27T20:00:00",
+      "operatingDate": "2024-11-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-29T12:00:00",
+      "close": "2024-11-29T20:00:00",
+      "operatingDate": "2024-11-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-11-30T14:00:00",
+      "close": "2024-11-30T20:00:00",
+      "operatingDate": "2024-11-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2024-12-01T14:00:00",
+      "close": "2024-12-01T20:00:00",
+      "operatingDate": "2024-12-01T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
