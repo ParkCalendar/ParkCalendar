@@ -222,10 +222,7 @@
     "id": 4543,
     "name": "BATMAN™: The Ride"
   },
-  "featuredEvent": {
-    "id": 305258,
-    "name": "Kids Boo Fest"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
