@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2024-11-29T12:00:00",
-      "close": "2024-11-29T21:00:00",
-      "operatingDate": "2024-11-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2024-11-30T12:00:00",
-      "close": "2024-11-30T21:00:00",
-      "operatingDate": "2024-11-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-12-01T12:00:00",
       "close": "2024-12-01T21:00:00",
       "operatingDate": "2024-12-01T00:00:00",
@@ -262,15 +244,6 @@
   "paidVirtualQueueUri": "https://ft.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2024-12-01T12:00:00",
-      "close": "2024-12-01T21:00:00",
-      "operatingDate": "2024-12-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2024-12-07T12:00:00",
       "close": "2024-12-07T21:00:00",

@@ -245,15 +245,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-12-01T12:00:00",
-      "close": "2024-12-01T21:00:00",
-      "operatingDate": "2024-12-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2024-12-07T12:00:00",
       "close": "2024-12-07T21:00:00",
       "operatingDate": "2024-12-07T00:00:00",
