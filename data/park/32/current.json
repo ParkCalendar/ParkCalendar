@@ -1,26 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2024-12-07T10:00:00",
-      "close": "2024-12-07T18:00:00",
-      "operatingDate": "2024-12-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-12-08T10:00:00",
-      "close": "2024-12-08T18:00:00",
-      "operatingDate": "2024-12-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2024-12-13T10:00:00",
-      "close": "2024-12-13T18:00:00",
+      "open": "2024-12-13T18:00:00",
+      "close": "2024-12-13T21:00:00",
       "operatingDate": "2024-12-13T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -203,8 +185,8 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-12-13T10:00:00",
-      "close": "2024-12-13T18:00:00",
+      "open": "2024-12-13T18:00:00",
+      "close": "2024-12-13T21:00:00",
       "operatingDate": "2024-12-13T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
