@@ -294,8 +294,8 @@
   "country": "United States",
   "phone": "405-943-9687",
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
+    "heading": 0.0,
+    "radius": 0.0,
     "latitude": 33.957802,
     "longitude": -84.520081
   },
@@ -316,8 +316,8 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 2.5,
-    "latitude": 35.464,
+    "radius": 2.5000,
+    "latitude": 35.4640,
     "longitude": -97.5874
   },
   "featuredRide": {
