@@ -141,8 +141,8 @@
   "country": "United States",
   "phone": "847-249-2133",
   "renderLocation": {
-    "heading": 180,
-    "radius": 0,
+    "heading": 180.00,
+    "radius": 0.0,
     "latitude": 42.367646,
     "longitude": -87.933866
   },
@@ -163,7 +163,7 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 2.5,
+    "radius": 2.5000,
     "latitude": 42.3683,
     "longitude": -87.9388
   },
