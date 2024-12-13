@@ -382,8 +382,8 @@
   "country": "United States",
   "phone": "732-928-2000",
   "renderLocation": {
-    "heading": 180,
-    "radius": 0,
+    "heading": 180.00,
+    "radius": 0.0,
     "latitude": 40.136144,
     "longitude": -74.439806
   },
@@ -404,7 +404,7 @@
   "couponsEnabled": true,
   "isWaterPark": false,
   "location": {
-    "radius": 3,
+    "radius": 3.0000,
     "latitude": 40.1384,
     "longitude": -74.4405
   },
