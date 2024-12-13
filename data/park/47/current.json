@@ -258,8 +258,8 @@
   "country": "United States",
   "phone": "281-355-3300",
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
+    "heading": 0.0,
+    "radius": 0.0,
     "latitude": 33.957802,
     "longitude": -84.520081
   },
@@ -280,9 +280,9 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 2.5,
+    "radius": 2.5000,
     "latitude": 30.0712,
-    "longitude": -95.433
+    "longitude": -95.4330
   },
   "featuredRide": {
     "id": 11610,
