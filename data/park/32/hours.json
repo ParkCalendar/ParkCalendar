@@ -226,14 +226,14 @@
   "country": "México",
   "phone": null,
   "renderLocation": {
-    "heading": 0,
-    "radius": 0,
-    "latitude": 0,
-    "longitude": 0
+    "heading": 0.0,
+    "radius": 0.0,
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "entranceLocation": {
-    "latitude": 0,
-    "longitude": 0
+    "latitude": 0.000000,
+    "longitude": 0.000000
   },
   "image": {
     "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/HHOX_blur_2023.jpg",
@@ -248,7 +248,7 @@
   "couponsEnabled": true,
   "isWaterPark": true,
   "location": {
-    "radius": 0.12,
+    "radius": 0.1200,
     "latitude": 18.8967,
     "longitude": -98.9754
   },
