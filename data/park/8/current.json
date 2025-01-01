@@ -1609,14 +1609,8 @@
     "id": 6942,
     "name": "Iron Rattler"
   },
-  "featuredEvent": {
-    "id": 265593,
-    "name": "New Year’s 360 Fireworks Celebration Presented by "
-  },
-  "featuredShow": {
-    "id": 45622,
-    "name": "New Year’s 360 Celebration Fireworks Presented by "
-  },
+  "featuredEvent": null,
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
