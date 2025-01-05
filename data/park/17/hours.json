@@ -1802,63 +1802,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2024-12-30T12:00:00",
-      "close": "2024-12-30T19:00:00",
-      "operatingDate": "2024-12-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2024-12-31T12:00:00",
-      "close": "2024-12-31T19:00:00",
-      "operatingDate": "2024-12-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-01T11:00:00",
-      "close": "2025-01-01T18:00:00",
-      "operatingDate": "2025-01-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-02T11:00:00",
-      "close": "2025-01-02T18:00:00",
-      "operatingDate": "2025-01-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-03T11:00:00",
-      "close": "2025-01-03T18:00:00",
-      "operatingDate": "2025-01-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-04T11:00:00",
-      "close": "2025-01-04T18:00:00",
-      "operatingDate": "2025-01-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-01-05T11:00:00",
       "close": "2025-01-05T18:00:00",
       "operatingDate": "2025-01-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-01-11T11:00:00",
+      "close": "2025-01-11T18:00:00",
+      "operatingDate": "2025-01-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-01-12T11:00:00",
+      "close": "2025-01-12T18:00:00",
+      "operatingDate": "2025-01-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
