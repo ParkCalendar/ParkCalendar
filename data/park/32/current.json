@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-01-04T10:00:00",
-      "close": "2025-01-04T21:00:00",
-      "operatingDate": "2025-01-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-01-05T10:00:00",
-      "close": "2025-01-05T21:00:00",
-      "operatingDate": "2025-01-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-01-06T10:00:00",
-      "close": "2025-01-06T21:00:00",
-      "operatingDate": "2025-01-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-01-07T10:00:00",
       "close": "2025-01-07T21:00:00",
       "operatingDate": "2025-01-07T00:00:00",
@@ -229,15 +202,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-01-06T10:00:00",
-      "close": "2025-01-06T21:00:00",
-      "operatingDate": "2025-01-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
     {
       "open": "2025-01-07T10:00:00",
       "close": "2025-01-07T21:00:00",
