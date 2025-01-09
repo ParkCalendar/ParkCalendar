@@ -1394,7 +1394,10 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": null,
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 53519,
+    "name": "King William Brass Band"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
