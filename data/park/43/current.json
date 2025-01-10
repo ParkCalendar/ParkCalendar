@@ -518,8 +518,8 @@
       "close": "2025-07-04T22:00:00",
       "operatingDate": "2025-07-04T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-07-04T16:00:00",
+      "waterParkClose": "2025-07-04T19:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -527,8 +527,8 @@
       "close": "2025-07-05T22:00:00",
       "operatingDate": "2025-07-05T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-07-05T12:00:00",
+      "waterParkClose": "2025-07-05T20:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -536,8 +536,8 @@
       "close": "2025-07-06T19:00:00",
       "operatingDate": "2025-07-06T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-07-06T12:00:00",
+      "waterParkClose": "2025-07-06T18:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
