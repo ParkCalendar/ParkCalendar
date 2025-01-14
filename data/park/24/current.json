@@ -68,10 +68,7 @@
     "id": 9558,
     "name": "Condor"
   },
-  "featuredEvent": {
-    "id": 318855,
-    "name": "Bark in the Park"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
