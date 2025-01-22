@@ -1339,7 +1339,10 @@
     "id": 3940,
     "name": "MR. FREEZE"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 336309,
+    "name": "Holiday in the Park"
+  },
   "featuredShow": {
     "id": 53064,
     "name": "LOONEY TUNES Meet & Greet"
