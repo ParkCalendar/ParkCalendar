@@ -1357,7 +1357,10 @@
     "id": 6942,
     "name": "Iron Rattler"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 324201,
+    "name": "Oktoberfest"
+  },
   "featuredShow": {
     "id": 53519,
     "name": "King William Brass Band"
