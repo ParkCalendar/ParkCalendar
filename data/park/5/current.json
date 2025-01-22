@@ -362,7 +362,7 @@
     },
     {
       "open": "2025-06-06T10:30:00",
-      "close": "2025-06-06T13:00:00",
+      "close": "2025-06-06T19:00:00",
       "operatingDate": "2025-06-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1264,6 +1264,15 @@
       "open": "2025-10-03T17:00:00",
       "close": "2025-10-04T00:00:00",
       "operatingDate": "2025-10-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-04T10:30:00",
+      "close": "2025-10-05T00:00:00",
+      "operatingDate": "2025-10-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
