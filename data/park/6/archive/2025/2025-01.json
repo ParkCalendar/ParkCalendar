@@ -83,5 +83,10 @@
     "title": "- 08:00p",
     "start": "2025-01-20T10:30:00",
     "end": "2025-01-20T20:00:00"
+  },
+  {
+    "title": "⛔️ SCE Maintenance",
+    "start": "2025-01-24",
+    "allday": "true"
   }
 ]
