@@ -1739,24 +1739,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-01-20T10:30:00",
-      "close": "2025-01-20T20:00:00",
-      "operatingDate": "2025-01-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-25T10:30:00",
-      "close": "2025-01-25T20:00:00",
-      "operatingDate": "2025-01-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-01-26T10:30:00",
       "close": "2025-01-26T18:00:00",
       "operatingDate": "2025-01-26T00:00:00",
@@ -1769,6 +1751,42 @@
       "open": "2025-01-27T10:30:00",
       "close": "2025-01-27T18:00:00",
       "operatingDate": "2025-01-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-01-31T10:30:00",
+      "close": "2025-01-31T18:00:00",
+      "operatingDate": "2025-01-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-02-01T10:30:00",
+      "close": "2025-02-01T20:00:00",
+      "operatingDate": "2025-02-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-02-02T10:30:00",
+      "close": "2025-02-02T18:00:00",
+      "operatingDate": "2025-02-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-02-03T10:30:00",
+      "close": "2025-02-03T18:00:00",
+      "operatingDate": "2025-02-03T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
