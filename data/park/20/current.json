@@ -1131,7 +1131,10 @@
     "id": 8818,
     "name": "BATMAN THE DARK KNIGHT™"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 325562,
+    "name": "Spring Break Days"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
