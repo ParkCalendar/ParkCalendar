@@ -1,51 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-01-27T10:30:00",
-      "close": "2025-01-27T18:00:00",
-      "operatingDate": "2025-01-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-01-31T10:30:00",
-      "close": "2025-01-31T18:00:00",
-      "operatingDate": "2025-01-31T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-02-01T10:30:00",
-      "close": "2025-02-01T20:00:00",
-      "operatingDate": "2025-02-01T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-02-02T10:30:00",
-      "close": "2025-02-02T18:00:00",
-      "operatingDate": "2025-02-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-02-03T10:30:00",
-      "close": "2025-02-03T18:00:00",
-      "operatingDate": "2025-02-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-02-07T10:30:00",
       "close": "2025-02-07T18:00:00",
       "operatingDate": "2025-02-07T00:00:00",
@@ -1055,7 +1010,7 @@
     },
     {
       "open": "2025-06-20T10:30:00",
-      "close": "2025-06-20T20:00:00",
+      "close": "2025-06-20T22:00:00",
       "operatingDate": "2025-06-20T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1118,7 +1073,7 @@
     },
     {
       "open": "2025-06-27T10:30:00",
-      "close": "2025-06-27T20:00:00",
+      "close": "2025-06-27T22:00:00",
       "operatingDate": "2025-06-27T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1244,7 +1199,7 @@
     },
     {
       "open": "2025-07-11T10:30:00",
-      "close": "2025-07-11T21:00:00",
+      "close": "2025-07-11T22:00:00",
       "operatingDate": "2025-07-11T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1684,15 +1639,6 @@
   "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-02-03T10:30:00",
-      "close": "2025-02-03T18:00:00",
-      "operatingDate": "2025-02-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2025-02-07T10:30:00",
       "close": "2025-02-07T18:00:00",
