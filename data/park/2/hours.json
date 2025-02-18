@@ -298,6 +298,15 @@
       "tzIndicator": "America/New_York"
     },
     {
+      "open": "2025-05-31T11:00:00",
+      "close": "2025-05-31T21:00:00",
+      "operatingDate": "2025-05-31T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": "2025-05-31T12:00:00",
+      "waterParkClose": "2025-05-31T18:00:00",
+      "tzIndicator": "America/New_York"
+    },
+    {
       "open": "2025-06-01T11:00:00",
       "close": "2025-06-01T20:00:00",
       "operatingDate": "2025-06-01T00:00:00",
@@ -997,8 +1006,8 @@
     "name": "Blue Hawk"
   },
   "featuredEvent": {
-    "id": 545787,
-    "name": "Star-Spangled Nights"
+    "id": 321094,
+    "name": "Six Flags Coaster Fest"
   },
   "featuredShow": {
     "id": 130292,
