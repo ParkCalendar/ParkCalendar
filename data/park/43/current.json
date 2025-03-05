@@ -1215,7 +1215,10 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 553492,
+    "name": "Star-Spangled Nights"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
