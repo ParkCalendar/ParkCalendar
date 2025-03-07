@@ -1219,7 +1219,10 @@
     "id": 553492,
     "name": "Star-Spangled Nights"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 38476,
+    "name": "Crack Axle Canyon Stunt Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
