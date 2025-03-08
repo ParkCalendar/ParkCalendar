@@ -1215,7 +1215,10 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 553492,
+    "name": "Star-Spangled Nights"
+  },
   "featuredShow": {
     "id": 38476,
     "name": "Crack Axle Canyon Stunt Show"
