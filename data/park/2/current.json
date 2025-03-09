@@ -954,7 +954,26 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-03-15T11:00:00",
+      "close": "2025-03-15T20:00:00",
+      "operatingDate": "2025-03-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-03-16T11:00:00",
+      "close": "2025-03-16T18:00:00",
+      "operatingDate": "2025-03-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
