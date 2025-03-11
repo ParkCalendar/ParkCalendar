@@ -1059,7 +1059,10 @@
     "id": 6194,
     "name": "Demon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 318599,
+    "name": "Viva La Fiesta"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
