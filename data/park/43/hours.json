@@ -1164,7 +1164,53 @@
   "freeVirtualQueueUri": "https://fc-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://fc.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-03-16T12:00:00",
+      "close": "2025-03-16T18:00:00",
+      "operatingDate": "2025-03-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-17T11:00:00",
+      "close": "2025-03-17T18:00:00",
+      "operatingDate": "2025-03-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-21T11:00:00",
+      "close": "2025-03-21T18:00:00",
+      "operatingDate": "2025-03-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-22T11:00:00",
+      "close": "2025-03-22T19:00:00",
+      "operatingDate": "2025-03-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-23T12:00:00",
+      "close": "2025-03-23T18:00:00",
+      "operatingDate": "2025-03-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -1215,8 +1261,14 @@
     "id": 11058,
     "name": "Diamondback"
   },
-  "featuredEvent": null,
-  "featuredShow": null,
+  "featuredEvent": {
+    "id": 553492,
+    "name": "Star-Spangled Nights"
+  },
+  "featuredShow": {
+    "id": 38476,
+    "name": "Crack Axle Canyon Stunt Show"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
