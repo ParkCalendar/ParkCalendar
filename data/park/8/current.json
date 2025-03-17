@@ -1190,15 +1190,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-03-16T10:30:00",
-      "close": "2025-03-16T21:00:00",
-      "operatingDate": "2025-03-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-03-17T10:30:00",
       "close": "2025-03-17T20:00:00",
       "operatingDate": "2025-03-17T00:00:00",
@@ -1286,12 +1277,12 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 545280,
-    "name": "Mardi Gras Festival"
+    "id": 367299,
+    "name": "Viva La Fiesta"
   },
   "featuredShow": {
-    "id": 53519,
-    "name": "King William Brass Band"
+    "id": 554441,
+    "name": "DC Superheroes & Villains Character Meet & Greets"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
