@@ -989,6 +989,15 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-07T10:30:00",
+      "close": "2025-09-07T20:00:00",
+      "operatingDate": "2025-09-07T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFGR",
