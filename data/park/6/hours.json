@@ -1510,7 +1510,10 @@
     "id": 5916,
     "name": "Tatsu"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 460871,
+    "name": "Fright Fest presented by SNICKERS®"
+  },
   "featuredShow": {
     "id": 508832,
     "name": "Character Meet & Greets – DC Super Heroes"
