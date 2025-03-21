@@ -1190,10 +1190,7 @@
     "id": 336309,
     "name": "Holiday in the Park"
   },
-  "featuredShow": {
-    "id": 53064,
-    "name": "LOONEY TUNES Meet & Greet"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
