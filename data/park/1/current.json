@@ -1082,54 +1082,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-03-18T11:00:00",
-      "close": "2025-03-18T21:00:00",
-      "operatingDate": "2025-03-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-03-19T11:00:00",
-      "close": "2025-03-19T21:00:00",
-      "operatingDate": "2025-03-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-03-20T11:00:00",
-      "close": "2025-03-20T21:00:00",
-      "operatingDate": "2025-03-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-03-21T11:00:00",
-      "close": "2025-03-21T21:00:00",
-      "operatingDate": "2025-03-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-03-22T11:00:00",
-      "close": "2025-03-22T21:00:00",
-      "operatingDate": "2025-03-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-03-23T11:00:00",
       "close": "2025-03-23T20:00:00",
       "operatingDate": "2025-03-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-29T11:00:00",
+      "close": "2025-03-29T21:00:00",
+      "operatingDate": "2025-03-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-03-30T11:00:00",
+      "close": "2025-03-30T20:00:00",
+      "operatingDate": "2025-03-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
