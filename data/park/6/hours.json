@@ -1397,51 +1397,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-03-18T10:30:00",
-      "close": "2025-03-18T18:00:00",
-      "operatingDate": "2025-03-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-03-19T10:30:00",
-      "close": "2025-03-19T18:00:00",
-      "operatingDate": "2025-03-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-03-20T10:30:00",
-      "close": "2025-03-20T18:00:00",
-      "operatingDate": "2025-03-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-03-21T10:30:00",
-      "close": "2025-03-21T18:00:00",
-      "operatingDate": "2025-03-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-03-22T10:30:00",
-      "close": "2025-03-22T20:00:00",
-      "operatingDate": "2025-03-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-03-23T10:30:00",
       "close": "2025-03-23T18:00:00",
       "operatingDate": "2025-03-23T00:00:00",
@@ -1454,6 +1409,69 @@
       "open": "2025-03-24T10:30:00",
       "close": "2025-03-24T18:00:00",
       "operatingDate": "2025-03-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-25T10:30:00",
+      "close": "2025-03-25T18:00:00",
+      "operatingDate": "2025-03-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-26T10:30:00",
+      "close": "2025-03-26T18:00:00",
+      "operatingDate": "2025-03-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-27T10:30:00",
+      "close": "2025-03-27T18:00:00",
+      "operatingDate": "2025-03-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-28T10:30:00",
+      "close": "2025-03-28T18:00:00",
+      "operatingDate": "2025-03-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-29T10:30:00",
+      "close": "2025-03-29T20:00:00",
+      "operatingDate": "2025-03-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-30T10:30:00",
+      "close": "2025-03-30T18:00:00",
+      "operatingDate": "2025-03-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-03-31T10:30:00",
+      "close": "2025-03-31T20:00:00",
+      "operatingDate": "2025-03-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
