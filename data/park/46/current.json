@@ -990,10 +990,7 @@
     "id": 11540,
     "name": "Anaconda"
   },
-  "featuredEvent": {
-    "id": 270264,
-    "name": "July 4th Celebration"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
