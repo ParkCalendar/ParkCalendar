@@ -1683,7 +1683,35 @@
   "freeVirtualQueueUri": "https://ga-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://ga.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-03-30T11:00:00",
+      "close": "2025-03-30T19:00:00",
+      "operatingDate": "2025-03-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-04-05T11:00:00",
+      "close": "2025-04-05T19:00:00",
+      "operatingDate": "2025-04-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-04-06T11:00:00",
+      "close": "2025-04-06T19:00:00",
+      "operatingDate": "2025-04-06T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
