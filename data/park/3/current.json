@@ -937,7 +937,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2025-09-13T00:00:00",
+      "open": "2025-09-13T12:00:00",
       "close": "2025-09-13T23:00:00",
       "operatingDate": "2025-09-13T00:00:00",
       "hasWaterPark": true,
@@ -946,7 +946,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2025-09-14T00:00:00",
+      "open": "2025-09-14T12:00:00",
       "close": "2025-09-14T21:00:00",
       "operatingDate": "2025-09-14T00:00:00",
       "hasWaterPark": true,
@@ -955,7 +955,7 @@
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2025-09-19T06:00:00",
+      "open": "2025-09-19T18:00:00",
       "close": "2025-09-19T23:00:00",
       "operatingDate": "2025-09-19T00:00:00",
       "hasWaterPark": true,
