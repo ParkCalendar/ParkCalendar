@@ -38,7 +38,7 @@
     },
     {
       "open": "2025-04-09T10:00:00",
-      "close": "2025-04-09T18:00:00",
+      "close": "2025-04-09T22:00:00",
       "operatingDate": "2025-04-09T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -47,7 +47,7 @@
     },
     {
       "open": "2025-04-10T10:00:00",
-      "close": "2025-04-10T18:00:00",
+      "close": "2025-04-10T22:00:00",
       "operatingDate": "2025-04-10T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
