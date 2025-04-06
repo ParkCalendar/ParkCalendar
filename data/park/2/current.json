@@ -1,71 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2025-03-15T11:00:00",
-      "close": "2025-03-15T20:00:00",
-      "operatingDate": "2025-03-15T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-03-16T11:00:00",
-      "close": "2025-03-16T18:00:00",
-      "operatingDate": "2025-03-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-03-22T11:00:00",
-      "close": "2025-03-22T20:00:00",
-      "operatingDate": "2025-03-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-03-23T11:00:00",
-      "close": "2025-03-23T18:00:00",
-      "operatingDate": "2025-03-23T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-03-29T11:00:00",
-      "close": "2025-03-29T20:00:00",
-      "operatingDate": "2025-03-29T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-03-30T11:00:00",
-      "close": "2025-03-30T18:00:00",
-      "operatingDate": "2025-03-30T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-05T11:00:00",
-      "close": "2025-04-05T20:00:00",
-      "operatingDate": "2025-04-05T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-04-06T11:00:00",
-      "close": "2025-04-06T20:00:00",
+      "close": "2025-04-06T14:00:00",
       "operatingDate": "2025-04-06T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
@@ -957,7 +894,7 @@
   "upcomingHours": [
     {
       "open": "2025-04-06T11:00:00",
-      "close": "2025-04-06T20:00:00",
+      "close": "2025-04-06T14:00:00",
       "operatingDate": "2025-04-06T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
