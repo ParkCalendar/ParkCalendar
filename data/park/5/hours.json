@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-04-06T11:00:00",
-      "close": "2025-04-06T17:00:00",
-      "operatingDate": "2025-04-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-04-12T10:30:00",
       "close": "2025-04-12T20:00:00",
       "operatingDate": "2025-04-12T00:00:00",
@@ -94,6 +85,24 @@
       "open": "2025-04-21T10:30:00",
       "close": "2025-04-21T19:00:00",
       "operatingDate": "2025-04-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-04-24T10:30:00",
+      "close": "2025-04-24T19:00:00",
+      "operatingDate": "2025-04-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-04-25T10:30:00",
+      "close": "2025-04-25T19:00:00",
+      "operatingDate": "2025-04-25T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
