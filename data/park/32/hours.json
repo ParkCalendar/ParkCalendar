@@ -401,24 +401,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-04-11T10:00:00",
-      "close": "2025-04-11T18:00:00",
-      "operatingDate": "2025-04-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-04-12T10:00:00",
-      "close": "2025-04-12T18:00:00",
-      "operatingDate": "2025-04-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-04-13T10:00:00",
       "close": "2025-04-13T18:00:00",
       "operatingDate": "2025-04-13T00:00:00",
@@ -431,6 +413,69 @@
       "open": "2025-04-14T10:00:00",
       "close": "2025-04-14T18:00:00",
       "operatingDate": "2025-04-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-15T10:00:00",
+      "close": "2025-04-15T18:00:00",
+      "operatingDate": "2025-04-15T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-16T10:00:00",
+      "close": "2025-04-16T18:00:00",
+      "operatingDate": "2025-04-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-17T10:00:00",
+      "close": "2025-04-17T18:00:00",
+      "operatingDate": "2025-04-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-18T10:00:00",
+      "close": "2025-04-18T18:00:00",
+      "operatingDate": "2025-04-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-19T10:00:00",
+      "close": "2025-04-19T18:00:00",
+      "operatingDate": "2025-04-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-20T10:00:00",
+      "close": "2025-04-20T18:00:00",
+      "operatingDate": "2025-04-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-04-21T10:00:00",
+      "close": "2025-04-21T18:00:00",
+      "operatingDate": "2025-04-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
