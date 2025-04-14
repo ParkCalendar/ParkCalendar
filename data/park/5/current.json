@@ -1784,10 +1784,7 @@
     "id": 547424,
     "name": "Star-Spangled Nights"
   },
-  "featuredShow": {
-    "id": 179094,
-    "name": "Holiday Magic: A Celebration of the Season"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
