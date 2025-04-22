@@ -1008,7 +1008,10 @@
     "id": 11418,
     "name": "Pirate"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 569914,
+    "name": "Star Spangled Night"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
