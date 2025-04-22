@@ -1090,7 +1090,10 @@
     "id": 547290,
     "name": "Fright Fest"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 572073,
+    "name": "Welcome Celebration"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
