@@ -1,78 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-04-13T11:00:00",
-      "close": "2025-04-13T19:00:00",
-      "operatingDate": "2025-04-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-14T11:00:00",
-      "close": "2025-04-14T19:00:00",
-      "operatingDate": "2025-04-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-15T11:00:00",
-      "close": "2025-04-15T19:00:00",
-      "operatingDate": "2025-04-15T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-16T11:00:00",
-      "close": "2025-04-16T19:00:00",
-      "operatingDate": "2025-04-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-17T11:00:00",
-      "close": "2025-04-17T19:00:00",
-      "operatingDate": "2025-04-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-18T11:00:00",
-      "close": "2025-04-18T19:00:00",
-      "operatingDate": "2025-04-18T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-19T11:00:00",
-      "close": "2025-04-19T19:00:00",
-      "operatingDate": "2025-04-19T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-04-20T11:00:00",
-      "close": "2025-04-20T19:00:00",
-      "operatingDate": "2025-04-20T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-04-21T11:00:00",
       "close": "2025-04-21T18:00:00",
       "operatingDate": "2025-04-21T00:00:00",
@@ -1241,8 +1169,8 @@
     "name": "BATWING Coaster"
   },
   "featuredEvent": {
-    "id": 551010,
-    "name": "¡Viva La Fiesta!"
+    "id": 551013,
+    "name": "Juneteenth Celebration"
   },
   "featuredShow": {
     "id": 375383,
