@@ -771,10 +771,7 @@
     "id": 7486,
     "name": "Black Snake Summit"
   },
-  "featuredEvent": {
-    "id": 277465,
-    "name": "Dive-In Movie Nights"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
