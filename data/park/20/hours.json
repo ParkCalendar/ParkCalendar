@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-04-27T11:00:00",
-      "close": "2025-04-27T19:00:00",
-      "operatingDate": "2025-04-27T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-05-02T11:00:00",
       "close": "2025-05-02T18:00:00",
       "operatingDate": "2025-05-02T00:00:00",
@@ -1241,8 +1232,8 @@
     "name": "BATMAN THE DARK KNIGHT™"
   },
   "featuredEvent": {
-    "id": 325562,
-    "name": "Spring Break Days"
+    "id": 325569,
+    "name": "Food & Brew"
   },
   "featuredShow": null,
   "featuredSouvenir": null,
