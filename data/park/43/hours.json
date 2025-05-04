@@ -1056,7 +1056,26 @@
   "freeVirtualQueueUri": "https://fc-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://fc.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-05-09T18:00:00",
+      "close": "2025-05-09T22:00:00",
+      "operatingDate": "2025-05-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-05-10T11:00:00",
+      "close": "2025-05-10T19:00:00",
+      "operatingDate": "2025-05-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
