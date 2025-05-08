@@ -988,7 +988,7 @@
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/phoenix/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/phoenix/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
