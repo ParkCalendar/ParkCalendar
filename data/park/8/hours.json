@@ -1,33 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-05-02T10:30:00",
-      "close": "2025-05-02T20:00:00",
-      "operatingDate": "2025-05-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-03T10:30:00",
-      "close": "2025-05-03T20:00:00",
-      "operatingDate": "2025-05-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-03T12:00:00",
-      "waterParkClose": "2025-05-03T19:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-04T10:30:00",
-      "close": "2025-05-04T18:00:00",
-      "operatingDate": "2025-05-04T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-04T12:00:00",
-      "waterParkClose": "2025-05-04T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-05-09T10:30:00",
       "close": "2025-05-09T18:00:00",
       "operatingDate": "2025-05-09T00:00:00",
@@ -158,8 +131,8 @@
       "close": "2025-05-26T21:00:00",
       "operatingDate": "2025-05-26T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-05-26T12:00:00",
+      "waterParkClose": "2025-05-26T19:00:00",
       "tzIndicator": "America/Chicago"
     },
     {
@@ -1020,8 +993,8 @@
     "name": "Roller Coaster Rodeo"
   },
   "featuredShow": {
-    "id": 53512,
-    "name": "Mariachi Los Soberanos"
+    "id": 484081,
+    "name": "Bubble Pop!"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
