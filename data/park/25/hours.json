@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-05-10T11:00:00",
-      "close": "2025-05-10T19:00:00",
-      "operatingDate": "2025-05-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-05-11T11:00:00",
       "close": "2025-05-11T19:00:00",
       "operatingDate": "2025-05-11T00:00:00",
@@ -765,7 +756,17 @@
   "freeVirtualQueueUri": "https://ww-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://ww.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-05-11T11:00:00",
+      "close": "2025-05-11T19:00:00",
+      "operatingDate": "2025-05-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -816,10 +817,7 @@
     "id": 9849,
     "name": "Atlanta Ocean Wave Pool"
   },
-  "featuredEvent": {
-    "id": 513785,
-    "name": "National Water Park Day"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
