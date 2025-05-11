@@ -851,18 +851,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-05-10T11:00:00",
-      "close": "2025-05-10T17:00:00",
-      "operatingDate": "2025-05-10T00:00:00",
+      "open": "2025-05-11T11:00:00",
+      "close": "2025-05-11T17:00:00",
+      "operatingDate": "2025-05-11T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Denver"
     },
     {
-      "open": "2025-05-11T11:00:00",
-      "close": "2025-05-11T17:00:00",
-      "operatingDate": "2025-05-11T00:00:00",
+      "open": "2025-05-17T11:00:00",
+      "close": "2025-05-17T17:00:00",
+      "operatingDate": "2025-05-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-05-18T11:00:00",
+      "close": "2025-05-18T17:00:00",
+      "operatingDate": "2025-05-18T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
