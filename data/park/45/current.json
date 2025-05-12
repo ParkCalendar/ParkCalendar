@@ -23,8 +23,8 @@
       "close": "2025-05-18T21:00:00",
       "operatingDate": "2025-05-18T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-05-18T11:30:00",
+      "waterParkClose": "2025-05-18T19:00:00",
       "tzIndicator": "America/New_York"
     },
     {
@@ -981,8 +981,8 @@
       "close": "2025-05-18T21:00:00",
       "operatingDate": "2025-05-18T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
+      "waterParkOpen": "2025-05-18T11:30:00",
+      "waterParkClose": "2025-05-18T19:00:00",
       "tzIndicator": "America/New_York"
     },
     {
