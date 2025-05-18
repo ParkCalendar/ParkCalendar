@@ -720,7 +720,35 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-05-24T10:30:00",
+      "close": "2025-05-24T18:00:00",
+      "operatingDate": "2025-05-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-05-25T10:30:00",
+      "close": "2025-05-25T18:00:00",
+      "operatingDate": "2025-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-05-26T10:30:00",
+      "close": "2025-05-26T18:00:00",
+      "operatingDate": "2025-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
