@@ -824,15 +824,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-05-18T11:00:00",
-      "close": "2025-05-18T18:00:00",
-      "operatingDate": "2025-05-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-05-23T11:00:00",
       "close": "2025-05-23T17:00:00",
       "operatingDate": "2025-05-23T00:00:00",
