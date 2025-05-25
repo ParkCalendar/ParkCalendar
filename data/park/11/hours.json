@@ -720,7 +720,44 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-05-25T10:30:00",
+      "close": "2025-05-25T18:00:00",
+      "operatingDate": "2025-05-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-05-26T10:30:00",
+      "close": "2025-05-26T18:00:00",
+      "operatingDate": "2025-05-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-05-31T10:30:00",
+      "close": "2025-05-31T18:00:00",
+      "operatingDate": "2025-05-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-06-01T10:30:00",
+      "close": "2025-06-01T18:00:00",
+      "operatingDate": "2025-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -771,10 +808,7 @@
     "id": 7486,
     "name": "Black Snake Summit"
   },
-  "featuredEvent": {
-    "id": 277465,
-    "name": "Dive-In Movie Nights"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
