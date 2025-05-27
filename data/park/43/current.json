@@ -1,93 +1,12 @@
 {
   "operatingHours": [
     {
-      "open": "2025-05-03T11:00:00",
-      "close": "2025-05-03T19:00:00",
-      "operatingDate": "2025-05-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-09T18:00:00",
-      "close": "2025-05-09T22:00:00",
-      "operatingDate": "2025-05-09T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-10T11:00:00",
-      "close": "2025-05-10T19:00:00",
-      "operatingDate": "2025-05-10T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-16T18:00:00",
-      "close": "2025-05-16T22:00:00",
-      "operatingDate": "2025-05-16T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-17T11:00:00",
-      "close": "2025-05-17T19:00:00",
-      "operatingDate": "2025-05-17T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-23T18:00:00",
-      "close": "2025-05-23T22:00:00",
-      "operatingDate": "2025-05-23T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-23T18:00:00",
-      "waterParkClose": "2025-05-23T21:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-24T11:00:00",
-      "close": "2025-05-24T19:00:00",
-      "operatingDate": "2025-05-24T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-24T12:00:00",
-      "waterParkClose": "2025-05-24T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-25T11:00:00",
-      "close": "2025-05-25T18:00:00",
-      "operatingDate": "2025-05-25T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-25T12:00:00",
-      "waterParkClose": "2025-05-25T17:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-05-26T11:00:00",
-      "close": "2025-05-26T18:00:00",
-      "operatingDate": "2025-05-26T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-26T12:00:00",
-      "waterParkClose": "2025-05-26T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-05-27T16:00:00",
       "close": "2025-05-27T22:00:00",
       "operatingDate": "2025-05-27T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-05-27T16:00:00",
-      "waterParkClose": "2025-05-27T21:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
@@ -1058,21 +977,12 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-05-26T11:00:00",
-      "close": "2025-05-26T18:00:00",
-      "operatingDate": "2025-05-26T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-05-26T12:00:00",
-      "waterParkClose": "2025-05-26T18:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-05-27T16:00:00",
       "close": "2025-05-27T22:00:00",
       "operatingDate": "2025-05-27T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-05-27T16:00:00",
-      "waterParkClose": "2025-05-27T21:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
