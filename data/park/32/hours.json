@@ -1,51 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-05-16T10:00:00",
-      "close": "2025-05-16T18:00:00",
-      "operatingDate": "2025-05-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-05-17T10:00:00",
-      "close": "2025-05-17T18:00:00",
-      "operatingDate": "2025-05-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-05-18T10:00:00",
-      "close": "2025-05-18T18:00:00",
-      "operatingDate": "2025-05-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-05-24T10:00:00",
-      "close": "2025-05-24T18:00:00",
-      "operatingDate": "2025-05-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-05-25T10:00:00",
-      "close": "2025-05-25T18:00:00",
-      "operatingDate": "2025-05-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-05-30T10:00:00",
       "close": "2025-05-30T18:00:00",
       "operatingDate": "2025-05-30T00:00:00",
@@ -67,6 +22,15 @@
       "open": "2025-06-01T10:00:00",
       "close": "2025-06-01T18:00:00",
       "operatingDate": "2025-06-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-06-06T10:00:00",
+      "close": "2025-06-06T18:00:00",
+      "operatingDate": "2025-06-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
