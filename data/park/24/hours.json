@@ -1,30 +1,12 @@
 {
   "operatingHours": [
     {
-      "open": "2025-05-30T10:00:00",
-      "close": "2025-05-30T17:00:00",
-      "operatingDate": "2025-05-30T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-05-31T11:00:00",
-      "close": "2025-05-31T18:00:00",
-      "operatingDate": "2025-05-31T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-06-01T11:00:00",
       "close": "2025-06-01T18:00:00",
       "operatingDate": "2025-06-01T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-06-01T12:00:00",
-      "waterParkClose": "2025-06-01T17:30:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
@@ -982,15 +964,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-06-01T11:00:00",
-      "close": "2025-06-01T18:00:00",
-      "operatingDate": "2025-06-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-01T12:00:00",
-      "waterParkClose": "2025-06-01T17:30:00",
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2025-06-05T10:00:00",
       "close": "2025-06-05T17:00:00",
