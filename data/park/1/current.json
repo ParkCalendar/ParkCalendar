@@ -902,7 +902,10 @@
     "id": 336309,
     "name": "Holiday in the Park"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 441176,
+    "name": "Texas Justice"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
