@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-06-10T11:00:00",
-      "close": "2025-06-10T19:00:00",
-      "operatingDate": "2025-06-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-11T11:00:00",
-      "close": "2025-06-11T19:00:00",
-      "operatingDate": "2025-06-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-06-12T11:00:00",
       "close": "2025-06-12T19:00:00",
       "operatingDate": "2025-06-12T00:00:00",
@@ -577,24 +559,6 @@
   "paidVirtualQueueUri": "https://ww.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-06-10T11:00:00",
-      "close": "2025-06-10T19:00:00",
-      "operatingDate": "2025-06-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-11T11:00:00",
-      "close": "2025-06-11T19:00:00",
-      "operatingDate": "2025-06-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2025-06-12T11:00:00",
       "close": "2025-06-12T19:00:00",
