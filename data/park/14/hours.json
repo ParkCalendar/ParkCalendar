@@ -1,57 +1,12 @@
 {
   "operatingHours": [
     {
-      "open": "2025-06-08T11:00:00",
-      "close": "2025-06-08T20:00:00",
-      "operatingDate": "2025-06-08T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-11T10:00:00",
-      "close": "2025-06-11T17:00:00",
-      "operatingDate": "2025-06-11T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-12T10:00:00",
-      "close": "2025-06-12T17:00:00",
-      "operatingDate": "2025-06-12T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-13T11:00:00",
-      "close": "2025-06-13T19:00:00",
-      "operatingDate": "2025-06-13T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-13T11:30:00",
-      "waterParkClose": "2025-06-13T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-14T11:00:00",
-      "close": "2025-06-14T20:00:00",
-      "operatingDate": "2025-06-14T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-14T11:30:00",
-      "waterParkClose": "2025-06-14T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-06-15T11:00:00",
       "close": "2025-06-15T20:00:00",
       "operatingDate": "2025-06-15T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-06-15T11:30:00",
-      "waterParkClose": "2025-06-15T18:30:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
@@ -901,15 +856,6 @@
   "paidVirtualQueueUri": "https://am.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-06-15T11:00:00",
-      "close": "2025-06-15T20:00:00",
-      "operatingDate": "2025-06-15T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-15T11:30:00",
-      "waterParkClose": "2025-06-15T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2025-06-16T11:00:00",
       "close": "2025-06-16T19:00:00",
