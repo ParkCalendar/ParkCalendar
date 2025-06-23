@@ -851,15 +851,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-06-22T10:30:00",
-      "close": "2025-06-22T19:00:00",
-      "operatingDate": "2025-06-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2025-06-23T10:30:00",
       "close": "2025-06-23T18:00:00",
       "operatingDate": "2025-06-23T00:00:00",
