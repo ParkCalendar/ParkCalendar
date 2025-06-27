@@ -5,7 +5,7 @@
       "close": "2025-06-27T19:00:00",
       "operatingDate": "2025-06-27T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-06-27T14:30:00",
+      "waterParkOpen": "2025-06-27T14:00:00",
       "waterParkClose": "2025-06-27T19:00:00",
       "tzIndicator": "America/New_York"
     },
@@ -753,7 +753,7 @@
       "close": "2025-06-27T19:00:00",
       "operatingDate": "2025-06-27T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-06-27T14:30:00",
+      "waterParkOpen": "2025-06-27T14:00:00",
       "waterParkClose": "2025-06-27T19:00:00",
       "tzIndicator": "America/New_York"
     },
