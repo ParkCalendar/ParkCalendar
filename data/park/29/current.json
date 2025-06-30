@@ -677,15 +677,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-06-29T10:30:00",
-      "close": "2025-06-29T20:00:00",
-      "operatingDate": "2025-06-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2025-06-30T10:30:00",
       "close": "2025-06-30T20:00:00",
       "operatingDate": "2025-06-30T00:00:00",
