@@ -1,44 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2025-06-27T11:00:00",
-      "close": "2025-06-27T19:00:00",
-      "operatingDate": "2025-06-27T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-27T14:00:00",
-      "waterParkClose": "2025-06-27T19:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-28T11:00:00",
-      "close": "2025-06-28T20:00:00",
-      "operatingDate": "2025-06-28T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-28T11:30:00",
-      "waterParkClose": "2025-06-28T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-29T11:00:00",
-      "close": "2025-06-29T20:00:00",
-      "operatingDate": "2025-06-29T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-29T11:30:00",
-      "waterParkClose": "2025-06-29T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-06-30T11:00:00",
-      "close": "2025-06-30T19:00:00",
-      "operatingDate": "2025-06-30T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-30T11:30:00",
-      "waterParkClose": "2025-06-30T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-07-01T11:00:00",
-      "close": "2025-07-01T19:00:00",
+      "close": "2025-07-01T18:30:00",
       "operatingDate": "2025-07-01T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-01T11:30:00",
@@ -749,17 +713,8 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-06-30T11:00:00",
-      "close": "2025-06-30T19:00:00",
-      "operatingDate": "2025-06-30T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-06-30T11:30:00",
-      "waterParkClose": "2025-06-30T18:30:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-07-01T11:00:00",
-      "close": "2025-07-01T19:00:00",
+      "close": "2025-07-01T18:30:00",
       "operatingDate": "2025-07-01T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-01T11:30:00",
