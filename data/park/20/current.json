@@ -2,7 +2,7 @@
   "operatingHours": [
     {
       "open": "2025-07-03T11:00:00",
-      "close": "2025-07-03T20:00:00",
+      "close": "2025-07-03T18:30:00",
       "operatingDate": "2025-07-03T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-03T11:30:00",
@@ -750,7 +750,7 @@
   "upcomingHours": [
     {
       "open": "2025-07-03T11:00:00",
-      "close": "2025-07-03T20:00:00",
+      "close": "2025-07-03T18:30:00",
       "operatingDate": "2025-07-03T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-03T11:30:00",
