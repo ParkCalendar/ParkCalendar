@@ -928,10 +928,7 @@
     "id": 11400,
     "name": "Mind Eraser"
   },
-  "featuredEvent": {
-    "id": 569914,
-    "name": "Star-Spangled Night"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
