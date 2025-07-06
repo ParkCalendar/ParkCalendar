@@ -671,18 +671,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-07-05T10:00:00",
-      "close": "2025-07-05T18:00:00",
-      "operatingDate": "2025-07-05T00:00:00",
+      "open": "2025-07-06T10:00:00",
+      "close": "2025-07-06T18:00:00",
+      "operatingDate": "2025-07-06T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2025-07-06T10:00:00",
-      "close": "2025-07-06T18:00:00",
-      "operatingDate": "2025-07-06T00:00:00",
+      "open": "2025-07-12T10:00:00",
+      "close": "2025-07-12T18:00:00",
+      "operatingDate": "2025-07-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-07-13T10:00:00",
+      "close": "2025-07-13T18:00:00",
+      "operatingDate": "2025-07-13T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
