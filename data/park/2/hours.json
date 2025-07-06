@@ -1,53 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2025-07-01T11:00:00",
-      "close": "2025-07-01T20:00:00",
-      "operatingDate": "2025-07-01T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-01T12:00:00",
-      "waterParkClose": "2025-07-01T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-02T11:00:00",
-      "close": "2025-07-02T20:00:00",
-      "operatingDate": "2025-07-02T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-02T12:00:00",
-      "waterParkClose": "2025-07-02T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-03T11:00:00",
-      "close": "2025-07-03T20:00:00",
-      "operatingDate": "2025-07-03T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-03T12:00:00",
-      "waterParkClose": "2025-07-03T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-04T11:00:00",
-      "close": "2025-07-04T22:00:00",
-      "operatingDate": "2025-07-04T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-04T12:00:00",
-      "waterParkClose": "2025-07-04T17:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-05T11:00:00",
-      "close": "2025-07-05T22:00:00",
-      "operatingDate": "2025-07-05T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-05T12:00:00",
-      "waterParkClose": "2025-07-05T17:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-07-06T11:00:00",
-      "close": "2025-07-06T22:00:00",
+      "close": "2025-07-06T20:00:00",
       "operatingDate": "2025-07-06T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-06T12:00:00",
@@ -381,7 +336,7 @@
   "upcomingHours": [
     {
       "open": "2025-07-06T11:00:00",
-      "close": "2025-07-06T22:00:00",
+      "close": "2025-07-06T20:00:00",
       "operatingDate": "2025-07-06T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": "2025-07-06T12:00:00",
