@@ -871,10 +871,7 @@
     "id": 8818,
     "name": "BATMAN THE DARK KNIGHT™"
   },
-  "featuredEvent": {
-    "id": 402740,
-    "name": "Star-Spangled Nights presented by M&M’S®"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
