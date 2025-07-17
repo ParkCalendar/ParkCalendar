@@ -745,7 +745,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "943e010a-5542-40fa-9e99-1b87c77380cc",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/hurricaneharborconcord/reserve?noheaders",
