@@ -851,60 +851,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-07-14T10:30:00",
-      "close": "2025-07-14T18:00:00",
-      "operatingDate": "2025-07-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2025-07-15T10:30:00",
-      "close": "2025-07-15T18:00:00",
-      "operatingDate": "2025-07-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2025-07-16T10:30:00",
-      "close": "2025-07-16T18:00:00",
-      "operatingDate": "2025-07-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2025-07-17T10:30:00",
-      "close": "2025-07-17T18:00:00",
-      "operatingDate": "2025-07-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2025-07-18T10:30:00",
-      "close": "2025-07-18T19:00:00",
-      "operatingDate": "2025-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
-      "open": "2025-07-19T10:30:00",
-      "close": "2025-07-19T20:00:00",
-      "operatingDate": "2025-07-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Denver"
-    },
-    {
       "open": "2025-07-20T10:30:00",
       "close": "2025-07-20T19:00:00",
       "operatingDate": "2025-07-20T00:00:00",
@@ -917,6 +863,69 @@
       "open": "2025-07-21T10:30:00",
       "close": "2025-07-21T18:00:00",
       "operatingDate": "2025-07-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-22T10:30:00",
+      "close": "2025-07-22T18:00:00",
+      "operatingDate": "2025-07-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-23T10:30:00",
+      "close": "2025-07-23T18:00:00",
+      "operatingDate": "2025-07-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-24T10:30:00",
+      "close": "2025-07-24T18:00:00",
+      "operatingDate": "2025-07-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-25T10:30:00",
+      "close": "2025-07-25T19:00:00",
+      "operatingDate": "2025-07-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-26T10:30:00",
+      "close": "2025-07-26T20:00:00",
+      "operatingDate": "2025-07-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-27T10:30:00",
+      "close": "2025-07-27T19:00:00",
+      "operatingDate": "2025-07-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Denver"
+    },
+    {
+      "open": "2025-07-28T11:00:00",
+      "close": "2025-07-28T17:00:00",
+      "operatingDate": "2025-07-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
