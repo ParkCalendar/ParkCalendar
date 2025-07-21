@@ -278,6 +278,150 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-13T12:00:00",
+      "close": "2025-09-13T23:00:00",
+      "operatingDate": "2025-09-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-14T12:00:00",
+      "close": "2025-09-14T21:00:00",
+      "operatingDate": "2025-09-14T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-19T18:00:00",
+      "close": "2025-09-19T23:00:00",
+      "operatingDate": "2025-09-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-20T12:00:00",
+      "close": "2025-09-20T23:00:00",
+      "operatingDate": "2025-09-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-21T12:00:00",
+      "close": "2025-09-21T21:00:00",
+      "operatingDate": "2025-09-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-26T18:00:00",
+      "close": "2025-09-26T23:00:00",
+      "operatingDate": "2025-09-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-27T12:00:00",
+      "close": "2025-09-27T23:00:00",
+      "operatingDate": "2025-09-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-28T12:00:00",
+      "close": "2025-09-28T21:00:00",
+      "operatingDate": "2025-09-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-03T18:00:00",
+      "close": "2025-10-03T23:00:00",
+      "operatingDate": "2025-10-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-04T12:00:00",
+      "close": "2025-10-05T00:00:00",
+      "operatingDate": "2025-10-04T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-05T12:00:00",
+      "close": "2025-10-05T22:00:00",
+      "operatingDate": "2025-10-05T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-10T17:00:00",
+      "close": "2025-10-10T23:00:00",
+      "operatingDate": "2025-10-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-11T12:00:00",
+      "close": "2025-10-12T00:00:00",
+      "operatingDate": "2025-10-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-12T12:00:00",
+      "close": "2025-10-12T23:00:00",
+      "operatingDate": "2025-10-12T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-13T12:00:00",
+      "close": "2025-10-13T22:00:00",
+      "operatingDate": "2025-10-13T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-16T18:00:00",
+      "close": "2025-10-16T23:00:00",
+      "operatingDate": "2025-10-16T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
     }
   ],
   "abbreviation": "SFOT",
