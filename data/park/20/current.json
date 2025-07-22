@@ -541,8 +541,8 @@
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-11-01T11:00:00",
-      "close": "2025-11-01T23:00:00",
+      "open": "2025-11-01T12:00:00",
+      "close": "2025-11-01T22:00:00",
       "operatingDate": "2025-11-01T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
