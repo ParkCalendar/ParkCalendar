@@ -915,7 +915,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://ot.sfflashpass.com/?utm_campaign=qsmart_sfot&utm_source=mobile-app&utm_medium=app-home-ridepage",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "e7e0b99b-6fed-4d75-a252-66c035d79faa",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ckjnul8n62uho19n2gu4warx6",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/overtexas/reserve?noheaders",
