@@ -1,24 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-07-21T16:00:00",
-      "close": "2025-07-21T22:00:00",
-      "operatingDate": "2025-07-21T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-21T16:00:00",
-      "waterParkClose": "2025-07-21T21:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-07-22T16:00:00",
-      "close": "2025-07-22T22:00:00",
-      "operatingDate": "2025-07-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-22T16:00:00",
-      "waterParkClose": "2025-07-22T21:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-07-23T16:00:00",
       "close": "2025-07-23T22:00:00",
       "operatingDate": "2025-07-23T00:00:00",
@@ -289,6 +271,15 @@
       "tzIndicator": "America/Chicago"
     },
     {
+      "open": "2025-09-19T18:00:00",
+      "close": "2025-09-19T22:00:00",
+      "operatingDate": "2025-09-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
       "open": "2025-09-20T12:00:00",
       "close": "2025-09-20T22:00:00",
       "operatingDate": "2025-09-20T00:00:00",
@@ -301,6 +292,15 @@
       "open": "2025-09-21T12:00:00",
       "close": "2025-09-21T22:00:00",
       "operatingDate": "2025-09-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-26T18:00:00",
+      "close": "2025-09-26T22:00:00",
+      "operatingDate": "2025-09-26T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -463,24 +463,6 @@
   "paidVirtualQueueUri": "https://fc.sfflashpass.com",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-07-21T16:00:00",
-      "close": "2025-07-21T22:00:00",
-      "operatingDate": "2025-07-21T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-21T16:00:00",
-      "waterParkClose": "2025-07-21T21:00:00",
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-07-22T16:00:00",
-      "close": "2025-07-22T22:00:00",
-      "operatingDate": "2025-07-22T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-22T16:00:00",
-      "waterParkClose": "2025-07-22T21:00:00",
-      "tzIndicator": "America/Chicago"
-    },
     {
       "open": "2025-07-23T16:00:00",
       "close": "2025-07-23T22:00:00",
