@@ -738,7 +738,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://ne.sfflashpass.com/?utm_campaign=qsmart_sfne&utm_source=mobile-app&utm_medium=app-home",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "63d27dbd-2175-4df5-8bcb-a9c6080db38a",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z7aqo717x21iqfgnsd0ggq",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/newengland/reserve?noheaders",
