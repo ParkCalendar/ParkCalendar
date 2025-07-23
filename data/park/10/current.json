@@ -778,7 +778,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "45beff1e-fe59-4ef0-8880-0b40a29b168f",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/hurricaneharbortexas/reserve?noheaders",
