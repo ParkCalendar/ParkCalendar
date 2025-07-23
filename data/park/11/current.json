@@ -580,7 +580,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "a209de68-89ec-40f2-a1ff-d3339d2c2889",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/hurricaneharborla/reserve?noheaders",
