@@ -1038,7 +1038,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "0c7900df-e7b4-4bd1-bcf5-ff9adcc00196",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/phoenix/reserve?noheaders",
