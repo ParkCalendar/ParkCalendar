@@ -1107,7 +1107,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://dk.sfflashpass.com/?utm_campaign=qsmart_sfdk&utm_source=mobile-app&utm_medium=app-home#",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "578f1eb8-99a6-401b-a3cf-9d406087e58f",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z8t5k211rb1ioa219px5uk",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/discoverykingdom/reserve?noheaders",
