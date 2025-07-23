@@ -1260,7 +1260,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://ga.sfflashpass.com/?utm_campaign=qsmart_sfga&utm_source=mobile-app&utm_medium=app-home",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "39bd240e-7153-48ec-9823-437e23eacba9",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z98a0i1uw81inwh89romnr",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/greatadventure/reserve?noheaders",
