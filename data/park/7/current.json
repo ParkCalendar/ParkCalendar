@@ -735,7 +735,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://gr.sfflashpass.com/?utm_campaign=qsmart_sfgr&utm_source=mobile-app&utm_medium=app-home",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "1b59a2dd-8e67-44bd-9ac8-2bb602db14f0",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z5c6qc1q7q1ipc2zzzztpu",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/greatamerica/reserve?noheaders",
