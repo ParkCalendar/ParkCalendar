@@ -655,7 +655,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "b57cfe05-dca9-418a-813c-d04fc80d3458",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/splashtown/reserve?noheaders",
