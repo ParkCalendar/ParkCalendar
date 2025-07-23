@@ -493,7 +493,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "1446ca96-1910-4df7-9374-333c0dc6bff7",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/whitewater/reserve?noheaders",
