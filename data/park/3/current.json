@@ -774,7 +774,7 @@
   "flashPassEnabled": true,
   "flashPassUrl": "https://sl.sfflashpass.com/?utm_campaign=qsmart_sfsl&utm_source=mobile-app&utm_medium=app-home",
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "6cbcc2d7-7cdd-4098-816f-b9a2d10bbb5f",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z2oab41lq31iqv6ynhd66x",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/stlouis/reserve?noheaders",
