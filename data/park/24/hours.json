@@ -774,7 +774,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "f89fa34d-82ca-4199-b9bc-1c7f4339429e",
+  "venueNextUuId": null,
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z3e44e13xl1ilopl5yutv5",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/greatescape/reserve?noheaders",
