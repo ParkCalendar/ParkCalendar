@@ -763,7 +763,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "97e093fa-ea09-423a-b84c-afa00b043608",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/hurricaneharbornj/reserve?noheaders",
