@@ -631,7 +631,7 @@
   "flashPassEnabled": false,
   "flashPassUrl": null,
   "enableMobileFoodOrdering": true,
-  "venueNextUuId": "65aae472-a748-46e3-8cde-39af6d9ad9b5",
+  "venueNextUuId": null,
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/frontiercity/reserve?noheaders",
