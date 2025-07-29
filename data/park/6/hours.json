@@ -1,15 +1,6 @@
 {
   "operatingHours": [
     {
-      "open": "2025-07-28T10:30:00",
-      "close": "2025-07-28T21:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-07-29T10:30:00",
       "close": "2025-07-29T21:00:00",
       "operatingDate": "2025-07-29T00:00:00",
@@ -443,7 +434,7 @@
     },
     {
       "open": "2025-10-05T10:30:00",
-      "close": "2025-10-05T12:00:00",
+      "close": "2025-10-06T00:00:00",
       "operatingDate": "2025-10-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -488,7 +479,7 @@
     },
     {
       "open": "2025-10-12T10:30:00",
-      "close": "2025-10-12T12:00:00",
+      "close": "2025-10-13T00:00:00",
       "operatingDate": "2025-10-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -1054,15 +1045,6 @@
   "paidVirtualQueueUri": "https://mm.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-07-28T10:30:00",
-      "close": "2025-07-28T21:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
     {
       "open": "2025-07-29T10:30:00",
       "close": "2025-07-29T21:00:00",
