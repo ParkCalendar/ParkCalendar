@@ -1,84 +1,948 @@
 {
   "operatingHours": [
     {
-      "open": "2025-07-21T11:00:00",
-      "close": "2025-07-21T20:00:00",
-      "operatingDate": "2025-07-21T00:00:00",
+      "open": "1970-01-01T00:00:00",
+      "close": "1970-01-01T23:00:00",
+      "operatingDate": "1970-01-01T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-21T12:00:00",
-      "waterParkClose": "2025-07-21T14:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-22T11:00:00",
-      "close": "2025-07-22T20:00:00",
-      "operatingDate": "2025-07-22T00:00:00",
+      "open": "1970-01-03T00:00:00",
+      "close": "1970-01-03T23:00:00",
+      "operatingDate": "1970-01-03T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-22T12:00:00",
-      "waterParkClose": "2025-07-22T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-23T11:00:00",
-      "close": "2025-07-23T20:00:00",
-      "operatingDate": "2025-07-23T00:00:00",
+      "open": "1970-01-04T00:00:00",
+      "close": "1970-01-04T23:00:00",
+      "operatingDate": "1970-01-04T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-23T12:00:00",
-      "waterParkClose": "2025-07-23T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-24T11:00:00",
-      "close": "2025-07-24T20:00:00",
-      "operatingDate": "2025-07-24T00:00:00",
+      "open": "1970-01-05T00:00:00",
+      "close": "1970-01-05T23:00:00",
+      "operatingDate": "1970-01-05T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-24T12:00:00",
-      "waterParkClose": "2025-07-24T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-25T11:00:00",
-      "close": "2025-07-25T20:00:00",
-      "operatingDate": "2025-07-25T00:00:00",
+      "open": "1970-01-06T00:00:00",
+      "close": "1970-01-06T23:00:00",
+      "operatingDate": "1970-01-06T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-25T12:00:00",
-      "waterParkClose": "2025-07-25T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-26T11:00:00",
-      "close": "2025-07-26T21:00:00",
-      "operatingDate": "2025-07-26T00:00:00",
+      "open": "1970-01-07T00:00:00",
+      "close": "1970-01-07T23:00:00",
+      "operatingDate": "1970-01-07T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-26T12:00:00",
-      "waterParkClose": "2025-07-26T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-27T11:00:00",
-      "close": "2025-07-27T20:00:00",
-      "operatingDate": "2025-07-27T00:00:00",
+      "open": "1970-01-08T00:00:00",
+      "close": "1970-01-08T23:00:00",
+      "operatingDate": "1970-01-08T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-27T12:00:00",
-      "waterParkClose": "2025-07-27T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-28T11:00:00",
-      "close": "2025-07-28T20:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
+      "open": "1970-01-09T00:00:00",
+      "close": "1970-01-09T23:00:00",
+      "operatingDate": "1970-01-09T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-28T12:00:00",
-      "waterParkClose": "2025-07-28T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-07-29T11:00:00",
-      "close": "2025-07-29T20:00:00",
-      "operatingDate": "2025-07-29T00:00:00",
+      "open": "1970-01-10T00:00:00",
+      "close": "1970-01-10T23:00:00",
+      "operatingDate": "1970-01-10T00:00:00",
       "hasWaterPark": true,
-      "waterParkOpen": "2025-07-29T12:00:00",
-      "waterParkClose": "2025-07-29T18:00:00",
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-11T00:00:00",
+      "close": "1970-01-11T23:00:00",
+      "operatingDate": "1970-01-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-21T00:00:00",
+      "close": "1970-01-21T23:00:00",
+      "operatingDate": "1970-01-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-22T00:00:00",
+      "close": "1970-01-22T23:00:00",
+      "operatingDate": "1970-01-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-23T00:00:00",
+      "close": "1970-01-23T23:00:00",
+      "operatingDate": "1970-01-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-24T00:00:00",
+      "close": "1970-01-24T23:00:00",
+      "operatingDate": "1970-01-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-25T00:00:00",
+      "close": "1970-01-25T23:00:00",
+      "operatingDate": "1970-01-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-26T00:00:00",
+      "close": "1970-01-26T23:00:00",
+      "operatingDate": "1970-01-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-27T00:00:00",
+      "close": "1970-01-27T23:00:00",
+      "operatingDate": "1970-01-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-28T00:00:00",
+      "close": "1970-01-28T23:00:00",
+      "operatingDate": "1970-01-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-29T00:00:00",
+      "close": "1970-01-29T23:00:00",
+      "operatingDate": "1970-01-29T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-30T00:00:00",
+      "close": "1970-01-30T23:00:00",
+      "operatingDate": "1970-01-30T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-01-31T00:00:00",
+      "close": "1970-01-31T23:00:00",
+      "operatingDate": "1970-01-31T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-01T00:00:00",
+      "close": "1970-02-01T23:00:00",
+      "operatingDate": "1970-02-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-02T00:00:00",
+      "close": "1970-02-02T23:00:00",
+      "operatingDate": "1970-02-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-03T00:00:00",
+      "close": "1970-02-03T23:00:00",
+      "operatingDate": "1970-02-03T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-04T00:00:00",
+      "close": "1970-02-04T23:00:00",
+      "operatingDate": "1970-02-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-05T00:00:00",
+      "close": "1970-02-05T23:00:00",
+      "operatingDate": "1970-02-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-06T00:00:00",
+      "close": "1970-02-06T23:00:00",
+      "operatingDate": "1970-02-06T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-07T00:00:00",
+      "close": "1970-02-07T23:00:00",
+      "operatingDate": "1970-02-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-08T00:00:00",
+      "close": "1970-02-08T23:00:00",
+      "operatingDate": "1970-02-08T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-09T00:00:00",
+      "close": "1970-02-09T23:00:00",
+      "operatingDate": "1970-02-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-10T00:00:00",
+      "close": "1970-02-10T23:00:00",
+      "operatingDate": "1970-02-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-11T00:00:00",
+      "close": "1970-02-11T23:00:00",
+      "operatingDate": "1970-02-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-12T00:00:00",
+      "close": "1970-02-12T23:00:00",
+      "operatingDate": "1970-02-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-13T00:00:00",
+      "close": "1970-02-13T23:00:00",
+      "operatingDate": "1970-02-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-14T00:00:00",
+      "close": "1970-02-14T23:00:00",
+      "operatingDate": "1970-02-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-15T00:00:00",
+      "close": "1970-02-15T23:00:00",
+      "operatingDate": "1970-02-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-16T00:00:00",
+      "close": "1970-02-16T23:00:00",
+      "operatingDate": "1970-02-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-17T00:00:00",
+      "close": "1970-02-17T23:00:00",
+      "operatingDate": "1970-02-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-18T00:00:00",
+      "close": "1970-02-18T23:00:00",
+      "operatingDate": "1970-02-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-19T00:00:00",
+      "close": "1970-02-19T23:00:00",
+      "operatingDate": "1970-02-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-20T00:00:00",
+      "close": "1970-02-20T23:00:00",
+      "operatingDate": "1970-02-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-21T00:00:00",
+      "close": "1970-02-21T23:00:00",
+      "operatingDate": "1970-02-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-22T00:00:00",
+      "close": "1970-02-22T23:00:00",
+      "operatingDate": "1970-02-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-23T00:00:00",
+      "close": "1970-02-23T23:00:00",
+      "operatingDate": "1970-02-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-24T00:00:00",
+      "close": "1970-02-24T23:00:00",
+      "operatingDate": "1970-02-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-25T00:00:00",
+      "close": "1970-02-25T23:00:00",
+      "operatingDate": "1970-02-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-26T00:00:00",
+      "close": "1970-02-26T23:00:00",
+      "operatingDate": "1970-02-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-27T00:00:00",
+      "close": "1970-02-27T23:00:00",
+      "operatingDate": "1970-02-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-02-28T00:00:00",
+      "close": "1970-02-28T23:00:00",
+      "operatingDate": "1970-02-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-01T00:00:00",
+      "close": "1970-03-01T23:00:00",
+      "operatingDate": "1970-03-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-02T00:00:00",
+      "close": "1970-03-02T23:00:00",
+      "operatingDate": "1970-03-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-03T00:00:00",
+      "close": "1970-03-03T23:00:00",
+      "operatingDate": "1970-03-03T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-04T00:00:00",
+      "close": "1970-03-04T23:00:00",
+      "operatingDate": "1970-03-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-05T00:00:00",
+      "close": "1970-03-05T23:00:00",
+      "operatingDate": "1970-03-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-06T00:00:00",
+      "close": "1970-03-06T23:00:00",
+      "operatingDate": "1970-03-06T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-07T00:00:00",
+      "close": "1970-03-07T23:00:00",
+      "operatingDate": "1970-03-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-08T00:00:00",
+      "close": "1970-03-08T23:00:00",
+      "operatingDate": "1970-03-08T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-09T00:00:00",
+      "close": "1970-03-09T23:00:00",
+      "operatingDate": "1970-03-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-10T00:00:00",
+      "close": "1970-03-10T23:00:00",
+      "operatingDate": "1970-03-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-11T00:00:00",
+      "close": "1970-03-11T23:00:00",
+      "operatingDate": "1970-03-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-12T00:00:00",
+      "close": "1970-03-12T23:00:00",
+      "operatingDate": "1970-03-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-13T00:00:00",
+      "close": "1970-03-13T23:00:00",
+      "operatingDate": "1970-03-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-14T00:00:00",
+      "close": "1970-03-14T23:00:00",
+      "operatingDate": "1970-03-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-15T00:00:00",
+      "close": "1970-03-15T23:00:00",
+      "operatingDate": "1970-03-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-16T00:00:00",
+      "close": "1970-03-16T23:00:00",
+      "operatingDate": "1970-03-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-17T00:00:00",
+      "close": "1970-03-17T23:00:00",
+      "operatingDate": "1970-03-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-18T00:00:00",
+      "close": "1970-03-18T23:00:00",
+      "operatingDate": "1970-03-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-19T00:00:00",
+      "close": "1970-03-19T23:00:00",
+      "operatingDate": "1970-03-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-20T00:00:00",
+      "close": "1970-03-20T23:00:00",
+      "operatingDate": "1970-03-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-21T00:00:00",
+      "close": "1970-03-21T23:00:00",
+      "operatingDate": "1970-03-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-22T00:00:00",
+      "close": "1970-03-22T23:00:00",
+      "operatingDate": "1970-03-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-23T00:00:00",
+      "close": "1970-03-23T23:00:00",
+      "operatingDate": "1970-03-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-24T00:00:00",
+      "close": "1970-03-24T23:00:00",
+      "operatingDate": "1970-03-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-25T00:00:00",
+      "close": "1970-03-25T23:00:00",
+      "operatingDate": "1970-03-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-26T00:00:00",
+      "close": "1970-03-26T23:00:00",
+      "operatingDate": "1970-03-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-27T00:00:00",
+      "close": "1970-03-27T23:00:00",
+      "operatingDate": "1970-03-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-28T00:00:00",
+      "close": "1970-03-28T23:00:00",
+      "operatingDate": "1970-03-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-29T00:00:00",
+      "close": "1970-03-29T23:00:00",
+      "operatingDate": "1970-03-29T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-30T00:00:00",
+      "close": "1970-03-30T23:00:00",
+      "operatingDate": "1970-03-30T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-03-31T00:00:00",
+      "close": "1970-03-31T23:00:00",
+      "operatingDate": "1970-03-31T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-01T00:00:00",
+      "close": "1970-04-01T23:00:00",
+      "operatingDate": "1970-04-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-02T00:00:00",
+      "close": "1970-04-02T23:00:00",
+      "operatingDate": "1970-04-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-03T00:00:00",
+      "close": "1970-04-03T23:00:00",
+      "operatingDate": "1970-04-03T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-04T00:00:00",
+      "close": "1970-04-04T23:00:00",
+      "operatingDate": "1970-04-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-05T00:00:00",
+      "close": "1970-04-05T23:00:00",
+      "operatingDate": "1970-04-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-06T00:00:00",
+      "close": "1970-04-06T23:00:00",
+      "operatingDate": "1970-04-06T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-07T00:00:00",
+      "close": "1970-04-07T23:00:00",
+      "operatingDate": "1970-04-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-08T00:00:00",
+      "close": "1970-04-08T23:00:00",
+      "operatingDate": "1970-04-08T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-09T00:00:00",
+      "close": "1970-04-09T23:00:00",
+      "operatingDate": "1970-04-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-10T00:00:00",
+      "close": "1970-04-10T23:00:00",
+      "operatingDate": "1970-04-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-11T00:00:00",
+      "close": "1970-04-11T23:00:00",
+      "operatingDate": "1970-04-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-12T00:00:00",
+      "close": "1970-04-12T23:00:00",
+      "operatingDate": "1970-04-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-13T00:00:00",
+      "close": "1970-04-13T23:00:00",
+      "operatingDate": "1970-04-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-14T00:00:00",
+      "close": "1970-04-14T23:00:00",
+      "operatingDate": "1970-04-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-15T00:00:00",
+      "close": "1970-04-15T23:00:00",
+      "operatingDate": "1970-04-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-16T00:00:00",
+      "close": "1970-04-16T23:00:00",
+      "operatingDate": "1970-04-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-17T00:00:00",
+      "close": "1970-04-17T23:00:00",
+      "operatingDate": "1970-04-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-18T00:00:00",
+      "close": "1970-04-18T23:00:00",
+      "operatingDate": "1970-04-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-19T00:00:00",
+      "close": "1970-04-19T23:00:00",
+      "operatingDate": "1970-04-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-20T00:00:00",
+      "close": "1970-04-20T23:00:00",
+      "operatingDate": "1970-04-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-21T00:00:00",
+      "close": "1970-04-21T23:00:00",
+      "operatingDate": "1970-04-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-22T00:00:00",
+      "close": "1970-04-22T23:00:00",
+      "operatingDate": "1970-04-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-23T00:00:00",
+      "close": "1970-04-23T23:00:00",
+      "operatingDate": "1970-04-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-24T00:00:00",
+      "close": "1970-04-24T23:00:00",
+      "operatingDate": "1970-04-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "1970-04-25T00:00:00",
+      "close": "1970-04-25T23:00:00",
+      "operatingDate": "1970-04-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
@@ -179,6 +1043,303 @@
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-07T11:00:00",
+      "close": "2025-09-07T19:00:00",
+      "operatingDate": "2025-09-07T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-13T12:00:00",
+      "close": "2025-09-13T22:00:00",
+      "operatingDate": "2025-09-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-14T12:00:00",
+      "close": "2025-09-14T22:00:00",
+      "operatingDate": "2025-09-14T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-20T12:00:00",
+      "close": "2025-09-20T22:00:00",
+      "operatingDate": "2025-09-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-21T12:00:00",
+      "close": "2025-09-21T22:00:00",
+      "operatingDate": "2025-09-21T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-26T18:00:00",
+      "close": "2025-09-26T23:00:00",
+      "operatingDate": "2025-09-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-27T12:00:00",
+      "close": "2025-09-27T22:00:00",
+      "operatingDate": "2025-09-27T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-09-28T12:00:00",
+      "close": "2025-09-28T22:00:00",
+      "operatingDate": "2025-09-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-03T18:00:00",
+      "close": "2025-10-03T23:00:00",
+      "operatingDate": "2025-10-03T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-04T12:00:00",
+      "close": "2025-10-04T22:00:00",
+      "operatingDate": "2025-10-04T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-05T12:00:00",
+      "close": "2025-10-05T22:00:00",
+      "operatingDate": "2025-10-05T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-10T18:00:00",
+      "close": "2025-10-10T23:00:00",
+      "operatingDate": "2025-10-10T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-11T12:00:00",
+      "close": "2025-10-11T22:00:00",
+      "operatingDate": "2025-10-11T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-12T12:00:00",
+      "close": "2025-10-12T22:00:00",
+      "operatingDate": "2025-10-12T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-13T11:00:00",
+      "close": "2025-10-13T18:00:00",
+      "operatingDate": "2025-10-13T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-17T18:00:00",
+      "close": "2025-10-17T23:00:00",
+      "operatingDate": "2025-10-17T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-18T12:00:00",
+      "close": "2025-10-18T23:00:00",
+      "operatingDate": "2025-10-18T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-19T12:00:00",
+      "close": "2025-10-19T22:00:00",
+      "operatingDate": "2025-10-19T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-24T18:00:00",
+      "close": "2025-10-24T23:00:00",
+      "operatingDate": "2025-10-24T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-25T12:00:00",
+      "close": "2025-10-25T23:00:00",
+      "operatingDate": "2025-10-25T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-26T12:00:00",
+      "close": "2025-10-26T22:00:00",
+      "operatingDate": "2025-10-26T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-10-31T18:00:00",
+      "close": "2025-10-31T23:00:00",
+      "operatingDate": "2025-10-31T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-01T12:00:00",
+      "close": "2025-11-01T23:00:00",
+      "operatingDate": "2025-11-01T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-02T12:00:00",
+      "close": "2025-11-02T22:00:00",
+      "operatingDate": "2025-11-02T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-08T11:00:00",
+      "close": "2025-11-08T19:00:00",
+      "operatingDate": "2025-11-08T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-09T11:00:00",
+      "close": "2025-11-09T19:00:00",
+      "operatingDate": "2025-11-09T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-15T11:00:00",
+      "close": "2025-11-15T19:00:00",
+      "operatingDate": "2025-11-15T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-16T11:00:00",
+      "close": "2025-11-16T19:00:00",
+      "operatingDate": "2025-11-16T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-22T11:00:00",
+      "close": "2025-11-22T19:00:00",
+      "operatingDate": "2025-11-22T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-23T11:00:00",
+      "close": "2025-11-23T19:00:00",
+      "operatingDate": "2025-11-23T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-28T11:00:00",
+      "close": "2025-11-28T19:00:00",
+      "operatingDate": "2025-11-28T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-29T15:00:00",
+      "close": "2025-11-29T21:00:00",
+      "operatingDate": "2025-11-29T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-11-30T15:00:00",
+      "close": "2025-11-30T21:00:00",
+      "operatingDate": "2025-11-30T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
     }
   ],
   "abbreviation": "SFOG",
@@ -199,24 +1360,6 @@
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
-    {
-      "open": "2025-07-28T11:00:00",
-      "close": "2025-07-28T20:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-28T12:00:00",
-      "waterParkClose": "2025-07-28T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-29T11:00:00",
-      "close": "2025-07-29T20:00:00",
-      "operatingDate": "2025-07-29T00:00:00",
-      "hasWaterPark": true,
-      "waterParkOpen": "2025-07-29T12:00:00",
-      "waterParkClose": "2025-07-29T18:00:00",
-      "tzIndicator": "America/New_York"
-    },
     {
       "open": "2025-08-02T11:00:00",
       "close": "2025-08-02T20:00:00",
