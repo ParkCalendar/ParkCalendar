@@ -1,251 +1,8 @@
 {
   "operatingHours": [
     {
-      "open": "2025-07-04T10:30:00",
-      "close": "2025-07-04T22:00:00",
-      "operatingDate": "2025-07-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-05T10:30:00",
-      "close": "2025-07-05T22:00:00",
-      "operatingDate": "2025-07-05T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-06T10:30:00",
-      "close": "2025-07-06T21:00:00",
-      "operatingDate": "2025-07-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-07T10:30:00",
-      "close": "2025-07-07T20:00:00",
-      "operatingDate": "2025-07-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-08T10:30:00",
-      "close": "2025-07-08T20:00:00",
-      "operatingDate": "2025-07-08T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-09T10:30:00",
-      "close": "2025-07-09T20:00:00",
-      "operatingDate": "2025-07-09T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-10T10:30:00",
-      "close": "2025-07-10T20:00:00",
-      "operatingDate": "2025-07-10T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-11T10:30:00",
-      "close": "2025-07-11T20:00:00",
-      "operatingDate": "2025-07-11T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-12T10:30:00",
-      "close": "2025-07-12T22:00:00",
-      "operatingDate": "2025-07-12T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-13T10:30:00",
-      "close": "2025-07-13T21:00:00",
-      "operatingDate": "2025-07-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-14T10:30:00",
-      "close": "2025-07-14T20:00:00",
-      "operatingDate": "2025-07-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-15T10:30:00",
-      "close": "2025-07-15T20:00:00",
-      "operatingDate": "2025-07-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-16T10:30:00",
-      "close": "2025-07-16T20:00:00",
-      "operatingDate": "2025-07-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-17T10:30:00",
-      "close": "2025-07-17T20:00:00",
-      "operatingDate": "2025-07-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-18T10:30:00",
-      "close": "2025-07-18T20:00:00",
-      "operatingDate": "2025-07-18T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-19T10:30:00",
-      "close": "2025-07-19T22:00:00",
-      "operatingDate": "2025-07-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-20T10:30:00",
-      "close": "2025-07-20T21:00:00",
-      "operatingDate": "2025-07-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-21T10:30:00",
-      "close": "2025-07-21T20:00:00",
-      "operatingDate": "2025-07-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-22T10:30:00",
-      "close": "2025-07-22T20:00:00",
-      "operatingDate": "2025-07-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-23T10:30:00",
-      "close": "2025-07-23T20:00:00",
-      "operatingDate": "2025-07-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-24T10:30:00",
-      "close": "2025-07-24T20:00:00",
-      "operatingDate": "2025-07-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-25T10:30:00",
-      "close": "2025-07-25T20:00:00",
-      "operatingDate": "2025-07-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-26T10:30:00",
-      "close": "2025-07-26T22:00:00",
-      "operatingDate": "2025-07-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-27T10:30:00",
-      "close": "2025-07-27T21:00:00",
-      "operatingDate": "2025-07-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-28T10:30:00",
-      "close": "2025-07-28T20:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-29T10:30:00",
-      "close": "2025-07-29T20:00:00",
-      "operatingDate": "2025-07-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-30T10:30:00",
-      "close": "2025-07-30T20:00:00",
-      "operatingDate": "2025-07-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-07-31T10:30:00",
-      "close": "2025-07-31T20:00:00",
+      "close": "2025-07-31T15:00:00",
       "operatingDate": "2025-07-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -875,7 +632,7 @@
     },
     {
       "open": "2025-11-22T13:00:00",
-      "close": "2025-11-22T20:00:00",
+      "close": "2025-11-22T19:00:00",
       "operatingDate": "2025-11-22T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -884,7 +641,7 @@
     },
     {
       "open": "2025-11-23T13:00:00",
-      "close": "2025-11-23T20:00:00",
+      "close": "2025-11-23T19:00:00",
       "operatingDate": "2025-11-23T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -893,7 +650,7 @@
     },
     {
       "open": "2025-11-28T13:00:00",
-      "close": "2025-11-28T20:00:00",
+      "close": "2025-11-28T19:00:00",
       "operatingDate": "2025-11-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -902,7 +659,7 @@
     },
     {
       "open": "2025-11-29T13:00:00",
-      "close": "2025-11-29T20:00:00",
+      "close": "2025-11-29T19:00:00",
       "operatingDate": "2025-11-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
@@ -911,134 +668,8 @@
     },
     {
       "open": "2025-11-30T13:00:00",
-      "close": "2025-11-30T20:00:00",
+      "close": "2025-11-30T19:00:00",
       "operatingDate": "2025-11-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-06T13:00:00",
-      "close": "2025-12-06T20:00:00",
-      "operatingDate": "2025-12-06T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-07T13:00:00",
-      "close": "2025-12-07T20:00:00",
-      "operatingDate": "2025-12-07T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-13T13:00:00",
-      "close": "2025-12-13T20:00:00",
-      "operatingDate": "2025-12-13T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-14T13:00:00",
-      "close": "2025-12-14T20:00:00",
-      "operatingDate": "2025-12-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-20T13:00:00",
-      "close": "2025-12-20T20:00:00",
-      "operatingDate": "2025-12-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-21T13:00:00",
-      "close": "2025-12-21T20:00:00",
-      "operatingDate": "2025-12-21T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-22T13:00:00",
-      "close": "2025-12-22T20:00:00",
-      "operatingDate": "2025-12-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-23T13:00:00",
-      "close": "2025-12-23T20:00:00",
-      "operatingDate": "2025-12-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-26T13:00:00",
-      "close": "2025-12-26T20:00:00",
-      "operatingDate": "2025-12-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-27T13:00:00",
-      "close": "2025-12-27T20:00:00",
-      "operatingDate": "2025-12-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-28T13:00:00",
-      "close": "2025-12-28T20:00:00",
-      "operatingDate": "2025-12-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-29T13:00:00",
-      "close": "2025-12-29T20:00:00",
-      "operatingDate": "2025-12-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-30T13:00:00",
-      "close": "2025-12-30T20:00:00",
-      "operatingDate": "2025-12-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-12-31T13:00:00",
-      "close": "2025-12-31T20:00:00",
-      "operatingDate": "2025-12-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -1064,35 +695,8 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-07-28T10:30:00",
-      "close": "2025-07-28T20:00:00",
-      "operatingDate": "2025-07-28T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-29T10:30:00",
-      "close": "2025-07-29T20:00:00",
-      "operatingDate": "2025-07-29T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
-      "open": "2025-07-30T10:30:00",
-      "close": "2025-07-30T20:00:00",
-      "operatingDate": "2025-07-30T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-07-31T10:30:00",
-      "close": "2025-07-31T20:00:00",
+      "close": "2025-07-31T15:00:00",
       "operatingDate": "2025-07-31T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
