@@ -407,15 +407,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-08-03T11:00:00",
-      "close": "2025-08-03T19:00:00",
-      "operatingDate": "2025-08-03T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/New_York"
-    },
-    {
       "open": "2025-08-09T11:00:00",
       "close": "2025-08-09T20:00:00",
       "operatingDate": "2025-08-09T00:00:00",
