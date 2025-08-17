@@ -308,33 +308,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-08-14T10:30:00",
-      "close": "2025-08-14T20:00:00",
-      "operatingDate": "2025-08-14T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2025-08-15T10:30:00",
-      "close": "2025-08-15T21:00:00",
-      "operatingDate": "2025-08-15T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
-      "open": "2025-08-16T10:30:00",
-      "close": "2025-08-16T21:00:00",
-      "operatingDate": "2025-08-16T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Toronto"
-    },
-    {
       "open": "2025-08-17T10:30:00",
       "close": "2025-08-17T20:00:00",
       "operatingDate": "2025-08-17T00:00:00",
@@ -347,6 +320,60 @@
       "open": "2025-08-18T10:30:00",
       "close": "2025-08-18T20:00:00",
       "operatingDate": "2025-08-18T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-19T10:30:00",
+      "close": "2025-08-19T20:00:00",
+      "operatingDate": "2025-08-19T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-20T10:30:00",
+      "close": "2025-08-20T20:00:00",
+      "operatingDate": "2025-08-20T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-21T10:30:00",
+      "close": "2025-08-21T17:00:00",
+      "operatingDate": "2025-08-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-22T10:30:00",
+      "close": "2025-08-22T21:00:00",
+      "operatingDate": "2025-08-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-23T10:30:00",
+      "close": "2025-08-23T22:00:00",
+      "operatingDate": "2025-08-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-08-24T10:30:00",
+      "close": "2025-08-24T21:00:00",
+      "operatingDate": "2025-08-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
