@@ -407,18 +407,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-08-16T11:00:00",
-      "close": "2025-08-16T20:00:00",
-      "operatingDate": "2025-08-16T00:00:00",
+      "open": "2025-08-17T11:00:00",
+      "close": "2025-08-17T19:00:00",
+      "operatingDate": "2025-08-17T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/New_York"
     },
     {
-      "open": "2025-08-17T11:00:00",
-      "close": "2025-08-17T19:00:00",
-      "operatingDate": "2025-08-17T00:00:00",
+      "open": "2025-08-23T11:00:00",
+      "close": "2025-08-23T20:00:00",
+      "operatingDate": "2025-08-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/New_York"
+    },
+    {
+      "open": "2025-08-24T11:00:00",
+      "close": "2025-08-24T19:00:00",
+      "operatingDate": "2025-08-24T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -477,7 +486,7 @@
   },
   "featuredEvent": {
     "id": 545801,
-    "name": "Fright Fest"
+    "name": "Fright Fest presented by SNICKERS®"
   },
   "featuredShow": {
     "id": 83330,
