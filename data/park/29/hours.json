@@ -417,7 +417,10 @@
     "id": 98536,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 489483,
+    "name": "La Ronde Vire Country 2025"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
