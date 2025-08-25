@@ -313,10 +313,7 @@
     "id": 7652,
     "name": "BATWING Coaster"
   },
-  "featuredEvent": {
-    "id": 599756,
-    "name": "Pride Celebration"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 375383,
     "name": "Camp Groove"
