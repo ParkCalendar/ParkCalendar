@@ -902,15 +902,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-08-24T10:30:00",
-      "close": "2025-08-24T20:00:00",
-      "operatingDate": "2025-08-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-08-25T10:30:00",
       "close": "2025-08-25T18:00:00",
       "operatingDate": "2025-08-25T00:00:00",
