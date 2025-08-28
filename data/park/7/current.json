@@ -556,10 +556,7 @@
     "id": 6194,
     "name": "Demon"
   },
-  "featuredEvent": {
-    "id": 318599,
-    "name": "Viva La Fiesta"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 129144,
     "name": "Party Gras"
