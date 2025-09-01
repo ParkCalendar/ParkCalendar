@@ -104,7 +104,7 @@ function doTakeScreenshot(exportType) {
     var now = new Date();
     var dateStr = now.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
     var timeStr = now.toLocaleTimeString('en-US', { timeStyle: 'short' });
-    document.getElementById('printDate').innerHTML = "Exported on " + dateStr + " @ " + timeStr;
+    document.getElementById('printDate').innerHTML = "Last change " + lastFetch + "<br>Exported on " + dateStr + " @ " + timeStr;
     document.getElementById('directLink').href = 'https://parkcalendar.com/#' + parkCalendar;
     document.getElementById('directLink').innerText = 'ParkCalendar.com#' + parkCalendar;
     if (exportType == "screenshot") {
