@@ -614,7 +614,10 @@
       "eventBegin": "2022-09-08T00:00:00",
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": null
+      "featuredAttraction": {
+        "id": 150235,
+        "name": "SAW: Legacy of Terror"
+      }
     },
     {
       "isff": false,
