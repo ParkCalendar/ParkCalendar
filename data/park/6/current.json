@@ -857,7 +857,10 @@
     "id": 460871,
     "name": "Fright Fest presented by SNICKERS®"
   },
-  "featuredShow": null,
+  "featuredShow": {
+    "id": 169795,
+    "name": "Sliders of the Night"
+  },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
