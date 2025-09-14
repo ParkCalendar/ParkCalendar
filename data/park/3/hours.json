@@ -578,18 +578,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-09-13T12:00:00",
-      "close": "2025-09-13T23:00:00",
-      "operatingDate": "2025-09-13T00:00:00",
+      "open": "2025-09-14T12:00:00",
+      "close": "2025-09-14T21:00:00",
+      "operatingDate": "2025-09-14T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Chicago"
     },
     {
-      "open": "2025-09-14T12:00:00",
-      "close": "2025-09-14T21:00:00",
-      "operatingDate": "2025-09-14T00:00:00",
+      "open": "2025-09-20T12:00:00",
+      "close": "2025-09-20T23:00:00",
+      "operatingDate": "2025-09-20T00:00:00",
+      "hasWaterPark": true,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-09-21T12:00:00",
+      "close": "2025-09-21T21:00:00",
+      "operatingDate": "2025-09-21T00:00:00",
       "hasWaterPark": true,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -651,8 +660,8 @@
     "name": "Kids Boo Fest  "
   },
   "featuredShow": {
-    "id": 38416,
-    "name": "Looney Tunes™ Character Appearances"
+    "id": 569829,
+    "name": "ALL NEW: Train Capers: Halloween Hijinks"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
