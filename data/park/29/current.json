@@ -372,7 +372,10 @@
     "id": 98536,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 489485,
+    "name": "Soirées Adrénaline 2025"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
