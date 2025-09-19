@@ -370,6 +370,15 @@
       "tzIndicator": "America/Los_Angeles"
     },
     {
+      "open": "2025-11-17T10:00:00",
+      "close": "2025-11-17T18:00:00",
+      "operatingDate": "2025-11-17T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
       "open": "2025-11-21T10:30:00",
       "close": "2025-11-21T18:00:00",
       "operatingDate": "2025-11-21T00:00:00",
