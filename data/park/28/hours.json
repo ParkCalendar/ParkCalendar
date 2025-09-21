@@ -650,27 +650,54 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-09-19T10:00:00",
-      "close": "2025-09-19T23:59:00",
-      "operatingDate": "2025-09-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-09-20T10:00:00",
-      "close": "2025-09-20T23:59:00",
-      "operatingDate": "2025-09-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-09-21T10:00:00",
       "close": "2025-09-21T23:59:00",
       "operatingDate": "2025-09-21T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-09-24T10:00:00",
+      "close": "2025-09-24T23:59:00",
+      "operatingDate": "2025-09-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-09-25T10:00:00",
+      "close": "2025-09-25T23:59:00",
+      "operatingDate": "2025-09-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-09-26T10:00:00",
+      "close": "2025-09-26T23:59:00",
+      "operatingDate": "2025-09-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-09-27T10:00:00",
+      "close": "2025-09-27T23:59:00",
+      "operatingDate": "2025-09-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-09-28T10:00:00",
+      "close": "2025-09-28T23:59:00",
+      "operatingDate": "2025-09-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
