@@ -308,18 +308,27 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-09-20T11:00:00",
-      "close": "2025-09-20T23:00:00",
-      "operatingDate": "2025-09-20T00:00:00",
+      "open": "2025-09-21T11:00:00",
+      "close": "2025-09-21T19:00:00",
+      "operatingDate": "2025-09-21T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Toronto"
     },
     {
-      "open": "2025-09-21T11:00:00",
-      "close": "2025-09-21T19:00:00",
-      "operatingDate": "2025-09-21T00:00:00",
+      "open": "2025-09-27T11:00:00",
+      "close": "2025-09-27T20:00:00",
+      "operatingDate": "2025-09-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Toronto"
+    },
+    {
+      "open": "2025-09-28T11:00:00",
+      "close": "2025-09-28T19:00:00",
+      "operatingDate": "2025-09-28T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -372,7 +381,10 @@
     "id": 98536,
     "name": "Démon"
   },
-  "featuredEvent": null,
+  "featuredEvent": {
+    "id": 489485,
+    "name": "Soirées Adrénaline 2025"
+  },
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
