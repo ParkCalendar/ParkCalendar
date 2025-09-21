@@ -713,24 +713,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-09-19T10:30:00",
-      "close": "2025-09-20T01:00:00",
-      "operatingDate": "2025-09-19T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
-      "open": "2025-09-20T10:30:00",
-      "close": "2025-09-21T01:00:00",
-      "operatingDate": "2025-09-20T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    },
-    {
       "open": "2025-09-21T10:30:00",
       "close": "2025-09-22T00:00:00",
       "operatingDate": "2025-09-21T00:00:00",
@@ -743,6 +725,42 @@
       "open": "2025-09-22T10:30:00",
       "close": "2025-09-22T18:00:00",
       "operatingDate": "2025-09-22T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-09-26T10:30:00",
+      "close": "2025-09-27T01:00:00",
+      "operatingDate": "2025-09-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-09-27T10:30:00",
+      "close": "2025-09-28T01:00:00",
+      "operatingDate": "2025-09-27T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-09-28T10:30:00",
+      "close": "2025-09-29T00:00:00",
+      "operatingDate": "2025-09-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-09-29T10:30:00",
+      "close": "2025-09-29T18:00:00",
+      "operatingDate": "2025-09-29T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
