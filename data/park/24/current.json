@@ -272,10 +272,7 @@
     "id": 547290,
     "name": "Fright Fest"
   },
-  "featuredShow": {
-    "id": 572082,
-    "name": "Carousel Dance Party"
-  },
+  "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
   "featuredProduct": null,
