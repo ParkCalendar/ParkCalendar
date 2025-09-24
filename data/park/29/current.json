@@ -372,10 +372,7 @@
     "id": 98536,
     "name": "Démon"
   },
-  "featuredEvent": {
-    "id": 489490,
-    "name": "Fête des Citrouilles 2025"
-  },
+  "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
   "featuredFoodItem": null,
