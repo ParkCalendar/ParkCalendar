@@ -352,7 +352,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z3e44e13xl1ilopl5yutv5",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/greatescape/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/greatescape/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-ge.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
