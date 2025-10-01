@@ -190,7 +190,7 @@
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/hurricaneharborrockford/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/hurricaneharborrockford/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
