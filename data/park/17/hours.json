@@ -398,18 +398,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-10-04T12:00:00",
-      "close": "2025-10-04T23:00:00",
-      "operatingDate": "2025-10-04T00:00:00",
+      "open": "2025-10-05T12:00:00",
+      "close": "2025-10-05T22:00:00",
+      "operatingDate": "2025-10-05T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Los_Angeles"
     },
     {
-      "open": "2025-10-05T12:00:00",
-      "close": "2025-10-05T22:00:00",
-      "operatingDate": "2025-10-05T00:00:00",
+      "open": "2025-10-10T18:00:00",
+      "close": "2025-10-10T22:00:00",
+      "operatingDate": "2025-10-10T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-10-11T12:00:00",
+      "close": "2025-10-11T23:00:00",
+      "operatingDate": "2025-10-11T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Los_Angeles"
+    },
+    {
+      "open": "2025-10-12T12:00:00",
+      "close": "2025-10-12T22:00:00",
+      "operatingDate": "2025-10-12T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
