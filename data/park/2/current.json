@@ -307,7 +307,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7yx9q0o0sh01imp012pjutt",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/overgeorgia/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/overgeorgia/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-og.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
