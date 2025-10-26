@@ -401,18 +401,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-10-25T10:00:00",
-      "close": "2025-10-25T22:00:00",
-      "operatingDate": "2025-10-25T00:00:00",
+      "open": "2025-10-26T10:00:00",
+      "close": "2025-10-26T22:00:00",
+      "operatingDate": "2025-10-26T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
       "tzIndicator": "America/Mexico_City"
     },
     {
-      "open": "2025-10-26T10:00:00",
-      "close": "2025-10-26T22:00:00",
-      "operatingDate": "2025-10-26T00:00:00",
+      "open": "2025-10-31T10:00:00",
+      "close": "2025-10-31T22:00:00",
+      "operatingDate": "2025-10-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-11-01T10:00:00",
+      "close": "2025-11-01T22:00:00",
+      "operatingDate": "2025-11-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-11-02T10:00:00",
+      "close": "2025-11-02T22:00:00",
+      "operatingDate": "2025-11-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -459,7 +477,10 @@
     "latitude": 18.8967,
     "longitude": -98.9754
   },
-  "featuredRide": null,
+  "featuredRide": {
+    "id": 7469,
+    "name": "Anaconda"
+  },
   "featuredEvent": null,
   "featuredShow": null,
   "featuredSouvenir": null,
