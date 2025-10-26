@@ -443,27 +443,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-10-24T17:00:00",
-      "close": "2025-10-24T23:00:00",
-      "operatingDate": "2025-10-24T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-10-25T11:00:00",
-      "close": "2025-10-25T23:00:00",
-      "operatingDate": "2025-10-25T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-10-26T12:00:00",
       "close": "2025-10-26T22:00:00",
       "operatingDate": "2025-10-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-10-31T17:00:00",
+      "close": "2025-10-31T23:00:00",
+      "operatingDate": "2025-10-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-01T11:00:00",
+      "close": "2025-11-01T23:00:00",
+      "operatingDate": "2025-11-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-02T17:00:00",
+      "close": "2025-11-02T22:00:00",
+      "operatingDate": "2025-11-02T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
