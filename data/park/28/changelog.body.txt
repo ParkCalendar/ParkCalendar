@@ -1,3 +1,6 @@
+<div class='changelog-entry' data-change='20251028-045503'><h2>Tue Oct 28 2025 @ 04:55 AM</h2><pre>
+                             >  20251104 -- 10:00a - 11:59p
+</pre></div>
 <div class='changelog-entry' data-change='20250923-135500'><h2>Tue Sep 23 2025 @ 01:55 PM</h2><pre>
 20251121 -- 10:00a - 10:00p  |  20251121 -- 10:00a - 06:00p
 20251123 -- 10:00a - 10:00p  |  20251123 -- 10:00a - 08:00p
