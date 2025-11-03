@@ -153,17 +153,7 @@
   "freeVirtualQueueUri": "https://gr-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://gr.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [
-    {
-      "open": "2025-11-02T11:00:00",
-      "close": "2025-11-02T21:00:00",
-      "operatingDate": "2025-11-02T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
