@@ -223,10 +223,7 @@
     "id": 4131,
     "name": "Blue Hawk"
   },
-  "featuredEvent": {
-    "id": 545801,
-    "name": "Fright Fest presented by SNICKERS®"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 452718,
     "name": "Monster Mansion Meet & Greet"
