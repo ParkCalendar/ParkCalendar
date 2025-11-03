@@ -512,12 +512,12 @@
     "name": "Iron Rattler"
   },
   "featuredEvent": {
-    "id": 324209,
-    "name": "NEW! Tricks and Treats"
+    "id": 419915,
+    "name": "Walk to End Alzheimer’s"
   },
   "featuredShow": {
-    "id": 38364,
-    "name": "Frightful Finale"
+    "id": 45466,
+    "name": "Christmas Tree Lighting"
   },
   "featuredSouvenir": null,
   "featuredFoodItem": null,
@@ -551,10 +551,7 @@
       "eventBegin": "2022-09-08T00:00:00",
       "eventEnd": "2022-11-01T00:00:00",
       "color": "0x000000",
-      "featuredAttraction": {
-        "id": 150235,
-        "name": "SAW: Legacy of Terror"
-      }
+      "featuredAttraction": null
     },
     {
       "isff": false,
