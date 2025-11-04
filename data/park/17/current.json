@@ -146,7 +146,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z8t5k211rb1ioa219px5uk",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/discoverykingdom/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/discoverykingdom/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-dk.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
