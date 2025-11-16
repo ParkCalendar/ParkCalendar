@@ -48,5 +48,10 @@
     "title": "⛔️ Rain Closure",
     "start": "2025-11-15",
     "allday": "true"
+  },
+  {
+    "title": "⛔️ Early Closure",
+    "start": "2025-11-16",
+    "allday": "true"
   }
 ]
