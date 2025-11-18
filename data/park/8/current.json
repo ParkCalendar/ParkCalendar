@@ -451,7 +451,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7yyrkoy0yi91ilo5pljeijd",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/fiestatexas/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/fiestatexas/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-ft.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
