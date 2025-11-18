@@ -514,7 +514,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z7ozae1ljw1ipqxf6hqkt1",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com.mx/mexico/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com.mx/mexico/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-cdmx.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
