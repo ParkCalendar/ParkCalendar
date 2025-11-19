@@ -201,10 +201,10 @@
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2022-09-17T00:00:00",
-      "publishEnd": "2022-10-31T00:00:00",
-      "eventBegin": "2022-09-17T00:00:00",
-      "eventEnd": "2022-10-31T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x000000",
       "featuredAttraction": null
     },
