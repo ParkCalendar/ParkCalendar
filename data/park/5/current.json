@@ -210,10 +210,10 @@
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2022-09-16T00:00:00",
-      "publishEnd": "2022-10-31T00:00:00",
-      "eventBegin": "2022-09-16T00:00:00",
-      "eventEnd": "2022-10-31T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x000000",
       "featuredAttraction": {
         "id": 5363,
@@ -234,10 +234,10 @@
         "1080": "http://www.placeholderfor21.com/hipiconomedres",
         "1440": "http://www.placeholderfor21.com/hipiconohighres"
       },
-      "publishBegin": "2021-11-12T00:00:00",
-      "publishEnd": "2022-01-04T00:00:00",
-      "eventBegin": "2021-11-12T00:00:00",
-      "eventEnd": "2022-01-04T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x920507",
       "featuredAttraction": {
         "id": 80196,
