@@ -100,10 +100,10 @@
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2021-09-21T00:00:00",
-      "publishEnd": "2021-11-01T00:00:00",
-      "eventBegin": "2021-09-21T00:00:00",
-      "eventEnd": "2021-11-01T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x000000",
       "featuredAttraction": {
         "id": 9538,
