@@ -137,7 +137,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z5c6qc1q7q1ipc2zzzztpu",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/greatamerica/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/greatamerica/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-ga.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
