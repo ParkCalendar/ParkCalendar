@@ -284,27 +284,36 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-11-17T10:00:00",
-      "close": "2025-11-17T18:00:00",
-      "operatingDate": "2025-11-17T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
-      "open": "2025-11-22T10:00:00",
-      "close": "2025-11-22T18:00:00",
-      "operatingDate": "2025-11-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Mexico_City"
-    },
-    {
       "open": "2025-11-23T10:00:00",
       "close": "2025-11-23T18:00:00",
       "operatingDate": "2025-11-23T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-11-28T10:00:00",
+      "close": "2025-11-28T18:00:00",
+      "operatingDate": "2025-11-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-11-29T10:00:00",
+      "close": "2025-11-29T18:00:00",
+      "operatingDate": "2025-11-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Mexico_City"
+    },
+    {
+      "open": "2025-11-30T10:00:00",
+      "close": "2025-11-30T18:00:00",
+      "operatingDate": "2025-11-30T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
@@ -419,7 +428,7 @@
   "mapboxStyleUrl": null,
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com.mx/hurricaneharborox/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com.mx/hurricaneharborox/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-hhox.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
