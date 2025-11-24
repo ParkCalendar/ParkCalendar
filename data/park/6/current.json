@@ -502,10 +502,7 @@
     "id": 5916,
     "name": "Tatsu"
   },
-  "featuredEvent": {
-    "id": 460871,
-    "name": "Fright Fest presented by SNICKERS®"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 169795,
     "name": "Sliders of the Night"
