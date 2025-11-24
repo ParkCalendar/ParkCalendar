@@ -252,7 +252,62 @@
   "freeVirtualQueueUri": null,
   "paidVirtualQueueUri": null,
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [],
+  "upcomingHours": [
+    {
+      "open": "2025-11-24T12:00:00",
+      "close": "2025-11-24T21:00:00",
+      "operatingDate": "2025-11-24T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-25T12:00:00",
+      "close": "2025-11-25T21:00:00",
+      "operatingDate": "2025-11-25T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-26T12:00:00",
+      "close": "2025-11-26T21:00:00",
+      "operatingDate": "2025-11-26T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-28T12:00:00",
+      "close": "2025-11-28T21:00:00",
+      "operatingDate": "2025-11-28T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-29T12:00:00",
+      "close": "2025-11-29T21:00:00",
+      "operatingDate": "2025-11-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-11-30T12:00:00",
+      "close": "2025-11-30T20:00:00",
+      "operatingDate": "2025-11-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    }
+  ],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
@@ -335,10 +390,10 @@
         "1080": "http://www.placeholderfor21.com/fficonmedres",
         "1440": "http://www.placeholderfor21.com/fficonhighres"
       },
-      "publishBegin": "2022-09-24T00:00:00",
-      "publishEnd": "2022-10-31T00:00:00",
-      "eventBegin": "2022-09-24T00:00:00",
-      "eventEnd": "2022-10-31T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x000000",
       "featuredAttraction": {
         "id": 3799,
@@ -359,10 +414,10 @@
         "1080": "http://www.placeholderfor21.com/hipiconomedres",
         "1440": "http://www.placeholderfor21.com/hipiconohighres"
       },
-      "publishBegin": "2021-11-17T00:00:00",
-      "publishEnd": "2022-01-03T00:00:00",
-      "eventBegin": "2021-11-17T00:00:00",
-      "eventEnd": "2022-01-03T00:00:00",
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
       "color": "0x920507",
       "featuredAttraction": null
     }
@@ -378,7 +433,7 @@
   "mapboxStyleUrl": "mapbox://styles/sixflagsent/ckjnul8n62uho19n2gu4warx6",
   "enableReservations": false,
   "reservationUrl": "https://sixflags.com/overtexas/reserve?noheaders",
-  "parkingUrl_en": "https://www.sixflags.com/overtexas/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_en": "https://sf-gc-ot.store.sixflags.com/packageList/navItem/Parking",
   "parkingUrl_fr": null,
   "parkingUrl_es": null,
   "parkMapPdf": null,
