@@ -403,10 +403,7 @@
     "id": 6942,
     "name": "Iron Rattler"
   },
-  "featuredEvent": {
-    "id": 419915,
-    "name": "Walk to End Alzheimer’s"
-  },
+  "featuredEvent": null,
   "featuredShow": {
     "id": 45466,
     "name": "Christmas Tree Lighting"
