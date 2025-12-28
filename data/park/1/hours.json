@@ -254,42 +254,6 @@
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
   "upcomingHours": [
     {
-      "open": "2025-12-22T12:00:00",
-      "close": "2025-12-22T21:00:00",
-      "operatingDate": "2025-12-22T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-12-23T12:00:00",
-      "close": "2025-12-23T21:00:00",
-      "operatingDate": "2025-12-23T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-12-26T12:00:00",
-      "close": "2025-12-26T21:00:00",
-      "operatingDate": "2025-12-26T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
-      "open": "2025-12-27T12:00:00",
-      "close": "2025-12-27T21:00:00",
-      "operatingDate": "2025-12-27T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Chicago"
-    },
-    {
       "open": "2025-12-28T12:00:00",
       "close": "2025-12-28T20:00:00",
       "operatingDate": "2025-12-28T00:00:00",
@@ -302,6 +266,60 @@
       "open": "2025-12-29T12:00:00",
       "close": "2025-12-29T20:00:00",
       "operatingDate": "2025-12-29T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-12-30T12:00:00",
+      "close": "2025-12-30T20:00:00",
+      "operatingDate": "2025-12-30T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2025-12-31T12:00:00",
+      "close": "2025-12-31T20:00:00",
+      "operatingDate": "2025-12-31T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2026-01-01T12:00:00",
+      "close": "2026-01-01T19:00:00",
+      "operatingDate": "2026-01-01T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2026-01-02T12:00:00",
+      "close": "2026-01-02T19:00:00",
+      "operatingDate": "2026-01-02T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2026-01-03T12:00:00",
+      "close": "2026-01-03T20:00:00",
+      "operatingDate": "2026-01-03T00:00:00",
+      "hasWaterPark": false,
+      "waterParkOpen": null,
+      "waterParkClose": null,
+      "tzIndicator": "America/Chicago"
+    },
+    {
+      "open": "2026-01-04T12:00:00",
+      "close": "2026-01-04T20:00:00",
+      "operatingDate": "2026-01-04T00:00:00",
       "hasWaterPark": false,
       "waterParkOpen": null,
       "waterParkClose": null,
