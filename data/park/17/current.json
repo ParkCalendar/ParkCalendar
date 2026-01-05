@@ -243,17 +243,7 @@
   "freeVirtualQueueUri": "https://dk-free.sfflashpass.com/",
   "paidVirtualQueueUri": "https://dk.sfflashpass.com/",
   "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
-  "upcomingHours": [
-    {
-      "open": "2026-01-04T14:00:00",
-      "close": "2026-01-04T21:00:00",
-      "operatingDate": "2026-01-04T00:00:00",
-      "hasWaterPark": false,
-      "waterParkOpen": null,
-      "waterParkClose": null,
-      "tzIndicator": "America/Los_Angeles"
-    }
-  ],
+  "upcomingHours": [],
   "enableNativeCommerce": false,
   "acceptedBillingIds": [
     206,
