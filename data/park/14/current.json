@@ -1,0 +1,175 @@
+{
+  "operatingHours": [],
+  "abbreviation": "SFAM",
+  "currentAnimation": {
+    "640": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-640.gif",
+    "750": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-750.gif",
+    "828": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-828.gif",
+    "1080": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-1080.gif",
+    "1440": "https://www.sixflags.com/sites/default/files/mobile/animations/generic-park-1440.gif"
+  },
+  "ecommerceUri": "https://sixflags.com/america/store/tickets?noheaders",
+  "seasonPassesEcommerceUri": "https://sixflags.com/america/store/tickets?noheaders",
+  "rideHeightUnitOfMeasure": "in",
+  "membershipEcommerceUri": "https://sixflags.com/america/store/tickets?noheaders",
+  "appCarousel": [],
+  "virtualQueueEnabled": false,
+  "freeVirtualQueueUri": "https://am-free.sfflashpass.com/",
+  "paidVirtualQueueUri": "https://am.sfflashpass.com/",
+  "chatUrl": "https://sixflags.com/sixflags-chat-with-us",
+  "upcomingHours": [],
+  "enableNativeCommerce": false,
+  "acceptedBillingIds": [
+    206,
+    204,
+    205,
+    201,
+    15,
+    1,
+    2,
+    3
+  ],
+  "parkId": 14,
+  "name": "Six Flags America",
+  "address": "13710 Central Avenue",
+  "city": "Bowie",
+  "state": "MD",
+  "postalCode": "20721",
+  "country": "United States",
+  "phone": "301-249-1500",
+  "renderLocation": {
+    "heading": 0.0,
+    "radius": 0.0,
+    "latitude": 38.908277,
+    "longitude": -76.773549
+  },
+  "entranceLocation": {
+    "latitude": 38.901238,
+    "longitude": -76.771276
+  },
+  "image": {
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/SFA_blur_2023.jpg",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/SFA_blur_2023.jpg",
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/SFA_blur_2023.jpg"
+  },
+  "logo": {
+    "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=400,h=200,fit=contain/wp-content/uploads/sfam-mobile_home-800px.png",
+    "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=600,h=300,fit=contain/wp-content/uploads/sfam-mobile_home-800px.png",
+    "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=800,h=400,fit=contain/wp-content/uploads/sfam-mobile_home-800px.png"
+  },
+  "couponsEnabled": true,
+  "isWaterPark": false,
+  "location": {
+    "radius": 2.5000,
+    "latitude": 38.9012,
+    "longitude": -76.7714
+  },
+  "featuredRide": {
+    "id": 7904,
+    "name": "Ragin Cajun"
+  },
+  "featuredEvent": null,
+  "featuredShow": {
+    "id": 447125,
+    "name": "Lost Spirits"
+  },
+  "featuredSouvenir": null,
+  "featuredFoodItem": null,
+  "featuredProduct": null,
+  "parkMapImageURL": {
+    "750": "https://static.sixflags.com/app/maps/SFAM/home-maps/img-homescreen-sfam-750.png",
+    "1080": "https://static.sixflags.com/app/maps/SFAM/home-maps/img-homescreen-sfam-1080.png",
+    "1242": "https://static.sixflags.com/app/maps/SFAM/home-maps/img-homescreen-sfam-1242.png",
+    "1440": "https://static.sixflags.com/app/maps/SFAM/home-maps/img-homescreen-sfam-1440.png"
+  },
+  "tileServerURL": "https://static.sixflags.com/app/maps/Spring2018/SFAM/",
+  "routingURL": "https://static.sixflags.com/app/maps/Spring2018/SFAM/SFAMPaths.json",
+  "isRoutingEnabled": true,
+  "seasonal": [
+    {
+      "isff": true,
+      "iship": false,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/fficonlowres",
+        "1080": "http://www.placeholderfor21.com/fficonmedres",
+        "1440": "http://www.placeholderfor21.com/fficonhighres"
+      },
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
+      "color": "0x000000",
+      "featuredAttraction": null
+    },
+    {
+      "isff": false,
+      "iship": true,
+      "parkMapImageURL": {
+        "750": "https://sf-static.sixflags.com/cdn-cgi/image/w=750,h=799,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1080": "https://sf-static.sixflags.com/cdn-cgi/image/w=1080,h=1152,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1242": "https://sf-static.sixflags.com/cdn-cgi/image/w=1242,h=1242,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg",
+        "1440": "https://sf-static.sixflags.com/cdn-cgi/image/w=1440,h=1533,fit=cover/wp-content/uploads/2020/04/sfa-coaster.jpg"
+      },
+      "icon": {
+        "750": "http://www.placeholderfor21.com/hipiconlowres",
+        "1080": "http://www.placeholderfor21.com/hipiconomedres",
+        "1440": "http://www.placeholderfor21.com/hipiconohighres"
+      },
+      "publishBegin": null,
+      "publishEnd": null,
+      "eventBegin": null,
+      "eventEnd": null,
+      "color": "0x920507",
+      "featuredAttraction": {
+        "id": 7759,
+        "name": "Cyclone"
+      }
+    }
+  ],
+  "photoProvider": "kodak",
+  "featuredPhotoItem": "View and share your ride and park photos.",
+  "wifiEnabled": false,
+  "wifiName": null,
+  "flashPassEnabled": true,
+  "flashPassUrl": "https://am.sfflashpass.com/?utm_campaign=qsmart_sfam&utm_source=mobile-app&utm_medium=app-ridepage",
+  "enableMobileFoodOrdering": true,
+  "venueNextUuId": null,
+  "mapboxStyleUrl": "mapbox://styles/sixflagsent/ck7z4yqg50xas1ioah02ba5m2",
+  "enableReservations": false,
+  "reservationUrl": "https://sixflags.com/america/reserve?noheaders",
+  "parkingUrl_en": "https://www.sixflags.com/america/?keyword=Parking&utm_source=mobileapp&utm_campaign=SF_mobileapp&utm_medium=mysixflags",
+  "parkingUrl_fr": null,
+  "parkingUrl_es": null,
+  "parkMapPdf": null,
+  "concept3dMapId": null,
+  "storeUrl": null,
+  "flashPassStoreUrl": null,
+  "diningStoreUrl": null,
+  "groupStoreUrl": null,
+  "cabanasStoreUrl": null,
+  "parkingStoreUrl": null,
+  "accessibilityGuideUrl": null,
+  "accessibilityGuidePdfUrl": null,
+  "accessibilityWaterGuideUrl": null,
+  "healthSafetyUrl": null,
+  "guestSafetyUrl": null,
+  "parkPoliciesUrl": null,
+  "accessibilityFaqUrl": null,
+  "concept3dLogoCategoryId": null,
+  "groupSalesInquiryUrl": null,
+  "speedyDailyStoreUrl": null,
+  "speedySeasonStoreUrl": null,
+  "enableSpeedy": null,
+  "parkMapPreviewImageUrl": null,
+  "promotionBanner": null,
+  "pictureStoreUrl": null,
+  "pomVomUrl": null,
+  "allParkPassportStoreUrl": null,
+  "toastMessages": null
+}
