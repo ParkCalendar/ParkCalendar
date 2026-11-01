@@ -1,8 +1,8 @@
 name: Fetch Hours
 
 on:
-  schedule:
-    - cron: '47 1,11,15,17,20,23 * * *'
+  #schedule:
+    #- cron: '47 1,11,15,17,20,23 * * *'
     
   workflow_dispatch:
 
